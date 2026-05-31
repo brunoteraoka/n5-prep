@@ -1,0 +1,230 @@
+.test-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+.test-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.back-link {
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0;
+}
+
+.question-counter {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* QUESTION CARD */
+.question-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.category-badge {
+  display: inline-block;
+  background: #e9ecef;
+  color: #495057;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.question-text {
+  font-size: 1.5rem;
+  color: #222;
+  margin: 0 0 24px 0;
+  line-height: 1.4;
+}
+
+/* OPTIONS GRID */
+.options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option-btn {
+  background: #f8f9fa;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 1.1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #333;
+}
+
+.option-btn:hover:not(:disabled) {
+  background: #e2e6ea;
+  border-color: #dae0e5;
+}
+
+/* GRADING COLORS */
+.option-btn.correct {
+  background: #d4edda !important;
+  border-color: #28a745 !important;
+  color: #155724 !important;
+  font-weight: bold;
+}
+
+.option-btn.incorrect {
+  background: #f8d7da !important;
+  border-color: #dc3545 !important;
+  color: #721c24 !important;
+}
+
+.option-btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* FEEDBACK SECTION */
+.feedback-section {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: left;
+  animation: slideUp 0.3s ease-out forwards;
+}
+
+.feedback-banner {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.feedback-banner.success { color: #28a745; }
+.feedback-banner.error { color: #dc3545; }
+
+.explanation-text {
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.test-btn {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.test-btn.primary {
+  background: #007bff;
+  color: white;
+}
+
+.test-btn.secondary {
+  background: #e9ecef;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* RESULTS SCREEN */
+.results-screen {
+  text-align: center;
+  background: white;
+  border-radius: 16px;
+  padding: 40px 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.score-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* PASSAGE BOX FOR T7 & T9 */
+.passage-box {
+  background-color: #fcf8e3;
+  border-left: 4px solid #f0ad4e;
+  padding: 16px;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  white-space: pre-wrap; /* Preserves line breaks in the JSON passage text */
+}
+
+/* SECTION INDICATOR */
+.section-indicator {
+  text-align: center;
+  font-weight: bold;
+  color: #6c757d;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+/* FINAL SCORE BREAKDOWN */
+.score-circle.passed {
+  background: #28a745;
+}
+
+.score-circle.failed {
+  background: #dc3545;
+}
+
+.score-breakdown {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0 30px 0;
+  text-align: left;
+}
+
+.score-breakdown p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-breakdown em {
+  font-size: 0.85rem;
+  color: #888;
+}

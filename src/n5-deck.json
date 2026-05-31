@@ -1,0 +1,1894 @@
+[
+  {
+    "id": "kanji-001",
+    "kanji": "水",
+    "meaning": "Water",
+    "mnemonic": "Looks like a splash of water, with a main stream in the center and droplets on the sides.",
+    "examples": [
+      {
+        "vocab": "<ruby>水<rt>みず</rt></ruby>",
+        "meaning": "Water",
+        "sentence": "<ruby>水<rt>みず</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでください。",
+        "translation": "Please drink some water."
+      },
+      {
+        "vocab": "<ruby>水曜日<rt>すいようび</rt></ruby>",
+        "meaning": "Wednesday",
+        "sentence": "<ruby>私<rt>わたし</rt></ruby>は<ruby>水曜日<rt>すいようび</rt></ruby>に<ruby>東京<rt>とうきょう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+        "translation": "I will go to Tokyo on Wednesday."
+      }
+    ]
+  },
+  {
+    "id": "kanji-002",
+    "kanji": "人",
+    "meaning": "Person",
+    "mnemonic": "A person walking forward, showing two legs.",
+    "examples": [
+      {
+        "vocab": "<ruby>あの人<rt>あのひと</rt></ruby>",
+        "meaning": "That person",
+        "sentence": "<ruby>あの人<rt>あのひと</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>ですか。",
+        "translation": "Who is that person?"
+      },
+      {
+        "vocab": "<ruby>日本人<rt>にほんじん</rt></ruby>",
+        "meaning": "Japanese person",
+        "sentence": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>日本人<rt>にほんじん</rt></ruby>です。",
+        "translation": "He is Japanese."
+      },
+      {
+        "vocab": "<ruby>三人<rt>さんにん</rt></ruby>",
+        "meaning": "Three people",
+        "sentence": "<ruby>家族<rt>かぞく</rt></ruby>は<ruby>三人<rt>さんにん</rt></ruby>です。",
+        "translation": "There are three people in my family."
+      }
+    ]
+  },
+  {
+    "id": "kanji-003",
+    "kanji": "休",
+    "meaning": "To Rest",
+    "mnemonic": "It is made of two parts: A person (亻) standing next to a tree (木). A person leaning against a tree is resting.",
+    "examples": [
+      {
+        "vocab": "<ruby>休<rt>やす</rt></ruby>む",
+        "meaning": "To rest/take a day off",
+        "sentence": "<ruby>日曜日<rt>にちようび</rt></ruby>は<ruby>仕事<rt>しごと</rt></ruby>を<ruby>休<rt>やす</rt></ruby>みます。",
+        "translation": "I take off work on Sundays."
+      },
+      {
+        "vocab": "<ruby>昼休<rt>ひるやす</rt></ruby>み",
+        "meaning": "Lunch break",
+        "sentence": "<ruby>昼休<rt>ひるやす</rt></ruby>みは<ruby>何時<rt>なんじ</rt></ruby>ですか。",
+        "translation": "What time is the lunch break?"
+      }
+    ]
+  },
+  {
+    "id": "kanji-004",
+    "kanji": "日",
+    "meaning": "Sun / Day",
+    "mnemonic": "Looks like a window letting the sunlight in.",
+    "examples": [
+      {
+        "vocab": "<ruby>日<rt>ひ</rt></ruby>",
+        "meaning": "Sun",
+        "sentence": "<ruby>日<rt>ひ</rt></ruby>が<ruby>沈<rt>しず</rt></ruby>みます。",
+        "translation": "The sun sets."
+      },
+      {
+        "vocab": "<ruby>日曜日<rt>にちようび</rt></ruby>",
+        "meaning": "Sunday",
+        "sentence": "<ruby>日曜日<rt>にちようび</rt></ruby>は<ruby>休<rt>やす</rt></ruby>みです。",
+        "translation": "Sunday is a day off."
+      },
+      {
+        "vocab": "<ruby>三日<rt>みっか</rt></ruby>",
+        "meaning": "3rd day of the month",
+        "sentence": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>三日<rt>みっか</rt></ruby>です。",
+        "translation": "Today is the 3rd."
+      }
+    ]
+  },
+  {
+    "id": "kanji-005",
+    "kanji": "月",
+    "meaning": "Moon / Month",
+    "mnemonic": "A crescent moon with clouds crossing its center.",
+    "examples": [
+      {
+        "vocab": "<ruby>月<rt>つき</rt></ruby>",
+        "meaning": "Moon",
+        "sentence": "<ruby>月<rt>つき</rt></ruby>がきれいです。",
+        "translation": "The moon is beautiful."
+      },
+      {
+        "vocab": "<ruby>月曜日<rt>げつようび</rt></ruby>",
+        "meaning": "Monday",
+        "sentence": "<ruby>月曜日<rt>げつようび</rt></ruby>に<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+        "translation": "I go to school on Monday."
+      },
+      {
+        "vocab": "<ruby>一月<rt>いちがつ</rt></ruby>",
+        "meaning": "January",
+        "sentence": "<ruby>一月<rt>いちがつ</rt></ruby>に<ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+        "translation": "I will go to Japan in January."
+      }
+    ]
+  },
+  {
+    "id": "kanji-006",
+    "kanji": "木",
+    "meaning": "Tree / Wood",
+    "mnemonic": "A tree with a trunk down the middle, branches, and roots.",
+    "examples": [
+      {
+        "vocab": "<ruby>木<rt>き</rt></ruby>",
+        "meaning": "Tree",
+        "sentence": "<ruby>庭<rt>にわ</rt></ruby>に<ruby>木<rt>き</rt></ruby>があります。",
+        "translation": "There is a tree in the garden."
+      },
+      {
+        "vocab": "<ruby>木曜日<rt>もくようび</rt></ruby>",
+        "meaning": "Thursday",
+        "sentence": "<ruby>木曜日<rt>もくようび</rt></ruby>は<ruby>暇<rt>ひま</rt></ruby>です。",
+        "translation": "I am free on Thursday."
+      }
+    ]
+  },
+  {
+    "id": "kanji-007",
+    "kanji": "金",
+    "meaning": "Gold / Money",
+    "mnemonic": "Gold nuggets hidden under a mountain roof, casting glowing rays.",
+    "examples": [
+      {
+        "vocab": "お<ruby>金<rt>かね</rt></ruby>",
+        "meaning": "Money",
+        "sentence": "お<ruby>金<rt>かね</rt></ruby>がありません。",
+        "translation": "I don't have money."
+      },
+      {
+        "vocab": "<ruby>金曜日<rt>きんようび</rt></ruby>",
+        "meaning": "Friday",
+        "sentence": "<ruby>金曜日<rt>きんようび</rt></ruby>に<ruby>友達<rt>ともだち</rt></ruby>と<ruby>会<rt>あ</rt></ruby>います。",
+        "translation": "I will meet my friend on Friday."
+      }
+    ]
+  },
+  {
+    "id": "kanji-008",
+    "kanji": "土",
+    "meaning": "Earth / Soil",
+    "mnemonic": "A cross or a seedling planted firmly into the ground.",
+    "examples": [
+      {
+        "vocab": "<ruby>土曜日<rt>どようび</rt></ruby>",
+        "meaning": "Saturday",
+        "sentence": "<ruby>土曜日<rt>どようび</rt></ruby>に<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます。",
+        "translation": "I will watch a movie on Saturday."
+      }
+    ]
+  },
+  {
+    "id": "kanji-009",
+    "kanji": "一",
+    "meaning": "One",
+    "mnemonic": "A single horizontal stroke, representing one finger.",
+    "examples": [
+      {
+        "vocab": "<ruby>一番<rt>いちばん</rt></ruby>",
+        "meaning": "Number one / Best",
+        "sentence": "これが<ruby>一番<rt>いちばん</rt></ruby><ruby>好<rt>す</rt></ruby>きです。",
+        "translation": "I like this one the best."
+      },
+      {
+        "vocab": "<ruby>一<rt>ひと</rt></ruby>つ",
+        "meaning": "One (generic object)",
+        "sentence": "これを<ruby>一<rt>ひと</rt></ruby>つください。",
+        "translation": "Please give me one of these."
+      }
+    ]
+  },
+  {
+    "id": "kanji-010",
+    "kanji": "四",
+    "meaning": "Four",
+    "mnemonic": "A square box with curtains parting inside, representing a window with four corners.",
+    "examples": [
+      {
+        "vocab": "<ruby>四<rt>よん</rt></ruby>",
+        "meaning": "Four",
+        "sentence": "<ruby>四人<rt>よにん</rt></ruby><ruby>家族<rt>かぞく</rt></ruby>です。",
+        "translation": "We are a family of four."
+      },
+      {
+        "vocab": "<ruby>四月<rt>しがつ</rt></ruby>",
+        "meaning": "April",
+        "sentence": "<ruby>四月<rt>しがつ</rt></ruby>に<ruby>桜<rt>さくら</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>きます。",
+        "translation": "Cherry blossoms bloom in April."
+      },
+      {
+        "vocab": "<ruby>四<rt>よっ</rt></ruby>つ",
+        "meaning": "Four (generic objects)",
+        "sentence": "かばんが<ruby>四<rt>よっ</rt></ruby>つあります。",
+        "translation": "There are four bags."
+      }
+    ]
+  },
+  {
+    "id": "kanji-011",
+    "kanji": "男",
+    "meaning": "Man / Male",
+    "mnemonic": "Made of two parts: a rice field (田) over power (力). Traditionally, men used their strength to work in the rice fields.",
+    "examples": [
+      {
+        "vocab": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>",
+        "meaning": "Man",
+        "sentence": "あの<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>ですか。",
+        "translation": "Who is that man?"
+      },
+      {
+        "vocab": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>",
+        "meaning": "Boy",
+        "sentence": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>が<ruby>走<rt>はし</rt></ruby>っています。",
+        "translation": "A boy is running."
+      }
+    ]
+  },
+  {
+    "id": "kanji-012",
+    "kanji": "女",
+    "meaning": "Woman / Female",
+    "mnemonic": "A person sitting with crossed legs and arms stretched out gracefully.",
+    "examples": [
+      {
+        "vocab": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>",
+        "meaning": "Woman",
+        "sentence": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>話<rt>はな</rt></ruby>しています。",
+        "translation": "A woman is speaking."
+      },
+      {
+        "vocab": "<ruby>彼女<rt>かのじょ</rt></ruby>",
+        "meaning": "She / Girlfriend",
+        "sentence": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>学生<rt>がくせい</rt></ruby>です。",
+        "translation": "She is a student."
+      }
+    ]
+  },
+  {
+    "id": "kanji-013",
+    "kanji": "目",
+    "meaning": "Eye",
+    "mnemonic": "An eye turned sideways, with two lines inside representing the pupil and iris.",
+    "examples": [
+      {
+        "vocab": "<ruby>目<rt>め</rt></ruby>",
+        "meaning": "Eye",
+        "sentence": "<ruby>目<rt>め</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いです。",
+        "translation": "My eyes hurt."
+      }
+    ]
+  },
+  {
+    "id": "kanji-014",
+    "kanji": "口",
+    "meaning": "Mouth",
+    "mnemonic": "A simple drawing of a wide open mouth.",
+    "examples": [
+      {
+        "vocab": "<ruby>口<rt>くち</rt></ruby>",
+        "meaning": "Mouth",
+        "sentence": "<ruby>口<rt>くち</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けてください。",
+        "translation": "Please open your mouth."
+      },
+      {
+        "vocab": "<ruby>出口<rt>でぐち</rt></ruby>",
+        "meaning": "Exit",
+        "sentence": "<ruby>出口<rt>でぐち</rt></ruby>はあそこです。",
+        "translation": "The exit is over there."
+      }
+    ]
+  },
+  {
+    "id": "kanji-015",
+    "kanji": "耳",
+    "meaning": "Ear",
+    "mnemonic": "Looks like the outer ridges and internal curves of an ear.",
+    "examples": [
+      {
+        "vocab": "<ruby>耳<rt>みみ</rt></ruby>",
+        "meaning": "Ear",
+        "sentence": "うさぎは<ruby>耳<rt>みみ</rt></ruby>が<ruby>長<rt>なが</rt></ruby>いです。",
+        "translation": "Rabbits have long ears."
+      }
+    ]
+  },
+  {
+    "id": "kanji-016",
+    "kanji": "上",
+    "meaning": "Up / Above",
+    "mnemonic": "A line drawn above a horizontal baseline.",
+    "examples": [
+      {
+        "vocab": "<ruby>上<rt>うえ</rt></ruby>",
+        "meaning": "Above / On top",
+        "sentence": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>本<rt>ほん</rt></ruby>があります。",
+        "translation": "There is a book on the desk."
+      },
+      {
+        "vocab": "<ruby>上手<rt>じょうず</rt></ruby>",
+        "meaning": "Good at / Skillful",
+        "sentence": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>歌<rt>うた</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>です。",
+        "translation": "She is good at singing."
+      }
+    ]
+  },
+  {
+    "id": "kanji-017",
+    "kanji": "下",
+    "meaning": "Down / Below",
+    "mnemonic": "A line drawn below a horizontal baseline.",
+    "examples": [
+      {
+        "vocab": "<ruby>下<rt>した</rt></ruby>",
+        "meaning": "Below / Under",
+        "sentence": "<ruby>猫<rt>ねこ</rt></ruby>がテーブルの<ruby>下<rt>した</rt></ruby>にいます。",
+        "translation": "The cat is under the table."
+      },
+      {
+        "vocab": "<ruby>下手<rt>へた</rt></ruby>",
+        "meaning": "Bad at / Unskillful",
+        "sentence": "<ruby>私<rt>わたし</rt></ruby>はテニスが<ruby>下手<rt>へた</rt></ruby>です。",
+        "translation": "I am bad at tennis."
+      },
+      {
+        "vocab": "<ruby>地下鉄<rt>ちかてつ</rt></ruby>",
+        "meaning": "Subway",
+        "sentence": "<ruby>地下鉄<rt>ちかてつ</rt></ruby>で<ruby>帰<rt>かえ</rt></ruby>ります。",
+        "translation": "I will go home by subway."
+      }
+    ]
+  },
+  {
+    "id": "kanji-018",
+    "kanji": "中",
+    "meaning": "Middle / Inside",
+    "mnemonic": "A box cut right through the middle with a vertical line.",
+    "examples": [
+      {
+        "vocab": "<ruby>中<rt>なか</rt></ruby>",
+        "meaning": "Inside",
+        "sentence": "かばんの<ruby>中<rt>なか</rt></ruby>に<ruby>鍵<rt>かぎ</rt></ruby>があります。",
+        "translation": "There is a key inside the bag."
+      },
+      {
+        "vocab": "<ruby>中国<rt>ちゅうごく</rt></ruby>",
+        "meaning": "China",
+        "sentence": "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>中国<rt>ちゅうごく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+        "translation": "I will go to China next year."
+      }
+    ]
+  },
+  {
+    "id": "kanji-019",
+    "kanji": "外",
+    "meaning": "Outside",
+    "mnemonic": "Evening (夕) magic (卜) is best performed outside under the stars.",
+    "examples": [
+      {
+        "vocab": "<ruby>外<rt>そと</rt></ruby>",
+        "meaning": "Outside",
+        "sentence": "<ruby>外<rt>そと</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>っています。",
+        "translation": "It is raining outside."
+      },
+      {
+        "vocab": "<ruby>外国人<rt>がいこくじん</rt></ruby>",
+        "meaning": "Foreigner",
+        "sentence": "あの<ruby>外国人<rt>がいこくじん</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>ですか。",
+        "translation": "Who is that foreigner?"
+      }
+    ]
+  },
+  {
+    "id": "kanji-020",
+    "kanji": "右",
+    "meaning": "Right",
+    "mnemonic": "A mouth (口) eating with the right hand.",
+    "examples": [
+      {
+        "vocab": "<ruby>右<rt>みぎ</rt></ruby>",
+        "meaning": "Right",
+        "sentence": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>角<rt>かど</rt></ruby>を<ruby>右<rt>みぎ</rt></ruby>に<ruby>曲<rt>ま</rt></ruby>がってください。",
+        "translation": "Please turn right at the next corner."
+      }
+    ]
+  },
+  {
+    "id": "kanji-021",
+    "kanji": "左",
+    "meaning": "Left",
+    "mnemonic": "A left hand holding a tool (工).",
+    "examples": [
+      {
+        "vocab": "<ruby>左<rt>ひだり</rt></ruby>",
+        "meaning": "Left",
+        "sentence": "<ruby>左側<rt>ひだりがわ</rt></ruby>に<ruby>駅<rt>えき</rt></ruby>があります。",
+        "translation": "The station is on the left side."
+      }
+    ]
+  },
+  {
+    "id": "kanji-022",
+    "kanji": "大",
+    "meaning": "Big / Large",
+    "mnemonic": "A person stretching their arms and legs out to look as big as possible.",
+    "examples": [
+      {
+        "vocab": "<ruby>大<rt>おお</rt></ruby>きい",
+        "meaning": "Big",
+        "sentence": "<ruby>大<rt>おお</rt></ruby>きい<ruby>犬<rt>いぬ</rt></ruby>がいます。",
+        "translation": "There is a big dog."
+      },
+      {
+        "vocab": "<ruby>大学<rt>だいがく</rt></ruby>",
+        "meaning": "University",
+        "sentence": "<ruby>弟<rt>おとうと</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。",
+        "translation": "My younger brother goes to university."
+      }
+    ]
+  },
+  {
+    "id": "kanji-023",
+    "kanji": "小",
+    "meaning": "Small",
+    "mnemonic": "A central line with two strokes splashing away, like something getting smaller.",
+    "examples": [
+      {
+        "vocab": "<ruby>小<rt>ちい</rt></ruby>さい",
+        "meaning": "Small",
+        "sentence": "この<ruby>車<rt>くるま</rt></ruby>は<ruby>小<rt>ちい</rt></ruby>さいです。",
+        "translation": "This car is small."
+      },
+      {
+        "vocab": "<ruby>小学校<rt>しょうがっこう</rt></ruby>",
+        "meaning": "Elementary School",
+        "sentence": "ここは<ruby>小学校<rt>しょうがっこう</rt></ruby>です。",
+        "translation": "This is an elementary school."
+      }
+    ]
+  },
+  {
+    "id": "kanji-024",
+    "kanji": "高",
+    "meaning": "High / Expensive",
+    "mnemonic": "Looks like a tall watchtower or a high building with a roof.",
+    "examples": [
+      {
+        "vocab": "<ruby>高<rt>たか</rt></ruby>い",
+        "meaning": "Expensive / High",
+        "sentence": "このカメラはとても<ruby>高<rt>たか</rt></ruby>いです。",
+        "translation": "This camera is very expensive."
+      },
+      {
+        "vocab": "<ruby>高校<rt>こうこう</rt></ruby>",
+        "meaning": "High School",
+        "sentence": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>高校生<rt>こうこうせい</rt></ruby>です。",
+        "translation": "She is a high school student."
+      }
+    ]
+  },
+  {
+    "id": "kanji-025",
+    "kanji": "山",
+    "meaning": "Mountain",
+    "mnemonic": "Three mountain peaks next to each other.",
+    "examples": [
+      {
+        "vocab": "<ruby>山<rt>やま</rt></ruby>",
+        "meaning": "Mountain",
+        "sentence": "<ruby>山<rt>やま</rt></ruby>に<ruby>登<rt>のぼ</rt></ruby>ります。",
+        "translation": "I will climb a mountain."
+      },
+      {
+        "vocab": "<ruby>富士山<rt>ふじさん</rt></ruby>",
+        "meaning": "Mt. Fuji",
+        "sentence": "<ruby>富士山<rt>ふじさん</rt></ruby>はきれいです。",
+        "translation": "Mt. Fuji is beautiful."
+      }
+    ]
+  },
+  {
+    "id": "kanji-026",
+    "kanji": "今",
+    "meaning": "Now",
+    "mnemonic": "Looks like a roof clock with a pendulum swinging right NOW.",
+    "examples": [
+      {
+        "vocab": "<ruby>今<rt>いま</rt></ruby>",
+        "meaning": "Now",
+        "sentence": "<ruby>今<rt>いま</rt></ruby>は<ruby>何時<rt>なんじ</rt></ruby>ですか。",
+        "translation": "What time is it now?"
+      },
+      {
+        "vocab": "<ruby>今月<rt>こんげつ</rt></ruby>",
+        "meaning": "This month",
+        "sentence": "<ruby>今月<rt>こんげつ</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいです。",
+        "translation": "I am busy this month."
+      },
+      {
+        "vocab": "<ruby>今日<rt>きょう</rt></ruby>",
+        "meaning": "Today",
+        "sentence": "<ruby>今日<rt>きょう</rt></ruby>はいい<ruby>天気<rt>てんき</rt></ruby>です。",
+        "translation": "The weather is good today."
+      }
+    ]
+  },
+  {
+    "id": "kanji-027",
+    "kanji": "時",
+    "meaning": "Time / Hour",
+    "mnemonic": "The sun (日) next to a temple (寺), used to measure the time of day.",
+    "examples": [
+      {
+        "vocab": "<ruby>時<rt>とき</rt></ruby>",
+        "meaning": "Time / When",
+        "sentence": "<ruby>子供<rt>こども</rt></ruby>の<ruby>時<rt>とき</rt></ruby>、よく<ruby>遊<rt>あそ</rt></ruby>びました。",
+        "translation": "When I was a child, I played a lot."
+      },
+      {
+        "vocab": "<ruby>九時<rt>くじ</rt></ruby>",
+        "meaning": "Nine o'clock",
+        "sentence": "<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>九時<rt>くじ</rt></ruby>に<ruby>起<rt>お</rt></ruby>きます。",
+        "translation": "I wake up at 9 o'clock every morning."
+      }
+    ]
+  },
+  {
+    "id": "kanji-028",
+    "kanji": "分",
+    "meaning": "Minute / To Understand",
+    "mnemonic": "A sword (刀) dividing something in two (八).",
+    "examples": [
+      {
+        "vocab": "<ruby>分<rt>わ</rt></ruby>かる",
+        "meaning": "To understand",
+        "sentence": "<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりますか。",
+        "translation": "Do you understand Japanese?"
+      },
+      {
+        "vocab": "<ruby>五分<rt>ごふん</rt></ruby>",
+        "meaning": "Five minutes",
+        "sentence": "<ruby>五分<rt>ごふん</rt></ruby><ruby>待<rt>ま</rt></ruby>ってください。",
+        "translation": "Please wait five minutes."
+      },
+      {
+        "vocab": "<ruby>十分<rt>じゅっぷん</rt></ruby>",
+        "meaning": "Ten minutes",
+        "sentence": "<ruby>駅<rt>えき</rt></ruby>から<ruby>十分<rt>じゅっぷん</rt></ruby>かかります。",
+        "translation": "It takes ten minutes from the station."
+      }
+    ]
+  },
+  {
+    "id": "kanji-029",
+    "kanji": "半",
+    "meaning": "Half",
+    "mnemonic": "A vertical line splitting three horizontal lines right down the middle.",
+    "examples": [
+      {
+        "vocab": "<ruby>半分<rt>はんぶん</rt></ruby>",
+        "meaning": "Half",
+        "sentence": "ケーキを<ruby>半分<rt>はんぶん</rt></ruby><ruby>食<rt>た</rt></ruby>べました。",
+        "translation": "I ate half of the cake."
+      },
+      {
+        "vocab": "<ruby>四時半<rt>よじはん</rt></ruby>",
+        "meaning": "Half past four (4:30)",
+        "sentence": "<ruby>四時半<rt>よじはん</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>ります。",
+        "translation": "I will go home at 4:30."
+      }
+    ]
+  },
+  {
+    "id": "kanji-030",
+    "kanji": "年",
+    "meaning": "Year",
+    "mnemonic": "A person carrying a heavy load of crops on their back at the end of the year.",
+    "examples": [
+      {
+        "vocab": "<ruby>年<rt>とし</rt></ruby>",
+        "meaning": "Year / Age",
+        "sentence": "<ruby>年<rt>とし</rt></ruby>を<ruby>取<rt>と</rt></ruby>ります。",
+        "translation": "To grow old. (Literally: take years)"
+      },
+      {
+        "vocab": "<ruby>来年<rt>らいねん</rt></ruby>",
+        "meaning": "Next year",
+        "sentence": "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+        "translation": "I will go to Japan next year."
+      }
+    ]
+  },
+  {
+    "id": "kanji-031",
+    "kanji": "毎",
+    "meaning": "Every",
+    "mnemonic": "A person wearing a hat, repeating the same routine every single day.",
+    "examples": [
+      {
+        "vocab": "<ruby>毎日<rt>まいにち</rt></ruby>",
+        "meaning": "Every day",
+        "sentence": "<ruby>毎日<rt>まいにち</rt></ruby><ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>します。",
+        "translation": "I study Japanese every day."
+      },
+      {
+        "vocab": "<ruby>毎年<rt>まいとし</rt></ruby>",
+        "meaning": "Every year",
+        "sentence": "<ruby>毎年<rt>まいとし</rt></ruby><ruby>夏<rt>なつ</rt></ruby>に<ruby>海<rt>うみ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+        "translation": "I go to the beach every year in the summer."
+      }
+    ]
+  },
+  {
+    "id": "kanji-032",
+    "kanji": "何",
+    "meaning": "What",
+    "mnemonic": "A person (亻) carrying a box, asking 'What is inside?'",
+    "examples": [
+      {
+        "vocab": "<ruby>何<rt>なに</rt></ruby>",
+        "meaning": "What",
+        "sentence": "<ruby>鞄<rt>かばん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。",
+        "translation": "What is in the bag?"
+      },
+      {
+        "vocab": "<ruby>何時<rt>なんじ</rt></ruby>",
+        "meaning": "What time",
+        "sentence": "<ruby>今<rt>いま</rt></ruby>、<ruby>何時<rt>なんじ</rt></ruby>ですか。",
+        "translation": "What time is it now?"
+      }
+    ]
+  },
+  {
+    "id": "kanji-033",
+    "kanji": "見",
+    "meaning": "To See",
+    "mnemonic": "An eye (目) with legs walking around to look at things.",
+    "examples": [
+      {
+        "vocab": "<ruby>見<rt>み</rt></ruby>る",
+        "meaning": "To see / watch",
+        "sentence": "テレビを<ruby>見<rt>み</rt></ruby>ます。",
+        "translation": "I watch TV."
+      },
+      {
+        "vocab": "<ruby>見<rt>み</rt></ruby>せる",
+        "meaning": "To show",
+        "sentence": "その<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてください。",
+        "translation": "Please show me that photo."
+      }
+    ]
+  },
+  {
+    "id": "kanji-034",
+    "kanji": "言",
+    "meaning": "To Say",
+    "mnemonic": "A mouth (口) with four sound waves coming out of it.",
+    "examples": [
+      {
+        "vocab": "<ruby>言<rt>い</rt></ruby>う",
+        "meaning": "To say",
+        "sentence": "<ruby>彼<rt>かれ</rt></ruby>は「さようなら」と<ruby>言<rt>い</rt></ruby>いました。",
+        "translation": "He said 'Goodbye'."
+      },
+      {
+        "vocab": "<ruby>言葉<rt>ことば</rt></ruby>",
+        "meaning": "Word / Language",
+        "sentence": "その<ruby>言葉<rt>ことば</rt></ruby>の<ruby>意味<rt>いみ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+        "translation": "What is the meaning of that word?"
+      }
+    ]
+  },
+  {
+    "id": "kanji-035",
+    "kanji": "書",
+    "meaning": "To Write",
+    "mnemonic": "A hand holding a brush, writing on a piece of paper (日).",
+    "examples": [
+      {
+        "vocab": "<ruby>書<rt>か</rt></ruby>く",
+        "meaning": "To write",
+        "sentence": "ここに<ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いてください。",
+        "translation": "Please write your name here."
+      },
+      {
+        "vocab": "<ruby>辞書<rt>じしょ</rt></ruby>",
+        "meaning": "Dictionary",
+        "sentence": "<ruby>辞書<rt>じしょ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。",
+        "translation": "I bought a dictionary."
+      }
+    ]
+  },
+  {
+    "id": "kanji-036",
+    "kanji": "学",
+    "meaning": "To Study / Learn",
+    "mnemonic": "A child (子) under a school roof with knowledge shining above their head.",
+    "examples": [
+      {
+        "vocab": "<ruby>学生<rt>がくせい</rt></ruby>",
+        "meaning": "Student",
+        "sentence": "<ruby>私<rt>わたし</rt></ruby>は<ruby>学生<rt>がくせい</rt></ruby>です。",
+        "translation": "I am a student."
+      },
+      {
+        "vocab": "<ruby>学校<rt>がっこう</rt></ruby>",
+        "meaning": "School",
+        "sentence": "<ruby>毎日<rt>まいにち</rt></ruby><ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+        "translation": "I go to school every day."
+      }
+    ]
+  },
+  {
+    "id": "kanji-037",
+    "kanji": "校",
+    "meaning": "School",
+    "mnemonic": "A tree (木) next to a building where people mix and meet (交).",
+    "examples": [
+      {
+        "vocab": "<ruby>学校<rt>がっこう</rt></ruby>",
+        "meaning": "School",
+        "sentence": "<ruby>学校<rt>がっこう</rt></ruby>は<ruby>八時<rt>はちじ</rt></ruby>に<ruby>始<rt>はじ</rt></ruby>まります。",
+        "translation": "School starts at 8 o'clock."
+      },
+      {
+        "vocab": "<ruby>高校<rt>こうこう</rt></ruby>",
+        "meaning": "High School",
+        "sentence": "<ruby>弟<rt>おとうと</rt></ruby>は<ruby>高校<rt>こうこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>っています。",
+        "translation": "My younger brother goes to high school."
+      }
+    ]
+  },
+  {
+    "id": "kanji-038",
+    "kanji": "生",
+    "meaning": "Life / To be born",
+    "mnemonic": "A small plant sprouting out of the ground, representing new life.",
+    "examples": [
+      {
+        "vocab": "<ruby>先生<rt>せんせい</rt></ruby>",
+        "meaning": "Teacher",
+        "sentence": "<ruby>先生<rt>せんせい</rt></ruby>、<ruby>質問<rt>しつもん</rt></ruby>があります。",
+        "translation": "Teacher, I have a question."
+      },
+      {
+        "vocab": "<ruby>生<rt>う</rt></ruby>まれる",
+        "meaning": "To be born",
+        "sentence": "<ruby>東京<rt>とうきょう</rt></ruby>で<ruby>生<rt>う</rt></ruby>まれました。",
+        "translation": "I was born in Tokyo."
+      }
+    ]
+  },
+  {
+    "id": "kanji-039",
+    "kanji": "本",
+    "meaning": "Book / Origin",
+    "mnemonic": "A tree (木) with a line drawn at its roots to show its origin.",
+    "examples": [
+      {
+        "vocab": "<ruby>本<rt>ほん</rt></ruby>",
+        "meaning": "Book",
+        "sentence": "この<ruby>本<rt>ほん</rt></ruby>は<ruby>面白<rt>おもしろ</rt></ruby>いです。",
+        "translation": "This book is interesting."
+      },
+      {
+        "vocab": "<ruby>日本<rt>にほん</rt></ruby>",
+        "meaning": "Japan",
+        "sentence": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。",
+        "translation": "I like Japanese food."
+      }
+    ]
+  },
+  {
+    "id": "kanji-040",
+    "kanji": "読",
+    "meaning": "To Read",
+    "mnemonic": "Speaking (言) words out loud while looking at the pages to sell (売) the story.",
+    "examples": [
+      {
+        "vocab": "<ruby>読<rt>よ</rt></ruby>む",
+        "meaning": "To read",
+        "sentence": "<ruby>毎晩<rt>まいばん</rt></ruby>、<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。",
+        "translation": "I read a book every night."
+      }
+    ]
+  },
+  {
+    "id": "kanji-041",
+    "kanji": "語",
+    "meaning": "Language / Word",
+    "mnemonic": "Words (言) spoken by five (五) different mouths (口) create a language.",
+    "examples": [
+      {
+        "vocab": "<ruby>日本語<rt>にほんご</rt></ruby>",
+        "meaning": "Japanese language",
+        "sentence": "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しています。",
+        "translation": "I am studying Japanese."
+      },
+      {
+        "vocab": "<ruby>英語<rt>えいご</rt></ruby>",
+        "meaning": "English language",
+        "sentence": "<ruby>英語<rt>えいご</rt></ruby>が<ruby>話<rt>はな</rt></ruby>せますか。",
+        "translation": "Can you speak English?"
+      }
+    ]
+  },
+  {
+    "id": "kanji-042",
+    "kanji": "先",
+    "meaning": "Before / Ahead",
+    "mnemonic": "A person walking forward, staying ahead of everyone else.",
+    "examples": [
+      {
+        "vocab": "<ruby>先生<rt>せんせい</rt></ruby>",
+        "meaning": "Teacher",
+        "sentence": "あの<ruby>人<rt>ひと</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>です。",
+        "translation": "That person is my teacher."
+      },
+      {
+        "vocab": "<ruby>先週<rt>せんしゅう</rt></ruby>",
+        "meaning": "Last week",
+        "sentence": "<ruby>先週<rt>せんしゅう</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>に<ruby>会<rt>あ</rt></ruby>いました。",
+        "translation": "I met my friend last week."
+      }
+    ]
+  },
+  {
+    "id": "kanji-043",
+    "kanji": "名",
+    "meaning": "Name",
+    "mnemonic": "In the dark evening (夕), you must use your mouth (口) to call out your name.",
+    "examples": [
+      {
+        "vocab": "<ruby>名前<rt>なまえ</rt></ruby>",
+        "meaning": "Name",
+        "sentence": "お<ruby>名前<rt>なまえ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+        "translation": "What is your name?"
+      },
+      {
+        "vocab": "<ruby>有名<rt>ゆうめい</rt></ruby>",
+        "meaning": "Famous",
+        "sentence": "ここは<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>公園<rt>こうえん</rt></ruby>です。",
+        "translation": "This is a famous park."
+      }
+    ]
+  },
+  {
+    "id": "kanji-044",
+    "kanji": "友",
+    "meaning": "Friend",
+    "mnemonic": "Two hands crossing over to hold each other.",
+    "examples": [
+      {
+        "vocab": "<ruby>友達<rt>ともだち</rt></ruby>",
+        "meaning": "Friend",
+        "sentence": "<ruby>友達<rt>ともだち</rt></ruby>と<ruby>映画<rt>えいが</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。",
+        "translation": "I will go to a movie with my friend."
+      }
+    ]
+  },
+  {
+    "id": "kanji-045",
+    "kanji": "気",
+    "meaning": "Spirit / Energy / Mood",
+    "mnemonic": "Steam rising to form a cloud, representing invisible energy and feelings.",
+    "examples": [
+      {
+        "vocab": "<ruby>元気<rt>げんき</rt></ruby>",
+        "meaning": "Healthy / Energetic",
+        "sentence": "お<ruby>元気<rt>げんき</rt></ruby>ですか。",
+        "translation": "How are you?"
+      },
+      {
+        "vocab": "<ruby>天気<rt>てんき</rt></ruby>",
+        "meaning": "Weather",
+        "sentence": "<ruby>今日<rt>きょう</rt></ruby>はいい<ruby>天気<rt>てんき</rt></ruby>です。",
+        "translation": "The weather is nice today."
+      }
+    ]
+  },
+  {
+    "id": "kanji-046",
+    "kanji": "車",
+    "meaning": "Car / Vehicle",
+    "mnemonic": "Looks like a cart seen from above, with two wheels on the sides and an axle through the middle.",
+    "examples": [
+      {
+        "vocab": "<ruby>車<rt>くるま</rt></ruby>",
+        "meaning": "Car",
+        "sentence": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>車<rt>くるま</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。",
+        "translation": "I bought a new car."
+      },
+      {
+        "vocab": "<ruby>電車<rt>でんしゃ</rt></ruby>",
+        "meaning": "Train",
+        "sentence": "<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>東京<rt>とうきょう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+        "translation": "I will go to Tokyo by train."
+      }
+    ]
+  },
+  {
+    "id": "kanji-047",
+    "kanji": "電",
+    "meaning": "Electricity",
+    "mnemonic": "A rain cloud (雨) shooting a bolt of lightning (electricity) down to the ground.",
+    "examples": [
+      {
+        "vocab": "<ruby>電気<rt>でんき</rt></ruby>",
+        "meaning": "Electricity / Light",
+        "sentence": "<ruby>電気<rt>でんき</rt></ruby>を<ruby>消<rt>け</rt></ruby>してください。",
+        "translation": "Please turn off the light."
+      },
+      {
+        "vocab": "<ruby>電話<rt>でんわ</rt></ruby>",
+        "meaning": "Phone",
+        "sentence": "<ruby>友達<rt>ともだち</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>をかけます。",
+        "translation": "I will call my friend."
+      }
+    ]
+  },
+  {
+    "id": "kanji-048",
+    "kanji": "駅",
+    "meaning": "Station",
+    "mnemonic": "A horse (馬) stopping at a designated place to rest — like an old stagecoach station.",
+    "examples": [
+      {
+        "vocab": "<ruby>駅<rt>えき</rt></ruby>",
+        "meaning": "Station",
+        "sentence": "<ruby>駅<rt>えき</rt></ruby>はどこですか。",
+        "translation": "Where is the station?"
+      }
+    ]
+  },
+  {
+    "id": "kanji-049",
+    "kanji": "来",
+    "meaning": "To Come",
+    "mnemonic": "A rice plant with deep roots. People COME from all over to harvest the rice.",
+    "examples": [
+      {
+        "vocab": "<ruby>来<rt>く</rt></ruby>る",
+        "meaning": "To come",
+        "sentence": "<ruby>明日<rt>あした</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>が<ruby>家<rt>いえ</rt></ruby>に<ruby>来<rt>き</rt></ruby>ます。",
+        "translation": "My friend will come to my house tomorrow."
+      },
+      {
+        "vocab": "<ruby>来年<rt>らいねん</rt></ruby>",
+        "meaning": "Next year",
+        "sentence": "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+        "translation": "I will go to Japan next year."
+      }
+    ]
+  },
+  {
+    "id": "kanji-050",
+    "kanji": "天",
+    "meaning": "Heaven / Sky",
+    "mnemonic": "A person (大) with an extra line drawn above their head, pointing to the heavens.",
+    "examples": [
+      {
+        "vocab": "<ruby>天気<rt>てんき</rt></ruby>",
+        "meaning": "Weather",
+        "sentence": "<ruby>今日<rt>きょう</rt></ruby>はいい<ruby>天気<rt>てんき</rt></ruby>です。",
+        "translation": "The weather is good today."
+      }
+    ]
+  },
+  {
+    "id": "kanji-051",
+    "kanji": "雨",
+    "meaning": "Rain",
+    "mnemonic": "Looks like a windowpane with four drops of rain falling outside.",
+    "examples": [
+      {
+        "vocab": "<ruby>雨<rt>あめ</rt></ruby>",
+        "meaning": "Rain",
+        "sentence": "<ruby>明日<rt>あした</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ります。",
+        "translation": "It will rain tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "kanji-052",
+    "kanji": "店",
+    "meaning": "Shop / Store",
+    "mnemonic": "A roof with a large sign hanging down to display the shop's name.",
+    "examples": [
+      {
+        "vocab": "<ruby>店<rt>みせ</rt></ruby>",
+        "meaning": "Shop",
+        "sentence": "あの<ruby>店<rt>みせ</rt></ruby>で<ruby>鞄<rt>かばん</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。",
+        "translation": "I bought a bag at that shop."
+      }
+    ]
+  },
+  {
+    "id": "kanji-053",
+    "kanji": "安",
+    "meaning": "Cheap / Peaceful",
+    "mnemonic": "A woman (女) resting peacefully under a roof (宀). Peace of mind comes when things are cheap.",
+    "examples": [
+      {
+        "vocab": "<ruby>安<rt>やす</rt></ruby>い",
+        "meaning": "Cheap",
+        "sentence": "この<ruby>服<rt>ふく</rt></ruby>はとても<ruby>安<rt>やす</rt></ruby>いです。",
+        "translation": "These clothes are very cheap."
+      }
+    ]
+  },
+  {
+    "id": "kanji-054",
+    "kanji": "円",
+    "meaning": "Yen / Circle",
+    "mnemonic": "A circular coin displayed inside a clear box.",
+    "examples": [
+      {
+        "vocab": "<ruby>百円<rt>ひゃくえん</rt></ruby>",
+        "meaning": "100 Yen",
+        "sentence": "これは<ruby>百円<rt>ひゃくえん</rt></ruby>です。",
+        "translation": "This is 100 yen."
+      }
+    ]
+  },
+  {
+    "id": "kanji-055",
+    "kanji": "新",
+    "meaning": "New",
+    "mnemonic": "Using an axe (斤) to chop a standing tree (木) to build something brand new.",
+    "examples": [
+      {
+        "vocab": "<ruby>新<rt>あたら</rt></ruby>しい",
+        "meaning": "New",
+        "sentence": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>靴<rt>くつ</rt></ruby>が<ruby>欲<rt>ほ</rt></ruby>しいです。",
+        "translation": "I want new shoes."
+      },
+      {
+        "vocab": "<ruby>新聞<rt>しんぶん</rt></ruby>",
+        "meaning": "Newspaper",
+        "sentence": "<ruby>毎朝<rt>まいあさ</rt></ruby>、<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。",
+        "translation": "I read the newspaper every morning."
+      }
+    ]
+  },
+  {
+    "id": "kanji-056",
+    "kanji": "出",
+    "meaning": "To Exit / Leave",
+    "mnemonic": "Looks like two mountains (山) stacked on top of each other, trying to grow out and exit the ground.",
+    "examples": [
+      {
+        "vocab": "<ruby>出<rt>で</rt></ruby>る",
+        "meaning": "To exit / leave",
+        "sentence": "<ruby>部屋<rt>へや</rt></ruby>を<ruby>出<rt>で</rt></ruby>ます。",
+        "translation": "I will leave the room."
+      },
+      {
+        "vocab": "<ruby>出口<rt>でぐち</rt></ruby>",
+        "meaning": "Exit",
+        "sentence": "<ruby>出口<rt>でぐち</rt></ruby>はあそこです。",
+        "translation": "The exit is over there."
+      },
+      {
+        "vocab": "<ruby>出<rt>で</rt></ruby>かける",
+        "meaning": "To go out",
+        "sentence": "<ruby>明日<rt>あした</rt></ruby>、<ruby>出<rt>で</rt></ruby>かけます。",
+        "translation": "I am going out tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "kanji-057",
+    "kanji": "入",
+    "meaning": "To Enter",
+    "mnemonic": "Looks like a person (人), but the strokes lean the other way, diving headfirst into an entrance.",
+    "examples": [
+      {
+        "vocab": "<ruby>入<rt>はい</rt></ruby>る",
+        "meaning": "To enter",
+        "sentence": "<ruby>喫茶店<rt>きっさてん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りましょう。",
+        "translation": "Let's enter the coffee shop."
+      },
+      {
+        "vocab": "<ruby>入口<rt>いりぐち</rt></ruby>",
+        "meaning": "Entrance",
+        "sentence": "<ruby>入口<rt>いりぐち</rt></ruby>で<ruby>待<rt>ま</rt></ruby>ちます。",
+        "translation": "I will wait at the entrance."
+      },
+      {
+        "vocab": "<ruby>入<rt>い</rt></ruby>れる",
+        "meaning": "To put in",
+        "sentence": "<ruby>鞄<rt>かばん</rt></ruby>に<ruby>本<rt>ほん</rt></ruby>を<ruby>入<rt>い</rt></ruby>れました。",
+        "translation": "I put the book in the bag."
+      }
+    ]
+  },
+  {
+    "id": "kanji-058",
+    "kanji": "帰",
+    "meaning": "To Return",
+    "mnemonic": "Using a broom to sweep away your footprints as you return to your house.",
+    "examples": [
+      {
+        "vocab": "<ruby>帰<rt>かえ</rt></ruby>る",
+        "meaning": "To return (home)",
+        "sentence": "<ruby>六時<rt>ろくじ</rt></ruby>に<ruby>家<rt>いえ</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>ります。",
+        "translation": "I will return home at 6 o'clock."
+      }
+    ]
+  },
+  {
+    "id": "kanji-059",
+    "kanji": "会",
+    "meaning": "To Meet",
+    "mnemonic": "People gathering under a roof to meet and talk.",
+    "examples": [
+      {
+        "vocab": "<ruby>会<rt>あ</rt></ruby>う",
+        "meaning": "To meet",
+        "sentence": "<ruby>週末<rt>しゅうまつ</rt></ruby>に<ruby>友達<rt>ともだち</rt></ruby>に<ruby>会<rt>あ</rt></ruby>います。",
+        "translation": "I will meet my friend on the weekend."
+      },
+      {
+        "vocab": "<ruby>会社<rt>かいしゃ</rt></ruby>",
+        "meaning": "Company",
+        "sentence": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>会社員<rt>かいしゃいん</rt></ruby>です。",
+        "translation": "He is a company employee."
+      }
+    ]
+  },
+  {
+    "id": "kanji-060",
+    "kanji": "話",
+    "meaning": "To Speak / Talk",
+    "mnemonic": "Words (言) coming out of a mouth with a tongue (舌) to speak a language.",
+    "examples": [
+      {
+        "vocab": "<ruby>話<rt>はな</rt></ruby>す",
+        "meaning": "To speak",
+        "sentence": "<ruby>先生<rt>せんせい</rt></ruby>と<ruby>話<rt>はな</rt></ruby>します。",
+        "translation": "I will speak with the teacher."
+      },
+      {
+        "vocab": "<ruby>話<rt>はなし</rt></ruby>",
+        "meaning": "Story / Talk",
+        "sentence": "<ruby>面白<rt>おもしろ</rt></ruby>い<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きました。",
+        "translation": "I heard an interesting story."
+      },
+      {
+        "vocab": "<ruby>電話<rt>でんわ</rt></ruby>",
+        "meaning": "Telephone",
+        "sentence": "<ruby>電話<rt>でんわ</rt></ruby>をかけてください。",
+        "translation": "Please make a phone call."
+      }
+    ]
+  },
+  {
+    "id": "kanji-061",
+    "kanji": "聞",
+    "meaning": "To Listen / To Ask",
+    "mnemonic": "An ear (耳) pressed up against a gate (門) to listen to what is happening inside.",
+    "examples": [
+      {
+        "vocab": "<ruby>聞<rt>き</rt></ruby>く",
+        "meaning": "To listen / To ask",
+        "sentence": "<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きます。",
+        "translation": "I listen to music."
+      },
+      {
+        "vocab": "<ruby>新聞<rt>しんぶん</rt></ruby>",
+        "meaning": "Newspaper",
+        "sentence": "<ruby>毎朝<rt>まいあさ</rt></ruby>、<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。",
+        "translation": "I read the newspaper every morning."
+      }
+    ]
+  },
+  {
+    "id": "kanji-062",
+    "kanji": "立",
+    "meaning": "To Stand",
+    "mnemonic": "A person standing firmly on the ground with their arms outstretched.",
+    "examples": [
+      {
+        "vocab": "<ruby>立<rt>た</rt></ruby>つ",
+        "meaning": "To stand",
+        "sentence": "そこに<ruby>立<rt>た</rt></ruby>ってください。",
+        "translation": "Please stand there."
+      }
+    ]
+  },
+  {
+    "id": "kanji-063",
+    "kanji": "行",
+    "meaning": "To Go",
+    "mnemonic": "Looks like an intersection or crossroads where people go in different directions.",
+    "examples": [
+      {
+        "vocab": "<ruby>行<rt>い</rt></ruby>く",
+        "meaning": "To go",
+        "sentence": "<ruby>明日<rt>あした</rt></ruby>、<ruby>箱根<rt>はこね</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。",
+        "translation": "I will go to Hakone tomorrow."
+      },
+      {
+        "vocab": "<ruby>旅行<rt>りょこう</rt></ruby>",
+        "meaning": "Travel",
+        "sentence": "<ruby>旅行<rt>りょこう</rt></ruby>は<ruby>楽<rt>たの</rt></ruby>しかったです。",
+        "translation": "The trip was fun."
+      }
+    ]
+  },
+  {
+    "id": "kanji-064",
+    "kanji": "食",
+    "meaning": "To Eat",
+    "mnemonic": "A person sitting under a roof with a bowl of good food.",
+    "examples": [
+      {
+        "vocab": "<ruby>食<rt>た</rt></ruby>べる",
+        "meaning": "To eat",
+        "sentence": "<ruby>朝<rt>あさ</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べます。",
+        "translation": "I eat breakfast."
+      },
+      {
+        "vocab": "<ruby>食堂<rt>しょくどう</rt></ruby>",
+        "meaning": "Dining hall",
+        "sentence": "<ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>食<rt>た</rt></ruby>べましょう。",
+        "translation": "Let's eat in the dining hall."
+      }
+    ]
+  },
+  {
+    "id": "kanji-065",
+    "kanji": "飲",
+    "meaning": "To Drink",
+    "mnemonic": "A person opening their mouth wide (欠) to drink the food/liquid (食) given to them.",
+    "examples": [
+      {
+        "vocab": "<ruby>飲<rt>の</rt></ruby>む",
+        "meaning": "To drink",
+        "sentence": "<ruby>水<rt>みず</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでください。",
+        "translation": "Please drink some water."
+      }
+    ]
+  },
+  {
+    "id": "kanji-066",
+    "kanji": "白",
+    "meaning": "White",
+    "mnemonic": "A drop of white paint falling onto the sun (日), bleaching it entirely white.",
+    "examples": [
+      {
+        "vocab": "<ruby>白<rt>しろ</rt></ruby>い",
+        "meaning": "White",
+        "sentence": "<ruby>白<rt>しろ</rt></ruby>い<ruby>犬<rt>いぬ</rt></ruby>がいます。",
+        "translation": "There is a white dog."
+      }
+    ]
+  },
+  {
+    "id": "kanji-067",
+    "kanji": "赤",
+    "meaning": "Red",
+    "mnemonic": "A person (大) standing over a fire (火) until they get red and warm.",
+    "examples": [
+      {
+        "vocab": "<ruby>赤<rt>あか</rt></ruby>い",
+        "meaning": "Red",
+        "sentence": "このりんごは<ruby>赤<rt>あか</rt></ruby>いです。",
+        "translation": "This apple is red."
+      }
+    ]
+  },
+  {
+    "id": "kanji-068",
+    "kanji": "青",
+    "meaning": "Blue",
+    "mnemonic": "The moon (月) shining over a green/blue growing plant (生).",
+    "examples": [
+      {
+        "vocab": "<ruby>青<rt>あお</rt></ruby>い",
+        "meaning": "Blue",
+        "sentence": "<ruby>空<rt>そら</rt></ruby>が<ruby>青<rt>あお</rt></ruby>いです。",
+        "translation": "The sky is blue."
+      }
+    ]
+  },
+  {
+    "id": "kanji-069",
+    "kanji": "多",
+    "meaning": "Many / Much",
+    "mnemonic": "Two evening moons (夕) stacked up, meaning there are many evenings.",
+    "examples": [
+      {
+        "vocab": "<ruby>多<rt>おお</rt></ruby>い",
+        "meaning": "Many",
+        "sentence": "この<ruby>町<rt>まち</rt></ruby>は<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いです。",
+        "translation": "There are many people in this town."
+      }
+    ]
+  },
+  {
+    "id": "kanji-070",
+    "kanji": "少",
+    "meaning": "Few / A little",
+    "mnemonic": "Something small (小) with an extra slash at the bottom to make it even smaller.",
+    "examples": [
+      {
+        "vocab": "<ruby>少<rt>すく</rt></ruby>ない",
+        "meaning": "Few",
+        "sentence": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>車<rt>くるま</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないです。",
+        "translation": "There are few cars today."
+      },
+      {
+        "vocab": "<ruby>少<rt>すこ</rt></ruby>し",
+        "meaning": "A little",
+        "sentence": "<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>し<ruby>分<rt>わ</rt></ruby>かります。",
+        "translation": "I understand a little Japanese."
+      }
+    ]
+  },
+  {
+    "id": "kanji-071",
+    "kanji": "古",
+    "meaning": "Old",
+    "mnemonic": "A cross (十) placed over a tombstone (口) marking something very old.",
+    "examples": [
+      {
+        "vocab": "<ruby>古<rt>ふる</rt></ruby>い",
+        "meaning": "Old (for things)",
+        "sentence": "これは<ruby>古<rt>ふる</rt></ruby>い<ruby>本<rt>ほん</rt></ruby>です。",
+        "translation": "This is an old book."
+      }
+    ]
+  },
+  {
+    "id": "kanji-072",
+    "kanji": "長",
+    "meaning": "Long / Leader",
+    "mnemonic": "An old man with long hair and a long walking stick.",
+    "examples": [
+      {
+        "vocab": "<ruby>長<rt>なが</rt></ruby>い",
+        "meaning": "Long",
+        "sentence": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>髪<rt>かみ</rt></ruby>が<ruby>長<rt>なが</rt></ruby>いです。",
+        "translation": "She has long hair."
+      },
+      {
+        "vocab": "<ruby>校長<rt>こうちょう</rt></ruby>",
+        "meaning": "Principal",
+        "sentence": "<ruby>校長<rt>こうちょう</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きます。",
+        "translation": "We listen to the principal's speech."
+      }
+    ]
+  },
+  {
+    "id": "kanji-073",
+    "kanji": "早",
+    "meaning": "Early / Fast",
+    "mnemonic": "The sun (日) resting on a helmet (十) first thing in the early morning.",
+    "examples": [
+      {
+        "vocab": "<ruby>早<rt>はや</rt></ruby>い",
+        "meaning": "Early / Fast",
+        "sentence": "<ruby>朝<rt>あさ</rt></ruby>、<ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きます。",
+        "translation": "I wake up early in the morning."
+      }
+    ]
+  },
+  {
+    "id": "kanji-074",
+    "kanji": "明",
+    "meaning": "Bright",
+    "mnemonic": "The sun (日) and the moon (月) put together make things incredibly bright.",
+    "examples": [
+      {
+        "vocab": "<ruby>明<rt>あか</rt></ruby>るい",
+        "meaning": "Bright",
+        "sentence": "この<ruby>部屋<rt>へや</rt></ruby>は<ruby>明<rt>あか</rt></ruby>るいです。",
+        "translation": "This room is bright."
+      },
+      {
+        "vocab": "<ruby>明日<rt>あした</rt></ruby>",
+        "meaning": "Tomorrow",
+        "sentence": "<ruby>明日<rt>あした</rt></ruby>は<ruby>月曜日<rt>げつようび</rt></ruby>です。",
+        "translation": "Tomorrow is Monday."
+      }
+    ]
+  },
+  {
+    "id": "kanji-075",
+    "kanji": "広",
+    "meaning": "Wide / Spacious",
+    "mnemonic": "A wide roof over a wide open private space (ム).",
+    "examples": [
+      {
+        "vocab": "<ruby>広<rt>ひろ</rt></ruby>い",
+        "meaning": "Wide / Spacious",
+        "sentence": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>は<ruby>広<rt>ひろ</rt></ruby>いです。",
+        "translation": "His house is spacious."
+      }
+    ]
+  },
+  {
+    "id": "kanji-076",
+    "kanji": "父",
+    "meaning": "Father",
+    "mnemonic": "Looks like two crossing axes held by a strict father.",
+    "examples": [
+      {
+        "vocab": "<ruby>父<rt>ちち</rt></ruby>",
+        "meaning": "My father",
+        "sentence": "<ruby>父<rt>ちち</rt></ruby>は<ruby>会社員<rt>かいしゃいん</rt></ruby>です。",
+        "translation": "My father is a company employee."
+      },
+      {
+        "vocab": "お<ruby>父<rt>とう</rt></ruby>さん",
+        "meaning": "Dad",
+        "sentence": "お<ruby>父<rt>とう</rt></ruby>さんはお<ruby>元気<rt>げんき</rt></ruby>ですか。",
+        "translation": "Is your father doing well?"
+      }
+    ]
+  },
+  {
+    "id": "kanji-077",
+    "kanji": "母",
+    "meaning": "Mother",
+    "mnemonic": "A woman's body with two drops inside, representing a mother providing nourishment.",
+    "examples": [
+      {
+        "vocab": "<ruby>母<rt>はは</rt></ruby>",
+        "meaning": "My mother",
+        "sentence": "<ruby>母<rt>はは</rt></ruby>は<ruby>料理<rt>りょうり</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>です。",
+        "translation": "My mother is good at cooking."
+      },
+      {
+        "vocab": "お<ruby>母<rt>かあ</rt></ruby>さん",
+        "meaning": "Mom",
+        "sentence": "お<ruby>母<rt>かあ</rt></ruby>さんは<ruby>家<rt>いえ</rt></ruby>にいますか。",
+        "translation": "Is your mother at home?"
+      }
+    ]
+  },
+  {
+    "id": "kanji-078",
+    "kanji": "子",
+    "meaning": "Child",
+    "mnemonic": "A baby wrapped in a blanket with its two arms sticking out.",
+    "examples": [
+      {
+        "vocab": "<ruby>子<rt>こ</rt></ruby>ども",
+        "meaning": "Child",
+        "sentence": "<ruby>公園<rt>こうえん</rt></ruby>に<ruby>子<rt>こ</rt></ruby>どもがいます。",
+        "translation": "There are children in the park."
+      },
+      {
+        "vocab": "<ruby>女<rt>おんな</rt></ruby>の<ruby>子<rt>こ</rt></ruby>",
+        "meaning": "Girl",
+        "sentence": "あの<ruby>女<rt>おんな</rt></ruby>の<ruby>子<rt>こ</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>ですか。",
+        "translation": "Who is that girl?"
+      }
+    ]
+  },
+  {
+    "id": "kanji-079",
+    "kanji": "手",
+    "meaning": "Hand",
+    "mnemonic": "A hand with fingers spread out, seen from the wrist.",
+    "examples": [
+      {
+        "vocab": "<ruby>手<rt>て</rt></ruby>",
+        "meaning": "Hand",
+        "sentence": "<ruby>手<rt>て</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>ってください。",
+        "translation": "Please wash your hands."
+      },
+      {
+        "vocab": "<ruby>手紙<rt>てがみ</rt></ruby>",
+        "meaning": "Letter",
+        "sentence": "<ruby>友達<rt>ともだち</rt></ruby>に<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>きます。",
+        "translation": "I will write a letter to my friend."
+      }
+    ]
+  },
+  {
+    "id": "kanji-080",
+    "kanji": "足",
+    "meaning": "Foot / Leg",
+    "mnemonic": "A person resting their foot (lower part) after a long walk.",
+    "examples": [
+      {
+        "vocab": "<ruby>足<rt>あし</rt></ruby>",
+        "meaning": "Foot / Leg",
+        "sentence": "<ruby>足<rt>あし</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いです。",
+        "translation": "My leg hurts."
+      },
+      {
+        "vocab": "<ruby>足<rt>た</rt></ruby>りる",
+        "meaning": "To be enough",
+        "sentence": "お<ruby>金<rt>かね</rt></ruby>が<ruby>足<rt>た</rt></ruby>りません。",
+        "translation": "I don't have enough money."
+      }
+    ]
+  },
+  {
+    "id": "kanji-081",
+    "kanji": "国",
+    "meaning": "Country",
+    "mnemonic": "A precious jewel (玉) protected inside strong national borders (囗).",
+    "examples": [
+      {
+        "vocab": "<ruby>国<rt>くに</rt></ruby>",
+        "meaning": "Country",
+        "sentence": "あなたの<ruby>国<rt>くに</rt></ruby>はどこですか。",
+        "translation": "Where is your country?"
+      },
+      {
+        "vocab": "<ruby>外国<rt>がいこく</rt></ruby>",
+        "meaning": "Foreign country",
+        "sentence": "<ruby>外国<rt>がいこく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きたいです。",
+        "translation": "I want to go to a foreign country."
+      }
+    ]
+  },
+  {
+    "id": "kanji-082",
+    "kanji": "東",
+    "meaning": "East",
+    "mnemonic": "The sun (日) rising directly behind a tree (木) in the east.",
+    "examples": [
+      {
+        "vocab": "<ruby>東<rt>ひがし</rt></ruby>",
+        "meaning": "East",
+        "sentence": "<ruby>東口<rt>ひがしぐち</rt></ruby>で<ruby>会<rt>あ</rt></ruby>いましょう。",
+        "translation": "Let's meet at the East Exit."
+      },
+      {
+        "vocab": "<ruby>東京<rt>とうきょう</rt></ruby>",
+        "meaning": "Tokyo",
+        "sentence": "<ruby>東京<rt>とうきょう</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きい<ruby>町<rt>まち</rt></ruby>です。",
+        "translation": "Tokyo is a big city."
+      }
+    ]
+  },
+  {
+    "id": "kanji-083",
+    "kanji": "西",
+    "meaning": "West",
+    "mnemonic": "A bird returning to its nest (box shape) as the sun sets in the west.",
+    "examples": [
+      {
+        "vocab": "<ruby>西<rt>にし</rt></ruby>",
+        "meaning": "West",
+        "sentence": "<ruby>太陽<rt>たいよう</rt></ruby>は<ruby>西<rt>にし</rt></ruby>に<ruby>沈<rt>しず</rt></ruby>みます。",
+        "translation": "The sun sets in the west."
+      }
+    ]
+  },
+  {
+    "id": "kanji-084",
+    "kanji": "南",
+    "meaning": "South",
+    "mnemonic": "A warm southern fence keeping the sheep inside.",
+    "examples": [
+      {
+        "vocab": "<ruby>南<rt>みなみ</rt></ruby>",
+        "meaning": "South",
+        "sentence": "<ruby>南<rt>みなみ</rt></ruby>に<ruby>山<rt>やま</rt></ruby>があります。",
+        "translation": "There is a mountain to the south."
+      }
+    ]
+  },
+  {
+    "id": "kanji-085",
+    "kanji": "北",
+    "meaning": "North",
+    "mnemonic": "Two people sitting back-to-back, shivering from the cold north wind.",
+    "examples": [
+      {
+        "vocab": "<ruby>北<rt>きた</rt></ruby>",
+        "meaning": "North",
+        "sentence": "<ruby>風<rt>かぜ</rt></ruby>が<ruby>北<rt>きた</rt></ruby>から<ruby>吹<rt>ふ</rt></ruby>きます。",
+        "translation": "The wind blows from the north."
+      }
+    ]
+  },
+  {
+    "id": "kanji-086",
+    "kanji": "二",
+    "meaning": "Two",
+    "mnemonic": "Two horizontal strokes.",
+    "examples": [
+      {
+        "vocab": "<ruby>二<rt>に</rt></ruby>",
+        "meaning": "Two",
+        "sentence": "<ruby>二時<rt>にじ</rt></ruby>にお<ruby>願<rt>ねが</rt></ruby>いします。",
+        "translation": "At two o'clock, please."
+      },
+      {
+        "vocab": "<ruby>二<rt>ふた</rt></ruby>つ",
+        "meaning": "Two (generic objects)",
+        "sentence": "りんごを<ruby>二<rt>ふた</rt></ruby>つ<ruby>買<rt>か</rt></ruby>いました。",
+        "translation": "I bought two apples."
+      }
+    ]
+  },
+  {
+    "id": "kanji-087",
+    "kanji": "三",
+    "meaning": "Three",
+    "mnemonic": "Three horizontal strokes.",
+    "examples": [
+      {
+        "vocab": "<ruby>三<rt>さん</rt></ruby>",
+        "meaning": "Three",
+        "sentence": "<ruby>三番目<rt>さんばんめ</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>です。",
+        "translation": "It is the third room."
+      },
+      {
+        "vocab": "<ruby>三<rt>みっ</rt></ruby>つ",
+        "meaning": "Three (generic objects)",
+        "sentence": "かばんが<ruby>三<rt>みっ</rt></ruby>つあります。",
+        "translation": "There are three bags."
+      }
+    ]
+  },
+  {
+    "id": "kanji-088",
+    "kanji": "五",
+    "meaning": "Five",
+    "mnemonic": "Looks a bit like the number 5, but blocked out with straight lines.",
+    "examples": [
+      {
+        "vocab": "<ruby>五<rt>ご</rt></ruby>",
+        "meaning": "Five",
+        "sentence": "<ruby>五人<rt>ごにん</rt></ruby><ruby>家族<rt>かぞく</rt></ruby>です。",
+        "translation": "We are a family of five."
+      },
+      {
+        "vocab": "<ruby>五<rt>いつ</rt></ruby>つ",
+        "meaning": "Five (generic objects)",
+        "sentence": "<ruby>卵<rt>たまご</rt></ruby>が<ruby>五<rt>いつ</rt></ruby>つあります。",
+        "translation": "There are five eggs."
+      }
+    ]
+  },
+  {
+    "id": "kanji-089",
+    "kanji": "六",
+    "meaning": "Six",
+    "mnemonic": "A person doing a jumping jack with their arms down, showing six points.",
+    "examples": [
+      {
+        "vocab": "<ruby>六<rt>ろく</rt></ruby>",
+        "meaning": "Six",
+        "sentence": "<ruby>六時<rt>ろくじ</rt></ruby>に<ruby>起<rt>お</rt></ruby>きます。",
+        "translation": "I wake up at six."
+      },
+      {
+        "vocab": "<ruby>六<rt>むっ</rt></ruby>つ",
+        "meaning": "Six (generic objects)",
+        "sentence": "これを<ruby>六<rt>むっ</rt></ruby>つください。",
+        "translation": "Please give me six of these."
+      }
+    ]
+  },
+  {
+    "id": "kanji-090",
+    "kanji": "七",
+    "meaning": "Seven",
+    "mnemonic": "An upside-down 7 with a line crossing through it.",
+    "examples": [
+      {
+        "vocab": "<ruby>七<rt>なな</rt></ruby>",
+        "meaning": "Seven",
+        "sentence": "<ruby>七歳<rt>ななさい</rt></ruby>です。",
+        "translation": "I am seven years old."
+      },
+      {
+        "vocab": "<ruby>七時<rt>しちじ</rt></ruby>",
+        "meaning": "Seven o'clock",
+        "sentence": "<ruby>七時<rt>しちじ</rt></ruby>に<ruby>朝<rt>あさ</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べます。",
+        "translation": "I eat breakfast at seven o'clock."
+      }
+    ]
+  },
+  {
+    "id": "kanji-091",
+    "kanji": "八",
+    "meaning": "Eight",
+    "mnemonic": "Two lines splitting apart to make a volcano shape.",
+    "examples": [
+      {
+        "vocab": "<ruby>八<rt>はち</rt></ruby>",
+        "meaning": "Eight",
+        "sentence": "<ruby>八時<rt>はちじ</rt></ruby>に<ruby>始<rt>はじ</rt></ruby>まります。",
+        "translation": "It starts at eight o'clock."
+      },
+      {
+        "vocab": "<ruby>八<rt>やっ</rt></ruby>つ",
+        "meaning": "Eight (generic objects)",
+        "sentence": "みかんが<ruby>八<rt>やっ</rt></ruby>つあります。",
+        "translation": "There are eight tangerines."
+      }
+    ]
+  },
+  {
+    "id": "kanji-092",
+    "kanji": "九",
+    "meaning": "Nine",
+    "mnemonic": "Looks like a person doing a one-armed pushup.",
+    "examples": [
+      {
+        "vocab": "<ruby>九<rt>きゅう</rt></ruby>",
+        "meaning": "Nine",
+        "sentence": "<ruby>九百円<rt>きゅうひゃくえん</rt></ruby>です。",
+        "translation": "It is 900 yen."
+      },
+      {
+        "vocab": "<ruby>九時<rt>くじ</rt></ruby>",
+        "meaning": "Nine o'clock",
+        "sentence": "<ruby>毎晩<rt>まいばん</rt></ruby><ruby>九時<rt>くじ</rt></ruby>に<ruby>寝<rt>ね</rt></ruby>ます。",
+        "translation": "I sleep at nine o'clock every night."
+      }
+    ]
+  },
+  {
+    "id": "kanji-093",
+    "kanji": "十",
+    "meaning": "Ten",
+    "mnemonic": "A perfect cross.",
+    "examples": [
+      {
+        "vocab": "<ruby>十<rt>じゅう</rt></ruby>",
+        "meaning": "Ten",
+        "sentence": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>十人<rt>じゅうにん</rt></ruby>います。",
+        "translation": "There are ten students."
+      },
+      {
+        "vocab": "<ruby>十<rt>とお</rt></ruby>",
+        "meaning": "Ten (generic objects)",
+        "sentence": "これを<ruby>十<rt>とお</rt></ruby>ください。",
+        "translation": "Please give me ten of these."
+      }
+    ]
+  },
+  {
+    "id": "kanji-094",
+    "kanji": "百",
+    "meaning": "Hundred",
+    "mnemonic": "Turning a white (白) sun onto its side under a roof makes it worth a hundred.",
+    "examples": [
+      {
+        "vocab": "<ruby>百<rt>ひゃく</rt></ruby>",
+        "meaning": "Hundred",
+        "sentence": "これは<ruby>百円<rt>ひゃくえん</rt></ruby>です。",
+        "translation": "This is 100 yen."
+      },
+      {
+        "vocab": "<ruby>三百<rt>さんびゃく</rt></ruby>",
+        "meaning": "Three hundred",
+        "sentence": "<ruby>三百円<rt>さんびゃくえん</rt></ruby>のケーキを<ruby>買<rt>か</rt></ruby>いました。",
+        "translation": "I bought a 300 yen cake."
+      }
+    ]
+  },
+  {
+    "id": "kanji-095",
+    "kanji": "千",
+    "meaning": "Thousand",
+    "mnemonic": "A cross (十) with an extra drop on top, multiplying it by 100.",
+    "examples": [
+      {
+        "vocab": "<ruby>千<rt>せん</rt></ruby>",
+        "meaning": "Thousand",
+        "sentence": "<ruby>千円<rt>せんえん</rt></ruby><ruby>貸<rt>か</rt></ruby>してください。",
+        "translation": "Please lend me 1000 yen."
+      },
+      {
+        "vocab": "<ruby>三千<rt>さんぜん</rt></ruby>",
+        "meaning": "Three thousand",
+        "sentence": "<ruby>三千円<rt>さんぜんえん</rt></ruby>かかります。",
+        "translation": "It costs 3000 yen."
+      }
+    ]
+  },
+  {
+    "id": "kanji-096",
+    "kanji": "万",
+    "meaning": "Ten Thousand",
+    "mnemonic": "A flag whipping in the wind, representing a large army of 10,000 soldiers.",
+    "examples": [
+      {
+        "vocab": "<ruby>一万<rt>いちまん</rt></ruby>",
+        "meaning": "Ten thousand",
+        "sentence": "この<ruby>時計<rt>とけい</rt></ruby>は<ruby>一万円<rt>いちまんえん</rt></ruby>です。",
+        "translation": "This watch is 10,000 yen."
+      }
+    ]
+  },
+  {
+    "id": "kanji-097",
+    "kanji": "火",
+    "meaning": "Fire",
+    "mnemonic": "Looks like flames leaping up from a campfire.",
+    "examples": [
+      {
+        "vocab": "<ruby>火<rt>ひ</rt></ruby>",
+        "meaning": "Fire",
+        "sentence": "<ruby>火<rt>ひ</rt></ruby>に<ruby>気<rt>き</rt></ruby>をつけてください。",
+        "translation": "Please be careful with the fire."
+      },
+      {
+        "vocab": "<ruby>火曜日<rt>かようび</rt></ruby>",
+        "meaning": "Tuesday",
+        "sentence": "<ruby>火曜日<rt>かようび</rt></ruby>にテストがあります。",
+        "translation": "There is a test on Tuesday."
+      }
+    ]
+  },
+  {
+    "id": "kanji-098",
+    "kanji": "川",
+    "meaning": "River",
+    "mnemonic": "Three strokes representing water flowing down a river.",
+    "examples": [
+      {
+        "vocab": "<ruby>川<rt>かわ</rt></ruby>",
+        "meaning": "River",
+        "sentence": "<ruby>川<rt>かわ</rt></ruby>で<ruby>泳<rt>およ</rt></ruby>ぎます。",
+        "translation": "I swim in the river."
+      }
+    ]
+  },
+  {
+    "id": "kanji-099",
+    "kanji": "花",
+    "meaning": "Flower",
+    "mnemonic": "The grass radical on top, with a person changing (化) it into a flower below.",
+    "examples": [
+      {
+        "vocab": "<ruby>花<rt>はな</rt></ruby>",
+        "meaning": "Flower",
+        "sentence": "<ruby>春<rt>はる</rt></ruby>に<ruby>花<rt>はな</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>きます。",
+        "translation": "Flowers bloom in the spring."
+      },
+      {
+        "vocab": "<ruby>花見<rt>はなみ</rt></ruby>",
+        "meaning": "Flower viewing",
+        "sentence": "<ruby>週末<rt>しゅうまつ</rt></ruby>に<ruby>花見<rt>はなみ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。",
+        "translation": "I am going flower viewing this weekend."
+      }
+    ]
+  },
+  {
+    "id": "kanji-100",
+    "kanji": "空",
+    "meaning": "Sky / Empty",
+    "mnemonic": "A hole (穴) in the roof letting you look out at the sky.",
+    "examples": [
+      {
+        "vocab": "<ruby>空<rt>そら</rt></ruby>",
+        "meaning": "Sky",
+        "sentence": "<ruby>今日<rt>きょう</rt></ruby>の<ruby>空<rt>そら</rt></ruby>は<ruby>青<rt>あお</rt></ruby>いです。",
+        "translation": "The sky is blue today."
+      },
+      {
+        "vocab": "<ruby>空気<rt>くうき</rt></ruby>",
+        "meaning": "Air",
+        "sentence": "<ruby>山<rt>やま</rt></ruby>の<ruby>空気<rt>くうき</rt></ruby>はきれいです。",
+        "translation": "The mountain air is clean."
+      }
+    ]
+  }
+]

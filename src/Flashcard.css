@@ -1,0 +1,217 @@
+/* 1. THE WRAPPER */
+/* =========================================
+   FLASHCARD RESPONSIVENESS (Flashcard.css)
+   ========================================= */
+.flashcard-wrapper {
+  /* Fix Width Overflow: Let it shrink if needed */
+  width: 100%;
+  max-width: 340px;
+  /* (Remove min-width entirely) */
+  
+  /* Fix Height Overflow: Make it responsive to the phone screen */
+  height: 55vh;         /* Takes up 55% of the screen height */
+  min-height: 380px;    /* But never gets completely crushed */
+  max-height: 500px;    /* And never gets absurdly tall on big screens */
+  
+  margin: 0 auto;
+  
+  perspective: 1000px;
+  cursor: pointer;
+  user-select: none; 
+  -webkit-user-select: none;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  /* justify-content might already be set, but ensure it prevents horizontal scroll: */
+  overflow-x: hidden; 
+  width: 100%;
+  max-width: 100vw;
+}
+
+/* 2. THE INNER CONTAINER */
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.flashcard-wrapper.flipped .flashcard-inner {
+  transform: rotateY(180deg);
+}
+
+/* 3. THE FACES */
+.flashcard-front, .flashcard-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* FRONT SPECIFIC */
+.flashcard-front {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7rem;
+  color: #222;
+  overflow: hidden; /* No scrollbar on the front */
+}
+
+/* BACK SPECIFIC */
+.flashcard-back {
+  background-color: #f8f9fa;
+  transform: rotateY(180deg);
+  padding: 24px;
+  box-sizing: border-box;
+  overflow-y: auto; /* Scrollbar ONLY on the back when needed */
+}
+
+/* FURIGANA STYLING */
+ruby {
+  ruby-align: center;
+}
+
+rt {
+  font-size: 0.75em; /* Increased size significantly */
+  color: #555;
+  min-height: 1.2em;
+  font-weight: normal;
+}
+
+/* Global Toggle (Controlled by App.js) */
+.hide-furigana rt {
+  display: none !important;
+}
+
+.card-header h2 {
+  margin: 0 0 8px 0;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.mnemonic {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 16px 0;
+}
+
+/* READINGS & EXAMPLES */
+.readings-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.example-block {
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: left;
+}
+
+.vocab-header {
+  margin-bottom: 8px;
+}
+
+.vocab-word {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.vocab-meaning {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.sentence-block p {
+  margin: 4px 0 0 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.english-translation {
+  color: #777 !important;
+  font-style: italic;
+  font-size: 0.85rem !important;
+}
+
+.japanese-sentence {
+  letter-spacing: 0.12em; /* Adds perfect breathing room between characters */
+}
+
+/* Global Toggle */
+.hide-furigana rt {
+  display: none !important;
+}
+
+/* =========================================
+   FURIGANA STYLING
+   ========================================= */
+ruby {
+  ruby-align: center;
+  /* Ensure the text stays together */
+  white-space: nowrap; 
+}
+
+rt {
+  /* Force the browser to render it ON TOP of the kanji */
+  display: ruby-text !important; 
+  ruby-position: over;
+  
+  /* Make it much larger (85% of the kanji size) */
+  font-size: 0.65em !important; 
+  
+  color: #555;
+  font-weight: 500;
+  line-height: 1;
+}
+
+/* Global Toggle (Controlled by App.js) */
+.hide-furigana rt {
+  display: none !important;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 500px) {
+  .flashcard-wrapper {
+    width: 320px;
+    height: 400px; /* Shrinks the height on phones so buttons stay visible */
+  }
+  
+  .flashcard-front {
+    font-size: 6rem; /* Slightly smaller kanji on mobile */
+  }
+}
+
+.app-container {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  
+  /* ADD THESE TWO LINES TO FIX SAFARI SWIPING */
+  touch-action: pan-y; /* Allows scrolling up/down, but gives horizontal swipes to the app */
+  overflow-x: hidden;  /* Prevents the screen from wobbling left/right */
+}
