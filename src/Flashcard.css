@@ -3,24 +3,24 @@
    FLASHCARD RESPONSIVENESS (Flashcard.css)
    ========================================= */
 .flashcard-wrapper {
-  /* Fix Width Overflow: Let it shrink if needed */
+  /* Make it BIG again */
   width: 100%;
-  max-width: 340px;
-  /* (Remove min-width entirely) */
+  max-width: 600px; /* Restored to a large banner size */
   
-  /* Fix Height Overflow: Make it responsive to the phone screen */
-  height: 55vh;         /* Takes up 55% of the screen height */
-  min-height: 380px;    /* But never gets completely crushed */
-  max-height: 500px;    /* And never gets absurdly tall on big screens */
+  height: 60vh;         
+  min-height: 450px;    
+  max-height: 600px;    
   
-  margin: 0 auto;
+  /* THIS is the magic centering trick. 
+     It forces the card to sit in the absolute dead center of the page,
+     pushing the top menu and bottom buttons away. */
+  margin: auto; 
   
   perspective: 1000px;
   cursor: pointer;
   user-select: none; 
   -webkit-user-select: none;
 }
-
 .app-container {
   display: flex;
   flex-direction: column;
