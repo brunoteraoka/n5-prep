@@ -1,0 +1,137 @@
+/* =========================================
+   PAGE LAYOUT
+   ========================================= */
+.verb-page-layout {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px 20px 30px 20px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 80px);
+}
+
+/* =========================================
+   THE VERB CARD (Swipeable)
+   ========================================= */
+.verb-flashcard {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 25px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  
+  /* Centers it vertically */
+  margin: auto 0;
+  
+  /* Allows internal scrolling if the notes get too long */
+  max-height: 65vh;
+  overflow-y: auto;
+  
+  /* Smooth transitions */
+  transition: opacity 0.2s ease;
+}
+
+.verb-header { display: flex; justify-content: space-between; align-items: center; }
+.verb-kanji { display: flex; flex-direction: column; }
+.verb-kanji h1 { margin: 0; font-size: 2.5rem; color: #222; }
+.verb-kana { color: #777; font-size: 1rem; }
+.verb-info { text-align: right; }
+.verb-info h3 { margin: 0 0 5px 0; color: #007bff; font-size: 1.4rem; }
+.verb-group { background: #f0f0f0; padding: 4px 8px; border-radius: 6px; font-size: 0.85rem; color: #555; }
+.verb-divider { border: 0; height: 1px; background: #eaeaea; margin: 15px 0; }
+
+/* =========================================
+   PARTICLE SECTION
+   ========================================= */
+.particle-section {
+  background: #fff8e6;
+  border-left: 4px solid #ffc107;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.particle-badge {
+  color: #b38600;
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.particle-badge strong {
+  font-size: 1.2rem;
+  color: #d39e00;
+}
+
+.particle-exp {
+  margin: 0 0 5px 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.particle-example {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* =========================================
+   FLEXIONS TABLE & GRAMMAR (Inherited)
+   ========================================= */
+.flexions-grid { display: flex; flex-direction: column; gap: 8px; }
+.flexion-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: #f9fbfc; border-radius: 8px; border-left: 3px solid #007bff; }
+.flexion-name { font-weight: 600; color: #444; font-size: 0.9rem; }
+.flexion-japanese { display: flex; flex-direction: column; text-align: right; }
+.flex-text { font-size: 1.1rem; color: #111; font-weight: bold; }
+.flex-romaji { font-size: 0.85rem; color: #888; }
+
+.grammar-drawer-container { margin-top: 20px; display: flex; flex-direction: column; align-items: center; }
+.grammar-toggle-btn { background: none; border: 1px solid #007bff; color: #007bff; padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; cursor: pointer; width: 100%; }
+.grammar-note-content { margin-top: 15px; background-color: #f0f7ff; border-left: 4px solid #007bff; padding: 15px; border-radius: 0 8px 8px 0; width: 100%; box-sizing: border-box; text-align: left; }
+.grammar-note-content h4 { margin: 0 0 8px 0; color: #0056b3; font-size: 1.05rem; }
+.grammar-note-content p { margin: 0; color: #333; font-size: 0.95rem; line-height: 1.5; }
+
+/* =========================================
+   BOTTOM NAVIGATION
+   ========================================= */
+.verb-bottom-controls {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.card-counter {
+  margin: 0 0 10px 0;
+  color: #888;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.verb-nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 15px;
+}
+
+.btn-nav {
+  flex: 1;
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #e9ecef;
+  color: #333;
+  transition: background 0.2s;
+}
+
+.btn-nav:hover {
+  background-color: #dde2e6;
+}

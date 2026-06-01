@@ -1,0 +1,2642 @@
+[
+  {
+    "id": 1,
+    "kanji": "食べる",
+    "kana": "たべる",
+    "romaji": "taberu",
+    "meaning": "to eat",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks the direct object. Whatever is being eaten takes 'を'.",
+      "example": "湯豆腐を食べる。(I eat yudofu.)"
+    },
+    "grammarNote": {
+      "title": "💡 Why the Te-form (食べて) is crucial",
+      "content": "The Te-form acts as the 'glue' of Japanese sentences. You can't just say 'I eat. I go.' You use the Te-form to connect them: 朝ごはんを食べて、学校に行きます (I eat breakfast, AND THEN I go to school)."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "食べる",
+        "romaji": "taberu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "食べます",
+        "romaji": "tabemasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "食べて",
+        "romaji": "tabete"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "食べない",
+        "romaji": "tabenai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "食べた",
+        "romaji": "tabeta"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "kanji": "飲む",
+    "kana": "のむ",
+    "romaji": "nomu",
+    "meaning": "to drink",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks the direct object — what is being drunk takes 'を'.",
+      "example": "コーヒーを飲む。(I drink coffee.)"
+    },
+    "grammarNote": {
+      "title": "💡 Te-form of む-ending verbs",
+      "content": "Godan verbs ending in む change to んで in the Te-form: 飲む → 飲んで. This sound change (音便 / おんびん) applies to ぬ and ぶ endings too. Example: コーヒーを飲んで、元気になりました (I drank coffee and felt better)."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "飲む",
+        "romaji": "nomu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "飲みます",
+        "romaji": "nomimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "飲んで",
+        "romaji": "nonde"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "飲まない",
+        "romaji": "nomanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "飲んだ",
+        "romaji": "nonda"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "kanji": "行く",
+    "kana": "いく",
+    "romaji": "iku",
+    "meaning": "to go",
+    "group": "Godan (U-verb) — irregular Te-form",
+    "particleNote": {
+      "particle": "に (ni) / へ (e)",
+      "explanation": "Marks the destination. 'に' focuses on the arrival point, 'へ' on the direction.",
+      "example": "箱根に行く。(I go to Hakone.)"
+    },
+    "grammarNote": {
+      "title": "⚠️ The one irregular Te-form in Godan verbs",
+      "content": "行く is the ONLY Godan く-verb whose Te-form is いって (not いいて). All other く-verbs follow the rule: 書く → 書いて. Remember: 行って is an exception. It pairs with に or へ: 学校に行って、勉強します (I go to school and study)."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "行く",
+        "romaji": "iku"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "行きます",
+        "romaji": "ikimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "行って",
+        "romaji": "itte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "行かない",
+        "romaji": "ikanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "行った",
+        "romaji": "itta"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "kanji": "来る",
+    "kana": "くる",
+    "romaji": "kuru",
+    "meaning": "to come",
+    "group": "Irregular (Kuru-verb)",
+    "particleNote": {
+      "particle": "に (ni) / へ (e)",
+      "explanation": "Marks where someone comes to. Movement is toward the speaker.",
+      "example": "日本に来る。(I come to Japan.)"
+    },
+    "grammarNote": {
+      "title": "⚠️ 来る is one of only two irregular verbs",
+      "content": "Japanese has just two truly irregular verbs: する and 来る. All forms of 来る change the root: く → き → こ. Watch for: 来て (kite), 来ない (konai), 来た (kita). Direction matters: use 来る when movement is toward the speaker, 行く when away."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "来る",
+        "romaji": "kuru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "来ます",
+        "romaji": "kimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "来て",
+        "romaji": "kite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "来ない",
+        "romaji": "konai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "来た",
+        "romaji": "kita"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "kanji": "する",
+    "kana": "する",
+    "romaji": "suru",
+    "meaning": "to do",
+    "group": "Irregular (Suru-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks the activity or noun being done. Many nouns + を + する become verbs.",
+      "example": "宿題をする。(I do homework.)"
+    },
+    "grammarNote": {
+      "title": "⚠️ する turns nouns into verbs",
+      "content": "する is the most productive verb in Japanese. Add it after almost any noun to mean 'to do [noun]': 勉強する (study), 運動する (exercise), 電話する (phone). For N5 exams, memorise: します (polite), して (Te-form), しない (negative), した (past)."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "する",
+        "romaji": "suru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "します",
+        "romaji": "shimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "して",
+        "romaji": "shite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "しない",
+        "romaji": "shinai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "した",
+        "romaji": "shita"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "kanji": "見る",
+    "kana": "みる",
+    "romaji": "miru",
+    "meaning": "to see / to watch / to look at",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what is watched or looked at.",
+      "example": "映画を見る。(I watch a movie.)"
+    },
+    "grammarNote": {
+      "title": "💡 見る vs 見える — 'to watch' vs 'to be visible'",
+      "content": "見る is an intentional action: テレビを見る (watch TV). 見える is potential/involuntary: 富士山が見える (Mt Fuji can be seen). For N5, focus on 見る. Common pattern: 〜てみる = try doing something: 食べてみる (try eating it)."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "見る",
+        "romaji": "miru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "見ます",
+        "romaji": "mimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "見て",
+        "romaji": "mite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "見ない",
+        "romaji": "minai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "見た",
+        "romaji": "mita"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "kanji": "聞く",
+    "kana": "きく",
+    "romaji": "kiku",
+    "meaning": "to listen / to hear / to ask",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o) / に (ni)",
+      "explanation": "'を' for what you listen to; 'に' for the person you ask.",
+      "example": "音楽を聞く。(I listen to music.)"
+    },
+    "grammarNote": {
+      "title": "💡 聞く has three meanings — context decides",
+      "content": "聞く can mean listen (音楽を聞く), hear (音が聞こえる is different), or ask (先生に聞く). For N5 exams, the particle signals the meaning: を for listening, に for asking. Te-form: く → いて, so 聞いて."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "聞く",
+        "romaji": "kiku"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "聞きます",
+        "romaji": "kikimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "聞いて",
+        "romaji": "kiite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "聞かない",
+        "romaji": "kikanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "聞いた",
+        "romaji": "kiita"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "kanji": "話す",
+    "kana": "はなす",
+    "romaji": "hanasu",
+    "meaning": "to speak / to talk",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "と (to) / で (de)",
+      "explanation": "'と' for the person you talk with; 'で' for the language used.",
+      "example": "日本語で話す。(I speak in Japanese.)"
+    },
+    "grammarNote": {
+      "title": "💡 The す → して Te-form rule",
+      "content": "Godan verbs ending in す always form their Te-form with して: 話す → 話して, 貸す → 貸して, 押す → 押して. There are no exceptions to this rule. Example: 日本語で話してください (Please speak in Japanese)."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "話す",
+        "romaji": "hanasu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "話します",
+        "romaji": "hanashimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "話して",
+        "romaji": "hanashite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "話さない",
+        "romaji": "hanasanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "話した",
+        "romaji": "hanashita"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "kanji": "書く",
+    "kana": "かく",
+    "romaji": "kaku",
+    "meaning": "to write",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what is written.",
+      "example": "手紙を書く。(I write a letter.)"
+    },
+    "grammarNote": {
+      "title": "💡 く → いて: the standard Te-form rule for く-verbs",
+      "content": "Most く-ending Godan verbs change to いて: 書く → 書いて, 歩く → 歩いて, 聞く → 聞いて. The only exception is 行く → 行って. Remember this rule and the one exception, and you've covered almost all く-verbs at N5."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "書く",
+        "romaji": "kaku"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "書きます",
+        "romaji": "kakimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "書いて",
+        "romaji": "kaite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "書かない",
+        "romaji": "kakanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "書いた",
+        "romaji": "kaita"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "kanji": "読む",
+    "kana": "よむ",
+    "romaji": "yomu",
+    "meaning": "to read",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what is read.",
+      "example": "本を読む。(I read a book.)"
+    },
+    "grammarNote": {
+      "title": "💡 む → んで: the nasal sound change",
+      "content": "む-ending Godan verbs use the 'nasal Te-form' — む → んで: 読む → 読んで. This follows the same pattern as 飲む → 飲んで and 休む → 休んで. In N5 reading passages, 〜を読んでいます (am reading ~) appears very frequently."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "読む",
+        "romaji": "yomu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "読みます",
+        "romaji": "yomimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "読んで",
+        "romaji": "yonde"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "読まない",
+        "romaji": "yomanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "読んだ",
+        "romaji": "yonda"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "kanji": "起きる",
+    "kana": "おきる",
+    "romaji": "okiru",
+    "meaning": "to wake up / to get up",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "— (intransitive)",
+      "explanation": "No direct object. The subject (you) wakes up by itself; time takes に.",
+      "example": "七時に起きる。(I wake up at 7.)"
+    },
+    "grammarNote": {
+      "title": "💡 起きる vs 起こす — intransitive vs transitive",
+      "content": "起きる = wake up by yourself (intransitive). 起こす = wake someone else up (transitive). This pair is a classic N5 trap. Example: 毎朝7時に起きます (I wake up at 7 every morning). 子どもを起こします (I wake the child up)."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "起きる",
+        "romaji": "okiru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "起きます",
+        "romaji": "okimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "起きて",
+        "romaji": "okite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "起きない",
+        "romaji": "okinai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "起きた",
+        "romaji": "okita"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "kanji": "寝る",
+    "kana": "ねる",
+    "romaji": "neru",
+    "meaning": "to sleep / to go to bed",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "— (intransitive)",
+      "explanation": "No direct object. Time of sleeping takes に.",
+      "example": "十一時に寝る。(I go to bed at 11.)"
+    },
+    "grammarNote": {
+      "title": "💡 Time expressions with 寝る",
+      "content": "寝る commonly pairs with time words and the まえに (before) or てから (after) patterns. 寝るまえに歯を磨きます (I brush my teeth before sleeping). 〜時間寝ます (sleep for ~ hours). These sentence structures appear regularly in N5 reading."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "寝る",
+        "romaji": "neru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "寝ます",
+        "romaji": "nemasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "寝て",
+        "romaji": "nete"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "寝ない",
+        "romaji": "nenai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "寝た",
+        "romaji": "neta"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "kanji": "買う",
+    "kana": "かう",
+    "romaji": "kau",
+    "meaning": "to buy",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what is bought.",
+      "example": "新しい服を買う。(I buy new clothes.)"
+    },
+    "grammarNote": {
+      "title": "💡 う-ending Godan verbs: the hidden わ row",
+      "content": "Verbs ending in う look like they should use the あ sound in the Nai-form — but う-final Godan verbs use わ instead: 買う → 買わない (not 買あない). This applies to 言う、使う、洗う、会う too. Te-form: 買う → 買って (う → って)."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "買う",
+        "romaji": "kau"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "買います",
+        "romaji": "kaimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "買って",
+        "romaji": "katte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "買わない",
+        "romaji": "kawanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "買った",
+        "romaji": "katta"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "kanji": "使う",
+    "kana": "つかう",
+    "romaji": "tsukau",
+    "meaning": "to use",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks the tool or object used.",
+      "example": "パソコンを使う。(I use a computer.)"
+    },
+    "grammarNote": {
+      "title": "💡 使う takes を for the thing used",
+      "content": "The thing being used always takes を: パソコンを使います (I use a computer). Confusingly, 使う sometimes competes with する in meaning — but 使う focuses on a tool or object. N5 tip: 〜を使って (using ~) is a very common connective pattern."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "使う",
+        "romaji": "tsukau"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "使います",
+        "romaji": "tsukaimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "使って",
+        "romaji": "tsukatte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "使わない",
+        "romaji": "tsukawanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "使った",
+        "romaji": "tsukatta"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "kanji": "会う",
+    "kana": "あう",
+    "romaji": "au",
+    "meaning": "to meet",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "に (ni)",
+      "explanation": "Marks the person you meet — NOT を.",
+      "example": "友だちに会う。(I meet a friend.)"
+    },
+    "grammarNote": {
+      "title": "💡 会う takes に, not を",
+      "content": "Unlike English 'meet someone', 会う uses に for the person met: 友だちに会います (I meet a friend). Using を here is a common mistake. Contrast: 見る takes を. In N5 reading passages, 〜に会いに行く (go to meet ~) is a very common structure."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "会う",
+        "romaji": "au"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "会います",
+        "romaji": "aimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "会って",
+        "romaji": "atte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "会わない",
+        "romaji": "awanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "会った",
+        "romaji": "atta"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "kanji": "待つ",
+    "kana": "まつ",
+    "romaji": "matsu",
+    "meaning": "to wait",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what or who is waited for.",
+      "example": "バスを待つ。(I wait for the bus.)"
+    },
+    "grammarNote": {
+      "title": "💡 つ → って: the small っ (double consonant) rule",
+      "content": "Godan verbs ending in つ use って for the Te-form: 待つ → 待って, 立つ → 立って, 持つ → 持って. The same double-consonant pattern applies to う and る Godan verbs too: 買う → 買って, 帰る → 帰って. Station PA systems love 〜をお待ちください."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "待つ",
+        "romaji": "matsu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "待ちます",
+        "romaji": "machimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "待って",
+        "romaji": "matte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "待たない",
+        "romaji": "matanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "待った",
+        "romaji": "matta"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "kanji": "持つ",
+    "kana": "もつ",
+    "romaji": "motsu",
+    "meaning": "to hold / to carry / to have",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what is held or carried.",
+      "example": "かばんを持つ。(I carry a bag.)"
+    },
+    "grammarNote": {
+      "title": "💡 持つ vs 持っている — momentary vs ongoing",
+      "content": "持つ is the action of picking up / holding. 持っている describes a continuing state: something you carry or own. カバンを持っています (I have/am carrying a bag). This 〜ている pattern for ongoing states is tested frequently in N5 grammar."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "持つ",
+        "romaji": "motsu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "持ちます",
+        "romaji": "mochimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "持って",
+        "romaji": "motte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "持たない",
+        "romaji": "motanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "持った",
+        "romaji": "motta"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "kanji": "帰る",
+    "kana": "かえる",
+    "romaji": "kaeru",
+    "meaning": "to return / to go home",
+    "group": "Godan (U-verb) — looks like Ru-verb!",
+    "particleNote": {
+      "particle": "— / を (o)",
+      "explanation": "Place returned to takes に/へ; place left takes を.",
+      "example": "家に帰る。(I return home.)"
+    },
+    "grammarNote": {
+      "title": "⚠️ 帰る is a Godan verb — don't be tricked!",
+      "content": "帰る ends in る but it's Godan, not Ichidan. The Te-form is 帰って (not 帰て). Other common Godan る-verbs at N5: 走る、切る、知る、入る、帰る. A reliable sign: if the vowel before る is a, u, or o — it's almost always Godan."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "帰る",
+        "romaji": "kaeru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "帰ります",
+        "romaji": "kaerimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "帰って",
+        "romaji": "kaette"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "帰らない",
+        "romaji": "kaeranai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "帰った",
+        "romaji": "kaetta"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "kanji": "入る",
+    "kana": "はいる",
+    "romaji": "hairu",
+    "meaning": "to enter / to go in",
+    "group": "Godan (U-verb) — looks like Ru-verb!",
+    "particleNote": {
+      "particle": "に (ni)",
+      "explanation": "Marks what you enter into.",
+      "example": "部屋に入る。(I enter the room.)"
+    },
+    "grammarNote": {
+      "title": "💡 入る (Godan) vs 入れる (Ichidan)",
+      "content": "入る (はいる) = to enter (intransitive — you go in): 部屋に入ります. 入れる (いれる) = to put in / insert (transitive): コインを入れます. N5 exams test this transitive/intransitive pair. Remember: 入る is Godan → Te-form 入って."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "入る",
+        "romaji": "hairu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "入ります",
+        "romaji": "hairimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "入って",
+        "romaji": "haitte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "入らない",
+        "romaji": "hairanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "入った",
+        "romaji": "haitta"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "kanji": "出る",
+    "kana": "でる",
+    "romaji": "deru",
+    "meaning": "to go out / to leave / to appear",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks the place you exit from.",
+      "example": "家を出る。(I leave the house.)"
+    },
+    "grammarNote": {
+      "title": "💡 出る is the opposite of 入る",
+      "content": "出る (でる) = to come/go out: 家を出ます (I leave the house). Note it takes を, not に/から. Its transitive partner is 出す (to take out / to hand in): しゅくだいを出す (hand in homework). 出る also means 'to appear/be served': 料理が出ます."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "出る",
+        "romaji": "deru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "出ます",
+        "romaji": "demasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "出て",
+        "romaji": "dete"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "出ない",
+        "romaji": "denai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "出た",
+        "romaji": "deta"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "kanji": "乗る",
+    "kana": "のる",
+    "romaji": "noru",
+    "meaning": "to ride / to get on (transport)",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "に (ni)",
+      "explanation": "Marks the vehicle you board — NOT を.",
+      "example": "電車に乗る。(I get on the train.)"
+    },
+    "grammarNote": {
+      "title": "💡 乗る takes に for the vehicle",
+      "content": "The vehicle you board takes に: 電車に乗ります (ride the train). Contrast with 乗り換える (のりかえる = transfer / change trains). The opposite is 降りる (おりる = to get off). These transport verbs are staples of N5 schedule and route questions."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "乗る",
+        "romaji": "noru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "乗ります",
+        "romaji": "norimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "乗って",
+        "romaji": "notte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "乗らない",
+        "romaji": "noranai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "乗った",
+        "romaji": "notta"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "kanji": "降りる",
+    "kana": "おりる",
+    "romaji": "oriru",
+    "meaning": "to get off / to descend",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "で (de) / を (o)",
+      "explanation": "Place of getting off takes で; vehicle exited takes を.",
+      "example": "次の駅で降りる。(I get off at the next station.)"
+    },
+    "grammarNote": {
+      "title": "💡 Always paired with 乗る in transport contexts",
+      "content": "乗る (get on) and 降りる (get off) always appear together in N5 travel scenarios. 次の駅で降ります (I get off at the next station). Takes で for the stop: 東京駅で降ります. Don't confuse 降りる (get off) with 下がる (go down in value/level)."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "降りる",
+        "romaji": "oriru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "降ります",
+        "romaji": "orimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "降りて",
+        "romaji": "orite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "降りない",
+        "romaji": "orinai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "降りた",
+        "romaji": "orita"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "kanji": "歩く",
+    "kana": "あるく",
+    "romaji": "aruku",
+    "meaning": "to walk",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "— (intransitive)",
+      "explanation": "No object. Destination takes まで/に.",
+      "example": "駅まで歩く。(I walk to the station.)"
+    },
+    "grammarNote": {
+      "title": "💡 歩いて = 'on foot' — a fixed expression",
+      "content": "歩いて (the Te-form used adverbially) means 'on foot': 駅まで歩いていきます (I go to the station on foot). This pattern — Te-form + 行く/来る — means 'go/come doing [action]' and is common in N5 travel and schedule passages. 徒歩(とほ) is the formal written equivalent."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "歩く",
+        "romaji": "aruku"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "歩きます",
+        "romaji": "arukimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "歩いて",
+        "romaji": "aruite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "歩かない",
+        "romaji": "arukanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "歩いた",
+        "romaji": "aruita"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "kanji": "走る",
+    "kana": "はしる",
+    "romaji": "hashiru",
+    "meaning": "to run",
+    "group": "Godan (U-verb) — looks like Ru-verb!",
+    "particleNote": {
+      "particle": "— (intransitive)",
+      "explanation": "No object. Place run takes を (path) or で.",
+      "example": "公園を走る。(I run in the park.)"
+    },
+    "grammarNote": {
+      "title": "⚠️ 走る is Godan despite looking like Ichidan",
+      "content": "走る ends in iru but is Godan: 走ります (polite), 走って (Te-form), 走らない (Nai). If it were Ichidan it would be 走ります → 走りて, which doesn't exist. Test yourself: if 〜ない ends in らない it's Godan; if it ends in ない with no ら it's Ichidan."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "走る",
+        "romaji": "hashiru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "走ります",
+        "romaji": "hashirimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "走って",
+        "romaji": "hashitte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "走らない",
+        "romaji": "hashiranai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "走った",
+        "romaji": "hashitta"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "kanji": "泳ぐ",
+    "kana": "およぐ",
+    "romaji": "oyogu",
+    "meaning": "to swim",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "— (intransitive)",
+      "explanation": "No object. Place swum takes で.",
+      "example": "海で泳ぐ。(I swim in the sea.)"
+    },
+    "grammarNote": {
+      "title": "💡 ぐ → いで: the voiced Te-form rule",
+      "content": "Godan verbs ending in ぐ change to いで in the Te-form: 泳ぐ → 泳いで, 急ぐ → 急いで. This is the voiced equivalent of く → いて. Remember: ぐ and く both become い + consonant, but ぐ stays voiced as で not て."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "泳ぐ",
+        "romaji": "oyogu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "泳ぎます",
+        "romaji": "oyogimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "泳いで",
+        "romaji": "oyoide"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "泳がない",
+        "romaji": "oyoganai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "泳いだ",
+        "romaji": "oyoida"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "kanji": "遊ぶ",
+    "kana": "あそぶ",
+    "romaji": "asobu",
+    "meaning": "to play / to have fun / to hang out",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "— (intransitive)",
+      "explanation": "No object. Place played takes で.",
+      "example": "公園で遊ぶ。(I play in the park.)"
+    },
+    "grammarNote": {
+      "title": "💡 ぶ → んで: voiced nasal Te-form",
+      "content": "Godan verbs ending in ぶ form the Te-form with んで: 遊ぶ → 遊んで, 呼ぶ → 呼んで, 飛ぶ → 飛んで. Same sound change as む → んで. A nice N5 sentence: 公園で遊んでいます (playing at the park) — combine with 〜ている for ongoing action."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "遊ぶ",
+        "romaji": "asobu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "遊びます",
+        "romaji": "asobimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "遊んで",
+        "romaji": "asonde"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "遊ばない",
+        "romaji": "asobanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "遊んだ",
+        "romaji": "asonda"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "kanji": "働く",
+    "kana": "はたらく",
+    "romaji": "hataraku",
+    "meaning": "to work",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "で (de)",
+      "explanation": "Place of work takes で.",
+      "example": "会社で働く。(I work at a company.)"
+    },
+    "grammarNote": {
+      "title": "💡 働く vs する for 'work'",
+      "content": "働く focuses on the act of working (often physically or at a job): 会社で働きます (I work at a company). 仕事をする is a synonymous phrase using する. Working location takes で. Common N5 reading context: 〜で働いている (currently working at ~) using 〜ている for ongoing state."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "働く",
+        "romaji": "hataraku"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "働きます",
+        "romaji": "hatarakimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "働いて",
+        "romaji": "hataraite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "働かない",
+        "romaji": "hatarakanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "働いた",
+        "romaji": "hataraita"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "kanji": "休む",
+    "kana": "やすむ",
+    "romaji": "yasumu",
+    "meaning": "to rest / to take a day off / to be absent",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "What you are absent from / rest takes を.",
+      "example": "学校を休む。(I'm absent from school.)"
+    },
+    "grammarNote": {
+      "title": "💡 休む covers rest, absence, and breaks",
+      "content": "休む is versatile: 今日は学校を休みます (I'm absent from school today), 昼休みに休みます (I rest during lunch break), 土曜日は休みます (I take Saturday off). The noun 休み (やすみ) = day off / holiday. N5 tip: 〜をやすむ = be absent from ~, taking を."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "休む",
+        "romaji": "yasumu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "休みます",
+        "romaji": "yasumimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "休んで",
+        "romaji": "yasunde"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "休まない",
+        "romaji": "yasumanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "休んだ",
+        "romaji": "yasunda"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "kanji": "勉強する",
+    "kana": "べんきょうする",
+    "romaji": "benkyou suru",
+    "meaning": "to study",
+    "group": "Irregular (Suru compound)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks the subject studied.",
+      "example": "日本語を勉強する。(I study Japanese.)"
+    },
+    "grammarNote": {
+      "title": "💡 Suru-compound verbs follow する's conjugation",
+      "content": "勉強する = 勉強 (study, noun) + する. All suru-compound verbs conjugate exactly like する: 勉強します、勉強して、勉強しない、勉強した. You can also separate the noun: 勉強をします. Both forms are correct. N5 exams test whether you know these compounds are verbs, not just nouns."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "勉強する",
+        "romaji": "benkyou suru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "勉強します",
+        "romaji": "benkyou shimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "勉強して",
+        "romaji": "benkyou shite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "勉強しない",
+        "romaji": "benkyou shinai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "勉強した",
+        "romaji": "benkyou shita"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "kanji": "練習する",
+    "kana": "れんしゅうする",
+    "romaji": "renshuu suru",
+    "meaning": "to practise",
+    "group": "Irregular (Suru compound)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what is practised.",
+      "example": "ピアノを練習する。(I practise the piano.)"
+    },
+    "grammarNote": {
+      "title": "💡 練習 is common in N5 hobby and club passages",
+      "content": "練習する appears in passages about sports clubs, music lessons, and language study. まいにち練習しています (I practise every day) is a textbook N5 sentence combining 〜ている for habitual action. The noun 練習 (れんしゅう) also appears in N5 vocabulary sections."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "練習する",
+        "romaji": "renshuu suru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "練習します",
+        "romaji": "renshuu shimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "練習して",
+        "romaji": "renshuu shite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "練習しない",
+        "romaji": "renshuu shinai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "練習した",
+        "romaji": "renshuu shita"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "kanji": "教える",
+    "kana": "おしえる",
+    "romaji": "oshieru",
+    "meaning": "to teach / to tell / to inform",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "に (ni) + を (o)",
+      "explanation": "に marks the person taught; を marks what is taught.",
+      "example": "学生に日本語を教える。(I teach students Japanese.)"
+    },
+    "grammarNote": {
+      "title": "💡 教える takes two objects: に and を",
+      "content": "Like English 'teach someone something', 教える uses に for the person and を for what is taught: 田中さんに日本語を教えます (I teach Tanaka Japanese). This double-object structure also appears with あげる/もらう verbs and is a core N5 grammar pattern."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "教える",
+        "romaji": "oshieru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "教えます",
+        "romaji": "oshiemasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "教えて",
+        "romaji": "oshiete"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "教えない",
+        "romaji": "oshienai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "教えた",
+        "romaji": "oshieta"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "kanji": "習う",
+    "kana": "ならう",
+    "romaji": "narau",
+    "meaning": "to learn (from a teacher) / to take lessons",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o) + に/から",
+      "explanation": "を marks what is learned; に/から marks the teacher.",
+      "example": "先生にピアノを習う。(I learn piano from a teacher.)"
+    },
+    "grammarNote": {
+      "title": "💡 習う vs 勉強する vs 覚える",
+      "content": "習う = learn through instruction/lessons (から or に marks the teacher: 先生に習う). 勉強する = study (self-directed or general). 覚える = memorise / learn by heart. N5 exams test which is natural in context. 日本語を習っています (I'm taking Japanese lessons) implies a teacher."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "習う",
+        "romaji": "narau"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "習います",
+        "romaji": "naraimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "習って",
+        "romaji": "naratte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "習わない",
+        "romaji": "narawanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "習った",
+        "romaji": "naratta"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "kanji": "分かる",
+    "kana": "わかる",
+    "romaji": "wakaru",
+    "meaning": "to understand / to know / to be clear",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "が (ga)",
+      "explanation": "Marks what is understood — NOT を.",
+      "example": "日本語が分かる。(I understand Japanese.)"
+    },
+    "grammarNote": {
+      "title": "⚠️ 分かる uses が, not を — a classic N5 particle trap",
+      "content": "Unlike English 'I understand Japanese', 分かる takes が: 日本語が分かります (Japanese is understandable to me). Using を here is one of the most common N5 errors. Similarly: 名前が分かりません (I don't know the name). 分かりました is also the standard 'I understand / Got it.'"
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "分かる",
+        "romaji": "wakaru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "分かります",
+        "romaji": "wakarimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "分かって",
+        "romaji": "wakatte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "分からない",
+        "romaji": "wakaranai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "分かった",
+        "romaji": "wakatta"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "kanji": "知る",
+    "kana": "しる",
+    "romaji": "shiru",
+    "meaning": "to come to know / to find out",
+    "group": "Godan (U-verb) — looks like Ru-verb!",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what becomes known.",
+      "example": "彼の名前を知る。(I find out his name.)"
+    },
+    "grammarNote": {
+      "title": "💡 知っている = 'to know' (the state of knowing)",
+      "content": "知る means the act of coming to know. The ongoing state — 'to know (something)' — is always expressed as 知っている: 田中さんを知っています (I know Tanaka). Saying 田中さんを知ります is unnatural. Negative: 知りません or 知らない. This 〜ている for states is a critical N5 distinction."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "知る",
+        "romaji": "shiru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "知ります",
+        "romaji": "shirimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "知って",
+        "romaji": "shitte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "知らない",
+        "romaji": "shiranai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "知った",
+        "romaji": "shitta"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "kanji": "思う",
+    "kana": "おもう",
+    "romaji": "omou",
+    "meaning": "to think / to feel / to believe",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "と (to)",
+      "explanation": "Marks the quoted thought (plain form + と).",
+      "example": "明日は雨だと思う。(I think it'll rain tomorrow.)"
+    },
+    "grammarNote": {
+      "title": "💡 〜と思います: quoting your own opinion",
+      "content": "思う is almost always preceded by the quotation particle と: 明日は雨だと思います (I think it will rain tomorrow). The clause before と must end in plain form. This pattern appears in nearly every N5 grammar section. Compare with 〜と言います (says that ~), which uses the same structure."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "思う",
+        "romaji": "omou"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "思います",
+        "romaji": "omoimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "思って",
+        "romaji": "omotte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "思わない",
+        "romaji": "omowanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "思った",
+        "romaji": "omotta"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "kanji": "言う",
+    "kana": "いう",
+    "romaji": "iu",
+    "meaning": "to say",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "と (to)",
+      "explanation": "Marks the quoted speech (plain form + と).",
+      "example": "「行く」と言う。(He says 'I'll go.')"
+    },
+    "grammarNote": {
+      "title": "💡 〜と言います: quoting what someone says",
+      "content": "言う almost always pairs with the quotation particle と: 「行きます」と言いました (said 'I'll go'). Also used for names: これは日本語で何と言いますか (What do you say this in Japanese?). Te-form 言って enables: 言ってください (please say it), 言っています (is saying)."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "言う",
+        "romaji": "iu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "言います",
+        "romaji": "iimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "言って",
+        "romaji": "itte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "言わない",
+        "romaji": "iwanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "言った",
+        "romaji": "itta"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "kanji": "開ける",
+    "kana": "あける",
+    "romaji": "akeru",
+    "meaning": "to open (something)",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what you open — transitive.",
+      "example": "窓を開ける。(I open the window.)"
+    },
+    "grammarNote": {
+      "title": "💡 開ける (transitive) vs 開く (intransitive)",
+      "content": "開ける = you open it (takes を): 窓を開けます (I open the window). 開く = it opens by itself (no を): ドアが開きます (the door opens). This transitive/intransitive pair is a classic N5 exam topic. Related: 閉める/閉まる (close) follows the exact same pattern."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "開ける",
+        "romaji": "akeru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "開けます",
+        "romaji": "akemasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "開けて",
+        "romaji": "akete"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "開けない",
+        "romaji": "akenai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "開けた",
+        "romaji": "aketa"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "kanji": "閉める",
+    "kana": "しめる",
+    "romaji": "shimeru",
+    "meaning": "to close (something)",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what you close — transitive.",
+      "example": "ドアを閉める。(I close the door.)"
+    },
+    "grammarNote": {
+      "title": "💡 閉める (transitive) vs 閉まる (intransitive)",
+      "content": "閉める = you close it: ドアを閉めてください (please close the door). 閉まる = it closes: ドアが閉まります (the door closes). Shops also use 閉まる: 店が閉まっています (the shop is closed). These ある/える intransitive/transitive pairs are tested heavily in N5."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "閉める",
+        "romaji": "shimeru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "閉めます",
+        "romaji": "shimemasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "閉めて",
+        "romaji": "shimete"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "閉めない",
+        "romaji": "shimenai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "閉めた",
+        "romaji": "shimeta"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "kanji": "つける",
+    "kana": "つける",
+    "romaji": "tsukeru",
+    "meaning": "to turn on / to attach / to apply",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what is turned on / attached.",
+      "example": "電気をつける。(I turn on the light.)"
+    },
+    "grammarNote": {
+      "title": "💡 つける/けす — turning appliances on and off",
+      "content": "つける = turn on (lights, TV, etc.): 電気をつけます. けす (消す) = turn off: 電気を消します. Both are essential for N5 sign-reading and comprehension passages. Note: けす is a Godan verb (消す → 消して). These are among the most useful verbs for daily life in Japan."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "つける",
+        "romaji": "tsukeru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "つけます",
+        "romaji": "tsukemasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "つけて",
+        "romaji": "tsukete"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "つけない",
+        "romaji": "tsukenai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "つけた",
+        "romaji": "tsuketa"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "kanji": "消す",
+    "kana": "けす",
+    "romaji": "kesu",
+    "meaning": "to turn off / to erase / to extinguish",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what is turned off / erased.",
+      "example": "テレビを消す。(I turn off the TV.)"
+    },
+    "grammarNote": {
+      "title": "💡 消す is the opposite of つける in most contexts",
+      "content": "電気を消す (turn off the light), テレビを消す (turn off the TV), 黒板を消す (erase the board). The す → して rule applies: 消して = Te-form. At N5, ～を消してください (please turn off ~) appears in instructions and daily-life dialogues."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "消す",
+        "romaji": "kesu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "消します",
+        "romaji": "keshimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "消して",
+        "romaji": "keshite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "消さない",
+        "romaji": "kesanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "消した",
+        "romaji": "keshita"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "kanji": "洗う",
+    "kana": "あらう",
+    "romaji": "arau",
+    "meaning": "to wash",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what is washed.",
+      "example": "手を洗う。(I wash my hands.)"
+    },
+    "grammarNote": {
+      "title": "💡 洗う in daily routine sentences",
+      "content": "洗う appears in routine descriptions: 顔を洗います (wash my face), 手を洗います (wash my hands), 皿を洗います (wash the dishes). The N5 pattern 〜を洗ってから (after washing ~) uses 洗う's Te-form. Signs like 手を洗ってください are common in N5 sign-reading questions."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "洗う",
+        "romaji": "arau"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "洗います",
+        "romaji": "araimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "洗って",
+        "romaji": "aratte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "洗わない",
+        "romaji": "arawanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "洗った",
+        "romaji": "aratta"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "kanji": "着る",
+    "kana": "きる",
+    "romaji": "kiru",
+    "meaning": "to wear (upper body clothing)",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks the upper-body clothing worn.",
+      "example": "シャツを着る。(I wear a shirt.)"
+    },
+    "grammarNote": {
+      "title": "💡 Wearing verbs in Japanese are body-part-specific",
+      "content": "Japanese has different 'wear' verbs depending on what body part: 着る (shirts, jackets — torso), はく (pants, shoes, socks — waist down), かぶる (hats — head), する or つける (accessories — watch, glasses). N5 exams test this distinction. All take を."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "着る",
+        "romaji": "kiru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "着ます",
+        "romaji": "kimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "着て",
+        "romaji": "kite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "着ない",
+        "romaji": "kinai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "着た",
+        "romaji": "kita"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "kanji": "脱ぐ",
+    "kana": "ぬぐ",
+    "romaji": "nugu",
+    "meaning": "to take off (clothing)",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks any clothing removed.",
+      "example": "靴を脱ぐ。(I take off my shoes.)"
+    },
+    "grammarNote": {
+      "title": "💡 脱ぐ is the opposite of all the 'wear' verbs",
+      "content": "While 着る/はく/かぶる all have different 'put on' verbs, 脱ぐ covers ALL clothing types when removing: シャツを脱ぐ (take off shirt), 靴を脱ぐ (take off shoes), 帽子を脱ぐ (take off hat). In Japan, 靴を脱いでください (please remove your shoes) is a very real instruction."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "脱ぐ",
+        "romaji": "nugu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "脱ぎます",
+        "romaji": "nugimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "脱いで",
+        "romaji": "nuide"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "脱がない",
+        "romaji": "nuganai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "脱いだ",
+        "romaji": "nuida"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "kanji": "作る",
+    "kana": "つくる",
+    "romaji": "tsukuru",
+    "meaning": "to make / to cook / to create",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what is made or cooked.",
+      "example": "料理を作る。(I cook a meal.)"
+    },
+    "grammarNote": {
+      "title": "💡 作る for food, objects, and systems",
+      "content": "作る covers making almost anything: 料理を作る (cook a meal), 計画を作る (make a plan), 友だちを作る (make friends — an idiomatic use). Common in N5 hobby and daily-life passages. 〜を作っています (I am making ~) uses 〜ている for actions in progress."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "作る",
+        "romaji": "tsukuru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "作ります",
+        "romaji": "tsukurimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "作って",
+        "romaji": "tsukutte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "作らない",
+        "romaji": "tsukuranai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "作った",
+        "romaji": "tsukutta"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "kanji": "始まる",
+    "kana": "はじまる",
+    "romaji": "hajimaru",
+    "meaning": "to begin / to start (intransitive)",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "が (ga)",
+      "explanation": "Marks what starts — intransitive.",
+      "example": "授業が始まる。(Class starts.)"
+    },
+    "grammarNote": {
+      "title": "💡 始まる (intransitive) vs 始める (transitive)",
+      "content": "始まる = something starts on its own: 授業が始まります (class starts). 始める = someone starts something: 日本語を始めます (I start Japanese). The subject of 始まる takes が; the object of 始める takes を. Both appear in N5 schedules and event descriptions."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "始まる",
+        "romaji": "hajimaru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "始まります",
+        "romaji": "hajimarimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "始まって",
+        "romaji": "hajimatte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "始まらない",
+        "romaji": "hajimaranai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "始まった",
+        "romaji": "hajimatta"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "kanji": "終わる",
+    "kana": "おわる",
+    "romaji": "owaru",
+    "meaning": "to end / to finish (intransitive)",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "が (ga)",
+      "explanation": "Marks what ends — intransitive.",
+      "example": "映画が終わる。(The film ends.)"
+    },
+    "grammarNote": {
+      "title": "💡 終わる vs 終える — same distinction as 始まる/始める",
+      "content": "終わる = it ends by itself: 映画が終わります (the film ends). 終える = you finish it: 仕事を終えます (I finish my work). N5 schedule questions frequently ask about start and end times, making 始まる and 終わる two of the most practical verbs to master. 〜が終わったら (when ~ finishes) is a common connective."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "終わる",
+        "romaji": "owaru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "終わります",
+        "romaji": "owarimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "終わって",
+        "romaji": "owatte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "終わらない",
+        "romaji": "owaranai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "終わった",
+        "romaji": "owatta"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "kanji": "貸す",
+    "kana": "かす",
+    "romaji": "kasu",
+    "meaning": "to lend",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "に (ni) + を (o)",
+      "explanation": "に marks who you lend to; を marks what is lent.",
+      "example": "友だちに本を貸す。(I lend a book to a friend.)"
+    },
+    "grammarNote": {
+      "title": "💡 貸す vs 借りる — lend vs borrow",
+      "content": "貸す = lend (you give to someone): 本を貸します。借りる = borrow (you receive from someone): 本を借ります. The direction is from the speaker's perspective. N5 tip: 貸してください (please lend me ~) uses 貸す + Te-form + ください, a key request pattern."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "貸す",
+        "romaji": "kasu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "貸します",
+        "romaji": "kashimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "貸して",
+        "romaji": "kashite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "貸さない",
+        "romaji": "kasanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "貸した",
+        "romaji": "kashita"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "kanji": "借りる",
+    "kana": "かりる",
+    "romaji": "kariru",
+    "meaning": "to borrow / to rent",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "を (o) + から",
+      "explanation": "を marks what is borrowed; から marks the lender.",
+      "example": "図書館から本を借りる。(I borrow a book from the library.)"
+    },
+    "grammarNote": {
+      "title": "💡 借りる covers both borrow and rent",
+      "content": "借りる means borrow (temporarily use something from someone): 本を借りる (borrow a book), アパートを借りる (rent an apartment). The lender/owner takes から: 図書館から借りました (borrowed from the library). N5 passages about libraries frequently use 借りる."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "借りる",
+        "romaji": "kariru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "借ります",
+        "romaji": "karimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "借りて",
+        "romaji": "karite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "借りない",
+        "romaji": "karinai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "借りた",
+        "romaji": "karita"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "kanji": "あげる",
+    "kana": "あげる",
+    "romaji": "ageru",
+    "meaning": "to give (to someone else)",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "に (ni) + を (o)",
+      "explanation": "に marks the receiver; を marks the gift.",
+      "example": "友だちにプレゼントをあげる。(I give my friend a present.)"
+    },
+    "grammarNote": {
+      "title": "💡 The giving/receiving trio: あげる・もらう・くれる",
+      "content": "This is one of N5's most tested grammar areas. あげる = I/we give (away from speaker): 友だちにプレゼントをあげます. もらう = I receive: 友だちにプレゼントをもらいます. くれる = someone gives TO me: 友だちがプレゼントをくれます. The verb choice encodes direction relative to the speaker."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "あげる",
+        "romaji": "ageru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "あげます",
+        "romaji": "agemasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "あげて",
+        "romaji": "agete"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "あげない",
+        "romaji": "agenai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "あげた",
+        "romaji": "ageta"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "kanji": "もらう",
+    "kana": "もらう",
+    "romaji": "morau",
+    "meaning": "to receive / to get (from someone)",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "に/から + を (o)",
+      "explanation": "に/から marks the giver; を marks what's received.",
+      "example": "友だちにプレゼントをもらう。(I receive a present from a friend.)"
+    },
+    "grammarNote": {
+      "title": "💡 〜てもらう: 'have someone do something for you'",
+      "content": "Beyond just 'receive', もらう combines with Te-forms to mean 'have ~ done for me': 先生に説明してもらいました (I had the teacher explain it). This is a fundamental N5 grammar structure expressing favours received. The benefactor takes に or から."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "もらう",
+        "romaji": "morau"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "もらいます",
+        "romaji": "moraimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "もらって",
+        "romaji": "moratte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "もらわない",
+        "romaji": "morawanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "もらった",
+        "romaji": "moratta"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "kanji": "くれる",
+    "kana": "くれる",
+    "romaji": "kureru",
+    "meaning": "to give (to me / my in-group)",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "が (ga) + を (o)",
+      "explanation": "が marks the giver (not you); を marks the gift.",
+      "example": "母がケーキをくれる。(My mother gives me a cake.)"
+    },
+    "grammarNote": {
+      "title": "⚠️ くれる always means someone gives TO me",
+      "content": "The subject of くれる is always someone outside your in-group; the receiver is always you (or your family/close circle): 母がケーキをくれました (my mother gave me a cake). 〜てくれる means someone does something for you: 友だちが手伝ってくれました. If YOU are giving, use あげる, not くれる."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "くれる",
+        "romaji": "kureru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "くれます",
+        "romaji": "kuremasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "くれて",
+        "romaji": "kurete"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "くれない",
+        "romaji": "kurenai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "くれた",
+        "romaji": "kureta"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "kanji": "置く",
+    "kana": "おく",
+    "romaji": "oku",
+    "meaning": "to put / to place / to leave (something somewhere)",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "に (ni) + を (o)",
+      "explanation": "に marks where it's placed; を marks what is placed.",
+      "example": "机の上に本を置く。(I put the book on the desk.)"
+    },
+    "grammarNote": {
+      "title": "💡 〜ておく: do something in advance",
+      "content": "置く alone means to place: 机の上に置きます (I put it on the desk). But 〜ておく (Te-form + おく) is an N5 grammar point meaning 'do ~ in advance / do ~ and leave it that way': 予約しておきます (I'll book it in advance). Very common in practical, planning contexts."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "置く",
+        "romaji": "oku"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "置きます",
+        "romaji": "okimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "置いて",
+        "romaji": "oite"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "置かない",
+        "romaji": "okanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "置いた",
+        "romaji": "oita"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "kanji": "忘れる",
+    "kana": "わすれる",
+    "romaji": "wasureru",
+    "meaning": "to forget",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what is forgotten.",
+      "example": "宿題を忘れる。(I forget my homework.)"
+    },
+    "grammarNote": {
+      "title": "💡 忘れる vs 忘れ物 — forgetting vs left-behind item",
+      "content": "忘れる is a common verb in N5 comprehension passages: 宿題を忘れました (forgot homework), 傘を忘れました (left umbrella behind). 忘れ物(わすれもの) = forgotten/lost item — useful for passages about finding lost items. 忘れないでください = please don't forget (〜ないでください = please don't ~)."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "忘れる",
+        "romaji": "wasureru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "忘れます",
+        "romaji": "wasuremasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "忘れて",
+        "romaji": "wasurete"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "忘れない",
+        "romaji": "wasurenai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "忘れた",
+        "romaji": "wasureta"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "kanji": "覚える",
+    "kana": "おぼえる",
+    "romaji": "oboeru",
+    "meaning": "to memorise / to learn / to remember",
+    "group": "Ichidan (Ru-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what is memorised.",
+      "example": "単語を覚える。(I memorise vocabulary.)"
+    },
+    "grammarNote": {
+      "title": "💡 覚える = actively commit to memory",
+      "content": "覚える is the active process of memorising: 単語を覚えます (memorise vocabulary). Its opposite is 忘れる. Don't confuse with 思い出す (おもいだす) = recall something you already knew. N5 study tip: 覚えておいてください (please memorise this) combines with 〜ておく for the 'do and keep' meaning."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "覚える",
+        "romaji": "oboeru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "覚えます",
+        "romaji": "oboemasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "覚えて",
+        "romaji": "oboete"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "覚えない",
+        "romaji": "oboenai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "覚えた",
+        "romaji": "oboeta"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "kanji": "切る",
+    "kana": "きる",
+    "romaji": "kiru",
+    "meaning": "to cut",
+    "group": "Godan (U-verb) — same sound as 着る!",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks what is cut.",
+      "example": "紙を切る。(I cut the paper.)"
+    },
+    "grammarNote": {
+      "title": "⚠️ 切る (Godan) vs 着る (Ichidan) — homophone alert!",
+      "content": "切る (きる = cut) and 着る (きる = wear) sound identical but conjugate differently. 切る is Godan: 切ります、切って、切らない. 着る is Ichidan: 着ます、着て、着ない. Context and kanji tell them apart. N5 exams test this contrast. 〜を切る = cut ~, 〜を着る = wear ~."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "切る",
+        "romaji": "kiru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "切ります",
+        "romaji": "kirimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "切って",
+        "romaji": "kitte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "切らない",
+        "romaji": "kiranai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "切った",
+        "romaji": "kitta"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "kanji": "急ぐ",
+    "kana": "いそぐ",
+    "romaji": "isogu",
+    "meaning": "to hurry / to rush",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "— (intransitive)",
+      "explanation": "No object. Used alone or as a command.",
+      "example": "急いでください。(Please hurry.)"
+    },
+    "grammarNote": {
+      "title": "💡 急いで = 'hurry!' — Te-form used as a command",
+      "content": "急いでください (please hurry) and 急いで！(Hurry up!) are very common. The ぐ → いで Te-form rule: 急ぐ → 急いで. Also 急いでいます = I am in a hurry (ongoing state). N5 daily-life dialogues often include 急がなければなりません (I must hurry) — the must-do pattern."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "急ぐ",
+        "romaji": "isogu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "急ぎます",
+        "romaji": "isogimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "急いで",
+        "romaji": "isoide"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "急がない",
+        "romaji": "isaganai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "急いだ",
+        "romaji": "isoida"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "kanji": "立つ",
+    "kana": "たつ",
+    "romaji": "tatsu",
+    "meaning": "to stand up",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "— (intransitive)",
+      "explanation": "No object. Place stood takes に.",
+      "example": "ここに立つ。(I stand here.)"
+    },
+    "grammarNote": {
+      "title": "💡 立つ vs 立っている — action vs state",
+      "content": "立つ = the action of standing up. 立っている = currently standing (state). This 〜ている distinction between action and resulting state is a core N5 grammar concept. 立ってください (please stand). Opposite: 座る (すわる = to sit down), which follows the same logic: 座っている = is sitting."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "立つ",
+        "romaji": "tatsu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "立ちます",
+        "romaji": "tachimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "立って",
+        "romaji": "tatte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "立たない",
+        "romaji": "tatanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "立った",
+        "romaji": "tatta"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "kanji": "座る",
+    "kana": "すわる",
+    "romaji": "suwaru",
+    "meaning": "to sit down",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "に (ni)",
+      "explanation": "Marks where you sit down.",
+      "example": "いすに座る。(I sit on the chair.)"
+    },
+    "grammarNote": {
+      "title": "💡 座ってください — sit down please",
+      "content": "座ってください is one of the most common classroom and public-place instructions in Japanese. 座っています = is seated/sitting (state). A key N5 context: ここに座ってもいいですか (May I sit here?) — the 〜てもいいですか (may I ~?) permission-asking pattern with the Te-form."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "座る",
+        "romaji": "suwaru"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "座ります",
+        "romaji": "suwarimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "座って",
+        "romaji": "suwatte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "座らない",
+        "romaji": "suwaranai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "座った",
+        "romaji": "suwatta"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "kanji": "呼ぶ",
+    "kana": "よぶ",
+    "romaji": "yobu",
+    "meaning": "to call (out to) / to invite / to summon",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks who/what is called or invited.",
+      "example": "タクシーを呼ぶ。(I call a taxi.)"
+    },
+    "grammarNote": {
+      "title": "💡 呼ぶ for names, people, and invitations",
+      "content": "呼ぶ covers calling someone's name (名前で呼ぶ), calling/summoning (タクシーを呼ぶ — call a taxi), and inviting (パーティーに呼ぶ — invite to a party). ぶ → んで: 呼んで. よんでください = please call/invite. Don't confuse 呼ぶ (yobu = call) with 読む (yomu = read) — very similar sounds!"
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "呼ぶ",
+        "romaji": "yobu"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "呼びます",
+        "romaji": "yobimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "呼んで",
+        "romaji": "yonde"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "呼ばない",
+        "romaji": "yobanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "呼んだ",
+        "romaji": "yonda"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "kanji": "手伝う",
+    "kana": "てつだう",
+    "romaji": "tetsudau",
+    "meaning": "to help / to assist",
+    "group": "Godan (U-verb)",
+    "particleNote": {
+      "particle": "を (o)",
+      "explanation": "Marks the task you help with.",
+      "example": "料理を手伝う。(I help with the cooking.)"
+    },
+    "grammarNote": {
+      "title": "💡 手伝う vs 助ける — two kinds of 'help'",
+      "content": "手伝う = help with a task (practical assistance): 料理を手伝います (help with cooking). 助ける (たすける) = rescue/save (from danger or difficulty). N5 passages about chores and daily life use 手伝う. 〜を手伝ってくれますか (will you help me with ~?) is a natural request structure combining 手伝う + Te-form + くれますか."
+    },
+    "flexions": [
+      {
+        "form": "Dictionary",
+        "japanese": "手伝う",
+        "romaji": "tetsudau"
+      },
+      {
+        "form": "Masu (Polite)",
+        "japanese": "手伝います",
+        "romaji": "tetsudaimasu"
+      },
+      {
+        "form": "Te (Connecting)",
+        "japanese": "手伝って",
+        "romaji": "tetsudatte"
+      },
+      {
+        "form": "Nai (Negative)",
+        "japanese": "手伝わない",
+        "romaji": "tetsudawanai"
+      },
+      {
+        "form": "Ta (Past)",
+        "japanese": "手伝った",
+        "romaji": "tetsudatta"
+      }
+    ]
+  }
+]

@@ -25,6 +25,14 @@ function LandingPage({ navigateTo }) {
           <p className="module-desc">Simulate the real JLPT environment with a timed, multiple-choice grammar and vocab test.</p>
           <div className="module-action">Take the Test →</div>
         </button>
+
+        {/* Verbs Section Card */}
+        <button className="module-card" onClick={() => navigateTo('verbsection')}>
+          <div className="module-icon">🔄</div>
+          <h2 className="module-title">Verbs & Flexions</h2>
+          <p className="module-desc">Master essential N5 verb groups and their crucial conjugations, including the Te-form and Masu-form.</p>
+          <div className="module-action">Study Verbs →</div>
+        </button>
       </main>
 
       <footer className="landing-footer">

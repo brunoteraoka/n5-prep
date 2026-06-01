@@ -1,179 +1,157 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import Flashcard from './Flashcard';
-import './App.css';
-import deckData from './n5-deck.json';
+import flashcardsData from './data/n5-deck.json'; // Adjust path if needed
 
-function FlashcardApp({ navigateTo }) {
-  const [deck, setDeck] = useState(deckData);
+const FlashcardApp = () => {
+  // Deck & Progress State
+  const [deck, setDeck] = useState(flashcardsData);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [showFurigana, setShowFurigana] = useState(false);
+  const [missedCards, setMissedCards] = useState([]);
+  const [isReviewingMissed, setIsReviewingMissed] = useState(false);
   
-  const [reviewQueue, setReviewQueue] = useState([]);
-  const [isReviewMode, setIsReviewMode] = useState(false);
-  const [sessionComplete, setSessionComplete] = useState(false);
-  const [flash, setFlash] = useState(null);
+  // UI State
+  const [showFurigana, setShowFurigana] = useState(true);
+  const [feedback, setFeedback] = useState(null); // 'missed' | 'got_it' | null
 
-  // NEW: State to control the sliding menu
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  // --- SWIPE TRACKING STATES ---
-  const [touchStart, setTouchStart] = useState(null);
-  const [touchEnd, setTouchEnd] = useState(null);
-  const minSwipeDistance = 50; 
-
-  const onTouchStart = (e) => {
-    // Prevent swiping the cards if the menu is open
-    if (isMenuOpen) return; 
-    setTouchEnd(null);
-    setTouchStart(e.targetTouches[0].clientX);
+  // --- ACTIONS ---
+  
+  const showFeedback = (type) => {
+    setFeedback(type);
+    setTimeout(() => setFeedback(null), 600); // Banner flashes for 0.6 seconds
   };
 
-  const onTouchMove = (e) => {
-    if (isMenuOpen) return;
-    setTouchEnd(e.targetTouches[0].clientX);
-  };
+  const advanceCard = useCallback(() => {
+    setCurrentIndex((prev) => prev + 1);
+  }, []);
 
-  const onTouchEnd = () => {
-    if (isMenuOpen || !touchStart || !touchEnd) return;
-    const distance = touchStart - touchEnd;
-    const isLeftSwipe = distance > minSwipeDistance;
-    const isRightSwipe = distance < -minSwipeDistance;
-    if (isLeftSwipe) handleGrade(false); 
-    if (isRightSwipe) handleGrade(true); 
-  };
-
-  const handleGrade = (knewIt) => {
-    setFlash({ type: knewIt ? 'got-it' : 'missed-it', id: Date.now() });
-    setTimeout(() => setFlash(null), 500);
-
-    const currentCard = deck[currentIndex];
-    if (!knewIt && !reviewQueue.some(c => c.id === currentCard.id)) {
-      setReviewQueue([...reviewQueue, currentCard]);
+  const handleMissed = useCallback(() => {
+    if (currentIndex < deck.length) {
+      const currentCard = deck[currentIndex];
+      // Add to missed list if it's not already there
+      if (!missedCards.some(c => c.id === currentCard.id)) {
+        setMissedCards(prev => [...prev, currentCard]);
+      }
+      showFeedback('missed');
+      advanceCard();
     }
+  }, [currentIndex, deck, missedCards, advanceCard]);
 
-    if (currentIndex < deck.length - 1) {
-      setCurrentIndex(currentIndex + 1);
-    } else {
-      finishDeck();
+  const handleGotIt = useCallback(() => {
+    if (currentIndex < deck.length) {
+      showFeedback('got_it');
+      advanceCard();
     }
-  };
+  }, [currentIndex, deck, advanceCard]);
 
-  const finishDeck = () => {
-    if (reviewQueue.length > 0) {
-      setDeck(reviewQueue);
-      setReviewQueue([]);
-      setCurrentIndex(0);
-      setIsReviewMode(true);
-    } else {
-      setSessionComplete(true);
-    }
-  };
+  // --- DECK CONTROLS ---
 
-  const restartSession = () => {
-    const shuffled = [...deckData].sort(() => Math.random() - 0.5);
+  const handleShuffle = () => {
+    const shuffled = [...deck].sort(() => Math.random() - 0.5);
     setDeck(shuffled);
     setCurrentIndex(0);
-    setReviewQueue([]);
-    setIsReviewMode(false);
-    setSessionComplete(false);
   };
 
-  if (sessionComplete) {
-    return (
-      <div className="app-container">
-        <h2>🎉 Session Complete!</h2>
-        <p>You mastered all the cards in this batch.</p>
-        <button className="nav-btn shuffle-btn" onClick={restartSession}>
-          Start New Shuffled Session
-        </button>
-        <button className="nav-btn back-menu-btn" onClick={() => navigateTo('landing')}>
-          🏠 Back to Main Menu
-        </button>
-      </div>
-    );
-  }
+  const handleRestart = () => {
+    setDeck(flashcardsData);
+    setCurrentIndex(0);
+    setMissedCards([]);
+    setIsReviewingMissed(false);
+  };
+
+  const handleReviewMissed = () => {
+    if (missedCards.length > 0) {
+      setDeck(missedCards);
+      setCurrentIndex(0);
+      setMissedCards([]); // Reset missed array for the new run
+      setIsReviewingMissed(true);
+    }
+  };
+
+  // --- RENDER LOGIC ---
+  const isComplete = currentIndex >= deck.length;
 
   return (
-    <div 
-      className={`app-container ${showFurigana ? 'show-furigana' : 'hide-furigana'}`}
-      onTouchStart={onTouchStart}
-      onTouchMove={onTouchMove}
-      onTouchEnd={onTouchEnd}
-    >
-      {/* ------------------------------------- */}
-      {/* SLIDING SIDE MENU                     */}
-      {/* ------------------------------------- */}
-      <div 
-        className={`side-menu-overlay ${isMenuOpen ? 'visible' : ''}`} 
-        onClick={() => setIsMenuOpen(false)} 
-      />
+    <div className="flashcard-page-layout">
       
-      <div className={`side-menu ${isMenuOpen ? 'open' : ''}`}>
-        <div className="menu-header">
-          <h2>Menu</h2>
-          <button className="close-menu-btn" onClick={() => setIsMenuOpen(false)}>✕</button>
-        </div>
-        <div className="menu-links">
-          <button className="menu-item" onClick={() => navigateTo('landing')}>
-            <span>🏠</span> Home
-          </button>
-          <button className="menu-item" onClick={() => navigateTo('mocktest')}>
-            <span>📝</span> Mock Test
-          </button>
+      {/* DECK CONTROLS (Top Menu) */}
+      <div className="deck-controls">
+        <span className="deck-mode-badge">
+          {isReviewingMissed ? '🔄 Reviewing Missed' : '📚 Standard Deck'}
+        </span>
+        <div className="deck-actions">
+          <button onClick={handleShuffle} title="Shuffle Deck">🔀</button>
+          <button onClick={handleRestart} title="Restart Deck">🔄</button>
         </div>
       </div>
-      {/* ------------------------------------- */}
 
-      {flash && (
-        <div key={flash.id} className={`flash-overlay ${flash.type}`}>
-          {flash.type === 'got-it' ? '✅ Got It!' : '❌ Missed!'}
+      {/* THE FLASHCARD OR COMPLETION SCREEN */}
+      <div className="flashcard-stage">
+        
+        {/* FLASHING FEEDBACK BANNER */}
+        {feedback && (
+          <div className={`feedback-banner ${feedback}`}>
+            {feedback === 'missed' ? '❌ Missed it' : '✅ Got it!'}
+          </div>
+        )}
+
+        {!isComplete ? (
+          <Flashcard 
+            cardData={deck[currentIndex]} 
+            showFurigana={showFurigana} 
+            onSwipeLeft={handleMissed}   // Swipe Left = Missed
+            onSwipeRight={handleGotIt}   // Swipe Right = Got It
+          />
+        ) : (
+          <div className="completion-screen">
+            <h2>Deck Complete! 🎉</h2>
+            <p>You missed {missedCards.length} cards.</p>
+            <div className="completion-actions">
+              {missedCards.length > 0 && (
+                <button className="btn-review" onClick={handleReviewMissed}>
+                  Review Missed ({missedCards.length})
+                </button>
+              )}
+              <button className="btn-restart" onClick={handleRestart}>
+                Restart Full Deck
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* BOTTOM CONTROLS */}
+      {!isComplete && (
+        <div className="bottom-controls">
+          
+          <div className="progress-bar-container">
+            <div className="progress-stats">
+              <span>{currentIndex + 1} / {deck.length}</span>
+              <span className="missed-count">Missed: {missedCards.length}</span>
+            </div>
+            <div className="progress-bar-bg">
+              <div 
+                className="progress-bar-fill" 
+                style={{ width: `${((currentIndex) / deck.length) * 100}%` }}
+              ></div>
+            </div>
+          </div>
+
+          <button 
+            className="toggle-furigana-btn" 
+            onClick={() => setShowFurigana(!showFurigana)}
+          >
+            {showFurigana ? '👁️ Hide Furigana' : '🙈 Show Furigana'}
+          </button>
+          
+          <div className="grading-buttons">
+            <button className="btn-missed" onClick={handleMissed}>❌ Missed</button>
+            <button className="btn-got-it" onClick={handleGotIt}>✅ Got it</button>
+          </div>
         </div>
       )}
-
-      {/* --- TOP HAMBURGER BUTTON --- */}
-      <div className="app-top-nav">
-        <button className="hamburger-btn" onClick={() => setIsMenuOpen(true)}>
-          ☰
-        </button>
-      </div>
-
-      <div className="controls-header">
-        <label className="furigana-toggle">
-          <input 
-            type="checkbox" 
-            checked={showFurigana}
-            onChange={(e) => setShowFurigana(e.target.checked)}
-          />
-          Show Furigana
-        </label>
-        
-        <button className="nav-btn shuffle-btn" onClick={restartSession} style={{ marginTop: '12px', marginBottom: '8px' }}>
-          🔀 Shuffle & Restart
-        </button>
-        
-        {isReviewMode && <div className="review-badge">⚠️ Reviewing Missed Cards</div>}
-      </div>
-
-      <Flashcard 
-        key={deck[currentIndex].id} 
-        cardData={deck[currentIndex]} 
-        showFurigana={showFurigana}
-      />
-
-      <div className="navigation-buttons">
-        <button className="nav-btn" style={{ backgroundColor: '#dc3545' }} onClick={() => handleGrade(false)}>
-          ❌ Missed It
-        </button>
-        <span className="progress-text">{currentIndex + 1} / {deck.length}</span>
-        <button className="nav-btn" style={{ backgroundColor: '#28a745' }} onClick={() => handleGrade(true)}>
-          ✅ Got It
-        </button>
-      </div>
-
-      <div style={{ marginTop: '20px', color: '#666' }}>Cards to review next round: {reviewQueue.length}</div>
-      <div style={{ marginTop: '15px', color: '#999', fontSize: '0.85rem' }}><em>Swipe ⬅️ to miss, Swipe ➡️ to pass!</em></div>
+      
     </div>
   );
-}
+};
 
 export default FlashcardApp;

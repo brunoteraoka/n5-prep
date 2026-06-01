@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './MockTest.css';
-import questionsDatabase from './mock-test.json';
+import questionsDatabase from './data/mock-test.json';
 import { generateMockExam } from './examEngine';
 
 function MockTest({ navigateTo }) {

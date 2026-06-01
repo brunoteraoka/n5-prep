@@ -1,34 +1,60 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './Flashcard.css';
 
-const Flashcard = ({ cardData, showFurigana }) => {
+const Flashcard = ({ cardData, showFurigana, onSwipeLeft, onSwipeRight }) => {
   const [isFlipped, setIsFlipped] = useState(false);
   
-  // We use these to figure out if it was a swipe or a tap
   const touchStartX = useRef(0);
+  const touchStartY = useRef(0);
   const isDragging = useRef(false);
 
+  // If the card data changes (user clicked Next), ensure it flips back to the front
+  useEffect(() => {
+    setIsFlipped(false);
+  }, [cardData]);
+
   const handleTouchStart = (e) => {
-    isDragging.current = false; // Reset drag state on new touch
+    isDragging.current = false; 
     touchStartX.current = e.touches[0].clientX;
+    touchStartY.current = e.touches[0].clientY;
   };
 
   const handleTouchMove = (e) => {
     const touchCurrentX = e.touches[0].clientX;
-    // If they moved their finger more than 10 pixels, it's a drag/swipe
-    if (Math.abs(touchCurrentX - touchStartX.current) > 10) {
+    const touchCurrentY = e.touches[0].clientY;
+    
+    // If finger moves more than 10px, it's a drag, not a tap
+    if (
+      Math.abs(touchCurrentX - touchStartX.current) > 10 ||
+      Math.abs(touchCurrentY - touchStartY.current) > 10
+    ) {
       isDragging.current = true;
     }
   };
 
-  const handleClick = () => {
-    // If they were swiping, DO NOT flip the card
-    if (isDragging.current) {
-      isDragging.current = false; // Reset for the next touch
-      return; 
-    }
+  const handleTouchEnd = (e) => {
+    if (!isDragging.current) return;
     
-    // If it was a normal tap or click, flip it!
+    const touchEndX = e.changedTouches[0].clientX;
+    const diffX = touchStartX.current - touchEndX;
+
+    // Swiped Left
+    if (diffX > 50) {
+      if (onSwipeLeft) onSwipeLeft();
+    } 
+    // Swiped Right
+    else if (diffX < -50) {
+      if (onSwipeRight) onSwipeRight();
+    }
+
+    // Delay resetting the drag state so the onClick event doesn't fire accidentally
+    setTimeout(() => {
+      isDragging.current = false;
+    }, 50);
+  };
+
+  const handleClick = () => {
+    if (isDragging.current) return; 
     setIsFlipped(prev => !prev);
   };
 
@@ -38,15 +64,13 @@ const Flashcard = ({ cardData, showFurigana }) => {
       onClick={handleClick}
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
     >
       <div className="flashcard-inner">
-        
-        {/* FRONT FACE */}
         <div className="flashcard-front">
           <h1>{cardData.kanji}</h1>
         </div>
 
-        {/* BACK FACE */}
         <div className="flashcard-back">
           <div className="card-header">
             <h2>{cardData.meaning}</h2>
@@ -58,23 +82,14 @@ const Flashcard = ({ cardData, showFurigana }) => {
           <div className="readings-container">
             {cardData.examples.map((ex, index) => (
               <div key={index} className="example-block">
-                
                 <div className="vocab-header">
-                  <span 
-                    className="vocab-word"
-                    dangerouslySetInnerHTML={{ __html: ex.vocab }} 
-                  />
+                  <span className="vocab-word" dangerouslySetInnerHTML={{ __html: ex.vocab }} />
                   <span className="vocab-meaning"> - {ex.meaning}</span>
                 </div>
-
                 <div className="sentence-block">
-                  <p 
-                    className="japanese-sentence"
-                    dangerouslySetInnerHTML={{ __html: ex.sentence }} 
-                  />
+                  <p className="japanese-sentence" dangerouslySetInnerHTML={{ __html: ex.sentence }} />
                   <p className="english-translation">{ex.translation}</p>
                 </div>
-                
               </div>
             ))}
           </div>
