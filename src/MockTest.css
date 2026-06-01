@@ -1,64 +1,97 @@
-.test-container {
+/* =========================================
+   PAGE LAYOUT & MARGINS
+   ========================================= */
+.mocktest-page-layout {
   display: flex;
   flex-direction: column;
+  flex: 1;
   width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 600px;         /* Keeps it from stretching too wide on desktop */
+  margin: 0 auto;           /* Centers the whole page */
+  padding: 20px 20px 40px;  /* Adds breathing room on the sides and bottom */
   box-sizing: border-box;
+  min-height: calc(100vh - 80px);
 }
 
-/* HEADER */
-.test-header {
+.test-stage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* =========================================
+   PROGRESS BAR
+   ========================================= */
+.progress-bar-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.progress-stats {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 8px;
 }
 
-.back-link {
-  background: none;
-  border: none;
-  color: #666;
-  font-size: 1rem;
-  cursor: pointer;
-  padding: 0;
-}
-
-.question-counter {
-  font-weight: bold;
-  color: #007bff;
-}
-
-/* QUESTION CARD */
-.question-card {
-  background: white;
-  border-radius: 16px;
-  padding: 30px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.category-badge {
-  display: inline-block;
+.progress-bar-bg {
+  width: 100%;
+  height: 8px;
   background: #e9ecef;
-  color: #495057;
-  padding: 4px 12px;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: bold;
-  margin-bottom: 16px;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
-.question-text {
-  font-size: 1.5rem;
+.progress-bar-fill {
+  height: 100%;
+  background: #007bff;
+  transition: width 0.3s ease-in-out;
+}
+
+/* =========================================
+   QUESTION CARD (The main container)
+   ========================================= */
+.question-container {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); /* Soft drop shadow */
+  margin-bottom: 20px;
+}
+
+.exam-question {
+  font-size: 1.3rem;
+  font-weight: 700;
   color: #222;
-  margin: 0 0 24px 0;
+  margin: 0 0 25px 0;
   line-height: 1.4;
 }
 
-/* OPTIONS GRID */
+/* =========================================
+   READING PASSAGE (DOKKAI)
+   ========================================= */
+.reading-passage-box {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-left: 5px solid #007bff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.passage-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  margin: 0;
+  white-space: pre-wrap; /* Keeps your JSON line breaks */
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* =========================================
+   MULTIPLE CHOICE OPTIONS
+   ========================================= */
 .options-grid {
   display: flex;
   flex-direction: column;
@@ -67,164 +100,178 @@
 
 .option-btn {
   background: #f8f9fa;
-  border: 2px solid #e9ecef;
-  border-radius: 8px;
-  padding: 16px;
+  border: 2px solid transparent;
+  padding: 16px 20px;
   font-size: 1.1rem;
+  border-radius: 12px;
+  cursor: pointer;
   text-align: left;
+  color: #333;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.option-btn:hover {
+  background: #e1e8f0;
+  border-color: #007bff;
+  transform: translateY(-1px);
+}
+
+.option-btn:active {
+  transform: translateY(1px);
+}
+
+/* =========================================
+   COMPLETION & REVIEW SCREEN
+   ========================================= */
+.completion-screen {
+  background: white;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.completion-screen h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.jlpt-score-box {
+  border: 1px solid #dee2e6;
+}
+
+.review-section {
+  text-align: left;
+  margin-top: 25px;
+  max-height: 55vh;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* Custom Scrollbar for the review list */
+.review-section::-webkit-scrollbar { width: 6px; }
+.review-section::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 4px; }
+.review-section::-webkit-scrollbar-thumb { background: #ccc; border-radius: 4px; }
+
+.review-card {
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border-left: 5px solid;
+  background: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+
+.review-card.correct { border-color: #52c41a; }
+.review-card.incorrect { border-color: #ff4d4f; }
+
+.review-passage-snippet {
+  font-size: 0.9rem;
+  color: #555;
+  background: #e9ecef;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  border-left: 3px solid #adb5bd;
+}
+
+.review-q { 
+  font-size: 1.05rem;
+  margin: 0 0 10px 0; 
+  color: #222;
+}
+
+.review-exp { 
+  margin-top: 12px; 
+  font-size: 0.95rem; 
+  color: #555; 
+  background: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+/* =========================================
+   GLOBAL BUTTONS
+   ========================================= */
+.btn-restart {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 16px;
+  width: 100%;
+  border-radius: 12px;
+  font-size: 1.15rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.2s;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+.btn-restart:hover {
+  background: #0056b3;
+}
+
+.btn-next-question {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  
+  /* 1. MAKE IT BIGGER */
+  padding: 18px 35px;       /* Increased padding */
+  font-size: 0.75rem;       /* Larger text */
+  
+  /* 2. ALIGN IT TO THE RIGHT */
+  display: block;           /* Allows margin-left: auto to work */
+  margin-left: auto;        /* Pushes the button all the way to the right */
+  margin-top: 15px;         /* Adds breathing room above it */
+  /* width: 100%;              <-- We REMOVED this so it doesn't stretch */
+  
+  border-radius: 12px;
+  font-weight: bold;
   cursor: pointer;
   transition: all 0.2s ease;
-  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.25);
 }
 
-.option-btn:hover:not(:disabled) {
-  background: #e2e6ea;
-  border-color: #dae0e5;
+.btn-next-question:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* Gives it a nice little lift when hovered */
+  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3);
 }
 
-/* GRADING COLORS */
-.option-btn.correct {
-  background: #d4edda !important;
-  border-color: #28a745 !important;
-  color: #155724 !important;
-  font-weight: bold;
-}
-
-.option-btn.incorrect {
-  background: #f8d7da !important;
-  border-color: #dc3545 !important;
-  color: #721c24 !important;
-}
-
-.option-btn.disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-/* FEEDBACK SECTION */
-.feedback-section {
-  background: white;
-  border-radius: 16px;
-  padding: 24px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+/* =========================================
+   READING PASSAGE (DOKKAI)
+   ========================================= */
+.reading-passage-box {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-left: 5px solid #007bff; /* Blue accent line on the left */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
   text-align: left;
-  animation: slideUp 0.3s ease-out forwards;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
-.feedback-banner {
+.passage-text {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #333;
+  margin: 0;
+  
+  /* CRITICAL: This makes the \n in your JSON render as actual line breaks! */
+  white-space: pre-wrap; 
+  font-family: 'Noto Sans JP', sans-serif; /* Recommended for clean Japanese text */
+}
+
+/* Ensure the question itself stands out below the passage */
+.exam-question {
   font-size: 1.2rem;
   font-weight: bold;
-  margin-bottom: 12px;
-}
-
-.feedback-banner.success { color: #28a745; }
-.feedback-banner.error { color: #dc3545; }
-
-.explanation-text {
-  color: #555;
-  line-height: 1.5;
+  color: #222;
   margin-bottom: 20px;
-}
-
-.test-btn {
-  width: 100%;
-  padding: 16px;
-  border: none;
-  border-radius: 8px;
-  font-size: 1.1rem;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.test-btn.primary {
-  background: #007bff;
-  color: white;
-}
-
-.test-btn.secondary {
-  background: #e9ecef;
-  color: #333;
-  margin-top: 10px;
-}
-
-/* RESULTS SCREEN */
-.results-screen {
-  text-align: center;
-  background: white;
-  border-radius: 16px;
-  padding: 40px 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-}
-
-.score-circle {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background: #007bff;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px auto;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* PASSAGE BOX FOR T7 & T9 */
-.passage-box {
-  background-color: #fcf8e3;
-  border-left: 4px solid #f0ad4e;
-  padding: 16px;
-  margin-bottom: 24px;
-  border-radius: 4px;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: #333;
-  white-space: pre-wrap; /* Preserves line breaks in the JSON passage text */
-}
-
-/* SECTION INDICATOR */
-.section-indicator {
-  text-align: center;
-  font-weight: bold;
-  color: #6c757d;
-  margin-bottom: 12px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 0.9rem;
-}
-
-/* FINAL SCORE BREAKDOWN */
-.score-circle.passed {
-  background: #28a745;
-}
-
-.score-circle.failed {
-  background: #dc3545;
-}
-
-.score-breakdown {
-  background: #f8f9fa;
-  padding: 20px;
-  border-radius: 12px;
-  margin: 20px 0 30px 0;
   text-align: left;
-}
-
-.score-breakdown p {
-  margin: 10px 0;
-  font-size: 1.1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.score-breakdown em {
-  font-size: 0.85rem;
-  color: #888;
 }

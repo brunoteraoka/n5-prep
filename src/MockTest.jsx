@@ -1,149 +1,244 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import './MockTest.css';
-import questionsDatabase from './data/mock-test.json';
-import { generateMockExam } from './examEngine';
+import mockTestData from './data/mock-test.json'; 
 
-function MockTest({ navigateTo }) {
-  const [examData, setExamData] = useState(null);
+const MockTest = () => {
+  // --- STATE ---
+  const [testDeck, setTestDeck] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedOption, setSelectedOption] = useState(null);
-  const [isAnswered, setIsAnswered] = useState(false);
+  const [score, setScore] = useState(0);
+  const [isFinished, setIsFinished] = useState(false);
+  const [reviewAnswers, setReviewAnswers] = useState([]); 
   
-  const [sec1Score, setSec1Score] = useState(0);
-  const [sec2Score, setSec2Score] = useState(0);
-  const [testComplete, setTestComplete] = useState(false);
+  // NEW: State to hold the user's answer for the current question
+  const [selectedAnswer, setSelectedAnswer] = useState(null);
+
+  // --- REALISTIC N5 TEST CONFIGURATION ---
+  const testConfig = {
+    vocabulary: 20, 
+    kanji: 10,      
+    grammar: 18,    
+    reading: 6      
+  };
+
+  // --- GENERATOR LOGIC ---
+  const generateTest = useCallback(() => {
+    const allQuestions = mockTestData.questions;
+    if (!allQuestions || !Array.isArray(allQuestions)) return; 
+
+    const shuffle = (array) => [...array].sort(() => 0.5 - Math.random());
+
+    const vocabPool = shuffle(allQuestions.filter(q => q.category === 'vocabulary')).slice(0, testConfig.vocabulary);
+    const kanjiPool = shuffle(allQuestions.filter(q => q.category === 'kanji')).slice(0, testConfig.kanji);
+    const grammarPool = shuffle(allQuestions.filter(q => q.category === 'grammar')).slice(0, testConfig.grammar);
+    const readingPool = shuffle(allQuestions.filter(q => q.category === 'reading')).slice(0, testConfig.reading);
+
+    const newExam = [...vocabPool, ...kanjiPool, ...grammarPool, ...readingPool];
+    
+    setTestDeck(newExam);
+    setCurrentIndex(0);
+    setScore(0);
+    setIsFinished(false);
+    setReviewAnswers([]);
+    setSelectedAnswer(null); // Reset on new test
+  }, [testConfig.vocabulary, testConfig.kanji, testConfig.grammar, testConfig.reading]); 
 
   useEffect(() => {
-    try {
-      // Passes the array securely to the engine
-      const newExam = generateMockExam(questionsDatabase.questions || []);
-      setExamData(newExam);
-    } catch (error) {
-      console.error("Exam generation failed:", error);
-      setExamData({ questions: [], sec1Length: 0, sec2Length: 0 });
-    }
-  }, []);
+    generateTest();
+  }, [generateTest]);
 
-  if (!examData) {
-    return <div className="test-container" style={{ padding: '40px', textAlign: 'center' }}>Loading Exam...</div>;
-  }
-
-  // Safety net if the database doesn't have enough correctly-tagged questions
-  if (examData.questions.length === 0 || !examData.questions[currentIndex]) {
+  // --- SAFETY CATCHES ---
+  if (!mockTestData.questions) {
     return (
-      <div className="test-container" style={{ textAlign: 'center', marginTop: '50px' }}>
-        <h2>⚠️ Exam Generation Failed</h2>
-        <p style={{ color: '#666', marginBottom: '20px' }}>
-          We couldn't find enough matching questions in your database. Ensure your JSON matches the required criteria.
-        </p>
-        <button className="test-btn secondary" onClick={() => navigateTo('landing')}>← Back</button>
+      <div className="mocktest-page-layout">
+        <div className="test-stage" style={{ textAlign: 'center', marginTop: '50px' }}>
+          <h2>⚠️ JSON Data Error</h2>
+          <p>Could not load the questions. Please check mock-test.json</p>
+          <p>Ensure it contains a <b>"questions": [ ... ]</b> property.</p>
+        </div>
       </div>
     );
   }
 
-  const currentQuestion = examData.questions[currentIndex];
-  const isSection1 = currentIndex < examData.sec1Length;
+  if (testDeck.length === 0) {
+    return (
+      <div className="mocktest-page-layout">
+        <div className="test-stage" style={{ textAlign: 'center', marginTop: '50px' }}>
+          <h2>⏳ Assembling Exam...</h2>
+          <p>Shuffling {testConfig.vocabulary + testConfig.kanji + testConfig.grammar + testConfig.reading} questions...</p>
+        </div>
+      </div>
+    );
+  }
 
-  const handleOptionClick = (option) => {
-    if (isAnswered) return; 
+  const currentQuestion = testDeck[currentIndex];
 
-    setSelectedOption(option);
-    setIsAnswered(true);
-
-    if (option === currentQuestion.answer) {
-      if (isSection1) setSec1Score(prev => prev + 1);
-      else setSec2Score(prev => prev + 1);
-    }
+  const getQuestionWeight = (category) => {
+    if (category === 'reading') return 4; 
+    return 2; 
   };
 
+  // --- HANDLERS ---
+  const handleAnswerSelect = (option) => {
+    // Prevent clicking if an answer is already selected
+    if (selectedAnswer) return; 
+
+    setSelectedAnswer(option);
+
+    const isCorrect = option === currentQuestion.answer;
+    const pointsEarned = isCorrect ? getQuestionWeight(currentQuestion.category) : 0;
+    
+    if (isCorrect) {
+      setScore(prev => prev + pointsEarned); 
+    }
+
+    setReviewAnswers(prev => [...prev, {
+      question: currentQuestion.question,
+      passage: currentQuestion.passage,
+      selected: option,
+      correct: currentQuestion.answer,
+      isCorrect: isCorrect,
+      explanation: currentQuestion.explanation,
+      points: pointsEarned
+    }]);
+  };
+
+  // NEW: Function to manually advance to the next question
   const handleNextQuestion = () => {
-    if (currentIndex < examData.questions.length - 1) {
-      setCurrentIndex(currentIndex + 1);
-      setSelectedOption(null);
-      setIsAnswered(false);
+    if (currentIndex + 1 < testDeck.length) {
+      setCurrentIndex(prev => prev + 1);
+      setSelectedAnswer(null); // Clear selection for the next question
     } else {
-      setTestComplete(true);
+      setIsFinished(true);
     }
   };
 
-  if (testComplete) {
-    const scaledSec1 = examData.sec1Length > 0 ? Math.round((sec1Score / examData.sec1Length) * 60) : 0;
-    const scaledSec2 = examData.sec2Length > 0 ? Math.round((sec2Score / examData.sec2Length) * 60) : 0;
-    const totalScore = scaledSec1 + scaledSec2;
-    const passed = totalScore >= 38 && scaledSec1 >= 19 && scaledSec2 >= 19;
-
-    return (
-      <div className="test-container">
-        <div className="results-screen">
-          <h2>{passed ? '🎉 You Passed!' : 'Needs More Study'}</h2>
-          
-          <div className={`score-circle ${passed ? 'passed' : 'failed'}`}>
-            <span className="score-number">{totalScore}</span>
-            <span style={{fontSize: '1rem'}}>/ 120</span>
-          </div>
-          
-          <div className="score-breakdown">
-            <p><strong>Section 1 (Vocab):</strong> {scaledSec1} / 60</p>
-            <p><strong>Section 2 (Grammar/Reading):</strong> {scaledSec2} / 60</p>
-          </div>
-          
-          <div className="test-actions">
-            <button className="test-btn primary" onClick={() => window.location.reload()}>New Exam</button>
-            <button className="test-btn secondary" onClick={() => navigateTo('landing')}>Back to Menu</button>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
+  // --- RENDER ---
   return (
-    <div className="test-container">
-      <div className="test-header">
-        <button className="back-link" onClick={() => navigateTo('landing')}>← Quit Test</button>
-        <span className="question-counter">
-          Q {currentIndex + 1} of {examData.questions.length}
-        </span>
-      </div>
-
-      <div className="section-indicator">
-        {isSection1 ? "Section 1: Vocabulary" : "Section 2: Grammar & Reading"}
-      </div>
-
-      <div className="question-card">
-        {currentQuestion.passage && <div className="passage-box">{currentQuestion.passage}</div>}
-        <div className="category-badge">{currentQuestion.exam_type.replace('_', ' ').toUpperCase()}</div>
-        <h2 className="question-text">{currentQuestion.question}</h2>
-
-        <div className="options-grid">
-          {currentQuestion.options.map((option, index) => {
-            let buttonClass = "option-btn";
-            if (isAnswered) {
-              if (option === currentQuestion.answer) buttonClass += " correct";
-              else if (option === selectedOption) buttonClass += " incorrect";
-              else buttonClass += " disabled";
-            }
-            return (
-              <button key={index} className={buttonClass} onClick={() => handleOptionClick(option)} disabled={isAnswered}>
-                {option}
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      {isAnswered && (
-        <div className="feedback-section slide-up">
-          <div className={`feedback-banner ${selectedOption === currentQuestion.answer ? 'success' : 'error'}`}>
-            {selectedOption === currentQuestion.answer ? '✅ Correct!' : '❌ Incorrect!'}
+    <div className="mocktest-page-layout">
+      
+      {isFinished ? (
+        <div className="completion-screen">
+          <h2>Exam Complete! 🎓</h2>
+          
+          <div className="jlpt-score-box" style={{ background: '#f8f9fa', padding: '15px', borderRadius: '8px', marginBottom: '20px' }}>
+            <h3 style={{ margin: '0 0 10px 0' }}>Estimated JLPT Score</h3>
+            <p className="final-score" style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#007bff', margin: '0 0 10px 0' }}>
+              {score} / 120 Points
+            </p>
+            {score >= 38 ? (
+              <div className="pass-badge" style={{color: '#52c41a', fontWeight: 'bold'}}>
+                ✅ Section Passed (Minimum 38 required)
+              </div>
+            ) : (
+              <div className="fail-badge" style={{color: '#ff4d4f', fontWeight: 'bold'}}>
+                ❌ Section Failed (Minimum 38 required)
+              </div>
+            )}
           </div>
-          {currentQuestion.explanation && <p className="explanation-text"><strong>Explanation:</strong> {currentQuestion.explanation}</p>}
-          <button className="test-btn primary next-btn" onClick={handleNextQuestion}>
-            {currentIndex === examData.questions.length - 1 ? 'View Final Score' : 'Next Question →'}
+          
+          <div className="review-section">
+            <h3>Review Your Answers:</h3>
+            {reviewAnswers.map((ans, idx) => (
+              <div key={idx} className={`review-card ${ans.isCorrect ? 'correct' : 'incorrect'}`}>
+                {ans.passage && (
+                  <div className="review-passage-snippet">
+                    <p>{ans.passage.substring(0, 40)}...</p>
+                  </div>
+                )}
+                <div style={{display: 'flex', justifyContent: 'space-between'}}>
+                  <p className="review-q"><strong>Q:</strong> {ans.question}</p>
+                  <span style={{fontSize: '0.85rem', color: '#888', whiteSpace: 'nowrap', marginLeft: '10px'}}>
+                    {ans.isCorrect ? `+${ans.points} pts` : '0 pts'}
+                  </span>
+                </div>
+                <p><strong>Your Answer:</strong> {ans.selected} {ans.isCorrect ? '✅' : '❌'}</p>
+                {!ans.isCorrect && <p><strong>Correct Answer:</strong> {ans.correct}</p>}
+                {ans.explanation && (
+                  <p className="review-exp"><em>💡 {ans.explanation}</em></p>
+                )}
+              </div>
+            ))}
+          </div>
+
+          <button className="btn-restart" onClick={generateTest}>
+            Generate New Exam
           </button>
         </div>
+      ) : (
+        <div className="test-stage">
+          
+          <div className="progress-bar-container">
+            <div className="progress-stats">
+              <span style={{textTransform: 'capitalize', fontWeight: 'bold', color: '#007bff'}}>
+                Section: {currentQuestion.category}
+              </span>
+              <span>Question {currentIndex + 1} of {testDeck.length}</span>
+            </div>
+            <div className="progress-bar-bg">
+              <div 
+                className="progress-bar-fill" 
+                style={{ width: `${((currentIndex) / testDeck.length) * 100}%` }}
+              ></div>
+            </div>
+          </div>
+
+          <div className="question-container">
+            
+            {currentQuestion.passage && (
+              <div className="reading-passage-box">
+                <p className="passage-text">{currentQuestion.passage}</p>
+              </div>
+            )}
+
+            <h3 className="exam-question">{currentQuestion.question}</h3>
+
+            <div className="options-grid">
+              {currentQuestion.options.map((option, index) => {
+                // Determine styling for options after user clicks
+                let btnClass = "option-btn";
+                if (selectedAnswer) {
+                  if (option === currentQuestion.answer) {
+                    btnClass += " correct-option"; // Highlight correct answer
+                  } else if (option === selectedAnswer) {
+                    btnClass += " incorrect-option"; // Highlight user's wrong answer
+                  }
+                }
+
+                return (
+                  <button 
+                    key={index} 
+                    className={btnClass} 
+                    onClick={() => handleAnswerSelect(option)}
+                    disabled={!!selectedAnswer} // Disable all buttons once an answer is chosen
+                  >
+                    {option}
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* NEW: Immediate Feedback & Explanation Box */}
+            {selectedAnswer && (
+              <div className="immediate-feedback-box">
+                <h4 className={selectedAnswer === currentQuestion.answer ? "feedback-title-correct" : "feedback-title-incorrect"}>
+                  {selectedAnswer === currentQuestion.answer ? "✅ Correct!" : "❌ Incorrect"}
+                </h4>
+                {currentQuestion.explanation && (
+                  <p className="feedback-explanation"><strong>Explanation:</strong> {currentQuestion.explanation}</p>
+                )}
+                <button className="btn-next-question" onClick={handleNextQuestion}>
+                  {currentIndex + 1 < testDeck.length ? "Next Question →" : "See Final Results →"}
+                </button>
+              </div>
+            )}
+
+          </div>
+        </div>
       )}
+      
     </div>
   );
-}
+};
 
 export default MockTest;

@@ -55,5 +55,670 @@
       { "form": "Past Neg.", "japanese": "よくなかったです", "romaji": "yokunakatta desu" },
       { "form": "Te-form", "japanese": "よくて", "romaji": "yokute" }
     ]
+  },
+  {
+    "id": 4,
+    "kanji": "大きい",
+    "kana": "おおきい",
+    "romaji": "ookii",
+    "meaning": "big, large",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Size i-adjectives",
+      "content": "大きい and 小さい are among the most tested N5 adjectives. Drop い → 大きく before conjugating. Te-form: 大きくて. 富士山は大きくて、きれいです (Mt. Fuji is big and beautiful)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "大きいです", "romaji": "ookii desu" },
+      { "form": "Negative", "japanese": "大きくないです", "romaji": "ookinai desu" },
+      { "form": "Past", "japanese": "大きかったです", "romaji": "ookikatta desu" },
+      { "form": "Past Neg.", "japanese": "大きくなかったです", "romaji": "ookinakatta desu" },
+      { "form": "Te-form", "japanese": "大きくて", "romaji": "ookikute" }
+    ]
+  },
+  {
+    "id": 5,
+    "kanji": "小さい",
+    "kana": "ちいさい",
+    "romaji": "chiisai",
+    "meaning": "small, little",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Size i-adjectives",
+      "content": "小さい is the opposite of 大きい and follows the same conjugation pattern. Te-form: 小さくて. 私の猫は小さくて、かわいいです (My cat is small and cute)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "小さいです", "romaji": "chiisai desu" },
+      { "form": "Negative", "japanese": "小さくないです", "romaji": "chiisastakunai desu" },
+      { "form": "Past", "japanese": "小さかったです", "romaji": "chiisaikatta desu" },
+      { "form": "Past Neg.", "japanese": "小さくなかったです", "romaji": "chiisaikunakatta desu" },
+      { "form": "Te-form", "japanese": "小さくて", "romaji": "chiisaikute" }
+    ]
+  },
+  {
+    "id": 6,
+    "kanji": "新しい",
+    "kana": "あたらしい",
+    "romaji": "atarashii",
+    "meaning": "new",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Four-mora stem",
+      "content": "Drop い → あたらし → then add the conjugation ending. Te-form: 新しくて. この本は新しくて、おもしろいです (This book is new and interesting)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "新しいです", "romaji": "atarashii desu" },
+      { "form": "Negative", "japanese": "新しくないです", "romaji": "atarashikunai desu" },
+      { "form": "Past", "japanese": "新しかったです", "romaji": "atarashikatta desu" },
+      { "form": "Past Neg.", "japanese": "新しくなかったです", "romaji": "atarashikunakatta desu" },
+      { "form": "Te-form", "japanese": "新しくて", "romaji": "atarashikute" }
+    ]
+  },
+  {
+    "id": 7,
+    "kanji": "古い",
+    "kana": "ふるい",
+    "romaji": "furui",
+    "meaning": "old (things)",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Old for objects, not people",
+      "content": "古い is used for objects and places, not people. For people use 年をとった. Te-form: 古くて. この寺は古くて、有名です (This temple is old and famous)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "古いです", "romaji": "furui desu" },
+      { "form": "Negative", "japanese": "古くないです", "romaji": "furukunai desu" },
+      { "form": "Past", "japanese": "古かったです", "romaji": "furukatta desu" },
+      { "form": "Past Neg.", "japanese": "古くなかったです", "romaji": "furukunakatta desu" },
+      { "form": "Te-form", "japanese": "古くて", "romaji": "furukute" }
+    ]
+  },
+  {
+    "id": 8,
+    "kanji": "高い",
+    "kana": "たかい",
+    "romaji": "takai",
+    "meaning": "expensive; tall; high",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Two meanings",
+      "content": "高い means both 'expensive' and 'tall/high' depending on context. Te-form: 高くて. このビルは高くて、きれいです (This building is tall and beautiful)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "高いです", "romaji": "takai desu" },
+      { "form": "Negative", "japanese": "高くないです", "romaji": "takakunai desu" },
+      { "form": "Past", "japanese": "高かったです", "romaji": "takakatta desu" },
+      { "form": "Past Neg.", "japanese": "高くなかったです", "romaji": "takakunakatta desu" },
+      { "form": "Te-form", "japanese": "高くて", "romaji": "takakute" }
+    ]
+  },
+  {
+    "id": 9,
+    "kanji": "安い",
+    "kana": "やすい",
+    "romaji": "yasui",
+    "meaning": "cheap, inexpensive",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Price opposite pair",
+      "content": "安い (cheap) is the natural opposite of 高い (expensive). Te-form: 安くて. このスーパーは安くて、便利です (This supermarket is cheap and convenient)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "安いです", "romaji": "yasui desu" },
+      { "form": "Negative", "japanese": "安くないです", "romaji": "yasukunai desu" },
+      { "form": "Past", "japanese": "安かったです", "romaji": "yasukatta desu" },
+      { "form": "Past Neg.", "japanese": "安くなかったです", "romaji": "yasukunakatta desu" },
+      { "form": "Te-form", "japanese": "安くて", "romaji": "yasukute" }
+    ]
+  },
+  {
+    "id": 10,
+    "kanji": "暑い",
+    "kana": "あつい",
+    "romaji": "atsui",
+    "meaning": "hot (weather)",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Three あつい homophones",
+      "content": "暑い = hot weather, 熱い = hot to the touch, 厚い = thick. Context and kanji distinguish them. N5 most commonly tests 暑い. Te-form: 暑くて. 今日は暑くて、大変です (Today is hot and tough)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "暑いです", "romaji": "atsui desu" },
+      { "form": "Negative", "japanese": "暑くないです", "romaji": "atsukunai desu" },
+      { "form": "Past", "japanese": "暑かったです", "romaji": "atsukatta desu" },
+      { "form": "Past Neg.", "japanese": "暑くなかったです", "romaji": "atsukunakatta desu" },
+      { "form": "Te-form", "japanese": "暑くて", "romaji": "atsukute" }
+    ]
+  },
+  {
+    "id": 11,
+    "kanji": "寒い",
+    "kana": "さむい",
+    "romaji": "samui",
+    "meaning": "cold (weather)",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Weather opposites",
+      "content": "寒い (cold air/weather) vs 冷たい (cold to the touch). Te-form: 寒くて. 今日は寒くて、コートが必要です (Today is cold and I need a coat)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "寒いです", "romaji": "samui desu" },
+      { "form": "Negative", "japanese": "寒くないです", "romaji": "samukunai desu" },
+      { "form": "Past", "japanese": "寒かったです", "romaji": "samukatta desu" },
+      { "form": "Past Neg.", "japanese": "寒くなかったです", "romaji": "samukunakatta desu" },
+      { "form": "Te-form", "japanese": "寒くて", "romaji": "samukute" }
+    ]
+  },
+  {
+    "id": 12,
+    "kanji": "難しい",
+    "kana": "むずかしい",
+    "romaji": "muzukashii",
+    "meaning": "difficult, hard",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Common exam topic",
+      "content": "Often appears in sentences about studying or tests. Te-form: 難しくて. 日本語は難しくて、おもしろいです (Japanese is difficult and interesting)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "難しいです", "romaji": "muzukashii desu" },
+      { "form": "Negative", "japanese": "難しくないです", "romaji": "muzukashikunai desu" },
+      { "form": "Past", "japanese": "難しかったです", "romaji": "muzukashikatta desu" },
+      { "form": "Past Neg.", "japanese": "難しくなかったです", "romaji": "muzukashikunakatta desu" },
+      { "form": "Te-form", "japanese": "難しくて", "romaji": "muzukashikute" }
+    ]
+  },
+  {
+    "id": 13,
+    "kanji": "易しい",
+    "kana": "やさしい",
+    "romaji": "yasashii",
+    "meaning": "easy; gentle, kind",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Two readings, two meanings",
+      "content": "易しい (easy) and 優しい (kind) share the reading やさしい. Both appear at N5. Te-form: やさしくて. この問題はやさしくて、すぐできました (This problem was easy and I finished it quickly)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "易しいです", "romaji": "yasashii desu" },
+      { "form": "Negative", "japanese": "易しくないです", "romaji": "yasashikunai desu" },
+      { "form": "Past", "japanese": "易しかったです", "romaji": "yasashikatta desu" },
+      { "form": "Past Neg.", "japanese": "易しくなかったです", "romaji": "yasashikunakatta desu" },
+      { "form": "Te-form", "japanese": "易しくて", "romaji": "yasashikute" }
+    ]
+  },
+  {
+    "id": 14,
+    "kanji": "楽しい",
+    "kana": "たのしい",
+    "romaji": "tanoshii",
+    "meaning": "fun, enjoyable",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Fun vs pleasant",
+      "content": "楽しい describes active fun. Often confused with 楽 (raku, easy/comfortable) which is a na-adjective. Te-form: 楽しくて. 旅行は楽しくて、いい思い出です (The trip was fun and a good memory)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "楽しいです", "romaji": "tanoshii desu" },
+      { "form": "Negative", "japanese": "楽しくないです", "romaji": "tanoshikunai desu" },
+      { "form": "Past", "japanese": "楽しかったです", "romaji": "tanoshikatta desu" },
+      { "form": "Past Neg.", "japanese": "楽しくなかったです", "romaji": "tanoshikunakatta desu" },
+      { "form": "Te-form", "japanese": "楽しくて", "romaji": "tanoshikute" }
+    ]
+  },
+  {
+    "id": 15,
+    "kanji": "かわいい",
+    "kana": "かわいい",
+    "romaji": "kawaii",
+    "meaning": "cute, adorable",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Usually written in kana",
+      "content": "かわいい is almost always written in hiragana even though 可愛い exists. Te-form: かわいくて. この猫はかわいくて、小さいです (This cat is cute and small)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "かわいいです", "romaji": "kawaii desu" },
+      { "form": "Negative", "japanese": "かわいくないです", "romaji": "kawaikunai desu" },
+      { "form": "Past", "japanese": "かわいかったです", "romaji": "kawaikatta desu" },
+      { "form": "Past Neg.", "japanese": "かわいくなかったです", "romaji": "kawaikunakatta desu" },
+      { "form": "Te-form", "japanese": "かわいくて", "romaji": "kawaikute" }
+    ]
+  },
+  {
+    "id": 16,
+    "kanji": "白い",
+    "kana": "しろい",
+    "romaji": "shiroi",
+    "meaning": "white",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Colors as i-adjectives",
+      "content": "The four basic colors 白い, 黒い, 赤い, 青い are i-adjectives. Other colors like みどり (green) and オレンジ (orange) are na-adjectives. Te-form: 白くて. 雪は白くて、きれいです (Snow is white and beautiful)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "白いです", "romaji": "shiroi desu" },
+      { "form": "Negative", "japanese": "白くないです", "romaji": "shirokunai desu" },
+      { "form": "Past", "japanese": "白かったです", "romaji": "shirokatta desu" },
+      { "form": "Past Neg.", "japanese": "白くなかったです", "romaji": "shirokunakatta desu" },
+      { "form": "Te-form", "japanese": "白くて", "romaji": "shirokute" }
+    ]
+  },
+  {
+    "id": 17,
+    "kanji": "黒い",
+    "kana": "くろい",
+    "romaji": "kuroi",
+    "meaning": "black",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Colors as i-adjectives",
+      "content": "黒い conjugates like other i-adjectives. Te-form: 黒くて. この犬は黒くて、大きいです (This dog is black and big)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "黒いです", "romaji": "kuroi desu" },
+      { "form": "Negative", "japanese": "黒くないです", "romaji": "kurokunai desu" },
+      { "form": "Past", "japanese": "黒かったです", "romaji": "kurokatta desu" },
+      { "form": "Past Neg.", "japanese": "黒くなかったです", "romaji": "kurokunakatta desu" },
+      { "form": "Te-form", "japanese": "黒くて", "romaji": "kurokute" }
+    ]
+  },
+  {
+    "id": 18,
+    "kanji": "赤い",
+    "kana": "あかい",
+    "romaji": "akai",
+    "meaning": "red",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Colors as i-adjectives",
+      "content": "赤い, like the other basic colors, is an i-adjective. Te-form: 赤くて. このリンゴは赤くて、甘いです (This apple is red and sweet)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "赤いです", "romaji": "akai desu" },
+      { "form": "Negative", "japanese": "赤くないです", "romaji": "akakunai desu" },
+      { "form": "Past", "japanese": "赤かったです", "romaji": "akakatta desu" },
+      { "form": "Past Neg.", "japanese": "赤くなかったです", "romaji": "akakunakatta desu" },
+      { "form": "Te-form", "japanese": "赤くて", "romaji": "akakute" }
+    ]
+  },
+  {
+    "id": 19,
+    "kanji": "青い",
+    "kana": "あおい",
+    "romaji": "aoi",
+    "meaning": "blue; green (traffic lights)",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Blue and green overlap",
+      "content": "青い covers both blue and green in certain contexts — 青信号 means green light. Te-form: 青くて. 空は青くて、きれいです (The sky is blue and beautiful)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "青いです", "romaji": "aoi desu" },
+      { "form": "Negative", "japanese": "青くないです", "romaji": "aokunai desu" },
+      { "form": "Past", "japanese": "青かったです", "romaji": "aokatta desu" },
+      { "form": "Past Neg.", "japanese": "青くなかったです", "romaji": "aokunakatta desu" },
+      { "form": "Te-form", "japanese": "青くて", "romaji": "aokute" }
+    ]
+  },
+  {
+    "id": 20,
+    "kanji": "長い",
+    "kana": "ながい",
+    "romaji": "nagai",
+    "meaning": "long",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Length vs height",
+      "content": "長い is for length (rope, hair, time). Height uses 高い. Te-form: 長くて. この道は長くて、まっすぐです (This road is long and straight)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "長いです", "romaji": "nagai desu" },
+      { "form": "Negative", "japanese": "長くないです", "romaji": "nagakunai desu" },
+      { "form": "Past", "japanese": "長かったです", "romaji": "nagakatta desu" },
+      { "form": "Past Neg.", "japanese": "長くなかったです", "romaji": "nagakunakatta desu" },
+      { "form": "Te-form", "japanese": "長くて", "romaji": "nagakute" }
+    ]
+  },
+  {
+    "id": 21,
+    "kanji": "短い",
+    "kana": "みじかい",
+    "romaji": "mijikai",
+    "meaning": "short (length)",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Short for length/time",
+      "content": "短い is for short lengths or durations. For short height use 低い. Te-form: 短くて. この映画は短くて、おもしろかったです (This film was short and interesting)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "短いです", "romaji": "mijikai desu" },
+      { "form": "Negative", "japanese": "短くないです", "romaji": "mijikakunai desu" },
+      { "form": "Past", "japanese": "短かったです", "romaji": "mijikakatta desu" },
+      { "form": "Past Neg.", "japanese": "短くなかったです", "romaji": "mijikakunakatta desu" },
+      { "form": "Te-form", "japanese": "短くて", "romaji": "mijikakute" }
+    ]
+  },
+  {
+    "id": 22,
+    "kanji": "面白い",
+    "kana": "おもしろい",
+    "romaji": "omoshiroi",
+    "meaning": "interesting, funny",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Interesting and funny",
+      "content": "面白い covers both 'funny (ha-ha)' and 'interesting'. Context separates them. Te-form: 面白くて. この映画は面白くて、長いです (This film is interesting and long)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "面白いです", "romaji": "omoshiroi desu" },
+      { "form": "Negative", "japanese": "面白くないです", "romaji": "omoshirokunai desu" },
+      { "form": "Past", "japanese": "面白かったです", "romaji": "omoshirokatta desu" },
+      { "form": "Past Neg.", "japanese": "面白くなかったです", "romaji": "omoshirokunakatta desu" },
+      { "form": "Te-form", "japanese": "面白くて", "romaji": "omoshirokute" }
+    ]
+  },
+  {
+    "id": 23,
+    "kanji": "忙しい",
+    "kana": "いそがしい",
+    "romaji": "isogashii",
+    "meaning": "busy",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Very common in daily life",
+      "content": "忙しい frequently appears in reading and listening about schedules and work. Te-form: 忙しくて. 今週は忙しくて、大変です (This week is busy and tough)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "忙しいです", "romaji": "isogashii desu" },
+      { "form": "Negative", "japanese": "忙しくないです", "romaji": "isogashikunai desu" },
+      { "form": "Past", "japanese": "忙しかったです", "romaji": "isogashikatta desu" },
+      { "form": "Past Neg.", "japanese": "忙しくなかったです", "romaji": "isogashikunakatta desu" },
+      { "form": "Te-form", "japanese": "忙しくて", "romaji": "isogashikute" }
+    ]
+  },
+  {
+    "id": 24,
+    "kanji": "広い",
+    "kana": "ひろい",
+    "romaji": "hiroi",
+    "meaning": "wide, spacious",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Space and width",
+      "content": "広い is for rooms, parks, and open spaces. Often contrasted with 狭い (narrow). Te-form: 広くて. この部屋は広くて、明るいです (This room is spacious and bright)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "広いです", "romaji": "hiroi desu" },
+      { "form": "Negative", "japanese": "広くないです", "romaji": "hirokunai desu" },
+      { "form": "Past", "japanese": "広かったです", "romaji": "hirokatta desu" },
+      { "form": "Past Neg.", "japanese": "広くなかったです", "romaji": "hirokunakatta desu" },
+      { "form": "Te-form", "japanese": "広くて", "romaji": "hirokute" }
+    ]
+  },
+  {
+    "id": 25,
+    "kanji": "近い",
+    "kana": "ちかい",
+    "romaji": "chikai",
+    "meaning": "near, close",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Distance pair",
+      "content": "近い (near) vs 遠い (far) — both appear on N5. Common in directions and location questions. Te-form: 近くて. 駅は近くて、便利です (The station is close and convenient)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "近いです", "romaji": "chikai desu" },
+      { "form": "Negative", "japanese": "近くないです", "romaji": "chikakunai desu" },
+      { "form": "Past", "japanese": "近かったです", "romaji": "chikakatta desu" },
+      { "form": "Past Neg.", "japanese": "近くなかったです", "romaji": "chikakunakatta desu" },
+      { "form": "Te-form", "japanese": "近くて", "romaji": "chikakute" }
+    ]
+  },
+  {
+    "id": 26,
+    "kanji": "遠い",
+    "kana": "とおい",
+    "romaji": "tooi",
+    "meaning": "far, distant",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Distance pair",
+      "content": "遠い (far) vs 近い (near). Note the double-o in the romaji. Te-form: 遠くて. 駅は遠くて、不便です (The station is far and inconvenient)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "遠いです", "romaji": "tooi desu" },
+      { "form": "Negative", "japanese": "遠くないです", "romaji": "tookunai desu" },
+      { "form": "Past", "japanese": "遠かったです", "romaji": "tookatta desu" },
+      { "form": "Past Neg.", "japanese": "遠くなかったです", "romaji": "tookunakatta desu" },
+      { "form": "Te-form", "japanese": "遠くて", "romaji": "tookute" }
+    ]
+  },
+  {
+    "id": 27,
+    "kanji": "きれい",
+    "kana": "きれい",
+    "romaji": "kirei",
+    "meaning": "pretty; clean",
+    "type": "na-adjective",
+    "grammarNote": {
+      "title": "⚠️ Looks like an i-adjective, isn't",
+      "content": "きれい ends in い but is a na-adjective — one of the most common N5 exam traps. Negative: きれいじゃない (NOT きれくない). Te-form: きれいで. この花はきれいで、いい香りがします (This flower is pretty and smells nice)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "きれいです", "romaji": "kirei desu" },
+      { "form": "Negative", "japanese": "きれいじゃないです", "romaji": "kirei ja nai desu" },
+      { "form": "Past", "japanese": "きれいでした", "romaji": "kirei deshita" },
+      { "form": "Past Neg.", "japanese": "きれいじゃなかったです", "romaji": "kirei ja nakatta desu" },
+      { "form": "Te-form", "japanese": "きれいで", "romaji": "kirei de" }
+    ]
+  },
+  {
+    "id": 28,
+    "kanji": "有名",
+    "kana": "ゆうめい",
+    "romaji": "yuumei",
+    "meaning": "famous",
+    "type": "na-adjective",
+    "grammarNote": {
+      "title": "💡 Na-adjective with kanji",
+      "content": "有名 is a classic na-adjective. Te-form: 有名で. この映画は有名で、面白いです (This film is famous and interesting)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "有名です", "romaji": "yuumei desu" },
+      { "form": "Negative", "japanese": "有名じゃないです", "romaji": "yuumei ja nai desu" },
+      { "form": "Past", "japanese": "有名でした", "romaji": "yuumei deshita" },
+      { "form": "Past Neg.", "japanese": "有名じゃなかったです", "romaji": "yuumei ja nakatta desu" },
+      { "form": "Te-form", "japanese": "有名で", "romaji": "yuumei de" }
+    ]
+  },
+  {
+    "id": 29,
+    "kanji": "好き",
+    "kana": "すき",
+    "romaji": "suki",
+    "meaning": "liked, favourite",
+    "type": "na-adjective",
+    "grammarNote": {
+      "title": "💡 Expressing likes with が",
+      "content": "好き and 嫌い are na-adjectives used with が to mark the object of the feeling. 私は日本語が好きです (I like Japanese). Te-form: 好きで."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "好きです", "romaji": "suki desu" },
+      { "form": "Negative", "japanese": "好きじゃないです", "romaji": "suki ja nai desu" },
+      { "form": "Past", "japanese": "好きでした", "romaji": "suki deshita" },
+      { "form": "Past Neg.", "japanese": "好きじゃなかったです", "romaji": "suki ja nakatta desu" },
+      { "form": "Te-form", "japanese": "好きで", "romaji": "suki de" }
+    ]
+  },
+  {
+    "id": 30,
+    "kanji": "嫌い",
+    "kana": "きらい",
+    "romaji": "kirai",
+    "meaning": "disliked, hated",
+    "type": "na-adjective",
+    "grammarNote": {
+      "title": "💡 Likes and dislikes pair",
+      "content": "嫌い is the opposite of 好き and follows the same na-adjective pattern with が. 私はにんじんが嫌いです (I dislike carrots). Te-form: 嫌いで."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "嫌いです", "romaji": "kirai desu" },
+      { "form": "Negative", "japanese": "嫌いじゃないです", "romaji": "kirai ja nai desu" },
+      { "form": "Past", "japanese": "嫌いでした", "romaji": "kirai deshita" },
+      { "form": "Past Neg.", "japanese": "嫌いじゃなかったです", "romaji": "kirai ja nakatta desu" },
+      { "form": "Te-form", "japanese": "嫌いで", "romaji": "kirai de" }
+    ]
+  },
+  {
+    "id": 31,
+    "kanji": "上手",
+    "kana": "じょうず",
+    "romaji": "jouzu",
+    "meaning": "skilled, good at",
+    "type": "na-adjective",
+    "grammarNote": {
+      "title": "💡 Skill with が",
+      "content": "上手 takes が for the skill: 田中さんは料理が上手です (Tanaka is good at cooking). Avoid using 上手 about your own skills — use 得意 or 上手くなりたい instead. Te-form: 上手で."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "上手です", "romaji": "jouzu desu" },
+      { "form": "Negative", "japanese": "上手じゃないです", "romaji": "jouzu ja nai desu" },
+      { "form": "Past", "japanese": "上手でした", "romaji": "jouzu deshita" },
+      { "form": "Past Neg.", "japanese": "上手じゃなかったです", "romaji": "jouzu ja nakatta desu" },
+      { "form": "Te-form", "japanese": "上手で", "romaji": "jouzu de" }
+    ]
+  },
+  {
+    "id": 32,
+    "kanji": "下手",
+    "kana": "へた",
+    "romaji": "heta",
+    "meaning": "unskilled, bad at",
+    "type": "na-adjective",
+    "grammarNote": {
+      "title": "💡 Opposite of 上手",
+      "content": "下手 (unskilled) is the counterpart to 上手 and similarly takes が for the skill. 私は歌が下手です (I am bad at singing). Te-form: 下手で."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "下手です", "romaji": "heta desu" },
+      { "form": "Negative", "japanese": "下手じゃないです", "romaji": "heta ja nai desu" },
+      { "form": "Past", "japanese": "下手でした", "romaji": "heta deshita" },
+      { "form": "Past Neg.", "japanese": "下手じゃなかったです", "romaji": "heta ja nakatta desu" },
+      { "form": "Te-form", "japanese": "下手で", "romaji": "heta de" }
+    ]
+  },
+  {
+    "id": 33,
+    "kanji": "便利",
+    "kana": "べんり",
+    "romaji": "benri",
+    "meaning": "convenient",
+    "type": "na-adjective",
+    "grammarNote": {
+      "title": "💡 Convenience and inconvenience",
+      "content": "便利 (convenient) vs 不便 (inconvenient). Both are na-adjectives. Te-form: 便利で. この駅は便利で、近いです (This station is convenient and close)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "便利です", "romaji": "benri desu" },
+      { "form": "Negative", "japanese": "便利じゃないです", "romaji": "benri ja nai desu" },
+      { "form": "Past", "japanese": "便利でした", "romaji": "benri deshita" },
+      { "form": "Past Neg.", "japanese": "便利じゃなかったです", "romaji": "benri ja nakatta desu" },
+      { "form": "Te-form", "japanese": "便利で", "romaji": "benri de" }
+    ]
+  },
+  {
+    "id": 34,
+    "kanji": "親切",
+    "kana": "しんせつ",
+    "romaji": "shinsetsu",
+    "meaning": "kind, helpful",
+    "type": "na-adjective",
+    "grammarNote": {
+      "title": "💡 Kindness in na-adjectives",
+      "content": "親切 often appears in listening sections about people's personalities. Te-form: 親切で. あの先生は親切で、教え方が上手です (That teacher is kind and good at teaching)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "親切です", "romaji": "shinsetsu desu" },
+      { "form": "Negative", "japanese": "親切じゃないです", "romaji": "shinsetsu ja nai desu" },
+      { "form": "Past", "japanese": "親切でした", "romaji": "shinsetsu deshita" },
+      { "form": "Past Neg.", "japanese": "親切じゃなかったです", "romaji": "shinsetsu ja nakatta desu" },
+      { "form": "Te-form", "japanese": "親切で", "romaji": "shinsetsu de" }
+    ]
+  },
+  {
+    "id": 35,
+    "kanji": "元気",
+    "kana": "げんき",
+    "romaji": "genki",
+    "meaning": "healthy, energetic",
+    "type": "na-adjective",
+    "grammarNote": {
+      "title": "💡 Greeting word",
+      "content": "元気 is used in お元気ですか (Are you well?). Despite its greeting usage it conjugates as a normal na-adjective. Te-form: 元気で. 子供たちは元気で、にぎやかです (The children are energetic and lively)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "元気です", "romaji": "genki desu" },
+      { "form": "Negative", "japanese": "元気じゃないです", "romaji": "genki ja nai desu" },
+      { "form": "Past", "japanese": "元気でした", "romaji": "genki deshita" },
+      { "form": "Past Neg.", "japanese": "元気じゃなかったです", "romaji": "genki ja nakatta desu" },
+      { "form": "Te-form", "japanese": "元気で", "romaji": "genki de" }
+    ]
+  },
+  {
+    "id": 36,
+    "kanji": "暇",
+    "kana": "ひま",
+    "romaji": "hima",
+    "meaning": "free time, not busy",
+    "type": "na-adjective",
+    "grammarNote": {
+      "title": "💡 Free time",
+      "content": "暇 is used when you have free time. Opposite of 忙しい. Te-form: 暇で. 今日は暇で、何もすることがないです (Today I am free and have nothing to do)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "暇です", "romaji": "hima desu" },
+      { "form": "Negative", "japanese": "暇じゃないです", "romaji": "hima ja nai desu" },
+      { "form": "Past", "japanese": "暇でした", "romaji": "hima deshita" },
+      { "form": "Past Neg.", "japanese": "暇じゃなかったです", "romaji": "hima ja nakatta desu" },
+      { "form": "Te-form", "japanese": "暇で", "romaji": "hima de" }
+    ]
+  },
+  {
+    "id": 37,
+    "kanji": "大切",
+    "kana": "たいせつ",
+    "romaji": "taisetsu",
+    "meaning": "important, precious",
+    "type": "na-adjective",
+    "grammarNote": {
+      "title": "💡 Important vs large",
+      "content": "大切 (important/precious) and 大事 (important/serious) are near-synonyms at N5. Both are na-adjectives. Te-form: 大切で. 家族は大切で、いつも感謝しています (Family is precious and I am always grateful)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "大切です", "romaji": "taisetsu desu" },
+      { "form": "Negative", "japanese": "大切じゃないです", "romaji": "taisetsu ja nai desu" },
+      { "form": "Past", "japanese": "大切でした", "romaji": "taisetsu deshita" },
+      { "form": "Past Neg.", "japanese": "大切じゃなかったです", "romaji": "taisetsu ja nakatta desu" },
+      { "form": "Te-form", "japanese": "大切で", "romaji": "taisetsu de" }
+    ]
+  },
+  {
+    "id": 38,
+    "kanji": "大変",
+    "kana": "たいへん",
+    "romaji": "taihen",
+    "meaning": "tough, hard; very (adverb)",
+    "type": "na-adjective",
+    "grammarNote": {
+      "title": "💡 Adjective and adverb",
+      "content": "大変 functions as a na-adjective (大変です = it's tough) and as an adverb meaning 'very' (大変おいしい = very delicious). Te-form: 大変で. 今日の仕事は大変でした (Today's work was tough)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "大変です", "romaji": "taihen desu" },
+      { "form": "Negative", "japanese": "大変じゃないです", "romaji": "taihen ja nai desu" },
+      { "form": "Past", "japanese": "大変でした", "romaji": "taihen deshita" },
+      { "form": "Past Neg.", "japanese": "大変じゃなかったです", "romaji": "taihen ja nakatta desu" },
+      { "form": "Te-form", "japanese": "大変で", "romaji": "taihen de" }
+    ]
   }
 ]
