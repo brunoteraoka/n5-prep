@@ -1,41 +1,43 @@
 # ⛩️ JLPT N5 Mastery App
 
-A mobile-first, interactive React application designed to help students master JLPT N5 vocabulary, kanji, and verb conjugations. The app features gesture-based flashcards, spaced repetition tracking, and detailed grammar context.
+A mobile-first, interactive React application designed to help students master JLPT N5 vocabulary, kanji, grammar, and reading comprehension. The app features gesture-based flashcards, detailed conjugation decks, and a highly realistic mock examination engine.
 
 ## ✨ Core Features
 
-*   **Smart Flashcard Deck:** 
-    *   3D flip animations with built-in swipe recognition (swipe left for missed, swipe right for known).
-    *   Intelligent touch handling that distinguishes between vertical scrolling (to read example sentences) and horizontal swiping.
-    *   Furigana toggle to test true kanji reading comprehension.
-*   **Spaced Repetition System (SRS):**
-    *   Automatically tracks missed cards during a session.
-    *   Generates a custom "Review Missed" deck at the end of the session to reinforce weak points.
-    *   Visual progress bar and dynamic session statistics.
-*   **Verb & Conjugation Module:**
-    *   Swipeable verb cards detailing crucial N5 flexions (Te-form, Masu-form, Past, Negative).
-    *   Dedicated **Particle Notes** explaining which particle each verb requires.
-    *   Expandable **Grammar Context** drawers for deep-dives into sentence structure.
-*   **Mock Examination:** 
-    *   Simulated JLPT testing environment for grammar and vocabulary.
-*   **Mobile-First "Holy Grail" Layout:** 
-    *   Strict viewport constraints to prevent horizontal/vertical overflow on mobile devices.
-    *   A persistent, global sliding hamburger menu that safely avoids iOS/Android screen notches.
+### 1. Smart Flashcard Deck
+* **Gesture-Based:** 3D flip animations with built-in swipe recognition (swipe left for missed, swipe right for known).
+* **Audio Integration:** Built-in native Japanese pronunciation using the browser's Web Speech API for both single vocabulary and full sentences.
+* **Spaced Repetition (SRS):** Automatically tracks missed cards and generates custom review decks.
+* **Furigana Toggle:** Hide/show furigana to test true kanji reading comprehension.
+
+### 2. Verb & Adjective Modules
+* **Interactive Conjugations:** Swipeable cards detailing crucial N5 flexions (Te-form, Masu-form, Past, Negative).
+* **Particle Notes:** Dedicated explanations detailing exactly which particle each verb requires.
+* **Grammar Context:** Expandable drawers providing real-world sentence structures and usage tips.
+
+### 3. Realistic JLPT Mock Examination
+* **Dynamic Generation:** Automatically shuffles and pulls exactly 54 questions per test, matching the official N5 category distributions (Vocab, Kanji, Grammar, Reading).
+* **Weighted Scoring:** Grades the exam out of 120 JLPT points (Reading questions are heavily weighted), calculating if the user meets the official 38-point passing threshold.
+* **Reading Comprehension (Dokkai):** Specialized UI for reading passages (`pre-wrap` formatted) with associated questions.
+* **Immediate Feedback UX:** Instantly highlights correct/incorrect answers upon selection and provides the explanation while the context is still fresh, before advancing to the next question.
+* **Final Review Dashboard:** A comprehensive end-of-test breakdown showing points earned per question and missed concepts.
 
 ## 🚀 Recent Updates
 
-*   **Global Navigation:** Extracted the menu system into `App.js` to provide a persistent, slide-out hamburger menu across all modules (Flashcards, Verbs, Mock Test).
-*   **Verb Deck Overhaul:** Transitioned the verb list into a swipeable flashcard deck, adding specific grammar and particle explanations to each card.
-*   **Layout Engine Refactor:** Implemented viewport height (`vh`) bounding and flexbox centering (`margin: auto`) to guarantee the flashcard banner stays perfectly centered without breaking mobile device dimensions.
-*   **Restored SRS & Feedback:** Re-integrated the missed card tracking array and added a central, non-blocking flashing feedback banner (✅ Got it / ❌ Missed it) that triggers on swipes or button presses.
+* **Mock Test Overhaul:** Implemented immediate answer feedback, "Next Question" manual progression, and a weighted 120-point scoring system to perfectly simulate real JLPT conditions.
+* **Reading Passages:** Added conditional rendering and CSS formatting to handle long-form Japanese text and line-breaks for Dokkai questions.
+* **Adjectives Deck:** Deployed a dedicated swipeable deck for `i-adjectives` and `na-adjectives`, complete with type-badge highlighting.
+* **Web Speech API:** Added zero-latency, offline-capable native text-to-speech audio for kanji and example sentences.
 
 ## 🛠️ Tech Stack
 
-*   **Frontend:** React.js (Hooks: `useState`, `useEffect`, `useRef`, `useCallback`)
-*   **Styling:** Pure CSS (Flexbox, CSS Animations, Mobile Media Queries, Safe Area Insets)
-*   **Data Handling:** Local JSON arrays mapping Kanji, Vocab, and Verb groups.
+* **Frontend:** React.js (Hooks: `useState`, `useEffect`, `useRef`, `useCallback`)
+* **Styling:** Pure CSS (Flexbox layout, Mobile Safe Area Insets, CSS Animations)
+* **Audio:** Native HTML5 Web Speech API (`window.speechSynthesis`)
+* **Data Handling:** Local, structured JSON arrays.
 
 ## 📦 Getting Started
 
 ### Prerequisites
-Make sure you have Node.js and npm installed.
+Make sure you have Node.js and npm installed on your machine.
+
