@@ -318,3 +318,62 @@
   background: #007bff;
   transition: width 0.3s ease;
 }
+
+/* =========================================
+   AUDIO BUTTONS
+   ========================================= */
+.audio-btn {
+  background: #f0f4f8;
+  border: 1px solid #dce4ec;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.audio-btn:hover, .audio-btn:active {
+  background: #e1e8f0;
+  transform: scale(1.1);
+}
+
+/* Large audio button on the front of the card */
+.front-audio {
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+/* Smaller inline audio buttons for vocab and sentences on the back */
+.inline-audio {
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+  margin-left: 10px;
+  flex-shrink: 0; /* Prevents the button from squishing if the sentence is long */
+}
+
+/* Flexbox wrapper to keep the sentence and its audio button aligned */
+.sentence-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 4px 0;
+}
+
+.sentence-row .japanese-sentence {
+  margin: 0;
+  flex-grow: 1;
+}
+
+/* Ensure the vocab header uses flexbox to align its new audio button */
+.vocab-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}

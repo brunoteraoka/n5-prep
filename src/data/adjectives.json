@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "kanji": "美味しい",
+    "kana": "おいしい",
+    "romaji": "oishii",
+    "meaning": "delicious",
+    "type": "i-adjective",
+    "grammarNote": {
+      "title": "💡 Dropping the 'i' (い)",
+      "content": "For i-adjectives, you must drop the final 'い' before adding the conjugation. For example, the Te-form is 'おいしくて' (oishikute), which you can use to connect thoughts: 京都の湯豆腐は美味しくて、温かいです (The yudofu in Kyoto is delicious and warm)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "美味しいです", "romaji": "oishii desu" },
+      { "form": "Negative", "japanese": "美味しくないです", "romaji": "oishikunai desu" },
+      { "form": "Past", "japanese": "美味しかったです", "romaji": "oishikatta desu" },
+      { "form": "Past Neg.", "japanese": "美味しくなかったです", "romaji": "oishikunakatta desu" },
+      { "form": "Te-form", "japanese": "美味しくて", "romaji": "oishikute" }
+    ]
+  },
+  {
+    "id": 2,
+    "kanji": "静か",
+    "kana": "しずか",
+    "romaji": "shizuka",
+    "meaning": "quiet",
+    "type": "na-adjective",
+    "grammarNote": {
+      "title": "💡 Na-adjectives act like nouns",
+      "content": "Unlike i-adjectives, na-adjectives use 'desu' (です) or 'da' (だ) to conjugate. When connecting sentences, their Te-form is simply 'で' (de). Example: 箱根の旅館は静かで、きれいです (The inn in Hakone is quiet and beautiful)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "静かです", "romaji": "shizuka desu" },
+      { "form": "Negative", "japanese": "静かじゃないです", "romaji": "shizuka ja nai desu" },
+      { "form": "Past", "japanese": "静かでした", "romaji": "shizuka deshita" },
+      { "form": "Past Neg.", "japanese": "静かじゃなかったです", "romaji": "shizuka ja nakatta desu" },
+      { "form": "Te-form", "japanese": "静かで", "romaji": "shizuka de" }
+    ]
+  },
+  {
+    "id": 3,
+    "kanji": "いい / よい",
+    "kana": "いい / よい",
+    "romaji": "ii / yoi",
+    "meaning": "good",
+    "type": "Irregular",
+    "grammarNote": {
+      "title": "⚠️ The Ultimate Exception",
+      "content": "'いい' (ii) means good, but the moment you conjugate it, it reverts to its older form 'よい' (yoi). So it becomes 'よくない' (yokunai), not 'いくない' (ikunai). Example: 下北沢の古着屋はとてもいいです (The thrift shops in Shimokitazawa are very good)."
+    },
+    "flexions": [
+      { "form": "Present", "japanese": "いいです", "romaji": "ii desu" },
+      { "form": "Negative", "japanese": "よくないです", "romaji": "yokunai desu" },
+      { "form": "Past", "japanese": "よかったです", "romaji": "yokatta desu" },
+      { "form": "Past Neg.", "japanese": "よくなかったです", "romaji": "yokunakatta desu" },
+      { "form": "Te-form", "japanese": "よくて", "romaji": "yokute" }
+    ]
+  }
+]

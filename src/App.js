@@ -3,6 +3,7 @@ import LandingPage from './LandingPage';
 import FlashcardApp from './FlashcardApp';
 import MockTest from './MockTest';
 import VerbSection from './VerbSection';
+import AdjectiveSection from './AdjectiveSection';
 import './App.css';
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
                   <button onClick={() => handleNavigation('flashcards')}>🎴 Flashcards</button>
                   <button onClick={() => handleNavigation('mocktest')}>📝 Mock Test</button>
                   <button onClick={() => handleNavigation('verbsection')}>🔄 Verbs</button>
+                  <button onClick={() => handleNavigation('adjectives')}>✨ Adjectives</button>
                 </nav>
               </div>
             </div>
@@ -72,6 +74,11 @@ function App() {
       {currentPage === 'verbsection' && (
         <VerbSection navigateTo={handleNavigation} />
       )}
+
+      {currentPage === 'adjectives' && (
+        <AdjectiveSection navigateTo={handleNavigation} />
+      )}
+      
     </div>
   );
 }

@@ -33,6 +33,15 @@ function LandingPage({ navigateTo }) {
           <p className="module-desc">Master essential N5 verb groups and their crucial conjugations, including the Te-form and Masu-form.</p>
           <div className="module-action">Study Verbs →</div>
         </button>
+
+        {/* Adjectives Section Card */}
+        <button className="module-card" onClick={() => navigateTo('adjectives')}>
+          <div className="module-icon">✨</div>
+          <h2 className="module-title">Adjectives & Conjugations</h2>
+          <p className="module-desc">Master the rules for i-adjectives and na-adjectives, including their past, negative, and Te-forms.</p>
+          <div className="module-action">Study Adjectives →</div>
+        </button>
+
       </main>
 
       <footer className="landing-footer">

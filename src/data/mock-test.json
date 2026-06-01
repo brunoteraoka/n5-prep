@@ -1,7 +1,7 @@
 {
   "exam": "JLPT N5 (日本語能力試験 N5)",
   "description": "Japanese Language Proficiency Test – Level N5. Covers basic vocabulary, kanji, grammar, and reading comprehension.",
-  "total_questions": 1598,
+  "total_questions": 1649,
   "categories": [
     "vocabulary",
     "kanji",
@@ -23925,6 +23925,822 @@
       ],
       "answer": "500 yen",
       "explanation": "体験500えん=trial lesson: 500 yen. 体験(たいけん)=experience/trial."
+    },
+    {
+      "id": 1599,
+      "category": "reading",
+      "subcategory": "advertisement",
+      "exam_type": "info_retrieval",
+      "passage": "【古着屋 シモキタ・ヴィンテージ】\n営業時間：12:00〜20:00\n定休日：火曜日\n・Tシャツ 500円〜\n・ジャケット 2,000円〜\n・くつ 1,500円〜\n※毎週 金曜日は 全品 10％ オフ！\n※3点 以上 お買い上げで 200円 引き",
+      "question": "What day is the shop closed?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Friday",
+        "It is never closed"
+      ],
+      "answer": "Tuesday",
+      "explanation": "定休日：火曜日 = regular closing day: Tuesday. 火曜日(かようび)=Tuesday."
+    },
+    {
+      "id": 1600,
+      "category": "reading",
+      "subcategory": "advertisement",
+      "exam_type": "info_retrieval",
+      "passage": "【古着屋 シモキタ・ヴィンテージ】\n営業時間：12:00〜20:00\n定休日：火曜日\n・Tシャツ 500円〜\n・ジャケット 2,000円〜\n・くつ 1,500円〜\n※毎週 金曜日は 全品 10％ オフ！\n※3点 以上 お買い上げで 200円 引き",
+      "question": "What happens every Friday?",
+      "options": [
+        "The shop closes early",
+        "All items are 10% off",
+        "Shoes are free",
+        "The shop opens at 10:00"
+      ],
+      "answer": "All items are 10% off",
+      "explanation": "毎週金曜日は全品10％オフ = every Friday, 10% off all items. 全品(ぜんぴん)=all items, オフ=off/discount."
+    },
+    {
+      "id": 1601,
+      "category": "reading",
+      "subcategory": "advertisement",
+      "exam_type": "info_retrieval",
+      "passage": "【古着屋 シモキタ・ヴィンテージ】\n営業時間：12:00〜20:00\n定休日：火曜日\n・Tシャツ 500円〜\n・ジャケット 2,000円〜\n・くつ 1,500円〜\n※毎週 金曜日は 全品 10％ オフ！\n※3点 以上 お買い上げで 200円 引き",
+      "question": "You buy a T-shirt, a jacket, and a pair of shoes (3 items) on a Wednesday. What discount applies?",
+      "options": [
+        "10% off",
+        "200 yen off",
+        "No discount",
+        "Both 10% off and 200 yen off"
+      ],
+      "answer": "200 yen off",
+      "explanation": "3点以上で200円引き applies (3 items). The 10% off is only on Fridays, and Wednesday is not Friday, so only the 200-yen discount applies. 以上(いじょう)=or more, 引き(びき)=discount."
+    },
+    {
+      "id": 1602,
+      "category": "reading",
+      "subcategory": "menu",
+      "exam_type": "info_retrieval",
+      "passage": "【とうふ料理 さくら】\n・湯どうふ 定食 ……… 980円\n・あげだし どうふ ……… 650円\n・とうふ サラダ ……… 500円\n・ごはん（大） ……… +100円\n※定食には ごはん・みそしる・つけもの が つきます\n※お飲み物は 別料金です\n営業：11:00〜21:00（ラストオーダー 20:30）",
+      "question": "What comes with the set meal (teishoku)?",
+      "options": [
+        "Just rice",
+        "Rice, miso soup, and pickles",
+        "A drink",
+        "Salad and rice"
+      ],
+      "answer": "Rice, miso soup, and pickles",
+      "explanation": "定食にはごはん・みそしる・つけものがつきます = the set meal comes with rice, miso soup, and pickles. つく=to come with/be included."
+    },
+    {
+      "id": 1603,
+      "category": "reading",
+      "subcategory": "menu",
+      "exam_type": "info_retrieval",
+      "passage": "【とうふ料理 さくら】\n・湯どうふ 定食 ……… 980円\n・あげだし どうふ ……… 650円\n・とうふ サラダ ……… 500円\n・ごはん（大） ……… +100円\n※定食には ごはん・みそしる・つけもの が つきます\n※お飲み物は 別料金です\n営業：11:00〜21:00（ラストオーダー 20:30）",
+      "question": "Is a drink included in the price of the set meal?",
+      "options": [
+        "Yes, one drink is included",
+        "No, drinks cost extra",
+        "Only tea is free",
+        "Only on weekends"
+      ],
+      "answer": "No, drinks cost extra",
+      "explanation": "お飲み物は別料金です = drinks are a separate charge. 別料金(べつりょうきん)=separate fee."
+    },
+    {
+      "id": 1604,
+      "category": "reading",
+      "subcategory": "menu",
+      "exam_type": "info_retrieval",
+      "passage": "【とうふ料理 さくら】\n・湯どうふ 定食 ……… 980円\n・あげだし どうふ ……… 650円\n・とうふ サラダ ……… 500円\n・ごはん（大） ……… +100円\n※定食には ごはん・みそしる・つけもの が つきます\n※お飲み物は 別料金です\n営業：11:00〜21:00（ラストオーダー 20:30）",
+      "question": "It is 20:45. Can you still place an order?",
+      "options": [
+        "Yes, the shop is open until 21:00",
+        "No, last order was at 20:30",
+        "Only for drinks",
+        "Only for takeout"
+      ],
+      "answer": "No, last order was at 20:30",
+      "explanation": "ラストオーダー20:30 = last order at 20:30. Although the shop is open until 21:00, you cannot order after 20:30."
+    },
+    {
+      "id": 1605,
+      "category": "reading",
+      "subcategory": "schedule",
+      "exam_type": "info_retrieval",
+      "passage": "【新宿駅 → 箱根湯本駅 ロマンスカー】\n8:00発 → 9:25着\n9:00発 → 10:25着\n10:00発 → 11:25着\n料金：おとな 2,470円、こども 1,240円\n※全席 指定席（予約 ひつよう）\n※乗車時間：やく 1時間25分",
+      "question": "If you take the 9:00 train from Shinjuku, what time do you arrive at Hakone-Yumoto?",
+      "options": [
+        "9:25",
+        "10:00",
+        "10:25",
+        "11:25"
+      ],
+      "answer": "10:25",
+      "explanation": "9:00発 → 10:25着 = depart 9:00, arrive 10:25. 発(はつ)=departure, 着(ちゃく)=arrival."
+    },
+    {
+      "id": 1606,
+      "category": "reading",
+      "subcategory": "schedule",
+      "exam_type": "info_retrieval",
+      "passage": "【新宿駅 → 箱根湯本駅 ロマンスカー】\n8:00発 → 9:25着\n9:00発 → 10:25着\n10:00発 → 11:25着\n料金：おとな 2,470円、こども 1,240円\n※全席 指定席（予約 ひつよう）\n※乗車時間：やく 1時間25分",
+      "question": "How much does it cost for one adult and one child?",
+      "options": [
+        "2,470 yen",
+        "3,710 yen",
+        "4,940 yen",
+        "1,240 yen"
+      ],
+      "answer": "3,710 yen",
+      "explanation": "おとな2,470円 + こども1,240円 = 3,710円."
+    },
+    {
+      "id": 1607,
+      "category": "reading",
+      "subcategory": "schedule",
+      "exam_type": "info_retrieval",
+      "passage": "【新宿駅 → 箱根湯本駅 ロマンスカー】\n8:00発 → 9:25着\n9:00発 → 10:25着\n10:00発 → 11:25着\n料金：おとな 2,470円、こども 1,240円\n※全席 指定席（予約 ひつよう）\n※乗車時間：やく 1時間25分",
+      "question": "Do you need a reservation?",
+      "options": [
+        "No, any seat is fine",
+        "Yes, all seats are reserved",
+        "Only on weekends",
+        "Only for children"
+      ],
+      "answer": "Yes, all seats are reserved",
+      "explanation": "全席指定席（予約ひつよう） = all seats are reserved (reservation required). 指定席(していせき)=reserved seat, 予約(よやく)=reservation."
+    },
+    {
+      "id": 1608,
+      "category": "reading",
+      "subcategory": "advertisement",
+      "exam_type": "info_retrieval",
+      "passage": "【コンビニ おにぎりコーナー】\n・さけ おにぎり ……… 150円\n・ツナマヨ おにぎり ……… 160円\n・うめ おにぎり ……… 140円\n※おにぎり 2個 で 280円（セット価格）\n※あたためますか？ レジで おたずねください\n※お茶・コーヒーは 右の れいぞうこ へ",
+      "question": "How much is one plum onigiri?",
+      "options": [
+        "140 yen",
+        "150 yen",
+        "160 yen",
+        "280 yen"
+      ],
+      "answer": "140 yen",
+      "explanation": "うめおにぎり……140円 = plum onigiri 140 yen. うめ=plum."
+    },
+    {
+      "id": 1609,
+      "category": "reading",
+      "subcategory": "advertisement",
+      "exam_type": "info_retrieval",
+      "passage": "【コンビニ おにぎりコーナー】\n・さけ おにぎり ……… 150円\n・ツナマヨ おにぎり ……… 160円\n・うめ おにぎり ……… 140円\n※おにぎり 2個 で 280円（セット価格）\n※あたためますか？ レジで おたずねください\n※お茶・コーヒーは 右の れいぞうこ へ",
+      "question": "If you buy 2 onigiri together, how much do you pay?",
+      "options": [
+        "300 yen",
+        "290 yen",
+        "280 yen",
+        "It depends on the type"
+      ],
+      "answer": "280 yen",
+      "explanation": "おにぎり2個で280円（セット価格） = 2 onigiri for 280 yen (set price). 個(こ)=counter for small items."
+    },
+    {
+      "id": 1610,
+      "category": "reading",
+      "subcategory": "advertisement",
+      "exam_type": "info_retrieval",
+      "passage": "【コンビニ おにぎりコーナー】\n・さけ おにぎり ……… 150円\n・ツナマヨ おにぎり ……… 160円\n・うめ おにぎり ……… 140円\n※おにぎり 2個 で 280円（セット価格）\n※あたためますか？ レジで おたずねください\n※お茶・コーヒーは 右の れいぞうこ へ",
+      "question": "Where can you find drinks?",
+      "options": [
+        "At the register",
+        "In the fridge on the right",
+        "Next to the onigiri",
+        "Outside the shop"
+      ],
+      "answer": "In the fridge on the right",
+      "explanation": "お茶・コーヒーは右のれいぞうこへ = tea and coffee are in the fridge on the right. れいぞうこ=fridge, 右(みぎ)=right."
+    },
+    {
+      "id": 1611,
+      "category": "reading",
+      "subcategory": "menu",
+      "exam_type": "info_retrieval",
+      "passage": "【カフェ あさひ モーニング】\n（朝 7:00〜11:00 のみ）\nAセット：トースト ＋ ゆでたまご ＋ コーヒー ……… 500円\nBセット：サンドイッチ ＋ サラダ ＋ こうちゃ ……… 650円\n※ドリンクは おかわり 自由\n※11時を すぎると、ふつうメニューに なります",
+      "question": "What drink comes with Set A?",
+      "options": [
+        "Black tea",
+        "Coffee",
+        "Orange juice",
+        "Milk"
+      ],
+      "answer": "Coffee",
+      "explanation": "Aセット：トースト＋ゆでたまご＋コーヒー = Set A includes coffee. コーヒー=coffee."
+    },
+    {
+      "id": 1612,
+      "category": "reading",
+      "subcategory": "menu",
+      "exam_type": "info_retrieval",
+      "passage": "【カフェ あさひ モーニング】\n（朝 7:00〜11:00 のみ）\nAセット：トースト ＋ ゆでたまご ＋ コーヒー ……… 500円\nBセット：サンドイッチ ＋ サラダ ＋ こうちゃ ……… 650円\n※ドリンクは おかわり 自由\n※11時を すぎると、ふつうメニューに なります",
+      "question": "Can you get free refills on your drink?",
+      "options": [
+        "No",
+        "Yes, drinks have free refills",
+        "Only coffee",
+        "Only after 11:00"
+      ],
+      "answer": "Yes, drinks have free refills",
+      "explanation": "ドリンクはおかわり自由 = free drink refills. おかわり自由(じゆう)=free refills."
+    },
+    {
+      "id": 1613,
+      "category": "reading",
+      "subcategory": "menu",
+      "exam_type": "info_retrieval",
+      "passage": "【カフェ あさひ モーニング】\n（朝 7:00〜11:00 のみ）\nAセット：トースト ＋ ゆでたまご ＋ コーヒー ……… 500円\nBセット：サンドイッチ ＋ サラダ ＋ こうちゃ ……… 650円\n※ドリンクは おかわり 自由\n※11時を すぎると、ふつうメニューに なります",
+      "question": "It is 11:30. Can you order the morning set?",
+      "options": [
+        "Yes",
+        "No, the morning menu ends at 11:00",
+        "Only Set A",
+        "Only with a reservation"
+      ],
+      "answer": "No, the morning menu ends at 11:00",
+      "explanation": "朝7:00〜11:00のみ。11時をすぎるとふつうメニューになります = morning menu is 7:00–11:00 only; after 11:00 it becomes the regular menu."
+    },
+    {
+      "id": 1614,
+      "category": "reading",
+      "subcategory": "signs",
+      "exam_type": "info_retrieval",
+      "passage": "【おんせんの ごあんない】\n・おんせんに 入る まえに、体を あらって ください。\n・タオルを おゆの 中に 入れないで ください。\n・おさけを のんだ あとは、入れません。\n・しゃしんを とらないで ください。\n営業：6:00〜24:00",
+      "question": "What must you do before entering the hot spring?",
+      "options": [
+        "Take a photo",
+        "Wash your body",
+        "Drink water",
+        "Put your towel in the water"
+      ],
+      "answer": "Wash your body",
+      "explanation": "おんせんに入るまえに、体をあらってください = please wash your body before entering. 〜まえに=before ~, あらう=to wash."
+    },
+    {
+      "id": 1615,
+      "category": "reading",
+      "subcategory": "signs",
+      "exam_type": "info_retrieval",
+      "passage": "【おんせんの ごあんない】\n・おんせんに 入る まえに、体を あらって ください。\n・タオルを おゆの 中に 入れないで ください。\n・おさけを のんだ あとは、入れません。\n・しゃしんを とらないで ください。\n営業：6:00〜24:00",
+      "question": "Which of these is NOT allowed?",
+      "options": [
+        "Washing before entering",
+        "Entering at 7:00",
+        "Taking photos",
+        "Bringing a towel to the bath area"
+      ],
+      "answer": "Taking photos",
+      "explanation": "しゃしんをとらないでください = please do not take photos. 〜ないでください=please don't ~."
+    },
+    {
+      "id": 1616,
+      "category": "reading",
+      "subcategory": "advertisement",
+      "exam_type": "info_retrieval",
+      "passage": "【スーパー みどり 今週のセール】\n月・火：やさい 半額\n水・木：おにく 20％ オフ\n金・土：おさかな 30％ オフ\n日：パン 100円（1個）\n※午後6時から さらに おべんとう 半額！\n営業：9:00〜22:00",
+      "question": "On which days is fish 30% off?",
+      "options": [
+        "Monday and Tuesday",
+        "Wednesday and Thursday",
+        "Friday and Saturday",
+        "Sunday"
+      ],
+      "answer": "Friday and Saturday",
+      "explanation": "金・土：おさかな30％オフ = Fri/Sat: fish 30% off. 金(きん)=Friday, 土(ど)=Saturday."
+    },
+    {
+      "id": 1617,
+      "category": "reading",
+      "subcategory": "advertisement",
+      "exam_type": "info_retrieval",
+      "passage": "【スーパー みどり 今週のセール】\n月・火：やさい 半額\n水・木：おにく 20％ オフ\n金・土：おさかな 30％ オフ\n日：パン 100円（1個）\n※午後6時から さらに おべんとう 半額！\n営業：9:00〜22:00",
+      "question": "What special offer starts at 6 PM?",
+      "options": [
+        "Vegetables half price",
+        "Bento boxes half price",
+        "Free bread",
+        "Meat 20% off"
+      ],
+      "answer": "Bento boxes half price",
+      "explanation": "午後6時からさらにおべんとう半額 = from 6 PM, bento boxes are additionally half price. 午後(ごご)=PM, 半額(はんがく)=half price."
+    },
+    {
+      "id": 1618,
+      "category": "reading",
+      "subcategory": "advertisement",
+      "exam_type": "info_retrieval",
+      "passage": "【スーパー みどり 今週のセール】\n月・火：やさい 半額\n水・木：おにく 20％ オフ\n金・土：おさかな 30％ オフ\n日：パン 100円（1個）\n※午後6時から さらに おべんとう 半額！\n営業：9:00〜22:00",
+      "question": "You want to buy cheap vegetables. When should you go?",
+      "options": [
+        "Monday or Tuesday",
+        "Wednesday or Thursday",
+        "Friday or Saturday",
+        "Sunday"
+      ],
+      "answer": "Monday or Tuesday",
+      "explanation": "月・火：やさい半額 = Mon/Tue: vegetables half price. やさい=vegetables."
+    },
+    {
+      "id": 1619,
+      "category": "reading",
+      "subcategory": "schedule",
+      "exam_type": "info_retrieval",
+      "passage": "【駅前 → 美術館 バス】\n平日：9:10 / 10:10 / 11:10 / ……（1時間ごと）\n土・日：9:10 / 9:40 / 10:10 / ……（30分ごと）\nおとな 220円、こども 110円\nやく 15分で つきます\n※美術館は 月曜日 休みです",
+      "question": "How often does the bus run on Saturdays?",
+      "options": [
+        "Every hour",
+        "Every 30 minutes",
+        "Every 15 minutes",
+        "Twice a day"
+      ],
+      "answer": "Every 30 minutes",
+      "explanation": "土・日：…（30分ごと） = Sat/Sun: every 30 minutes. 〜ごと=every ~."
+    },
+    {
+      "id": 1620,
+      "category": "reading",
+      "subcategory": "schedule",
+      "exam_type": "info_retrieval",
+      "passage": "【駅前 → 美術館 バス】\n平日：9:10 / 10:10 / 11:10 / ……（1時間ごと）\n土・日：9:10 / 9:40 / 10:10 / ……（30分ごと）\nおとな 220円、こども 110円\nやく 15分で つきます\n※美術館は 月曜日 休みです",
+      "question": "About how long does the bus take to reach the museum?",
+      "options": [
+        "5 minutes",
+        "15 minutes",
+        "30 minutes",
+        "1 hour"
+      ],
+      "answer": "15 minutes",
+      "explanation": "やく15分でつきます = arrives in about 15 minutes. やく(約)=approximately, つく=to arrive."
+    },
+    {
+      "id": 1621,
+      "category": "reading",
+      "subcategory": "schedule",
+      "exam_type": "info_retrieval",
+      "passage": "【駅前 → 美術館 バス】\n平日：9:10 / 10:10 / 11:10 / ……（1時間ごと）\n土・日：9:10 / 9:40 / 10:10 / ……（30分ごと）\nおとな 220円、こども 110円\nやく 15分で つきます\n※美術館は 月曜日 休みです",
+      "question": "You plan to visit the museum on Monday. What is the problem?",
+      "options": [
+        "The bus doesn't run",
+        "The museum is closed",
+        "The fare is higher",
+        "There is no morning bus"
+      ],
+      "answer": "The museum is closed",
+      "explanation": "美術館は月曜日休みです = the museum is closed on Mondays. 月曜日(げつようび)=Monday, 休み(やすみ)=closed/day off."
+    },
+    {
+      "id": 1622,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【マンション ごみ出しの おしらせ】\nもえるごみ：月・木（朝8時まで）\nもえないごみ：第1・第3 水曜日\nびん・かん：毎週 金曜日\n※ごみは 当日の 朝 出して ください。\n※前の日の よる 出さないで ください。",
+      "question": "On which days is burnable garbage collected?",
+      "options": [
+        "Monday and Thursday",
+        "Every Friday",
+        "1st and 3rd Wednesday",
+        "Every day"
+      ],
+      "answer": "Monday and Thursday",
+      "explanation": "もえるごみ：月・木 = burnable garbage: Mon/Thu. 月(げつ)=Monday, 木(もく)=Thursday."
+    },
+    {
+      "id": 1623,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【マンション ごみ出しの おしらせ】\nもえるごみ：月・木（朝8時まで）\nもえないごみ：第1・第3 水曜日\nびん・かん：毎週 金曜日\n※ごみは 当日の 朝 出して ください。\n※前の日の よる 出さないで ください。",
+      "question": "When should you put out the garbage?",
+      "options": [
+        "The night before",
+        "On the morning of the day",
+        "Any time",
+        "Only in the afternoon"
+      ],
+      "answer": "On the morning of the day",
+      "explanation": "ごみは当日の朝出してください = please put out garbage on the morning of the day. 当日(とうじつ)=the day itself. The notice also says not to put it out the night before."
+    },
+    {
+      "id": 1624,
+      "category": "reading",
+      "subcategory": "signs",
+      "exam_type": "info_retrieval",
+      "passage": "【ブックストア フロアあんない】\n1かい：ざっし・しんぶん・レジ\n2かい：しょうせつ・まんが\n3かい：がいこくごの本・じしょ\n4かい：こどもの本・ぶんぼうぐ\n※エレベーターは おくに あります。",
+      "question": "On which floor can you find a Japanese dictionary?",
+      "options": [
+        "1F",
+        "2F",
+        "3F",
+        "4F"
+      ],
+      "answer": "3F",
+      "explanation": "3かい：がいこくごの本・じしょ = 3F: foreign-language books and dictionaries. じしょ=dictionary."
+    },
+    {
+      "id": 1625,
+      "category": "reading",
+      "subcategory": "signs",
+      "exam_type": "info_retrieval",
+      "passage": "【ブックストア フロアあんない】\n1かい：ざっし・しんぶん・レジ\n2かい：しょうせつ・まんが\n3かい：がいこくごの本・じしょ\n4かい：こどもの本・ぶんぼうぐ\n※エレベーターは おくに あります。",
+      "question": "You want to buy a pen and a notebook. Which floor should you go to?",
+      "options": [
+        "1F",
+        "2F",
+        "3F",
+        "4F"
+      ],
+      "answer": "4F",
+      "explanation": "4かい：こどもの本・ぶんぼうぐ = 4F: children's books and stationery. ぶんぼうぐ=stationery (pens, notebooks, etc.)."
+    },
+    {
+      "id": 1626,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【かぜぐすり つかいかた】\n・1日 3回、食事の あとに のんで ください。\n・1回 2じょう。\n・こども（7さい〜14さい）は 1じょう。\n・6さい いかの こどもは のめません。\n※ねむく なる ことが あります。",
+      "question": "How many times a day should an adult take this medicine?",
+      "options": [
+        "Once",
+        "Twice",
+        "3 times",
+        "Whenever needed"
+      ],
+      "answer": "3 times",
+      "explanation": "1日3回、食事のあとにのんでください = take 3 times a day, after meals. 1日3回(いちにちさんかい)=3 times a day."
+    },
+    {
+      "id": 1627,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【かぜぐすり つかいかた】\n・1日 3回、食事の あとに のんで ください。\n・1回 2じょう。\n・こども（7さい〜14さい）は 1じょう。\n・6さい いかの こどもは のめません。\n※ねむく なる ことが あります。",
+      "question": "Can a 5-year-old child take this medicine?",
+      "options": [
+        "Yes, 1 tablet",
+        "Yes, 2 tablets",
+        "No, children 6 and under cannot take it",
+        "Only with a doctor's note"
+      ],
+      "answer": "No, children 6 and under cannot take it",
+      "explanation": "6さいいかのこどもはのめません = children 6 and under cannot take it. いか(以下)=and under, のめません=cannot drink/take."
+    },
+    {
+      "id": 1628,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【かぜぐすり つかいかた】\n・1日 3回、食事の あとに のんで ください。\n・1回 2じょう。\n・こども（7さい〜14さい）は 1じょう。\n・6さい いかの こどもは のめません。\n※ねむく なる ことが あります。",
+      "question": "What side effect is mentioned?",
+      "options": [
+        "Headache",
+        "Drowsiness",
+        "Stomach ache",
+        "Fever"
+      ],
+      "answer": "Drowsiness",
+      "explanation": "ねむくなることがあります = it may make you drowsy. ねむい=sleepy/drowsy."
+    },
+    {
+      "id": 1629,
+      "category": "reading",
+      "subcategory": "advertisement",
+      "exam_type": "info_retrieval",
+      "passage": "【さくら公園 なつまつり】\n日にち：8月3日（土）\n時間：ごご4時〜よる9時\n・たこやき、やきそば、かきごおりの 屋台\n・はなびは よる8時から\n※雨の ときは 8月4日（日）に なります。\n※入場 むりょう",
+      "question": "What time do the fireworks start?",
+      "options": [
+        "4 PM",
+        "6 PM",
+        "8 PM",
+        "9 PM"
+      ],
+      "answer": "8 PM",
+      "explanation": "はなびはよる8時から = fireworks from 8 PM. よる(夜)=evening/night, はなび=fireworks."
+    },
+    {
+      "id": 1630,
+      "category": "reading",
+      "subcategory": "advertisement",
+      "exam_type": "info_retrieval",
+      "passage": "【さくら公園 なつまつり】\n日にち：8月3日（土）\n時間：ごご4時〜よる9時\n・たこやき、やきそば、かきごおりの 屋台\n・はなびは よる8時から\n※雨の ときは 8月4日（日）に なります。\n※入場 むりょう",
+      "question": "What happens if it rains on August 3?",
+      "options": [
+        "The festival is cancelled",
+        "It moves to August 4",
+        "Only the fireworks are cancelled",
+        "Admission becomes paid"
+      ],
+      "answer": "It moves to August 4",
+      "explanation": "雨のときは8月4日（日）になります = in case of rain, it will be on August 4 (Sun). 雨(あめ)=rain."
+    },
+    {
+      "id": 1631,
+      "category": "reading",
+      "subcategory": "advertisement",
+      "exam_type": "info_retrieval",
+      "passage": "【さくら公園 なつまつり】\n日にち：8月3日（土）\n時間：ごご4時〜よる9時\n・たこやき、やきそば、かきごおりの 屋台\n・はなびは よる8時から\n※雨の ときは 8月4日（日）に なります。\n※入場 むりょう",
+      "question": "How much does it cost to enter?",
+      "options": [
+        "500 yen",
+        "1,000 yen",
+        "Free",
+        "It depends on age"
+      ],
+      "answer": "Free",
+      "explanation": "入場むりょう = free admission. むりょう(無料)=free of charge."
+    },
+    {
+      "id": 1632,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【市立図書館 りようあんない】\n・本は 1人 5さつまで、2しゅうかん 借りられます。\n・かりるには カードが ひつようです（むりょう）。\n・ざっしの 最新号は 借りられません。\n開館：火〜日 9:00〜18:00（月曜 休み）",
+      "question": "How many books can one person borrow at a time?",
+      "options": [
+        "Up to 3",
+        "Up to 5",
+        "Up to 10",
+        "Unlimited"
+      ],
+      "answer": "Up to 5",
+      "explanation": "本は1人5さつまで = up to 5 books per person. 〜さつ=counter for books, まで=up to."
+    },
+    {
+      "id": 1633,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【市立図書館 りようあんない】\n・本は 1人 5さつまで、2しゅうかん 借りられます。\n・かりるには カードが ひつようです（むりょう）。\n・ざっしの 最新号は 借りられません。\n開館：火〜日 9:00〜18:00（月曜 休み）",
+      "question": "How long can you keep a borrowed book?",
+      "options": [
+        "1 week",
+        "2 weeks",
+        "1 month",
+        "3 days"
+      ],
+      "answer": "2 weeks",
+      "explanation": "2しゅうかん借りられます = can be borrowed for 2 weeks. 2しゅうかん(にしゅうかん)=2 weeks."
+    },
+    {
+      "id": 1634,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【市立図書館 りようあんない】\n・本は 1人 5さつまで、2しゅうかん 借りられます。\n・かりるには カードが ひつようです（むりょう）。\n・ざっしの 最新号は 借りられません。\n開館：火〜日 9:00〜18:00（月曜 休み）",
+      "question": "Can you borrow the latest issue of a magazine?",
+      "options": [
+        "Yes",
+        "No, the latest issue cannot be borrowed",
+        "Only for 1 day",
+        "Only with permission"
+      ],
+      "answer": "No, the latest issue cannot be borrowed",
+      "explanation": "ざっしの最新号は借りられません = the latest magazine issue cannot be borrowed. 最新号(さいしんごう)=latest issue."
+    },
+    {
+      "id": 1635,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【りょかん さくら ごあんない】\nチェックイン：15:00〜18:00\nチェックアウト：〜10:00\n・ゆうしょくは 6時から 大広間で。\n・あさごはんは 7時半から 8時半まで。\n・おふろは 24時間 入れます。\n※へやでは たばこを すわないで ください。",
+      "question": "By what time must you check out?",
+      "options": [
+        "10:00",
+        "11:00",
+        "15:00",
+        "18:00"
+      ],
+      "answer": "10:00",
+      "explanation": "チェックアウト：〜10:00 = check-out by 10:00. 〜=by/until."
+    },
+    {
+      "id": 1636,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【りょかん さくら ごあんない】\nチェックイン：15:00〜18:00\nチェックアウト：〜10:00\n・ゆうしょくは 6時から 大広間で。\n・あさごはんは 7時半から 8時半まで。\n・おふろは 24時間 入れます。\n※へやでは たばこを すわないで ください。",
+      "question": "Until what time is breakfast served?",
+      "options": [
+        "7:30",
+        "8:00",
+        "8:30",
+        "9:00"
+      ],
+      "answer": "8:30",
+      "explanation": "あさごはんは7時半から8時半まで = breakfast from 7:30 to 8:30. 8時半(はちじはん)=8:30, まで=until."
+    },
+    {
+      "id": 1637,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【りょかん さくら ごあんない】\nチェックイン：15:00〜18:00\nチェックアウト：〜10:00\n・ゆうしょくは 6時から 大広間で。\n・あさごはんは 7時半から 8時半まで。\n・おふろは 24時間 入れます。\n※へやでは たばこを すわないで ください。",
+      "question": "Where is smoking prohibited?",
+      "options": [
+        "In the bath",
+        "In the rooms",
+        "In the hall",
+        "Everywhere in Japan"
+      ],
+      "answer": "In the rooms",
+      "explanation": "へやではたばこをすわないでください = please do not smoke in the rooms. へや(部屋)=room, すう=to smoke."
+    },
+    {
+      "id": 1638,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【しゅうまつの てんき】\n土曜日：はれ ときどき くもり　さいこう 28ど\n日曜日：あめ　さいこう 22ど　かさを わすれずに\n※日曜日の ごごから かぜが つよく なります。\n※山に 行く 人は きを つけて ください。",
+      "question": "What will the weather be like on Sunday?",
+      "options": [
+        "Sunny",
+        "Cloudy",
+        "Rainy",
+        "Snowy"
+      ],
+      "answer": "Rainy",
+      "explanation": "日曜日：あめ = Sunday: rain. あめ(雨)=rain."
+    },
+    {
+      "id": 1639,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【しゅうまつの てんき】\n土曜日：はれ ときどき くもり　さいこう 28ど\n日曜日：あめ　さいこう 22ど　かさを わすれずに\n※日曜日の ごごから かぜが つよく なります。\n※山に 行く 人は きを つけて ください。",
+      "question": "What should you bring on Sunday?",
+      "options": [
+        "Sunglasses",
+        "An umbrella",
+        "A coat",
+        "Nothing special"
+      ],
+      "answer": "An umbrella",
+      "explanation": "かさをわすれずに = don't forget your umbrella. かさ=umbrella, わすれずに=without forgetting."
+    },
+    {
+      "id": 1640,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【しゅうまつの てんき】\n土曜日：はれ ときどき くもり　さいこう 28ど\n日曜日：あめ　さいこう 22ど　かさを わすれずに\n※日曜日の ごごから かぜが つよく なります。\n※山に 行く 人は きを つけて ください。",
+      "question": "What is the high temperature on Saturday?",
+      "options": [
+        "22°C",
+        "25°C",
+        "28°C",
+        "30°C"
+      ],
+      "answer": "28°C",
+      "explanation": "土曜日：…さいこう28ど = Saturday: high 28 degrees. さいこう(最高)=maximum, ど(度)=degrees."
+    },
+    {
+      "id": 1641,
+      "category": "reading",
+      "subcategory": "menu",
+      "exam_type": "info_retrieval",
+      "passage": "【ラーメン たいよう】\n・しょうゆ ラーメン ……… 800円\n・みそ ラーメン ……… 850円\n・つけめん ……… 900円\nトッピング：たまご +100円 / のり +50円 / チャーシュー +200円\n※大もりは むりょう（おかわりは できません）\n※げんきん のみ",
+      "question": "How much is a miso ramen with an egg topping?",
+      "options": [
+        "850 yen",
+        "900 yen",
+        "950 yen",
+        "1,050 yen"
+      ],
+      "answer": "950 yen",
+      "explanation": "みそラーメン850円 + たまご100円 = 950円. トッピング=topping."
+    },
+    {
+      "id": 1642,
+      "category": "reading",
+      "subcategory": "menu",
+      "exam_type": "info_retrieval",
+      "passage": "【ラーメン たいよう】\n・しょうゆ ラーメン ……… 800円\n・みそ ラーメン ……… 850円\n・つけめん ……… 900円\nトッピング：たまご +100円 / のり +50円 / チャーシュー +200円\n※大もりは むりょう（おかわりは できません）\n※げんきん のみ",
+      "question": "Is the large portion free?",
+      "options": [
+        "No, +100 yen",
+        "Yes, free (but no refills)",
+        "Only with chashu",
+        "Only on weekdays"
+      ],
+      "answer": "Yes, free (but no refills)",
+      "explanation": "大もりはむりょう（おかわりはできません） = large portion is free (refills not possible). 大もり(おおもり)=large portion."
+    },
+    {
+      "id": 1643,
+      "category": "reading",
+      "subcategory": "menu",
+      "exam_type": "info_retrieval",
+      "passage": "【ラーメン たいよう】\n・しょうゆ ラーメン ……… 800円\n・みそ ラーメン ……… 850円\n・つけめん ……… 900円\nトッピング：たまご +100円 / のり +50円 / チャーシュー +200円\n※大もりは むりょう（おかわりは できません）\n※げんきん のみ",
+      "question": "How can you pay?",
+      "options": [
+        "Credit card only",
+        "Cash only",
+        "Card or cash",
+        "Mobile payment only"
+      ],
+      "answer": "Cash only",
+      "explanation": "げんきんのみ = cash only. げんきん(現金)=cash, のみ=only."
+    },
+    {
+      "id": 1644,
+      "category": "reading",
+      "subcategory": "schedule",
+      "exam_type": "info_retrieval",
+      "passage": "【にほんご きょうしつ クラスあんない】\nしょきゅう：月・水 19:00〜20:30\nちゅうきゅう：火・木 19:00〜20:30\n会話クラス：土 10:00〜12:00\nじゅぎょうりょう：1かげつ 8,000円\n※たいけんレッスンは むりょう（よやくが ひつよう）",
+      "question": "Which days is the beginner class held?",
+      "options": [
+        "Monday and Wednesday",
+        "Tuesday and Thursday",
+        "Saturday",
+        "Every day"
+      ],
+      "answer": "Monday and Wednesday",
+      "explanation": "しょきゅう：月・水 = beginner: Mon/Wed. しょきゅう(初級)=beginner level."
+    },
+    {
+      "id": 1645,
+      "category": "reading",
+      "subcategory": "schedule",
+      "exam_type": "info_retrieval",
+      "passage": "【にほんご きょうしつ クラスあんない】\nしょきゅう：月・水 19:00〜20:30\nちゅうきゅう：火・木 19:00〜20:30\n会話クラス：土 10:00〜12:00\nじゅぎょうりょう：1かげつ 8,000円\n※たいけんレッスンは むりょう（よやくが ひつよう）",
+      "question": "How much is one month of tuition?",
+      "options": [
+        "5,000 yen",
+        "8,000 yen",
+        "10,000 yen",
+        "It is free"
+      ],
+      "answer": "8,000 yen",
+      "explanation": "じゅぎょうりょう：1かげつ8,000円 = tuition: 8,000 yen per month. 1かげつ(いっかげつ)=one month."
+    },
+    {
+      "id": 1646,
+      "category": "reading",
+      "subcategory": "schedule",
+      "exam_type": "info_retrieval",
+      "passage": "【にほんご きょうしつ クラスあんない】\nしょきゅう：月・水 19:00〜20:30\nちゅうきゅう：火・木 19:00〜20:30\n会話クラス：土 10:00〜12:00\nじゅぎょうりょう：1かげつ 8,000円\n※たいけんレッスンは むりょう（よやくが ひつよう）",
+      "question": "What is required to take the free trial lesson?",
+      "options": [
+        "Nothing",
+        "A reservation",
+        "Payment of 8,000 yen",
+        "A student card"
+      ],
+      "answer": "A reservation",
+      "explanation": "たいけんレッスンはむりょう（よやくがひつよう） = trial lesson is free (reservation required). よやく(予約)=reservation, ひつよう(必要)=necessary."
+    },
+    {
+      "id": 1647,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【やまだ クリニック】\nしんさつ時間：\n　午前 9:00〜12:00\n　午後 14:00〜17:00\nやすみ：木曜日・日曜日\n※はじめての 方は ほけんしょうを もって きて ください。\n※よやくの 方が ゆうせんです。",
+      "question": "Is the clinic open at 13:00?",
+      "options": [
+        "Yes",
+        "No, it is the lunch break (12:00–14:00)",
+        "Only for appointments",
+        "Only in the morning"
+      ],
+      "answer": "No, it is the lunch break (12:00–14:00)",
+      "explanation": "午前9:00〜12:00、午後14:00〜17:00 = morning ends at 12:00, afternoon starts at 14:00. 13:00 falls in the closed midday gap."
+    },
+    {
+      "id": 1648,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【やまだ クリニック】\nしんさつ時間：\n　午前 9:00〜12:00\n　午後 14:00〜17:00\nやすみ：木曜日・日曜日\n※はじめての 方は ほけんしょうを もって きて ください。\n※よやくの 方が ゆうせんです。",
+      "question": "On which days is the clinic closed?",
+      "options": [
+        "Monday and Friday",
+        "Thursday and Sunday",
+        "Saturday and Sunday",
+        "Wednesday only"
+      ],
+      "answer": "Thursday and Sunday",
+      "explanation": "やすみ：木曜日・日曜日 = closed: Thursday and Sunday. 木曜日(もくようび)=Thursday, 日曜日(にちようび)=Sunday."
+    },
+    {
+      "id": 1649,
+      "category": "reading",
+      "subcategory": "info_retrieval",
+      "exam_type": "info_retrieval",
+      "passage": "【やまだ クリニック】\nしんさつ時間：\n　午前 9:00〜12:00\n　午後 14:00〜17:00\nやすみ：木曜日・日曜日\n※はじめての 方は ほけんしょうを もって きて ください。\n※よやくの 方が ゆうせんです。",
+      "question": "What should a first-time visitor bring?",
+      "options": [
+        "A reservation slip",
+        "A health insurance card",
+        "Cash only",
+        "A referral letter"
+      ],
+      "answer": "A health insurance card",
+      "explanation": "はじめての方はほけんしょうをもってきてください = first-time visitors, please bring your insurance card. ほけんしょう(保険証)=health insurance card."
     }
   ]
 }
