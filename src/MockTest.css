@@ -361,363 +361,55 @@
 }
 
 /* =========================================
-   PAGE LAYOUT & CENTERING
+   MOBILE RESPONSIVENESS (Max 600px)
    ========================================= */
-.mock-test-layout {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  width: 100%;
-  max-width: 600px;
-  /* This is the magic margin that centers the whole test */
-  margin: 0 auto; 
-  padding: 10px 20px 30px 20px;
-  box-sizing: border-box;
-  min-height: calc(100vh - 80px);
-}
+@media (max-width: 600px) {
+  /* 1. Reclaim screen space */
+  .mock-test-layout {
+    padding: 10px 15px 20px 15px; 
+    min-height: calc(100vh - 60px);
+  }
 
-.test-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
+  /* 2. Fix the overlapping Header */
+  .test-header {
+    flex-wrap: wrap; /* Allows elements to drop to a new line if they don't fit */
+    gap: 12px;       /* Adds breathing room between wrapped items */
+    align-items: flex-start; 
+  }
 
-.exam-badge {
-  background: #333;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  font-weight: bold;
-}
+  /* Scale down header elements slightly */
+  .exam-badge {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+    margin-bottom: 4px; /* Space if there's text directly below it */
+  }
 
-.question-counter {
-  color: #666;
-  font-weight: bold;
-  font-size: 0.95rem;
-}
+  .timer-badge {
+    font-size: 1rem;
+    padding: 6px 10px;
+  }
 
-/* =========================================
-   TIMER STYLES
-   ========================================= */
-.timer-badge {
-  background: #e9ecef;
-  color: #333;
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-family: monospace;
-  font-size: 1.1rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  transition: all 0.3s ease;
-}
+  .question-counter {
+    font-size: 0.85rem;
+    /* If the header wraps, this pushes the counter to the far right */
+    margin-left: auto; 
+    align-self: center;
+  }
 
-.timer-badge.time-low {
-  background: #ff4d4f;
-  color: white;
-  animation: pulse 1s infinite;
-}
+  /* 3. Fix the Question Text wrapping */
+  .question-card {
+    padding: 20px 15px;
+  }
 
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
-}
+  .japanese-question {
+    font-size: 1.4rem;  /* Scaled down to prevent awkward orphans */
+    line-height: 1.4;   /* Better spacing between stacked lines */
+    margin-bottom: 12px;
+  }
 
-/* =========================================
-   THE QUESTION CARD (The White Box)
-   ========================================= */
-.question-card, .results-card {
-  background: white;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  padding: 30px 20px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-
-/* =========================================
-   STANDARD QUESTION BLOCK
-   ========================================= */
-.standard-block {
-  text-align: center;
-}
-
-.japanese-question {
-  font-size: 1.8rem;
-  color: #222;
-  margin: 0 0 10px 0;
-}
-
-.question-translation {
-  color: #666;
-  font-size: 1rem;
-  margin: 0;
-}
-
-.test-divider {
-  border: 0;
-  height: 1px;
-  background: #eaeaea;
-  margin: 25px 0;
-}
-
-/* =========================================
-   OPTIONS GRID
-   ========================================= */
-.options-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.option-btn {
-  background: #f8f9fa;
-  border: 2px solid #e9ecef;
-  padding: 16px;
-  border-radius: 12px;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  text-align: left;
-  color: #333;
-  font-weight: 500;
-}
-
-.option-btn:not(:disabled):hover {
-  background: #e2e6ea;
-  border-color: #dae0e5;
-}
-
-.option-btn.correct {
-  background: #d4edda;
-  border-color: #28a745;
-  color: #155724;
-}
-
-.option-btn.incorrect {
-  background: #f8d7da;
-  border-color: #dc3545;
-  color: #721c24;
-}
-
-.option-btn.disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
-/* =========================================
-   FEEDBACK DRAWER (Post-Answer)
-   ========================================= */
-.feedback-section {
-  margin-top: 25px;
-  padding-top: 20px;
-  border-top: 2px dashed #eaeaea;
-  animation: slideDown 0.3s ease forwards;
-}
-
-.feedback-badge {
-  display: inline-block;
-  padding: 6px 12px;
-  border-radius: 8px;
-  font-weight: bold;
-  margin-bottom: 12px;
-  font-size: 1rem;
-}
-
-.feedback-badge.correct { background: #d4edda; color: #155724; }
-.feedback-badge.incorrect { background: #f8d7da; color: #721c24; }
-
-.explanation-text {
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #444;
-  margin-bottom: 25px;
-  background: #f8f9fa;
-  padding: 15px;
-  border-radius: 8px;
-  border-left: 4px solid #007bff;
-}
-
-.next-btn {
-  width: 100%;
-  background: #333;
-  color: white;
-  border: none;
-  padding: 16px;
-  border-radius: 12px;
-  font-size: 1.15rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.next-btn:hover { background: #111; }
-
-@keyframes slideDown {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* =========================================
-   RESULTS SCREEN
-   ========================================= */
-.results-card {
-  text-align: center;
-  padding: 40px 20px;
-}
-
-.score-circle {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  border: 8px solid #007bff;
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-  margin: 30px auto;
-  padding-top: 45px;
-  box-sizing: border-box;
-  background: #f0f7ff;
-}
-
-.score-number { font-size: 3rem; font-weight: bold; color: #333; }
-.score-total { font-size: 1.3rem; color: #777; margin-left: 5px; }
-
-.score-percentage {
-  font-size: 1.4rem;
-  font-weight: bold;
-  color: #444;
-  margin-bottom: 10px;
-}
-
-.time-taken {
-  color: #666;
-  font-size: 1.1rem;
-  margin-bottom: 35px;
-}
-
-.restart-test-btn {
-  background: #007bff;
-  color: white;
-  border: none;
-  padding: 16px 30px;
-  border-radius: 12px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  cursor: pointer;
-  width: 100%;
-  transition: background 0.2s;
-}
-
-.restart-test-btn:hover { background: #0056b3; }
-
-/* =========================================
-   READING PASSAGE & LISTENING TRANSCRIPTS
-   ========================================= */
-.reading-passage-block {
-  background: #fdfbf7;
-  border-left: 4px solid #c8a96e;
-  padding: 15px 20px;
-  margin-bottom: 25px;
-  border-radius: 0 8px 8px 0;
-  text-align: left;
-}
-
-.reading-passage-block p {
-  font-size: 1.15rem;
-  color: #333;
-  line-height: 1.7;
-  margin: 0 0 10px 0;
-}
-
-.reading-passage-block p:last-child {
-  margin-bottom: 0;
-}
-
-.transcript-box {
-  background: #f8f9fa;
-  padding: 15px;
-  border-radius: 8px;
-  margin-bottom: 15px;
-  text-align: left;
-  border: 1px solid #dee2e6;
-}
-
-.transcript-box h4 {
-  margin: 0 0 10px 0;
-  color: #495057;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.japanese-transcript {
-  font-size: 1.1rem;
-  color: #212529;
-  margin: 0 0 5px 0;
-  font-weight: 500;
-  line-height: 1.5;
-}
-
-.english-transcript {
-  font-size: 0.95rem;
-  color: #6c757d;
-  margin: 0;
-  line-height: 1.4;
-}
-
-/* =========================================
-   LISTENING QUESTION BLOCK
-   ========================================= */
-.listening-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  text-align: center;
-}
-
-.play-audio-btn {
-  background: #007bff;
-  color: white;
-  border: none;
-  padding: 15px 30px;
-  border-radius: 30px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
-  transition: transform 0.2s, background 0.2s;
-  width: 100%;
-  max-width: 250px;
-}
-
-.play-audio-btn:hover, .play-audio-btn:active {
-  background: #0056b3;
-  transform: scale(0.98);
-}
-
-.svg-container {
-  width: 100%;
-  max-width: 300px;
-  margin: 10px auto;
-  border: 1px solid #eaeaea;
-  border-radius: 8px;
-  overflow: hidden;
-  background-color: #f8f9fa;
-}
-
-.svg-container svg {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.english-prompt {
-  margin: 10px 0 0 0;
-  color: #333;
-  font-size: 1.1rem;
+  /* 4. Touch targets for answers */
+  .option-btn {
+    padding: 14px;
+    font-size: 1rem;
+  }
 }
