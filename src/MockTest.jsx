@@ -1,242 +1,276 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import './MockTest.css';
-import mockTestData from './data/mock-test.json'; 
+import mockData from './data/mock-test.json'; 
 
-const MockTest = () => {
-  // --- STATE ---
-  const [testDeck, setTestDeck] = useState([]);
+const MockTest = ({ navigateTo }) => {
+  
+  // --- REAL N5 EXAM GENERATOR ---
+  const generateMockTest = useCallback(() => {
+    const allQuestions = mockData.questions || [];
+
+    // 1. Sort the entire bank into the 4 official JLPT categories
+    const vocabQs = allQuestions.filter(q => q.category === 'vocabulary' || q.category === 'kanji');
+    const grammarQs = allQuestions.filter(q => q.category === 'grammar');
+    const readingQs = allQuestions.filter(q => q.category === 'reading' || q.passage);
+    const listeningQs = allQuestions.filter(q => !!q.audio_text); // Anything with audio is Listening
+
+    // Helper function to shuffle and slice a specific amount
+    const getRandom = (arr, count) => [...arr].sort(() => 0.5 - Math.random()).slice(0, count);
+
+    // 2. Pull the exact N5 question distribution
+    // (If your JSON has fewer than the requested amount, it safely just takes what is available)
+    const examVocab = getRandom(vocabQs, 33);
+    const examGrammar = getRandom(grammarQs, 26);
+    const examReading = getRandom(readingQs, 6);
+    const examListening = getRandom(listeningQs, 24);
+
+    // 3. Combine them in the OFFICIAL JLPT exam order
+    return [...examVocab, ...examGrammar, ...examReading, ...examListening];
+  }, []);
+
+  const [testQuestions, setTestQuestions] = useState(() => generateMockTest());
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
-  const [isFinished, setIsFinished] = useState(false);
-  const [reviewAnswers, setReviewAnswers] = useState([]); 
+  const [showResults, setShowResults] = useState(false);
+  const [selectedOption, setSelectedOption] = useState(null);
+  const [isAnswered, setIsAnswered] = useState(false);
   
-  // NEW: State to hold the user's answer for the current question
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
+  // REAL N5 TIME LIMIT: 105 Minutes total (6300 seconds)
+  // We calculate it dynamically just in case the JSON didn't have enough questions to hit 89
+  const totalExamTime = Math.floor((testQuestions.length / 89) * 105 * 60) || 6300;
+  const [timeLeft, setTimeLeft] = useState(totalExamTime);
 
-  // --- REALISTIC N5 TEST CONFIGURATION ---
-  const testConfig = {
-    vocabulary: 20, 
-    kanji: 10,      
-    grammar: 18,    
-    reading: 6      
-  };
+  const currentQ = testQuestions.length > 0 ? testQuestions[currentIndex] : null;
 
-  // --- GENERATOR LOGIC ---
-  const generateTest = useCallback(() => {
-    const allQuestions = mockTestData.questions;
-    if (!allQuestions || !Array.isArray(allQuestions)) return; 
-
-    const shuffle = (array) => [...array].sort(() => 0.5 - Math.random());
-
-    const vocabPool = shuffle(allQuestions.filter(q => q.category === 'vocabulary')).slice(0, testConfig.vocabulary);
-    const kanjiPool = shuffle(allQuestions.filter(q => q.category === 'kanji')).slice(0, testConfig.kanji);
-    const grammarPool = shuffle(allQuestions.filter(q => q.category === 'grammar')).slice(0, testConfig.grammar);
-    const readingPool = shuffle(allQuestions.filter(q => q.category === 'reading')).slice(0, testConfig.reading);
-
-    const newExam = [...vocabPool, ...kanjiPool, ...grammarPool, ...readingPool];
-    
-    setTestDeck(newExam);
-    setCurrentIndex(0);
-    setScore(0);
-    setIsFinished(false);
-    setReviewAnswers([]);
-    setSelectedAnswer(null); // Reset on new test
-  }, [testConfig.vocabulary, testConfig.kanji, testConfig.grammar, testConfig.reading]); 
+  // --- DETERMINE CURRENT EXAM SECTION FOR UI ---
+  let currentSectionTitle = "Vocabulary / Kanji";
+  if (currentQ) {
+    if (currentQ.category === 'grammar') currentSectionTitle = "Grammar";
+    if (currentQ.category === 'reading' || currentQ.passage) currentSectionTitle = "Reading";
+    if (currentQ.audio_text) currentSectionTitle = "Listening";
+  }
 
   useEffect(() => {
-    generateTest();
-  }, [generateTest]);
+    if (showResults || !currentQ) return; 
 
-  // --- SAFETY CATCHES ---
-  if (!mockTestData.questions) {
-    return (
-      <div className="mocktest-page-layout">
-        <div className="test-stage" style={{ textAlign: 'center', marginTop: '50px' }}>
-          <h2>⚠️ JSON Data Error</h2>
-          <p>Could not load the questions. Please check mock-test.json</p>
-          <p>Ensure it contains a <b>"questions": [ ... ]</b> property.</p>
-        </div>
-      </div>
-    );
-  }
-
-  if (testDeck.length === 0) {
-    return (
-      <div className="mocktest-page-layout">
-        <div className="test-stage" style={{ textAlign: 'center', marginTop: '50px' }}>
-          <h2>⏳ Assembling Exam...</h2>
-          <p>Shuffling {testConfig.vocabulary + testConfig.kanji + testConfig.grammar + testConfig.reading} questions...</p>
-        </div>
-      </div>
-    );
-  }
-
-  const currentQuestion = testDeck[currentIndex];
-
-  const getQuestionWeight = (category) => {
-    if (category === 'reading') return 4; 
-    return 2; 
-  };
-
-  // --- HANDLERS ---
-  const handleAnswerSelect = (option) => {
-    // Prevent clicking if an answer is already selected
-    if (selectedAnswer) return; 
-
-    setSelectedAnswer(option);
-
-    const isCorrect = option === currentQuestion.answer;
-    const pointsEarned = isCorrect ? getQuestionWeight(currentQuestion.category) : 0;
-    
-    if (isCorrect) {
-      setScore(prev => prev + pointsEarned); 
+    if (timeLeft <= 0) {
+      if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+      setShowResults(true);
+      return;
     }
 
-    setReviewAnswers(prev => [...prev, {
-      question: currentQuestion.question,
-      passage: currentQuestion.passage,
-      selected: option,
-      correct: currentQuestion.answer,
-      isCorrect: isCorrect,
-      explanation: currentQuestion.explanation,
-      points: pointsEarned
-    }]);
+    const timer = setInterval(() => {
+      setTimeLeft((prev) => prev - 1);
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [timeLeft, showResults, currentQ]);
+
+  const formatTime = (seconds) => {
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor((seconds % 3600) / 60).toString().padStart(2, '0');
+    const s = (seconds % 60).toString().padStart(2, '0');
+    return h > 0 ? `${h}:${m}:${s}` : `${m}:${s}`; // Shows hours if > 60 mins
   };
 
-  // NEW: Function to manually advance to the next question
-  const handleNextQuestion = () => {
-    if (currentIndex + 1 < testDeck.length) {
-      setCurrentIndex(prev => prev + 1);
-      setSelectedAnswer(null); // Clear selection for the next question
+  const playAudio = (text) => {
+    if ('speechSynthesis' in window) {
+      if (window.speechSynthesis.speaking) {
+        window.speechSynthesis.cancel();
+      }
+      setTimeout(() => {
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'ja-JP'; 
+        utterance.rate = 0.85; 
+        
+        const voices = window.speechSynthesis.getVoices();
+        const japaneseVoice = voices.find(v => v.lang.includes('ja') || v.lang.includes('JP'));
+        if (japaneseVoice) utterance.voice = japaneseVoice;
+
+        utterance.onerror = (e) => console.error("Audio error:", e.error);
+        window.speechSynthesis.speak(utterance);
+      }, 50);
     } else {
-      setIsFinished(true);
+      alert("Your browser does not support Text-to-Speech audio.");
     }
   };
 
-  // --- RENDER ---
+  useEffect(() => {
+    if ('speechSynthesis' in window) window.speechSynthesis.getVoices();
+    return () => {
+      if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+    };
+  }, []);
+
+  const handleSelect = (option) => {
+    if (isAnswered) return;
+    setSelectedOption(option);
+    setIsAnswered(true);
+
+    if (option === currentQ.answer) {
+      setScore((prev) => prev + 1);
+    }
+  };
+
+  const handleNext = () => {
+    if ('speechSynthesis' in window) window.speechSynthesis.cancel(); 
+    
+    if (currentIndex + 1 < testQuestions.length) {
+      setCurrentIndex((prev) => prev + 1);
+      setSelectedOption(null);
+      setIsAnswered(false);
+    } else {
+      setShowResults(true); 
+    }
+  };
+
+  const handleRestart = () => {
+    const newTest = generateMockTest();
+    setTestQuestions(newTest);
+    setCurrentIndex(0);
+    setScore(0);
+    setShowResults(false);
+    setSelectedOption(null);
+    setIsAnswered(false);
+    setTimeLeft(Math.floor((newTest.length / 89) * 105 * 60) || 6300); 
+  };
+
+  if (!currentQ) {
+    return (
+      <div className="mock-test-layout">
+        <div className="question-card" style={{ textAlign: 'center', padding: '40px' }}>
+          <h2>⚠️ Data Error</h2>
+          <p>The mock test could not be generated. Please check your JSON format.</p>
+        </div>
+      </div>
+    );
+  }
+
+  const isListeningQuestion = !!currentQ.audio_text;
+
   return (
-    <div className="mocktest-page-layout">
+    <div className="mock-test-layout">
       
-      {isFinished ? (
-        <div className="completion-screen">
-          <h2>Exam Complete! 🎓</h2>
+      <div className="test-header">
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <span className="exam-badge">JLPT N5 Simulation</span>
+          {/* 🚨 NEW: Shows the user what section they are in! */}
+          <span style={{ fontSize: '0.85rem', color: '#666', marginTop: '4px', fontWeight: 'bold' }}>
+            {currentSectionTitle}
+          </span>
+        </div>
+        
+        <span className={`timer-badge ${timeLeft < 300 ? 'time-low' : ''}`}>
+          ⏱️ {formatTime(timeLeft)}
+        </span>
+        <span className="question-counter">Q {currentIndex + 1} / {testQuestions.length}</span>
+      </div>
+
+      {!showResults ? (
+        <div className="question-card">
+
+          {/* --- READING PASSAGE BLOCK --- */}
+          {currentQ.passage && (
+            <div className="reading-passage-block">
+              {currentQ.passage.split('\n').map((line, i) => (
+                <p key={i}>{line}</p>
+              ))}
+            </div>
+          )}
+
+          {/* --- UNIVERSAL IMAGE BLOCK --- */}
+          {currentQ.image_svg && (
+            <div 
+              className="svg-container" 
+              dangerouslySetInnerHTML={{ __html: currentQ.image_svg }} 
+            />
+          )}
           
-          <div className="jlpt-score-box" style={{ background: '#f8f9fa', padding: '15px', borderRadius: '8px', marginBottom: '20px' }}>
-            <h3 style={{ margin: '0 0 10px 0' }}>Estimated JLPT Score</h3>
-            <p className="final-score" style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#007bff', margin: '0 0 10px 0' }}>
-              {score} / 120 Points
-            </p>
-            {score >= 38 ? (
-              <div className="pass-badge" style={{color: '#52c41a', fontWeight: 'bold'}}>
-                ✅ Section Passed (Minimum 38 required)
-              </div>
-            ) : (
-              <div className="fail-badge" style={{color: '#ff4d4f', fontWeight: 'bold'}}>
-                ❌ Section Failed (Minimum 38 required)
-              </div>
-            )}
-          </div>
-          
-          <div className="review-section">
-            <h3>Review Your Answers:</h3>
-            {reviewAnswers.map((ans, idx) => (
-              <div key={idx} className={`review-card ${ans.isCorrect ? 'correct' : 'incorrect'}`}>
-                {ans.passage && (
-                  <div className="review-passage-snippet">
-                    <p>{ans.passage.substring(0, 40)}...</p>
-                  </div>
-                )}
-                <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                  <p className="review-q"><strong>Q:</strong> {ans.question}</p>
-                  <span style={{fontSize: '0.85rem', color: '#888', whiteSpace: 'nowrap', marginLeft: '10px'}}>
-                    {ans.isCorrect ? `+${ans.points} pts` : '0 pts'}
-                  </span>
-                </div>
-                <p><strong>Your Answer:</strong> {ans.selected} {ans.isCorrect ? '✅' : '❌'}</p>
-                {!ans.isCorrect && <p><strong>Correct Answer:</strong> {ans.correct}</p>}
-                {ans.explanation && (
-                  <p className="review-exp"><em>💡 {ans.explanation}</em></p>
-                )}
-              </div>
-            ))}
+          {/* --- LISTENING VS STANDARD QUESTION LOGIC --- */}
+          {isListeningQuestion ? (
+            <div className="listening-block">
+              <button className="play-audio-btn" onClick={() => playAudio(currentQ.audio_text)}>
+                🔊 Play Audio
+              </button>
+              <h3 className="english-prompt">{currentQ.question}</h3>
+            </div>
+          ) : (
+            <div className="standard-block">
+              <h2 className="japanese-question">{currentQ.question}</h2>
+              {currentQ.translation && <p className="question-translation">{currentQ.translation}</p>}
+            </div>
+          )}
+
+          <hr className="test-divider" />
+
+          {/* --- OPTIONS --- */}
+          <div className="options-grid">
+            {currentQ.options.map((option, idx) => {
+              let btnClass = "option-btn";
+              if (isAnswered) {
+                if (option === currentQ.answer) btnClass += " correct";
+                else if (option === selectedOption) btnClass += " incorrect";
+                else btnClass += " disabled";
+              }
+
+              return (
+                <button
+                  key={idx}
+                  className={btnClass}
+                  onClick={() => handleSelect(option)}
+                  disabled={isAnswered}
+                >
+                  {option}
+                </button>
+              );
+            })}
           </div>
 
-          <button className="btn-restart" onClick={generateTest}>
-            Generate New Exam
-          </button>
+          {/* --- FEEDBACK DRAWER --- */}
+          {isAnswered && (
+            <div className="feedback-section">
+              <div className={`feedback-badge ${selectedOption === currentQ.answer ? 'correct' : 'incorrect'}`}>
+                {selectedOption === currentQ.answer ? '✅ Correct' : '❌ Incorrect'}
+              </div>
+
+              {isListeningQuestion && (
+                <div className="transcript-box">
+                  <h4>Audio Transcript</h4>
+                  <p className="japanese-transcript">{currentQ.audio_text}</p>
+                  <p className="english-transcript">{currentQ.audio_text_translation}</p>
+                </div>
+              )}
+
+              <p className="explanation-text"><strong>Explanation:</strong> {currentQ.explanation}</p>
+              
+              <button className="next-btn" onClick={handleNext}>
+                {currentIndex + 1 === testQuestions.length ? 'See Results →' : 'Next Question →'}
+              </button>
+            </div>
+          )}
         </div>
       ) : (
-        <div className="test-stage">
+        
+        <div className="results-card">
+          <h2>Exam Complete! 📝</h2>
           
-          <div className="progress-bar-container">
-            <div className="progress-stats">
-              <span style={{textTransform: 'capitalize', fontWeight: 'bold', color: '#007bff'}}>
-                Section: {currentQuestion.category}
-              </span>
-              <span>Question {currentIndex + 1} of {testDeck.length}</span>
-            </div>
-            <div className="progress-bar-bg">
-              <div 
-                className="progress-bar-fill" 
-                style={{ width: `${((currentIndex) / testDeck.length) * 100}%` }}
-              ></div>
-            </div>
+          <div className="score-circle">
+            <span className="score-number">{score}</span>
+            <span className="score-total">/ {testQuestions.length}</span>
           </div>
-
-          <div className="question-container">
-            
-            {currentQuestion.passage && (
-              <div className="reading-passage-box">
-                <p className="passage-text">{currentQuestion.passage}</p>
-              </div>
-            )}
-
-            <h3 className="exam-question">{currentQuestion.question}</h3>
-
-            <div className="options-grid">
-              {currentQuestion.options.map((option, index) => {
-                // Determine styling for options after user clicks
-                let btnClass = "option-btn";
-                if (selectedAnswer) {
-                  if (option === currentQuestion.answer) {
-                    btnClass += " correct-option"; // Highlight correct answer
-                  } else if (option === selectedAnswer) {
-                    btnClass += " incorrect-option"; // Highlight user's wrong answer
-                  }
-                }
-
-                return (
-                  <button 
-                    key={index} 
-                    className={btnClass} 
-                    onClick={() => handleAnswerSelect(option)}
-                    disabled={!!selectedAnswer} // Disable all buttons once an answer is chosen
-                  >
-                    {option}
-                  </button>
-                );
-              })}
-            </div>
-
-            {/* NEW: Immediate Feedback & Explanation Box */}
-            {selectedAnswer && (
-              <div className="immediate-feedback-box">
-                <h4 className={selectedAnswer === currentQuestion.answer ? "feedback-title-correct" : "feedback-title-incorrect"}>
-                  {selectedAnswer === currentQuestion.answer ? "✅ Correct!" : "❌ Incorrect"}
-                </h4>
-                {currentQuestion.explanation && (
-                  <p className="feedback-explanation"><strong>Explanation:</strong> {currentQuestion.explanation}</p>
-                )}
-                <button className="btn-next-question" onClick={handleNextQuestion}>
-                  {currentIndex + 1 < testDeck.length ? "Next Question →" : "See Final Results →"}
-                </button>
-              </div>
-            )}
-
-          </div>
+          
+          <p className="score-percentage">
+            Final Score: {Math.round((score / testQuestions.length) * 100)}%
+          </p>
+          <p className="time-taken">
+            Time remaining: {formatTime(timeLeft)}
+          </p>
+          
+          <button className="restart-test-btn" onClick={handleRestart}>
+            Take Another Exam
+          </button>
         </div>
       )}
-      
     </div>
   );
 };

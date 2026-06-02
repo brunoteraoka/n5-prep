@@ -24741,6 +24741,2096 @@
       ],
       "answer": "A health insurance card",
       "explanation": "はじめての方はほけんしょうをもってきてください = first-time visitors, please bring your insurance card. ほけんしょう(保険証)=health insurance card."
-    }
+    },
+    {
+    "id": 1680,
+    "category": "listening",
+    "subcategory": "location",
+    "scene_type": "room_layout",
+    "audio_text": "A：めがねが みつかりません。B：ソファの うえに ありませんか。A：ありません。B：じゃあ、しんぶんの したは？A：あ、ありました！しんぶんの したに ありました。めがねは どこに ありましたか。",
+    "audio_text_romaji": "A: Megane ga mitsukarimasen. B: Sofa no ue ni arimasen ka. A: Arimasen. B: Jaa, shinbun no shita wa? A: A, arimashita! Shinbun no shita ni arimashita. Megane wa doko ni arimashita ka.",
+    "audio_text_translation": "A: I can't find my glasses. B: Aren't they on the sofa? A: They're not there. B: Then, under the newspaper? A: Ah, found them! They were under the newspaper. Where were the glasses?",
+    "question": "Where were the glasses found?",
+    "options": [
+      "On the sofa",
+      "Under the sofa",
+      "Under the newspaper",
+      "On the table"
+    ],
+    "answer": "Under the newspaper",
+    "explanation": "みつかる (mitsukaru) = to be found. しんぶんの した (shinbun no shita) = under the newspaper. The sofa is a red herring — they were not there.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 200' width='280' height='200'><rect width='280' height='200' fill='#f5f0e8'/><rect x='20' y='130' width='90' height='40' rx='5' fill='#a1887f' stroke='#6d4c41' stroke-width='2'/><rect x='25' y='135' width='80' height='30' rx='3' fill='#bcaaa4'/><text x='65' y='155' font-family='serif' font-size='10' text-anchor='middle' fill='#4e342e'>ソファ</text><text x='65' y='125' font-family='serif' font-size='9' text-anchor='middle' fill='#e53935'>✗ ない</text><rect x='155' y='110' width='100' height='12' rx='2' fill='#cfd8dc' stroke='#90a4ae' stroke-width='1.5'/><rect x='160' y='122' width='90' height='55' rx='4' fill='#c8a96e' stroke='#8b6914' stroke-width='1.5'/><text x='205' y='155' font-family='serif' font-size='10' text-anchor='middle' fill='#5d4037'>テーブル</text><rect x='165' y='100' width='85' height='16' rx='2' fill='#e0e0e0' stroke='#9e9e9e' stroke-width='1'/><text x='207' y='112' font-family='serif' font-size='8' text-anchor='middle' fill='#616161'>しんぶん</text><ellipse cx='200' cy='107' rx='12' ry='5' fill='none' stroke='#1565c0' stroke-width='1.5'/><ellipse cx='215' cy='107' rx='12' ry='5' fill='none' stroke='#1565c0' stroke-width='1.5'/><line x1='212' y1='107' x2='213' y2='107' stroke='#1565c0' stroke-width='1.5'/><text x='207' y='96' font-family='serif' font-size='9' text-anchor='middle' fill='#1565c0'>めがね ✓</text><text x='207' y='86' font-family='sans-serif' font-size='9' text-anchor='middle' fill='#1565c0'>しんぶんの した</text></svg>"
+  },
+  {
+    "id": 1681,
+    "category": "listening",
+    "subcategory": "price",
+    "scene_type": "shop",
+    "audio_text": "A：このペンは いくらですか。B：いっぽん ひゃくえんです。A：じゃあ、あかと あおと みどりを ください。B：ありがとうございます。ぜんぶで いくらですか。",
+    "audio_text_romaji": "A: Kono pen wa ikura desu ka. B: Ippon hyakuen desu. A: Jaa, aka to ao to midori wo kudasai. B: Arigatou gozaimasu. Zenbu de ikura desu ka.",
+    "audio_text_translation": "A: How much is this pen? B: 100 yen each. A: Then please give me red, blue, and green. B: Thank you. How much is the total?",
+    "question": "How much is the total?",
+    "options": [
+      "¥100",
+      "¥200",
+      "¥300",
+      "¥400"
+    ],
+    "answer": "¥300",
+    "explanation": "いっぽん (ippon) = one (long thin object counter). ひゃくえん (hyakuen) = 100 yen. あか (aka) = red, あお (ao) = blue, みどり (midori) = green = 3 pens. 100 × 3 = 300 yen (さんびゃくえん).",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 200' width='280' height='200'><rect width='280' height='200' fill='#fafafa'/><rect x='70' y='40' width='18' height='100' rx='5' fill='#e53935' stroke='#b71c1c' stroke-width='1.5'/><rect x='70' y='40' width='18' height='15' rx='3' fill='#b71c1c'/><polygon points='79,140 74,155 84,155' fill='#b71c1c'/><text x='79' y='170' font-family='serif' font-size='10' text-anchor='middle' fill='#c62828'>あか</text><rect x='131' y='40' width='18' height='100' rx='5' fill='#1976d2' stroke='#0d47a1' stroke-width='1.5'/><rect x='131' y='40' width='18' height='15' rx='3' fill='#0d47a1'/><polygon points='140,140 135,155 145,155' fill='#0d47a1'/><text x='140' y='170' font-family='serif' font-size='10' text-anchor='middle' fill='#1565c0'>あお</text><rect x='192' y='40' width='18' height='100' rx='5' fill='#388e3c' stroke='#1b5e20' stroke-width='1.5'/><rect x='192' y='40' width='18' height='15' rx='3' fill='#1b5e20'/><polygon points='201,140 196,155 206,155' fill='#1b5e20'/><text x='201' y='170' font-family='serif' font-size='10' text-anchor='middle' fill='#2e7d32'>みどり</text><rect x='85' y='178' width='110' height='18' rx='5' fill='#37474f'/><text x='140' y='191' font-family='serif' font-size='11' font-weight='bold' text-anchor='middle' fill='white'>¥100 × 3 = ¥300</text></svg>"
+  },
+  {
+    "id": 1682,
+    "category": "listening",
+    "subcategory": "next_action",
+    "scene_type": "dialogue",
+    "audio_text": "A：きょうの ごご、いっしょに テニスを しませんか。B：いいですね。でも、ごごさんじまで アルバイトが あります。A：じゃあ、さんじに こうえんで あいましょう。B：はい、わかりました。ふたりは なんじに あいますか。",
+    "audio_text_romaji": "A: Kyou no gogo, issho ni tenisu wo shimasen ka. B: Ii desu ne. Demo, gogo sanji made arubaito ga arimasu. A: Jaa, sanji ni kouen de aimashou. B: Hai, wakarimashita. Futari wa nanji ni aimasu ka.",
+    "audio_text_translation": "A: Would you like to play tennis together this afternoon? B: That sounds nice. But I have a part-time job until 3:00 PM. A: Then let's meet at the park at 3. B: Yes, understood. What time will the two meet?",
+    "question": "What time will the two people meet?",
+    "options": [
+      "1:00 PM",
+      "2:00 PM",
+      "3:00 PM",
+      "4:00 PM"
+    ],
+    "answer": "3:00 PM",
+    "explanation": "アルバイト (arubaito) = part-time job. まで (made) = until. さんじ (sanji) = 3 o'clock. あいましょう (aimashou) = let's meet. They will meet at 3:00 PM at the park.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 200' width='280' height='200'><rect width='280' height='200' fill='#e8f5e9'/><circle cx='60' cy='50' r='16' fill='#ffcc80'/><rect x='48' y='68' width='24' height='45' rx='3' fill='#7986cb'/><text x='60' y='125' font-family='serif' font-size='9' text-anchor='middle' fill='#333'>A</text><circle cx='140' cy='50' r='16' fill='#ffcc80'/><rect x='128' y='68' width='24' height='45' rx='3' fill='#ef9a9a'/><text x='140' y='125' font-family='serif' font-size='9' text-anchor='middle' fill='#333'>B</text><rect x='170' y='40' width='85' height='45' rx='5' fill='#fff9c4' stroke='#f9a825' stroke-width='1.5'/><text x='212' y='58' font-family='serif' font-size='9' text-anchor='middle' fill='#e65100'>アルバイト</text><text x='212' y='73' font-family='serif' font-size='10' font-weight='bold' text-anchor='middle' fill='#e65100'>～ 3:00 まで</text><rect x='80' y='150' width='120' height='35' rx='8' fill='#388e3c'/><text x='140' y='165' font-family='serif' font-size='10' text-anchor='middle' fill='white'>こうえんで あう</text><text x='140' y='180' font-family='monospace' font-size='14' font-weight='bold' text-anchor='middle' fill='#c8e6c9'>3:00 ✓</text></svg>"
+  },
+  {
+    "id": 1683,
+    "category": "listening",
+    "subcategory": "description_matching",
+    "scene_type": "transport",
+    "audio_text": "A：えきまで どうやって いきますか。B：バスは つかいません。じてんしゃも ありません。あるいて いきます。えきまで どうやって いきますか。",
+    "audio_text_romaji": "A: Eki made douyatte ikimasu ka. B: Basu wa tsukaimasen. Jitensha mo arimasen. Aruite ikimasu. Eki made douyatte ikimasu ka.",
+    "audio_text_translation": "A: How do you get to the station? B: I don't use the bus. I don't have a bicycle either. I walk. How does B get to the station?",
+    "question": "How does person B get to the station?",
+    "options": [
+      "By bus",
+      "By bicycle",
+      "On foot",
+      "By car"
+    ],
+    "answer": "On foot",
+    "explanation": "バスは つかいません (basu wa tsukaimasen) = don't use the bus. じてんしゃも ありません (jitensha mo arimasen) = no bicycle either. あるいて いきます (aruite ikimasu) = go on foot/walk.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 200' width='280' height='200'><rect width='280' height='200' fill='#f1f8e9'/><rect x='15' y='50' width='70' height='90' rx='5' fill='#ffccbc' stroke='#e64a19' stroke-width='1.5'/><rect x='22' y='58' width='55' height='35' rx='3' fill='#b0bec5'/><rect x='26' y='62' width='20' height='15' rx='1' fill='#e3f2fd'/><rect x='50' y='62' width='20' height='15' rx='1' fill='#e3f2fd'/><rect x='22' y='100' width='10' height='18' rx='2' fill='#37474f'/><rect x='63' y='100' width='10' height='18' rx='2' fill='#37474f'/><text x='50' y='155' font-family='serif' font-size='10' text-anchor='middle' fill='#e64a19'>バス</text><line x1='15' y1='45' x2='85' y2='145' stroke='#e53935' stroke-width='3'/><line x1='85' y1='45' x2='15' y2='145' stroke='#e53935' stroke-width='3'/><circle cx='155' cy='105' r='22' fill='none' stroke='#9e9e9e' stroke-width='2'/><circle cx='155' cy='75' r='22' fill='none' stroke='#9e9e9e' stroke-width='2'/><ellipse cx='155' cy='90' rx='8' ry='18' fill='#b0bec5' stroke='#9e9e9e' stroke-width='1.5'/><text x='155' y='140' font-family='serif' font-size='10' text-anchor='middle' fill='#9e9e9e'>じてんしゃ</text><line x1='130' y1='60' x2='180' y2='140' stroke='#e53935' stroke-width='3'/><line x1='180' y1='60' x2='130' y2='140' stroke='#e53935' stroke-width='3'/><circle cx='240' cy='55' r='14' fill='#ffcc80'/><rect x='228' y='70' width='24' height='40' rx='3' fill='#66bb6a'/><rect x='230' y='110' width='9' height='28' rx='3' fill='#ffcc80'/><rect x='243' y='115' width='9' height='23' rx='3' fill='#ffcc80'/><rect x='222' y='74' width='9' height='22' rx='3' fill='#ffcc80'/><rect x='253' y='74' width='9' height='22' rx='3' fill='#ffcc80'/><text x='240' y='152' font-family='serif' font-size='10' text-anchor='middle' fill='#2e7d32'>あるく ✓</text></svg>"
+  },
+  {
+    "id": 1684,
+    "category": "listening",
+    "subcategory": "time",
+    "scene_type": "schedule",
+    "audio_text": "A：にちようびに なにを しますか。B：ごぜんじゅうじから じゅうにじまで およぎます。それから ひるごはんを たべて、ごごはに ほんやへ いきます。B さんは どのくらい およぎますか。",
+    "audio_text_romaji": "A: Nichiyoubi ni nani wo shimasu ka. B: Gozen juuji kara juuniji made oyogimasu. Sorekara hirugohan wo tabete, gogo hachi ni honya e ikimasu. B-san wa dono kurai oyogimasu ka.",
+    "audio_text_translation": "A: What will you do on Sunday? B: I will swim from 10 AM to 12 PM. Then eat lunch, and go to the bookstore at 2 PM. How long will B swim?",
+    "question": "How long will person B swim?",
+    "options": [
+      "1 hour",
+      "2 hours",
+      "3 hours",
+      "4 hours"
+    ],
+    "answer": "2 hours",
+    "explanation": "じゅうじから (juuji kara) = from 10 o'clock. じゅうにじまで (juuniji made) = until 12 o'clock. 12 − 10 = 2 hours (にじかん). から～まで = from～until.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 200' width='280' height='200'><rect width='280' height='200' fill='#e3f2fd'/><rect x='20' y='60' width='240' height='60' rx='6' fill='#bbdefb' stroke='#1976d2' stroke-width='2'/><rect x='20' y='60' width='120' height='60' rx='0' fill='#1976d2'/><rect x='20' y='60' width='120' height='60' rx='6' fill='#1976d2'/><rect x='136' y='60' width='4' height='60' fill='#1976d2'/><text x='80' y='88' font-family='serif' font-size='11' text-anchor='middle' fill='white'>およぐ</text><text x='80' y='104' font-family='serif' font-size='10' text-anchor='middle' fill='#bbdefb'>10:00 〜 12:00</text><text x='200' y='88' font-family='serif' font-size='10' text-anchor='middle' fill='#1565c0'>ひるごはん</text><text x='200' y='104' font-family='serif' font-size='9' text-anchor='middle' fill='#1976d2'>12:00〜</text><text x='20' y='148' font-family='serif' font-size='10' fill='#1565c0'>10:00</text><text x='135' y='148' font-family='serif' font-size='10' text-anchor='middle' fill='#1565c0'>12:00</text><text x='255' y='148' font-family='serif' font-size='10' text-anchor='end' fill='#1565c0'>14:00</text><rect x='80' y='165' width='120' height='22' rx='6' fill='#1976d2'/><text x='140' y='180' font-family='serif' font-size='12' font-weight='bold' text-anchor='middle' fill='white'>にじかん ✓</text></svg>"
+  },
+  {
+    "id": 1685,
+    "category": "listening",
+    "subcategory": "location",
+    "scene_type": "map",
+    "audio_text": "A：すみません、ぎんこうは どこですか。B：このみちを まっすぐ いって、ふたつめの しんごうを みぎに まがります。ぎんこうは ひだりがわに あります。ぎんこうは どこですか。",
+    "audio_text_romaji": "A: Sumimasen, ginkou wa doko desu ka. B: Kono michi wo massugu itte, futatsume no shingou wo migi ni magarimasu. Ginkou wa hidari gawa ni arimasu. Ginkou wa doko desu ka.",
+    "audio_text_translation": "A: Excuse me, where is the bank? B: Go straight along this road, and at the second traffic light turn right. The bank is on the left side. Where is the bank?",
+    "question": "Where is the bank?",
+    "options": [
+      "Left side after the first traffic light",
+      "Right side after the second traffic light",
+      "Left side after turning right at the second traffic light",
+      "Straight ahead past two traffic lights"
+    ],
+    "answer": "Left side after turning right at the second traffic light",
+    "explanation": "まっすぐ (massugu) = straight. ふたつめの しんごう (futatsume no shingou) = second traffic light. みぎに まがる (migi ni magaru) = turn right. ひだりがわ (hidari gawa) = left side. Straight → 2nd light → turn right → bank on the left.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 220' width='280' height='220'><rect width='280' height='220' fill='#e8f5e9'/><rect x='120' y='0' width='40' height='220' fill='#cfd8dc'/><rect x='0' y='140' width='280' height='40' fill='#cfd8dc'/><circle cx='140' cy='75' r='5' fill='#f44336'/><circle cx='140' cy='115' r='5' fill='#f44336'/><text x='148' y='78' font-family='sans-serif' font-size='8' fill='#c62828'>1つめ</text><text x='148' y='118' font-family='sans-serif' font-size='8' fill='#c62828'>2つめ</text><circle cx='50' cy='10' r='5' fill='#e53935'/><text x='50' y='5' font-family='sans-serif' font-size='8' text-anchor='middle' fill='#e53935'>いま</text><path d='M140 15 L140 115 L80 115' stroke='#e53935' stroke-width='2.5' stroke-dasharray='5,3' fill='none' marker-end='url(#arrG)'/><defs><marker id='arrG' markerWidth='6' markerHeight='6' refX='3' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#e53935'/></marker></defs><rect x='15' y='90' width='55' height='35' rx='4' fill='#ffe082' stroke='#f9a825' stroke-width='2'/><text x='42' y='112' font-family='serif' font-size='10' text-anchor='middle' fill='#e65100'>ぎんこう ✓</text><text x='140' y='210' font-family='serif' font-size='9' text-anchor='middle' fill='#37474f'>まっすぐ → 2つめ みぎ → ひだり</text></svg>"
+  },
+  {
+    "id": 1686,
+    "category": "listening",
+    "subcategory": "description_matching",
+    "scene_type": "season",
+    "audio_text": "にほんの きせつの はなしを きいて ください。このきせつは あつい です。うみで およぎます。アイスクリームを たべます。なつやすみも あります。なんの きせつですか。",
+    "audio_text_romaji": "Nihon no kisetsu no hanashi wo kiite kudasai. Kono kisetsu wa atsui desu. Umi de oyogimasu. Aisukuriimu wo tabemasu. Natsuyasumi mo arimasu. Nan no kisetsu desu ka.",
+    "audio_text_translation": "Please listen to a story about a Japanese season. This season is hot. People swim in the sea. They eat ice cream. There is also a summer vacation. What season is it?",
+    "question": "What season is being described?",
+    "options": [
+      "Spring (はる)",
+      "Summer (なつ)",
+      "Autumn (あき)",
+      "Winter (ふゆ)"
+    ],
+    "answer": "Summer (なつ)",
+    "explanation": "あつい (atsui) = hot. うみ (umi) = sea. アイスクリーム (aisukuriimu) = ice cream. なつやすみ (natsuyasumi) = summer vacation. All clues point to なつ (natsu) = summer.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 200' width='280' height='200'><rect width='280' height='200' fill='#e3f2fd'/><rect x='0' y='110' width='280' height='90' fill='#64b5f6'/><rect x='0' y='110' width='280' height='20' fill='#42a5f5'/><circle cx='220' cy='40' r='35' fill='#ffd54f' stroke='#ffb300' stroke-width='2'/><line x1='220' y1='0' x2='220' y2='10' stroke='#ffb300' stroke-width='2'/><line x1='220' y1='70' x2='220' y2='80' stroke='#ffb300' stroke-width='2'/><line x1='180' y1='40' x2='170' y2='40' stroke='#ffb300' stroke-width='2'/><line x1='260' y1='40' x2='270' y2='40' stroke='#ffb300' stroke-width='2'/><line x1='195' y1='15' x2='188' y2='8' stroke='#ffb300' stroke-width='2'/><line x1='245' y1='65' x2='252' y2='72' stroke='#ffb300' stroke-width='2'/><path d='M30 108 Q60 85 90 108' stroke='#42a5f5' stroke-width='3' fill='#42a5f5'/><path d='M90 108 Q120 85 150 108' stroke='#42a5f5' stroke-width='3' fill='#42a5f5'/><path d='M150 108 Q180 85 210 108' stroke='#42a5f5' stroke-width='3' fill='#42a5f5'/><path d='M210 108 Q240 85 270 108' stroke='#42a5f5' stroke-width='3' fill='#42a5f5'/><rect x='50' y='82' width='20' height='30' rx='2' fill='#ff7043'/><polygon points='50,82 60,68 70,82' fill='#ff7043'/><circle cx='90' cy='140' r='15' fill='#ffcc80'/><rect x='82' y='155' width='16' height='20' rx='3' fill='#f06292'/><path d='M68 140 Q90 132 112 140' stroke='#1976d2' stroke-width='3' fill='none'/><text x='140' y='190' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#0d47a1'>なつ ✓</text></svg>"
+  },
+  {
+    "id": 1687,
+    "category": "listening",
+    "subcategory": "food_order",
+    "scene_type": "restaurant",
+    "audio_text": "A：ご注文は？B：えーと、やきそばと たまごやきを ください。A：おのみものは？B：おちゃを ふたつ おねがいします。A：かしこまりました。やきそばは いくつ たのみましたか。",
+    "audio_text_romaji": "A: Gochuumon wa? B: Eeto, yakisoba to tamagoyaki wo kudasai. A: Onomimono wa? B: Ocha wo futatsu onegaishimasu. A: Kashikomarimashita. Yakisoba wa ikutsu tanomimashita ka.",
+    "audio_text_translation": "A: What is your order? B: Umm, please give me yakisoba and tamagoyaki. A: What about drinks? B: Two teas please. A: Understood. How many yakisoba were ordered?",
+    "question": "How many yakisoba were ordered?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Not ordered"
+    ],
+    "answer": "1",
+    "explanation": "やきそばと たまごやきを ください (yakisoba to tamagoyaki wo kudasai) = please give me yakisoba and tamagoyaki. No number is stated, meaning one of each. ひとつ (hitotsu) is implied. おちゃを ふたつ (ocha wo futatsu) = two teas — the number only applies to the tea.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 200' width='280' height='200'><rect width='280' height='200' fill='#fff8f0'/><rect x='10' y='20' width='260' height='160' rx='8' fill='#fff3e0' stroke='#e65100' stroke-width='2'/><rect x='25' y='45' width='70' height='70' rx='6' fill='#f5f5f5' stroke='#bdbdbd' stroke-width='1.5'/><ellipse cx='60' cy='90' rx='28' ry='12' fill='#e0e0e0'/><path d='M35 75 Q60 60 85 75 Q80 90 60 95 Q40 90 35 75Z' fill='#8d6e63'/><path d='M38 72 L82 72' stroke='#ffcc80' stroke-width='3'/><path d='M36 78 L84 78' stroke='#66bb6a' stroke-width='2'/><path d='M38 84 L82 84' stroke='#ef9a9a' stroke-width='2'/><text x='60' y='108' font-family='serif' font-size='9' text-anchor='middle' fill='#5d4037'>やきそば × 1 ✓</text><rect x='110' y='45' width='70' height='70' rx='6' fill='#f5f5f5' stroke='#bdbdbd' stroke-width='1.5'/><ellipse cx='145' cy='85' rx='28' ry='20' fill='#fff9c4' stroke='#f9a825' stroke-width='1.5'/><ellipse cx='145' cy='82' rx='24' ry='16' fill='#ffe082'/><ellipse cx='145' cy='80' rx='20' ry='12' fill='#ffee58'/><text x='145' y='108' font-family='serif' font-size='9' text-anchor='middle' fill='#5d4037'>たまごやき × 1</text><rect x='195' y='45' width='70' height='70' rx='6' fill='#f5f5f5' stroke='#bdbdbd' stroke-width='1.5'/><rect x='208' y='65' width='18' height='40' rx='4' fill='#e3f2fd' stroke='#1976d2' stroke-width='1.5'/><ellipse cx='217' cy='65' rx='9' ry='4' fill='#bbdefb'/><rect x='232' y='68' width='18' height='37' rx='4' fill='#e3f2fd' stroke='#1976d2' stroke-width='1.5'/><ellipse cx='241' cy='68' rx='9' ry='4' fill='#bbdefb'/><text x='225' y='108' font-family='serif' font-size='9' text-anchor='middle' fill='#1565c0'>おちゃ × 2</text><text x='140' y='165' font-family='serif' font-size='11' font-weight='bold' text-anchor='middle' fill='#e65100'>やきそばは ひとつ ✓</text></svg>"
+  },
+  {
+    "id": 1688,
+    "category": "listening",
+    "subcategory": "description_matching",
+    "scene_type": "object_description",
+    "audio_text": "A：それは なんですか。B：これですか。これは ながくて、きいろいです。かいて けせます。えんぴつでは ありません。なんですか。",
+    "audio_text_romaji": "A: Sore wa nan desu ka. B: Kore desu ka. Kore wa nagakute, kiiroi desu. Kaite kesemasu. Enpitsu de wa arimasen. Nan desu ka.",
+    "audio_text_translation": "A: What is that? B: This? This is long and yellow. You can write and erase with it. It is not a pencil. What is it?",
+    "question": "What is the object?",
+    "options": [
+      "Pencil (えんぴつ)",
+      "Pen (ペン)",
+      "Pencil with eraser / mechanical pencil eraser (けしごむつきえんぴつ)",
+      "Highlighter (マーカー)"
+    ],
+    "answer": "Highlighter (マーカー)",
+    "explanation": "ながい (nagai) = long. きいろい (kiiroi) = yellow. かいて けせる (kaite keseru) = can write and erase. えんぴつでは ありません = not a pencil. A long yellow object you can write and erase with → マーカー (highlighter/marker with eraser cap).",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 200' width='280' height='200'><rect width='280' height='200' fill='#fffde7'/><rect x='90' y='50' width='100' height='30' rx='8' fill='#fdd835' stroke='#f9a825' stroke-width='2'/><rect x='90' y='50' width='20' height='30' rx='5' fill='#f9a825'/><rect x='170' y='50' width='20' height='30' rx='5' fill='#ef9a9a'/><rect x='90' y='80' width='100' height='70' rx='4' fill='#fdd835' stroke='#f9a825' stroke-width='2'/><rect x='90' y='150' width='100' height='15' rx='4' fill='#f9a825'/><polygon points='115,165 165,165 140,185' fill='#fdd835' stroke='#f9a825' stroke-width='1.5'/><text x='140' y='122' font-family='serif' font-size='11' font-weight='bold' text-anchor='middle' fill='#e65100'>マーカー</text><text x='140' y='137' font-family='serif' font-size='9' text-anchor='middle' fill='#bf360c'>きいろ・ながい</text><text x='80' y='58' font-family='sans-serif' font-size='8' text-anchor='end' fill='#1565c0'>キャップ</text><text x='200' y='58' font-family='sans-serif' font-size='8' fill='#c62828'>けしごむ</text><text x='140' y='195' font-family='serif' font-size='12' font-weight='bold' text-anchor='middle' fill='#f57f17'>マーカー ✓</text></svg>"
+  },
+  {
+    "id": 1689,
+    "category": "listening",
+    "subcategory": "family_description",
+    "scene_type": "family",
+    "audio_text": "A：ごきょうだいは いますか。B：はい、あねが ふたりと おとうとが ひとり います。A：なんにん きょうだいですか。B：よにん です。わたしも いれると ごにんに なります。B さんは なんばんめですか ？きょうだいの なかで。A：B さんは いちばん したですか。B：いいえ、わたしは さんばんめです。",
+    "audio_text_romaji": "A: Gokyoudai wa imasu ka. B: Hai, ane ga futari to otouto ga hitori imasu. A: Nannin kyoudai desu ka. B: Yonin desu. Watashi mo ireru to gonin ni narimasu. B-san wa nanbanme desu ka? Kyoudai no naka de. A: B-san wa ichiban shita desu ka. B: Iie, watashi wa sanbanme desu.",
+    "audio_text_translation": "A: Do you have siblings? B: Yes, I have two older sisters and one younger brother. A: How many siblings? B: Four. Including me it becomes five. What position is B among the siblings? A: Is B the youngest? B: No, I am third.",
+    "question": "What position is person B among the siblings?",
+    "options": [
+      "1st (oldest)",
+      "2nd",
+      "3rd",
+      "5th (youngest)"
+    ],
+    "answer": "3rd",
+    "explanation": "あねが ふたり (ane ga futari) = two older sisters. おとうとが ひとり (otouto ga hitori) = one younger brother. わたしも いれると ごにん (watashi mo ireru to gonin) = five including me. さんばんめ (sanbanme) = third position. Order: sister, sister, B, ?, brother.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 200' width='280' height='200'><rect width='280' height='200' fill='#fce4ec'/><circle cx='30' cy='60' r='14' fill='#ffcc80'/><path d='M19 50 Q30 40 41 50 Q41 60 30 63 Q19 60 19 50Z' fill='#6d4c41'/><rect x='19' y='75' width='22' height='35' rx='3' fill='#f48fb1'/><path d='M17 90 Q30 100 43 90 L44 120 Q30 123 16 120Z' fill='#f48fb1'/><text x='30' y='140' font-family='serif' font-size='8' text-anchor='middle' fill='#880e4f'>あね①</text><circle cx='85' cy='60' r='14' fill='#ffcc80'/><path d='M74 50 Q85 40 96 50 Q96 60 85 63 Q74 60 74 50Z' fill='#6d4c41'/><rect x='74' y='75' width='22' height='35' rx='3' fill='#f48fb1'/><path d='M72 90 Q85 100 98 90 L99 120 Q85 123 71 120Z' fill='#f48fb1'/><text x='85' y='140' font-family='serif' font-size='8' text-anchor='middle' fill='#880e4f'>あね②</text><circle cx='140' cy='55' r='16' fill='#ffcc80'/><rect x='128' y='73' width='24' height='38' rx='3' fill='#ce93d8'/><path d='M126 88 Q140 98 154 88 L155 122 Q140 125 125 122Z' fill='#ce93d8'/><text x='140' y='142' font-family='serif' font-size='8' text-anchor='middle' fill='#6a1b9a'>B (3ばんめ) ✓</text><rect x='128' y='51' width='24' height='5' rx='2' fill='#e53935'/><circle cx='195' cy='60' r='14' fill='#ffcc80'/><rect x='184' y='75' width='22' height='35' rx='3' fill='#90caf9'/><rect x='184' y='110' width='9' height='22' rx='3' fill='#ffcc80'/><rect x='197' y='110' width='9' height='22' rx='3' fill='#ffcc80'/><text x='195' y='142' font-family='serif' font-size='8' text-anchor='middle' fill='#1565c0'>?</text><circle cx='248' cy='65' r='12' fill='#ffcc80'/><rect x='238' y='78' width='20' height='30' rx='3' fill='#80cbc4'/><rect x='238' y='108' width='8' height='20' rx='3' fill='#ffcc80'/><rect x='250' y='108' width='8' height='20' rx='3' fill='#ffcc80'/><text x='248' y='140' font-family='serif' font-size='8' text-anchor='middle' fill='#00695c'>おとうと</text><text x='140' y='175' font-family='serif' font-size='11' font-weight='bold' text-anchor='middle' fill='#6a1b9a'>B は さんばんめ ✓</text></svg>"
+  },
+  {
+    "id": 1690,
+    "category": "listening",
+    "subcategory": "time_schedule",
+    "scene_type": "station",
+    "audio_text": "A：でんしゃは なんじに でますか。B：くじはんに でます。",
+    "audio_text_romaji": "A: Densha wa nanji ni demasu ka. B: Kuji-han ni demasu.",
+    "audio_text_translation": "A: What time does the train leave? B: It leaves at half past nine.",
+    "question": "What time does the train leave?",
+    "options": [
+      "8:30",
+      "9:00",
+      "9:30",
+      "10:30"
+    ],
+    "answer": "9:30",
+    "explanation": "くじはん (kuji-han) = 9 o'clock + はん (han, half) = 9:30.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180' width='180' height='180'><rect width='180' height='180' fill='#e3f2fd'/><circle cx='90' cy='85' r='62' fill='#fff' stroke='#1565c0' stroke-width='3'/><line x1='90.0' y1='31.0' x2='90.0' y2='23.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='38.2' x2='121.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='58.0' x2='143.7' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='144.0' y1='85.0' x2='152.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='112.0' x2='143.7' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='131.8' x2='121.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='90.0' y1='139.0' x2='90.0' y2='147.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='131.8' x2='59.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='112.0' x2='36.3' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='36.0' y1='85.0' x2='28.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='58.0' x2='36.3' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='38.2' x2='59.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='90' y1='85' x2='57.2' y2='76.2' stroke='#1565c0' stroke-width='5' stroke-linecap='round'/><line x1='90' y1='85' x2='90.0' y2='135.0' stroke='#42a5f5' stroke-width='3' stroke-linecap='round'/><circle cx='90' cy='85' r='4' fill='#0d47a1'/><text x='90' y='168' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#0d47a1'>9:30</text></svg>"
+  },
+  {
+    "id": 1691,
+    "category": "listening",
+    "subcategory": "time_schedule",
+    "scene_type": "home",
+    "audio_text": "A：いま なんじですか。B：さんじ じゅうごふんです。",
+    "audio_text_romaji": "A: Ima nanji desu ka. B: Sanji juugo-fun desu.",
+    "audio_text_translation": "A: What time is it now? B: It's 3:15.",
+    "question": "What time is it now?",
+    "options": [
+      "3:05",
+      "3:15",
+      "3:50",
+      "4:15"
+    ],
+    "answer": "3:15",
+    "explanation": "さんじ (sanji) = 3 o'clock; じゅうごふん (juugo-fun) = 15 minutes → 3:15.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180' width='180' height='180'><rect width='180' height='180' fill='#e3f2fd'/><circle cx='90' cy='85' r='62' fill='#fff' stroke='#1565c0' stroke-width='3'/><line x1='90.0' y1='31.0' x2='90.0' y2='23.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='38.2' x2='121.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='58.0' x2='143.7' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='144.0' y1='85.0' x2='152.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='112.0' x2='143.7' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='131.8' x2='121.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='90.0' y1='139.0' x2='90.0' y2='147.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='131.8' x2='59.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='112.0' x2='36.3' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='36.0' y1='85.0' x2='28.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='58.0' x2='36.3' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='38.2' x2='59.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='90' y1='85' x2='123.7' y2='89.4' stroke='#1565c0' stroke-width='5' stroke-linecap='round'/><line x1='90' y1='85' x2='140.0' y2='85.0' stroke='#42a5f5' stroke-width='3' stroke-linecap='round'/><circle cx='90' cy='85' r='4' fill='#0d47a1'/><text x='90' y='168' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#0d47a1'>3:15</text></svg>"
+  },
+  {
+    "id": 1692,
+    "category": "listening",
+    "subcategory": "time_schedule",
+    "scene_type": "shop",
+    "audio_text": "A：みせは なんじに あきますか。B：じゅうじに あきます。",
+    "audio_text_romaji": "A: Mise wa nanji ni akimasu ka. B: Juuji ni akimasu.",
+    "audio_text_translation": "A: What time does the shop open? B: It opens at ten.",
+    "question": "What time does the shop open?",
+    "options": [
+      "9:00",
+      "10:00",
+      "11:00",
+      "12:00"
+    ],
+    "answer": "10:00",
+    "explanation": "じゅうじ (juuji) = 10 o'clock; あきます (akimasu) = opens.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180' width='180' height='180'><rect width='180' height='180' fill='#e3f2fd'/><circle cx='90' cy='85' r='62' fill='#fff' stroke='#1565c0' stroke-width='3'/><line x1='90.0' y1='31.0' x2='90.0' y2='23.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='38.2' x2='121.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='58.0' x2='143.7' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='144.0' y1='85.0' x2='152.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='112.0' x2='143.7' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='131.8' x2='121.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='90.0' y1='139.0' x2='90.0' y2='147.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='131.8' x2='59.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='112.0' x2='36.3' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='36.0' y1='85.0' x2='28.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='58.0' x2='36.3' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='38.2' x2='59.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='90' y1='85' x2='60.6' y2='68.0' stroke='#1565c0' stroke-width='5' stroke-linecap='round'/><line x1='90' y1='85' x2='90.0' y2='35.0' stroke='#42a5f5' stroke-width='3' stroke-linecap='round'/><circle cx='90' cy='85' r='4' fill='#0d47a1'/><text x='90' y='168' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#0d47a1'>10:00</text></svg>"
+  },
+  {
+    "id": 1693,
+    "category": "listening",
+    "subcategory": "time_schedule",
+    "scene_type": "office",
+    "audio_text": "A：かいぎは なんじからですか。B：ごご にじからです。",
+    "audio_text_romaji": "A: Kaigi wa nanji kara desu ka. B: Gogo niji kara desu.",
+    "audio_text_translation": "A: What time does the meeting start? B: From 2 PM.",
+    "question": "What time does the meeting start?",
+    "options": [
+      "2:00 AM",
+      "12:00",
+      "2:00 PM",
+      "4:00 PM"
+    ],
+    "answer": "2:00 PM",
+    "explanation": "ごご (gogo) = afternoon/PM; にじ (niji) = 2 o'clock → 2 PM.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180' width='180' height='180'><rect width='180' height='180' fill='#e3f2fd'/><circle cx='90' cy='85' r='62' fill='#fff' stroke='#1565c0' stroke-width='3'/><line x1='90.0' y1='31.0' x2='90.0' y2='23.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='38.2' x2='121.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='58.0' x2='143.7' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='144.0' y1='85.0' x2='152.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='112.0' x2='143.7' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='131.8' x2='121.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='90.0' y1='139.0' x2='90.0' y2='147.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='131.8' x2='59.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='112.0' x2='36.3' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='36.0' y1='85.0' x2='28.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='58.0' x2='36.3' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='38.2' x2='59.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='90' y1='85' x2='119.4' y2='68.0' stroke='#1565c0' stroke-width='5' stroke-linecap='round'/><line x1='90' y1='85' x2='90.0' y2='35.0' stroke='#42a5f5' stroke-width='3' stroke-linecap='round'/><circle cx='90' cy='85' r='4' fill='#0d47a1'/><text x='90' y='168' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#0d47a1'>午後 2:00</text></svg>"
+  },
+  {
+    "id": 1694,
+    "category": "listening",
+    "subcategory": "daily_routine",
+    "scene_type": "home",
+    "audio_text": "A：まいあさ なんじに おきますか。B：ろくじはんに おきます。",
+    "audio_text_romaji": "A: Maiasa nanji ni okimasu ka. B: Rokuji-han ni okimasu.",
+    "audio_text_translation": "A: What time do you get up every morning? B: I get up at 6:30.",
+    "question": "What time does B get up?",
+    "options": [
+      "6:00",
+      "6:30",
+      "7:00",
+      "7:30"
+    ],
+    "answer": "6:30",
+    "explanation": "ろくじはん (rokuji-han) = 6 + half = 6:30; おきます (okimasu) = get up.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180' width='180' height='180'><rect width='180' height='180' fill='#e3f2fd'/><circle cx='90' cy='85' r='62' fill='#fff' stroke='#1565c0' stroke-width='3'/><line x1='90.0' y1='31.0' x2='90.0' y2='23.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='38.2' x2='121.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='58.0' x2='143.7' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='144.0' y1='85.0' x2='152.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='112.0' x2='143.7' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='131.8' x2='121.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='90.0' y1='139.0' x2='90.0' y2='147.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='131.8' x2='59.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='112.0' x2='36.3' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='36.0' y1='85.0' x2='28.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='58.0' x2='36.3' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='38.2' x2='59.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='90' y1='85' x2='81.2' y2='117.8' stroke='#1565c0' stroke-width='5' stroke-linecap='round'/><line x1='90' y1='85' x2='90.0' y2='135.0' stroke='#42a5f5' stroke-width='3' stroke-linecap='round'/><circle cx='90' cy='85' r='4' fill='#0d47a1'/><text x='90' y='168' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#0d47a1'>6:30</text></svg>"
+  },
+  {
+    "id": 1695,
+    "category": "listening",
+    "subcategory": "time_schedule",
+    "scene_type": "school",
+    "audio_text": "A：ひるごはんは なんじですか。B：じゅうにじはんです。",
+    "audio_text_romaji": "A: Hirugohan wa nanji desu ka. B: Juuni-ji-han desu.",
+    "audio_text_translation": "A: What time is lunch? B: 12:30.",
+    "question": "What time is lunch?",
+    "options": [
+      "11:30",
+      "12:00",
+      "12:30",
+      "1:30"
+    ],
+    "answer": "12:30",
+    "explanation": "じゅうにじはん (juuniji-han) = 12 + half = 12:30; ひるごはん (hirugohan) = lunch.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180' width='180' height='180'><rect width='180' height='180' fill='#e3f2fd'/><circle cx='90' cy='85' r='62' fill='#fff' stroke='#1565c0' stroke-width='3'/><line x1='90.0' y1='31.0' x2='90.0' y2='23.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='38.2' x2='121.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='58.0' x2='143.7' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='144.0' y1='85.0' x2='152.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='112.0' x2='143.7' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='131.8' x2='121.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='90.0' y1='139.0' x2='90.0' y2='147.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='131.8' x2='59.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='112.0' x2='36.3' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='36.0' y1='85.0' x2='28.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='58.0' x2='36.3' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='38.2' x2='59.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='90' y1='85' x2='98.8' y2='52.2' stroke='#1565c0' stroke-width='5' stroke-linecap='round'/><line x1='90' y1='85' x2='90.0' y2='135.0' stroke='#42a5f5' stroke-width='3' stroke-linecap='round'/><circle cx='90' cy='85' r='4' fill='#0d47a1'/><text x='90' y='168' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#0d47a1'>12:30</text></svg>"
+  },
+  {
+    "id": 1696,
+    "category": "listening",
+    "subcategory": "time_schedule",
+    "scene_type": "cinema",
+    "audio_text": "A：えいがは なんじに はじまりますか。B：しちじ じゅっぷんです。",
+    "audio_text_romaji": "A: Eiga wa nanji ni hajimarimasu ka. B: Shichiji juppun desu.",
+    "audio_text_translation": "A: What time does the movie start? B: 7:10.",
+    "question": "What time does the movie start?",
+    "options": [
+      "7:00",
+      "7:10",
+      "7:15",
+      "8:10"
+    ],
+    "answer": "7:10",
+    "explanation": "しちじ (shichiji) = 7; じゅっぷん (juppun) = 10 min → 7:10.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180' width='180' height='180'><rect width='180' height='180' fill='#e3f2fd'/><circle cx='90' cy='85' r='62' fill='#fff' stroke='#1565c0' stroke-width='3'/><line x1='90.0' y1='31.0' x2='90.0' y2='23.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='38.2' x2='121.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='58.0' x2='143.7' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='144.0' y1='85.0' x2='152.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='112.0' x2='143.7' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='131.8' x2='121.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='90.0' y1='139.0' x2='90.0' y2='147.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='131.8' x2='59.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='112.0' x2='36.3' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='36.0' y1='85.0' x2='28.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='58.0' x2='36.3' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='38.2' x2='59.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='90' y1='85' x2='70.5' y2='112.9' stroke='#1565c0' stroke-width='5' stroke-linecap='round'/><line x1='90' y1='85' x2='133.3' y2='60.0' stroke='#42a5f5' stroke-width='3' stroke-linecap='round'/><circle cx='90' cy='85' r='4' fill='#0d47a1'/><text x='90' y='168' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#0d47a1'>7:10</text></svg>"
+  },
+  {
+    "id": 1697,
+    "category": "listening",
+    "subcategory": "time_schedule",
+    "scene_type": "school",
+    "audio_text": "A：じゅぎょうは なんじに おわりますか。B：よじ よんじゅうごふんです。",
+    "audio_text_romaji": "A: Jugyou wa nanji ni owarimasu ka. B: Yoji yonjuugo-fun desu.",
+    "audio_text_translation": "A: What time does class end? B: 4:45.",
+    "question": "What time does class end?",
+    "options": [
+      "4:15",
+      "4:30",
+      "4:45",
+      "5:15"
+    ],
+    "answer": "4:45",
+    "explanation": "よじ (yoji) = 4; よんじゅうごふん (yonjuugo-fun) = 45 min → 4:45; おわります (owarimasu) = end.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180' width='180' height='180'><rect width='180' height='180' fill='#e3f2fd'/><circle cx='90' cy='85' r='62' fill='#fff' stroke='#1565c0' stroke-width='3'/><line x1='90.0' y1='31.0' x2='90.0' y2='23.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='38.2' x2='121.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='58.0' x2='143.7' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='144.0' y1='85.0' x2='152.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='112.0' x2='143.7' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='131.8' x2='121.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='90.0' y1='139.0' x2='90.0' y2='147.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='131.8' x2='59.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='112.0' x2='36.3' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='36.0' y1='85.0' x2='28.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='58.0' x2='36.3' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='38.2' x2='59.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='90' y1='85' x2='110.7' y2='112.0' stroke='#1565c0' stroke-width='5' stroke-linecap='round'/><line x1='90' y1='85' x2='40.0' y2='85.0' stroke='#42a5f5' stroke-width='3' stroke-linecap='round'/><circle cx='90' cy='85' r='4' fill='#0d47a1'/><text x='90' y='168' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#0d47a1'>4:45</text></svg>"
+  },
+  {
+    "id": 1698,
+    "category": "listening",
+    "subcategory": "transportation",
+    "scene_type": "bus_stop",
+    "audio_text": "A：つぎの バスは なんじですか。B：ごじ よんじゅっぷんです。",
+    "audio_text_romaji": "A: Tsugi no basu wa nanji desu ka. B: Goji yonjuppun desu.",
+    "audio_text_translation": "A: What time is the next bus? B: 5:40.",
+    "question": "What time is the next bus?",
+    "options": [
+      "5:14",
+      "5:40",
+      "6:04",
+      "6:40"
+    ],
+    "answer": "5:40",
+    "explanation": "ごじ (goji) = 5; よんじゅっぷん (yonjuppun) = 40 min → 5:40.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180' width='180' height='180'><rect width='180' height='180' fill='#e3f2fd'/><circle cx='90' cy='85' r='62' fill='#fff' stroke='#1565c0' stroke-width='3'/><line x1='90.0' y1='31.0' x2='90.0' y2='23.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='38.2' x2='121.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='58.0' x2='143.7' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='144.0' y1='85.0' x2='152.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='112.0' x2='143.7' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='131.8' x2='121.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='90.0' y1='139.0' x2='90.0' y2='147.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='131.8' x2='59.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='112.0' x2='36.3' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='36.0' y1='85.0' x2='28.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='58.0' x2='36.3' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='38.2' x2='59.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='90' y1='85' x2='95.9' y2='118.5' stroke='#1565c0' stroke-width='5' stroke-linecap='round'/><line x1='90' y1='85' x2='46.7' y2='110.0' stroke='#42a5f5' stroke-width='3' stroke-linecap='round'/><circle cx='90' cy='85' r='4' fill='#0d47a1'/><text x='90' y='168' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#0d47a1'>5:40</text></svg>"
+  },
+  {
+    "id": 1699,
+    "category": "listening",
+    "subcategory": "daily_routine",
+    "scene_type": "home",
+    "audio_text": "A：ばんごはんは なんじに たべますか。B：はちじに たべます。",
+    "audio_text_romaji": "A: Bangohan wa nanji ni tabemasu ka. B: Hachiji ni tabemasu.",
+    "audio_text_translation": "A: What time do you eat dinner? B: At eight.",
+    "question": "What time does B eat dinner?",
+    "options": [
+      "7:00",
+      "8:00",
+      "9:00",
+      "6:00"
+    ],
+    "answer": "8:00",
+    "explanation": "はちじ (hachiji) = 8 o'clock; ばんごはん (bangohan) = dinner.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180' width='180' height='180'><rect width='180' height='180' fill='#e3f2fd'/><circle cx='90' cy='85' r='62' fill='#fff' stroke='#1565c0' stroke-width='3'/><line x1='90.0' y1='31.0' x2='90.0' y2='23.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='38.2' x2='121.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='58.0' x2='143.7' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='144.0' y1='85.0' x2='152.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='136.8' y1='112.0' x2='143.7' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='117.0' y1='131.8' x2='121.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='90.0' y1='139.0' x2='90.0' y2='147.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='131.8' x2='59.0' y2='138.7' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='112.0' x2='36.3' y2='116.0' stroke='#607d8b' stroke-width='2'/><line x1='36.0' y1='85.0' x2='28.0' y2='85.0' stroke='#607d8b' stroke-width='2'/><line x1='43.2' y1='58.0' x2='36.3' y2='54.0' stroke='#607d8b' stroke-width='2'/><line x1='63.0' y1='38.2' x2='59.0' y2='31.3' stroke='#607d8b' stroke-width='2'/><line x1='90' y1='85' x2='60.6' y2='102.0' stroke='#1565c0' stroke-width='5' stroke-linecap='round'/><line x1='90' y1='85' x2='90.0' y2='35.0' stroke='#42a5f5' stroke-width='3' stroke-linecap='round'/><circle cx='90' cy='85' r='4' fill='#0d47a1'/><text x='90' y='168' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#0d47a1'>8:00</text></svg>"
+  },
+  {
+    "id": 1700,
+    "category": "listening",
+    "subcategory": "location_position",
+    "scene_type": "room",
+    "audio_text": "A：ねこは どこに いますか。B：いすの したに います。",
+    "audio_text_romaji": "A: Neko wa doko ni imasu ka. B: Isu no shita ni imasu.",
+    "audio_text_translation": "A: Where is the cat? B: It's under the chair.",
+    "question": "Where is the cat?",
+    "options": [
+      "On the chair",
+      "Under the chair",
+      "Next to the chair",
+      "On the table"
+    ],
+    "answer": "Under the chair",
+    "explanation": "した (shita) = under; いす (isu) = chair.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 180' width='240' height='180'><rect width='240' height='180' fill='#fff3e0'/><rect x='85' y='78' width='70' height='44' rx='4' fill='#a1887f' stroke='#5d4037' stroke-width='2'/><rect x='88' y='122' width='6' height='26' fill='#5d4037'/><rect x='146' y='122' width='6' height='26' fill='#5d4037'/><circle cx='120.0' cy='140' r='14' fill='#ff9800' stroke='#e65100' stroke-width='2'/><text x='120.0' y='144' font-size='9' text-anchor='middle' fill='#fff'>ねこ</text><text x='120' y='168' font-family='serif' font-size='12' font-weight='bold' text-anchor='middle' fill='#bf360c'>した ✓</text></svg>"
+  },
+  {
+    "id": 1701,
+    "category": "listening",
+    "subcategory": "location_position",
+    "scene_type": "room",
+    "audio_text": "A：ほんは どこに ありますか。B：つくえの うえに あります。",
+    "audio_text_romaji": "A: Hon wa doko ni arimasu ka. B: Tsukue no ue ni arimasu.",
+    "audio_text_translation": "A: Where is the book? B: It's on the desk.",
+    "question": "Where is the book?",
+    "options": [
+      "Under the desk",
+      "On the desk",
+      "Inside the desk",
+      "Beside the desk"
+    ],
+    "answer": "On the desk",
+    "explanation": "うえ (ue) = on/above; つくえ (tsukue) = desk.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 180' width='240' height='180'><rect width='240' height='180' fill='#fff3e0'/><rect x='85' y='78' width='70' height='44' rx='4' fill='#a1887f' stroke='#5d4037' stroke-width='2'/><rect x='88' y='122' width='6' height='26' fill='#5d4037'/><rect x='146' y='122' width='6' height='26' fill='#5d4037'/><circle cx='120.0' cy='63' r='14' fill='#ff9800' stroke='#e65100' stroke-width='2'/><text x='120.0' y='67' font-size='9' text-anchor='middle' fill='#fff'>ほん</text><text x='120' y='168' font-family='serif' font-size='12' font-weight='bold' text-anchor='middle' fill='#bf360c'>うえ ✓</text></svg>"
+  },
+  {
+    "id": 1702,
+    "category": "listening",
+    "subcategory": "location_position",
+    "scene_type": "room",
+    "audio_text": "A：かばんは どこですか。B：テーブルの したに あります。",
+    "audio_text_romaji": "A: Kaban wa doko desu ka. B: Teeburu no shita ni arimasu.",
+    "audio_text_translation": "A: Where is the bag? B: It's under the table.",
+    "question": "Where is the bag?",
+    "options": [
+      "On the table",
+      "Under the table",
+      "Behind the table",
+      "Inside the bag"
+    ],
+    "answer": "Under the table",
+    "explanation": "した (shita) = under; テーブル (teeburu) = table.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 180' width='240' height='180'><rect width='240' height='180' fill='#fff3e0'/><rect x='85' y='78' width='70' height='44' rx='4' fill='#a1887f' stroke='#5d4037' stroke-width='2'/><rect x='88' y='122' width='6' height='26' fill='#5d4037'/><rect x='146' y='122' width='6' height='26' fill='#5d4037'/><circle cx='120.0' cy='140' r='14' fill='#ff9800' stroke='#e65100' stroke-width='2'/><text x='120.0' y='144' font-size='9' text-anchor='middle' fill='#fff'>かばん</text><text x='120' y='168' font-family='serif' font-size='12' font-weight='bold' text-anchor='middle' fill='#bf360c'>した ✓</text></svg>"
+  },
+  {
+    "id": 1703,
+    "category": "listening",
+    "subcategory": "location_position",
+    "scene_type": "room",
+    "audio_text": "A：ねこは どこに いますか。B：はこの なかに います。",
+    "audio_text_romaji": "A: Neko wa doko ni imasu ka. B: Hako no naka ni imasu.",
+    "audio_text_translation": "A: Where is the cat? B: It's inside the box.",
+    "question": "Where is the cat?",
+    "options": [
+      "On the box",
+      "Under the box",
+      "Inside the box",
+      "Beside the box"
+    ],
+    "answer": "Inside the box",
+    "explanation": "なか (naka) = inside; はこ (hako) = box.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 180' width='240' height='180'><rect width='240' height='180' fill='#fff3e0'/><rect x='85' y='78' width='70' height='44' rx='4' fill='none' stroke='#5d4037' stroke-width='3'/><circle cx='120.0' cy='100.0' r='14' fill='#ff9800' stroke='#e65100' stroke-width='2'/><text x='120.0' y='104.0' font-size='9' text-anchor='middle' fill='#fff'>ねこ</text><text x='120' y='168' font-family='serif' font-size='12' font-weight='bold' text-anchor='middle' fill='#bf360c'>なか ✓</text></svg>"
+  },
+  {
+    "id": 1704,
+    "category": "listening",
+    "subcategory": "location_position",
+    "scene_type": "room",
+    "audio_text": "A：ペンは どこに ありますか。B：ノートの うえに あります。",
+    "audio_text_romaji": "A: Pen wa doko ni arimasu ka. B: Nooto no ue ni arimasu.",
+    "audio_text_translation": "A: Where is the pen? B: It's on top of the notebook.",
+    "question": "Where is the pen?",
+    "options": [
+      "Inside the notebook",
+      "On the notebook",
+      "Under the notebook",
+      "Beside the notebook"
+    ],
+    "answer": "On the notebook",
+    "explanation": "うえ (ue) = on top; ノート (nooto) = notebook.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 180' width='240' height='180'><rect width='240' height='180' fill='#fff3e0'/><rect x='85' y='78' width='70' height='44' rx='4' fill='#a1887f' stroke='#5d4037' stroke-width='2'/><rect x='88' y='122' width='6' height='26' fill='#5d4037'/><rect x='146' y='122' width='6' height='26' fill='#5d4037'/><circle cx='120.0' cy='63' r='14' fill='#ff9800' stroke='#e65100' stroke-width='2'/><text x='120.0' y='67' font-size='9' text-anchor='middle' fill='#fff'>ペン</text><text x='120' y='168' font-family='serif' font-size='12' font-weight='bold' text-anchor='middle' fill='#bf360c'>うえ ✓</text></svg>"
+  },
+  {
+    "id": 1705,
+    "category": "listening",
+    "subcategory": "location_position",
+    "scene_type": "park",
+    "audio_text": "A：いぬは どこに いますか。B：きの したに います。",
+    "audio_text_romaji": "A: Inu wa doko ni imasu ka. B: Ki no shita ni imasu.",
+    "audio_text_translation": "A: Where is the dog? B: It's under the tree.",
+    "question": "Where is the dog?",
+    "options": [
+      "On the tree",
+      "Under the tree",
+      "Behind the tree",
+      "Next to the house"
+    ],
+    "answer": "Under the tree",
+    "explanation": "き (ki) = tree; した (shita) = under.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 180' width='240' height='180'><rect width='240' height='180' fill='#fff3e0'/><rect x='85' y='78' width='70' height='44' rx='4' fill='#a1887f' stroke='#5d4037' stroke-width='2'/><rect x='88' y='122' width='6' height='26' fill='#5d4037'/><rect x='146' y='122' width='6' height='26' fill='#5d4037'/><circle cx='120.0' cy='140' r='14' fill='#ff9800' stroke='#e65100' stroke-width='2'/><text x='120.0' y='144' font-size='9' text-anchor='middle' fill='#fff'>いぬ</text><text x='120' y='168' font-family='serif' font-size='12' font-weight='bold' text-anchor='middle' fill='#bf360c'>した ✓</text></svg>"
+  },
+  {
+    "id": 1706,
+    "category": "listening",
+    "subcategory": "location_position",
+    "scene_type": "room",
+    "audio_text": "A：とけいは どこに ありますか。B：テレビの うえに あります。",
+    "audio_text_romaji": "A: Tokei wa doko ni arimasu ka. B: Terebi no ue ni arimasu.",
+    "audio_text_translation": "A: Where is the clock? B: It's on top of the TV.",
+    "question": "Where is the clock?",
+    "options": [
+      "Under the TV",
+      "Beside the TV",
+      "On the TV",
+      "Behind the TV"
+    ],
+    "answer": "On the TV",
+    "explanation": "とけい (tokei) = clock; うえ (ue) = on top; テレビ (terebi) = TV.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 180' width='240' height='180'><rect width='240' height='180' fill='#fff3e0'/><rect x='85' y='78' width='70' height='44' rx='4' fill='#a1887f' stroke='#5d4037' stroke-width='2'/><rect x='88' y='122' width='6' height='26' fill='#5d4037'/><rect x='146' y='122' width='6' height='26' fill='#5d4037'/><circle cx='120.0' cy='63' r='14' fill='#ff9800' stroke='#e65100' stroke-width='2'/><text x='120.0' y='67' font-size='9' text-anchor='middle' fill='#fff'>とけい</text><text x='120' y='168' font-family='serif' font-size='12' font-weight='bold' text-anchor='middle' fill='#bf360c'>うえ ✓</text></svg>"
+  },
+  {
+    "id": 1707,
+    "category": "listening",
+    "subcategory": "location_position",
+    "scene_type": "room",
+    "audio_text": "A：ボールは どこですか。B：ベッドの したに あります。",
+    "audio_text_romaji": "A: Booru wa doko desu ka. B: Beddo no shita ni arimasu.",
+    "audio_text_translation": "A: Where is the ball? B: Under the bed.",
+    "question": "Where is the ball?",
+    "options": [
+      "On the bed",
+      "Under the bed",
+      "Beside the bed",
+      "In the closet"
+    ],
+    "answer": "Under the bed",
+    "explanation": "ボール (booru) = ball; した (shita) = under; ベッド (beddo) = bed.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 180' width='240' height='180'><rect width='240' height='180' fill='#fff3e0'/><rect x='85' y='78' width='70' height='44' rx='4' fill='#a1887f' stroke='#5d4037' stroke-width='2'/><rect x='88' y='122' width='6' height='26' fill='#5d4037'/><rect x='146' y='122' width='6' height='26' fill='#5d4037'/><circle cx='120.0' cy='140' r='14' fill='#ff9800' stroke='#e65100' stroke-width='2'/><text x='120.0' y='144' font-size='9' text-anchor='middle' fill='#fff'>ボール</text><text x='120' y='168' font-family='serif' font-size='12' font-weight='bold' text-anchor='middle' fill='#bf360c'>した ✓</text></svg>"
+  },
+  {
+    "id": 1708,
+    "category": "listening",
+    "subcategory": "location_position",
+    "scene_type": "kitchen",
+    "audio_text": "A：コップは どこに ありますか。B：テーブルの うえに あります。",
+    "audio_text_romaji": "A: Koppu wa doko ni arimasu ka. B: Teeburu no ue ni arimasu.",
+    "audio_text_translation": "A: Where is the cup? B: On the table.",
+    "question": "Where is the cup?",
+    "options": [
+      "In the sink",
+      "On the table",
+      "Under the table",
+      "In the box"
+    ],
+    "answer": "On the table",
+    "explanation": "コップ (koppu) = cup; うえ (ue) = on top.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 180' width='240' height='180'><rect width='240' height='180' fill='#fff3e0'/><rect x='85' y='78' width='70' height='44' rx='4' fill='#a1887f' stroke='#5d4037' stroke-width='2'/><rect x='88' y='122' width='6' height='26' fill='#5d4037'/><rect x='146' y='122' width='6' height='26' fill='#5d4037'/><circle cx='120.0' cy='63' r='14' fill='#ff9800' stroke='#e65100' stroke-width='2'/><text x='120.0' y='67' font-size='9' text-anchor='middle' fill='#fff'>コップ</text><text x='120' y='168' font-family='serif' font-size='12' font-weight='bold' text-anchor='middle' fill='#bf360c'>うえ ✓</text></svg>"
+  },
+  {
+    "id": 1709,
+    "category": "listening",
+    "subcategory": "location_position",
+    "scene_type": "entrance",
+    "audio_text": "A：かさは どこですか。B：かばんの なかに あります。",
+    "audio_text_romaji": "A: Kasa wa doko desu ka. B: Kaban no naka ni arimasu.",
+    "audio_text_translation": "A: Where is the umbrella? B: Inside the bag.",
+    "question": "Where is the umbrella?",
+    "options": [
+      "Beside the bag",
+      "On the bag",
+      "Inside the bag",
+      "Under the bag"
+    ],
+    "answer": "Inside the bag",
+    "explanation": "かさ (kasa) = umbrella; なか (naka) = inside; かばん (kaban) = bag.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 180' width='240' height='180'><rect width='240' height='180' fill='#fff3e0'/><rect x='85' y='78' width='70' height='44' rx='4' fill='none' stroke='#5d4037' stroke-width='3'/><circle cx='120.0' cy='100.0' r='14' fill='#ff9800' stroke='#e65100' stroke-width='2'/><text x='120.0' y='104.0' font-size='9' text-anchor='middle' fill='#fff'>かさ</text><text x='120' y='168' font-family='serif' font-size='12' font-weight='bold' text-anchor='middle' fill='#bf360c'>なか ✓</text></svg>"
+  },
+  {
+    "id": 1710,
+    "category": "listening",
+    "subcategory": "shopping_price",
+    "scene_type": "shop",
+    "audio_text": "A：りんごは いくらですか。B：ひとつ ひゃくえんです。A：じゃ、みっつ ください。B：さんびゃくえんです。",
+    "audio_text_romaji": "A: Ringo wa ikura desu ka. B: Hitotsu hyaku-en desu. A: Ja, mittsu kudasai. B: Sanbyaku-en desu.",
+    "audio_text_translation": "A: How much are the apples? B: 100 yen each. A: Then three, please. B: 300 yen.",
+    "question": "How much does A pay in total?",
+    "options": [
+      "100 yen",
+      "200 yen",
+      "300 yen",
+      "500 yen"
+    ],
+    "answer": "300 yen",
+    "explanation": "ひとつ ひゃくえん (hitotsu hyaku-en) = 100 yen each; みっつ (mittsu) = three → 300 yen (さんびゃくえん).",
+    "image_svg": null
+  },
+  {
+    "id": 1711,
+    "category": "listening",
+    "subcategory": "shopping_price",
+    "scene_type": "bookshop",
+    "audio_text": "A：この ほんは いくらですか。B：せんごひゃくえんです。",
+    "audio_text_romaji": "A: Kono hon wa ikura desu ka. B: Sen-gohyaku-en desu.",
+    "audio_text_translation": "A: How much is this book? B: 1,500 yen.",
+    "question": "How much is the book?",
+    "options": [
+      "150 yen",
+      "1,050 yen",
+      "1,500 yen",
+      "5,100 yen"
+    ],
+    "answer": "1,500 yen",
+    "explanation": "せんごひゃくえん (sen-gohyaku-en) = 1,500 yen.",
+    "image_svg": null
+  },
+  {
+    "id": 1712,
+    "category": "listening",
+    "subcategory": "shopping_price",
+    "scene_type": "cafe",
+    "audio_text": "A：コーヒーと ケーキで いくらですか。B：ろっぴゃくえんです。",
+    "audio_text_romaji": "A: Koohii to keeki de ikura desu ka. B: Roppyaku-en desu.",
+    "audio_text_translation": "A: How much for a coffee and a cake? B: 600 yen.",
+    "question": "How much for the coffee and cake together?",
+    "options": [
+      "400 yen",
+      "600 yen",
+      "660 yen",
+      "760 yen"
+    ],
+    "answer": "600 yen",
+    "explanation": "ろっぴゃくえん (roppyaku-en) = 600 yen; と...で (to...de) = together.",
+    "image_svg": null
+  },
+  {
+    "id": 1713,
+    "category": "listening",
+    "subcategory": "shopping_price",
+    "scene_type": "clothes_shop",
+    "audio_text": "A：この シャツは いくらですか。B：にせんえんです。",
+    "audio_text_romaji": "A: Kono shatsu wa ikura desu ka. B: Nisen-en desu.",
+    "audio_text_translation": "A: How much is this shirt? B: 2,000 yen.",
+    "question": "How much is the shirt?",
+    "options": [
+      "200 yen",
+      "2,000 yen",
+      "2,500 yen",
+      "20,000 yen"
+    ],
+    "answer": "2,000 yen",
+    "explanation": "にせんえん (nisen-en) = 2,000 yen.",
+    "image_svg": null
+  },
+  {
+    "id": 1714,
+    "category": "listening",
+    "subcategory": "shopping_price",
+    "scene_type": "supermarket",
+    "audio_text": "A：たまごは いくらですか。B：ひとパック にひゃくえんです。",
+    "audio_text_romaji": "A: Tamago wa ikura desu ka. B: Hito-pakku nihyaku-en desu.",
+    "audio_text_translation": "A: How much are the eggs? B: 200 yen a pack.",
+    "question": "How much is one pack of eggs?",
+    "options": [
+      "120 yen",
+      "200 yen",
+      "210 yen",
+      "220 yen"
+    ],
+    "answer": "200 yen",
+    "explanation": "ひとパック (hito-pakku) = one pack; にひゃくえん (nihyaku-en) = 200 yen.",
+    "image_svg": null
+  },
+  {
+    "id": 1715,
+    "category": "listening",
+    "subcategory": "shopping_price",
+    "scene_type": "station",
+    "audio_text": "A：きっぷは いくらですか。B：おとなは ろっぴゃくえん、こどもは さんびゃくえんです。",
+    "audio_text_romaji": "A: Kippu wa ikura desu ka. B: Otona wa roppyaku-en, kodomo wa sanbyaku-en desu.",
+    "audio_text_translation": "A: How much is a ticket? B: Adults 600 yen, children 300 yen.",
+    "question": "How much is a child's ticket?",
+    "options": [
+      "300 yen",
+      "600 yen",
+      "900 yen",
+      "330 yen"
+    ],
+    "answer": "300 yen",
+    "explanation": "こども (kodomo) = child = さんびゃくえん (sanbyaku-en) 300 yen; おとな (otona) = adult.",
+    "image_svg": null
+  },
+  {
+    "id": 1716,
+    "category": "listening",
+    "subcategory": "shopping_price",
+    "scene_type": "shop",
+    "audio_text": "A：みずは いっぽん ひゃくえんです。にほん ください。B：にひゃくえんです。",
+    "audio_text_romaji": "A: Mizu wa ippon hyaku-en desu. Nihon kudasai. B: Nihyaku-en desu.",
+    "audio_text_translation": "A: Water is 100 yen a bottle. Two bottles, please. B: 200 yen.",
+    "question": "How much for two bottles of water?",
+    "options": [
+      "100 yen",
+      "150 yen",
+      "200 yen",
+      "220 yen"
+    ],
+    "answer": "200 yen",
+    "explanation": "いっぽん ひゃくえん (ippon hyaku-en) = 100 yen/bottle; にほん (nihon) = two bottles → 200 yen.",
+    "image_svg": null
+  },
+  {
+    "id": 1717,
+    "category": "listening",
+    "subcategory": "shopping_price",
+    "scene_type": "shop",
+    "audio_text": "A：これは たかいですね。B：はい、でも あれは やすいですよ。せんえんです。",
+    "audio_text_romaji": "A: Kore wa takai desu ne. B: Hai, demo are wa yasui desu yo. Sen-en desu.",
+    "audio_text_translation": "A: This is expensive. B: Yes, but that one is cheap. 1,000 yen.",
+    "question": "How much is the cheap one?",
+    "options": [
+      "100 yen",
+      "1,000 yen",
+      "10,000 yen",
+      "Not stated"
+    ],
+    "answer": "1,000 yen",
+    "explanation": "やすい (yasui) = cheap; せんえん (sen-en) = 1,000 yen; たかい (takai) = expensive.",
+    "image_svg": null
+  },
+  {
+    "id": 1718,
+    "category": "listening",
+    "subcategory": "shopping_price",
+    "scene_type": "bakery",
+    "audio_text": "A：パンを みっつと ぎゅうにゅうを ひとつ ください。B：ぜんぶで ごひゃくえんです。",
+    "audio_text_romaji": "A: Pan o mittsu to gyuunyuu o hitotsu kudasai. B: Zenbu de gohyaku-en desu.",
+    "audio_text_translation": "A: Three breads and one milk, please. B: 500 yen altogether.",
+    "question": "How much is the total?",
+    "options": [
+      "300 yen",
+      "450 yen",
+      "500 yen",
+      "550 yen"
+    ],
+    "answer": "500 yen",
+    "explanation": "ぜんぶで (zenbu de) = altogether; ごひゃくえん (gohyaku-en) = 500 yen.",
+    "image_svg": null
+  },
+  {
+    "id": 1719,
+    "category": "listening",
+    "subcategory": "shopping_price",
+    "scene_type": "shop",
+    "audio_text": "A：せんえん だします。B：はい、おつりは さんびゃくえんです。",
+    "audio_text_romaji": "A: Sen-en dashimasu. B: Hai, otsuri wa sanbyaku-en desu.",
+    "audio_text_translation": "A: Here's 1,000 yen. B: Here's your change, 300 yen.",
+    "question": "How much was the purchase?",
+    "options": [
+      "300 yen",
+      "500 yen",
+      "700 yen",
+      "1,000 yen"
+    ],
+    "answer": "700 yen",
+    "explanation": "せんえん (sen-en) 1000 − おつり さんびゃくえん (otsuri, change 300) = 700 yen.",
+    "image_svg": null
+  },
+  {
+    "id": 1720,
+    "category": "listening",
+    "subcategory": "quick_response",
+    "scene_type": "street",
+    "audio_text": "すみません、いま なんじですか。",
+    "audio_text_romaji": "Sumimasen, ima nanji desu ka.",
+    "audio_text_translation": "Excuse me, what time is it now?",
+    "question": "What is the best response?",
+    "options": [
+      "さんじです。",
+      "さんさいです。",
+      "みっつです。",
+      "げつようびです。"
+    ],
+    "answer": "さんじです。",
+    "explanation": "Question asks the time, so the time answer さんじです (sanji desu, it's 3 o'clock) is correct.",
+    "image_svg": null
+  },
+  {
+    "id": 1721,
+    "category": "listening",
+    "subcategory": "quick_response",
+    "scene_type": "intro",
+    "audio_text": "おなまえは。",
+    "audio_text_romaji": "O-namae wa.",
+    "audio_text_translation": "What is your name?",
+    "question": "What is the best response?",
+    "options": [
+      "たなかです。",
+      "にほんです。",
+      "せんせいです。",
+      "あしたです。"
+    ],
+    "answer": "たなかです。",
+    "explanation": "おなまえ (o-namae) = name, so answer with a name: たなかです (Tanaka desu).",
+    "image_svg": null
+  },
+  {
+    "id": 1722,
+    "category": "listening",
+    "subcategory": "quick_response",
+    "scene_type": "office",
+    "audio_text": "てつだって くれて、ありがとうございます。",
+    "audio_text_romaji": "Tetsudatte kurete, arigatou gozaimasu.",
+    "audio_text_translation": "Thank you for helping me.",
+    "question": "What is the best response?",
+    "options": [
+      "どういたしまして。",
+      "はじめまして。",
+      "ごめんなさい。",
+      "おやすみなさい。"
+    ],
+    "answer": "どういたしまして。",
+    "explanation": "ありがとう (arigatou) = thanks; reply どういたしまして (douitashimashite) = you're welcome.",
+    "image_svg": null
+  },
+  {
+    "id": 1723,
+    "category": "listening",
+    "subcategory": "quick_response",
+    "scene_type": "home",
+    "audio_text": "いってきます。",
+    "audio_text_romaji": "Ittekimasu.",
+    "audio_text_translation": "I'm leaving (and coming back).",
+    "question": "What is the best response?",
+    "options": [
+      "いってらっしゃい。",
+      "ただいま。",
+      "おかえりなさい。",
+      "こんばんは。"
+    ],
+    "answer": "いってらっしゃい。",
+    "explanation": "いってきます (ittekimasu) said when leaving; reply いってらっしゃい (itterasshai).",
+    "image_svg": null
+  },
+  {
+    "id": 1724,
+    "category": "listening",
+    "subcategory": "quick_response",
+    "scene_type": "intro",
+    "audio_text": "はじめまして。やまだです。",
+    "audio_text_romaji": "Hajimemashite. Yamada desu.",
+    "audio_text_translation": "Nice to meet you. I'm Yamada.",
+    "question": "What is the best response?",
+    "options": [
+      "どうぞ よろしく。",
+      "おかえりなさい。",
+      "ごちそうさま。",
+      "また あした。"
+    ],
+    "answer": "どうぞ よろしく。",
+    "explanation": "はじめまして (hajimemashite) at first meeting; reply どうぞ よろしく (douzo yoroshiku).",
+    "image_svg": null
+  },
+  {
+    "id": 1725,
+    "category": "listening",
+    "subcategory": "quick_response",
+    "scene_type": "cafe",
+    "audio_text": "コーヒーは いかがですか。",
+    "audio_text_romaji": "Koohii wa ikaga desu ka.",
+    "audio_text_translation": "How about some coffee?",
+    "question": "What is the best response?",
+    "options": [
+      "はい、おねがいします。",
+      "はい、そうです。",
+      "いいえ、ちがいます。",
+      "どこですか。"
+    ],
+    "answer": "はい、おねがいします。",
+    "explanation": "いかがですか (ikaga desu ka) offers something; accept with はい、おねがいします (yes, please).",
+    "image_svg": null
+  },
+  {
+    "id": 1726,
+    "category": "listening",
+    "subcategory": "quick_response",
+    "scene_type": "street",
+    "audio_text": "この バスは えきへ いきますか。",
+    "audio_text_romaji": "Kono basu wa eki e ikimasu ka.",
+    "audio_text_translation": "Does this bus go to the station?",
+    "question": "What is the best response?",
+    "options": [
+      "はい、いきます。",
+      "はい、します。",
+      "いいえ、います。",
+      "えきです。"
+    ],
+    "answer": "はい、いきます。",
+    "explanation": "Verb いきますか (ikimasu ka) → answer with いきます (ikimasu, yes it goes).",
+    "image_svg": null
+  },
+  {
+    "id": 1727,
+    "category": "listening",
+    "subcategory": "quick_response",
+    "scene_type": "work",
+    "audio_text": "おさきに しつれいします。",
+    "audio_text_romaji": "Osaki ni shitsurei shimasu.",
+    "audio_text_translation": "Excuse me for leaving before you.",
+    "question": "What is the best response?",
+    "options": [
+      "おつかれさまでした。",
+      "いただきます。",
+      "はじめまして。",
+      "いらっしゃいませ。"
+    ],
+    "answer": "おつかれさまでした。",
+    "explanation": "Said when leaving work; coworkers reply おつかれさまでした (otsukaresama deshita).",
+    "image_svg": null
+  },
+  {
+    "id": 1728,
+    "category": "listening",
+    "subcategory": "quick_response",
+    "scene_type": "restaurant",
+    "audio_text": "いらっしゃいませ。なんめいさまですか。",
+    "audio_text_romaji": "Irasshaimase. Nanmei-sama desu ka.",
+    "audio_text_translation": "Welcome. How many people?",
+    "question": "What is the best response?",
+    "options": [
+      "ふたりです。",
+      "にじです。",
+      "ふつかです。",
+      "にひきです。"
+    ],
+    "answer": "ふたりです。",
+    "explanation": "なんめいさま (nanmei-sama) = how many people → ふたり (futari, two people).",
+    "image_svg": null
+  },
+  {
+    "id": 1729,
+    "category": "listening",
+    "subcategory": "quick_response",
+    "scene_type": "school",
+    "audio_text": "やすみは いつですか。",
+    "audio_text_romaji": "Yasumi wa itsu desu ka.",
+    "audio_text_translation": "When is the day off?",
+    "question": "What is the best response?",
+    "options": [
+      "にちようびです。",
+      "がっこうです。",
+      "せんせいです。",
+      "くじです。"
+    ],
+    "answer": "にちようびです。",
+    "explanation": "いつ (itsu) = when → answer a day: にちようび (nichiyoubi, Sunday).",
+    "image_svg": null
+  },
+  {
+    "id": 1730,
+    "category": "listening",
+    "subcategory": "daily_routine",
+    "scene_type": "home",
+    "audio_text": "A：あさ なにを しますか。B：はを みがいて、それから あさごはんを たべます。",
+    "audio_text_romaji": "A: Asa nani o shimasu ka. B: Ha o migaite, sorekara asagohan o tabemasu.",
+    "audio_text_translation": "A: What do you do in the morning? B: I brush my teeth, then eat breakfast.",
+    "question": "What does B do first in the morning?",
+    "options": [
+      "Eats breakfast",
+      "Brushes teeth",
+      "Takes a bath",
+      "Goes to school"
+    ],
+    "answer": "Brushes teeth",
+    "explanation": "それから (sorekara) = after that; the action before it (はを みがいて, brush teeth) comes first.",
+    "image_svg": null
+  },
+  {
+    "id": 1731,
+    "category": "listening",
+    "subcategory": "daily_routine",
+    "scene_type": "home",
+    "audio_text": "A：にちようびは なにを しますか。B：そうじを して、せんたくを します。",
+    "audio_text_romaji": "A: Nichiyoubi wa nani o shimasu ka. B: Souji o shite, sentaku o shimasu.",
+    "audio_text_translation": "A: What do you do on Sundays? B: I clean and do laundry.",
+    "question": "What does B do on Sundays?",
+    "options": [
+      "Cleaning and laundry",
+      "Shopping",
+      "Studying",
+      "Cooking"
+    ],
+    "answer": "Cleaning and laundry",
+    "explanation": "そうじ (souji) = cleaning; せんたく (sentaku) = laundry.",
+    "image_svg": null
+  },
+  {
+    "id": 1732,
+    "category": "listening",
+    "subcategory": "transportation",
+    "scene_type": "home",
+    "audio_text": "A：かいしゃまで なんで いきますか。B：でんしゃで いきます。",
+    "audio_text_romaji": "A: Kaisha made nan de ikimasu ka. B: Densha de ikimasu.",
+    "audio_text_translation": "A: How do you get to work? B: By train.",
+    "question": "How does B go to work?",
+    "options": [
+      "By car",
+      "By bus",
+      "By train",
+      "On foot"
+    ],
+    "answer": "By train",
+    "explanation": "でんしゃで (densha de) = by train; なんで (nan de) = by what means.",
+    "image_svg": null
+  },
+  {
+    "id": 1733,
+    "category": "listening",
+    "subcategory": "daily_routine",
+    "scene_type": "home",
+    "audio_text": "A：まいばん なんじに ねますか。B：じゅういちじに ねます。",
+    "audio_text_romaji": "A: Maiban nanji ni nemasu ka. B: Juuichi-ji ni nemasu.",
+    "audio_text_translation": "A: What time do you sleep every night? B: At 11.",
+    "question": "What time does B go to sleep?",
+    "options": [
+      "10:00",
+      "11:00",
+      "12:00",
+      "9:00"
+    ],
+    "answer": "11:00",
+    "explanation": "じゅういちじ (juuichi-ji) = 11 o'clock; ねます (nemasu) = sleep.",
+    "image_svg": null
+  },
+  {
+    "id": 1734,
+    "category": "listening",
+    "subcategory": "daily_routine",
+    "scene_type": "home",
+    "audio_text": "A：だれが りょうりを しますか。B：ちちが します。ははは そうじを します。",
+    "audio_text_romaji": "A: Dare ga ryouri o shimasu ka. B: Chichi ga shimasu. Haha wa souji o shimasu.",
+    "audio_text_translation": "A: Who cooks? B: My father does. My mother cleans.",
+    "question": "Who does the cooking?",
+    "options": [
+      "Mother",
+      "Father",
+      "B",
+      "Older sister"
+    ],
+    "answer": "Father",
+    "explanation": "ちち (chichi) = (my) father does りょうり (ryouri, cooking); はは (haha) = mother cleans.",
+    "image_svg": null
+  },
+  {
+    "id": 1735,
+    "category": "listening",
+    "subcategory": "daily_routine",
+    "scene_type": "home",
+    "audio_text": "A：おふろは いつ はいりますか。B：ばんごはんの あとで はいります。",
+    "audio_text_romaji": "A: Ofuro wa itsu hairimasu ka. B: Bangohan no ato de hairimasu.",
+    "audio_text_translation": "A: When do you take a bath? B: After dinner.",
+    "question": "When does B take a bath?",
+    "options": [
+      "Before dinner",
+      "After dinner",
+      "In the morning",
+      "Before sleeping but before dinner"
+    ],
+    "answer": "After dinner",
+    "explanation": "ばんごはんの あとで (bangohan no ato de) = after dinner.",
+    "image_svg": null
+  },
+  {
+    "id": 1736,
+    "category": "listening",
+    "subcategory": "daily_routine",
+    "scene_type": "school",
+    "audio_text": "A：まいにち べんきょうしますか。B：いいえ、どようびと にちようびは しません。",
+    "audio_text_romaji": "A: Mainichi benkyou shimasu ka. B: Iie, doyoubi to nichiyoubi wa shimasen.",
+    "audio_text_translation": "A: Do you study every day? B: No, I don't on Saturday and Sunday.",
+    "question": "When does B NOT study?",
+    "options": [
+      "Every day",
+      "Weekends",
+      "Monday",
+      "Friday"
+    ],
+    "answer": "Weekends",
+    "explanation": "どようびと にちようび (doyoubi to nichiyoubi) = Saturday & Sunday = weekend; しません (shimasen) = doesn't do.",
+    "image_svg": null
+  },
+  {
+    "id": 1737,
+    "category": "listening",
+    "subcategory": "daily_routine",
+    "scene_type": "home",
+    "audio_text": "A：けさ あさごはんを たべましたか。B：いいえ、たべませんでした。",
+    "audio_text_romaji": "A: Kesa asagohan o tabemashita ka. B: Iie, tabemasen deshita.",
+    "audio_text_translation": "A: Did you eat breakfast this morning? B: No, I didn't.",
+    "question": "Did B eat breakfast?",
+    "options": [
+      "Yes",
+      "No",
+      "Only a little",
+      "Not stated"
+    ],
+    "answer": "No",
+    "explanation": "たべませんでした (tabemasen deshita) = did not eat (past negative).",
+    "image_svg": null
+  },
+  {
+    "id": 1738,
+    "category": "listening",
+    "subcategory": "daily_routine",
+    "scene_type": "home",
+    "audio_text": "A：しゅくだいは もう しましたか。B：まだです。これから します。",
+    "audio_text_romaji": "A: Shukudai wa mou shimashita ka. B: Mada desu. Korekara shimasu.",
+    "audio_text_translation": "A: Have you done your homework yet? B: Not yet. I'll do it now.",
+    "question": "Has B finished the homework?",
+    "options": [
+      "Yes, already",
+      "Not yet",
+      "Won't do it",
+      "Did half"
+    ],
+    "answer": "Not yet",
+    "explanation": "まだです (mada desu) = not yet; これから (korekara) = from now.",
+    "image_svg": null
+  },
+  {
+    "id": 1739,
+    "category": "listening",
+    "subcategory": "daily_routine",
+    "scene_type": "home",
+    "audio_text": "A：きのう なにを しましたか。B：うちで えいがを みました。",
+    "audio_text_romaji": "A: Kinou nani o shimashita ka. B: Uchi de eiga o mimashita.",
+    "audio_text_translation": "A: What did you do yesterday? B: I watched a movie at home.",
+    "question": "What did B do yesterday?",
+    "options": [
+      "Watched a movie at home",
+      "Went to the cinema",
+      "Went shopping",
+      "Studied"
+    ],
+    "answer": "Watched a movie at home",
+    "explanation": "うちで (uchi de) = at home; えいがを みました (eiga o mimashita) = watched a movie.",
+    "image_svg": null
+  },
+  {
+    "id": 1740,
+    "category": "listening",
+    "subcategory": "ordering_food",
+    "scene_type": "restaurant",
+    "audio_text": "A：なにに しますか。B：わたしは ラーメンに します。A：わたしは カレーに します。",
+    "audio_text_romaji": "A: Nani ni shimasu ka. B: Watashi wa raamen ni shimasu. A: Watashi wa karee ni shimasu.",
+    "audio_text_translation": "A: What will you have? B: I'll have ramen. A: I'll have curry.",
+    "question": "What does B order?",
+    "options": [
+      "Curry",
+      "Ramen",
+      "Sushi",
+      "Tea"
+    ],
+    "answer": "Ramen",
+    "explanation": "Bは ラーメンに します (raamen ni shimasu) = will have ramen.",
+    "image_svg": null
+  },
+  {
+    "id": 1741,
+    "category": "listening",
+    "subcategory": "ordering_food",
+    "scene_type": "restaurant",
+    "audio_text": "A：のみものは いかがですか。B：おちゃを おねがいします。",
+    "audio_text_romaji": "A: Nomimono wa ikaga desu ka. B: Ocha o onegai shimasu.",
+    "audio_text_translation": "A: What about a drink? B: Tea, please.",
+    "question": "What does B want to drink?",
+    "options": [
+      "Coffee",
+      "Water",
+      "Tea",
+      "Juice"
+    ],
+    "answer": "Tea",
+    "explanation": "おちゃ (ocha) = tea; のみもの (nomimono) = drink.",
+    "image_svg": null
+  },
+  {
+    "id": 1742,
+    "category": "listening",
+    "subcategory": "preferences",
+    "scene_type": "home",
+    "audio_text": "A：なっとうが すきですか。B：いいえ、すきじゃ ありません。",
+    "audio_text_romaji": "A: Nattou ga suki desu ka. B: Iie, suki ja arimasen.",
+    "audio_text_translation": "A: Do you like natto? B: No, I don't like it.",
+    "question": "Does B like natto?",
+    "options": [
+      "Yes",
+      "No",
+      "A little",
+      "Loves it"
+    ],
+    "answer": "No",
+    "explanation": "すきじゃ ありません (suki ja arimasen) = don't like it.",
+    "image_svg": null
+  },
+  {
+    "id": 1743,
+    "category": "listening",
+    "subcategory": "ordering_food",
+    "scene_type": "restaurant",
+    "audio_text": "A：すしを みっつと、おちゃを ふたつ おねがいします。",
+    "audio_text_romaji": "A: Sushi o mittsu to, ocha o futatsu onegai shimasu.",
+    "audio_text_translation": "A: Three sushi and two teas, please.",
+    "question": "How many teas are ordered?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Five"
+    ],
+    "answer": "Two",
+    "explanation": "おちゃを ふたつ (ocha o futatsu) = two teas.",
+    "image_svg": null
+  },
+  {
+    "id": 1744,
+    "category": "listening",
+    "subcategory": "preferences",
+    "scene_type": "cafe",
+    "audio_text": "A：あついのと つめたいの、どちらが いいですか。B：つめたいのを おねがいします。",
+    "audio_text_romaji": "A: Atsui no to tsumetai no, dochira ga ii desu ka. B: Tsumetai no o onegai shimasu.",
+    "audio_text_translation": "A: Hot or cold, which is good? B: A cold one, please.",
+    "question": "Which does B choose?",
+    "options": [
+      "Hot",
+      "Cold",
+      "Neither",
+      "Both"
+    ],
+    "answer": "Cold",
+    "explanation": "つめたいの (tsumetai no) = the cold one; あつい (atsui) = hot.",
+    "image_svg": null
+  },
+  {
+    "id": 1745,
+    "category": "listening",
+    "subcategory": "ordering_food",
+    "scene_type": "fast_food",
+    "audio_text": "A：ハンバーガーセットを ひとつ ください。のみものは コーラで。",
+    "audio_text_romaji": "A: Hanbaagaa setto o hitotsu kudasai. Nomimono wa koora de.",
+    "audio_text_translation": "A: One burger set, please. The drink will be cola.",
+    "question": "What drink did A choose?",
+    "options": [
+      "Coffee",
+      "Cola",
+      "Orange juice",
+      "Tea"
+    ],
+    "answer": "Cola",
+    "explanation": "のみものは コーラで (nomimono wa koora de) = the drink is cola.",
+    "image_svg": null
+  },
+  {
+    "id": 1746,
+    "category": "listening",
+    "subcategory": "preferences",
+    "scene_type": "home",
+    "audio_text": "A：やさいの なかで なにが いちばん すきですか。B：トマトが いちばん すきです。",
+    "audio_text_romaji": "A: Yasai no naka de nani ga ichiban suki desu ka. B: Tomato ga ichiban suki desu.",
+    "audio_text_translation": "A: Among vegetables, what do you like best? B: I like tomatoes best.",
+    "question": "What vegetable does B like best?",
+    "options": [
+      "Carrots",
+      "Tomatoes",
+      "Cabbage",
+      "Onions"
+    ],
+    "answer": "Tomatoes",
+    "explanation": "いちばん すき (ichiban suki) = like best; トマト (tomato) = tomato.",
+    "image_svg": null
+  },
+  {
+    "id": 1747,
+    "category": "listening",
+    "subcategory": "ordering_food",
+    "scene_type": "restaurant",
+    "audio_text": "A：からいですか。B：いいえ、あまり からくないです。",
+    "audio_text_romaji": "A: Karai desu ka. B: Iie, amari karakunai desu.",
+    "audio_text_translation": "A: Is it spicy? B: No, it's not very spicy.",
+    "question": "Is the food spicy?",
+    "options": [
+      "Very spicy",
+      "Not very spicy",
+      "Sweet",
+      "Sour"
+    ],
+    "answer": "Not very spicy",
+    "explanation": "あまり からくない (amari karakunai) = not very spicy.",
+    "image_svg": null
+  },
+  {
+    "id": 1748,
+    "category": "listening",
+    "subcategory": "ordering_food",
+    "scene_type": "restaurant",
+    "audio_text": "A：デザートは いりますか。B：いいえ、けっこうです。おなかが いっぱいです。",
+    "audio_text_romaji": "A: Dezaato wa irimasu ka. B: Iie, kekkou desu. Onaka ga ippai desu.",
+    "audio_text_translation": "A: Would you like dessert? B: No, thank you. I'm full.",
+    "question": "Does B want dessert?",
+    "options": [
+      "Yes",
+      "No",
+      "Just a little",
+      "Only coffee"
+    ],
+    "answer": "No",
+    "explanation": "けっこうです (kekkou desu) = no thank you; おなかが いっぱい (onaka ga ippai) = full.",
+    "image_svg": null
+  },
+  {
+    "id": 1749,
+    "category": "listening",
+    "subcategory": "ordering_food",
+    "scene_type": "home",
+    "audio_text": "A：ばんごはんは なにが いいですか。B：きょうは さかなが たべたいです。",
+    "audio_text_romaji": "A: Bangohan wa nani ga ii desu ka. B: Kyou wa sakana ga tabetai desu.",
+    "audio_text_translation": "A: What's good for dinner? B: Today I want to eat fish.",
+    "question": "What does B want for dinner?",
+    "options": [
+      "Meat",
+      "Fish",
+      "Curry",
+      "Noodles"
+    ],
+    "answer": "Fish",
+    "explanation": "さかなが たべたい (sakana ga tabetai) = want to eat fish.",
+    "image_svg": null
+  },
+  {
+    "id": 1750,
+    "category": "listening",
+    "subcategory": "weather",
+    "scene_type": "outdoor",
+    "audio_text": "A：きょうの てんきは どうですか。B：いい てんきです。はれています。",
+    "audio_text_romaji": "A: Kyou no tenki wa dou desu ka. B: Ii tenki desu. Hareteimasu.",
+    "audio_text_translation": "A: How's the weather today? B: Good weather. It's sunny.",
+    "question": "What is the weather today?",
+    "options": [
+      "Sunny",
+      "Rainy",
+      "Cloudy",
+      "Snowy"
+    ],
+    "answer": "Sunny",
+    "explanation": "はれています (hareteimasu) = it's sunny/clear.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 165' width='200' height='165'><rect width='200' height='165' fill='#fffde7'/><line x1='128.0' y1='70.0' x2='144.0' y2='70.0' stroke='#fbc02d' stroke-width='3'/><line x1='119.79898987322333' y1='89.79898987322332' x2='131.1126983722081' y2='101.11269837220809' stroke='#fbc02d' stroke-width='3'/><line x1='100.0' y1='98.0' x2='100.0' y2='114.0' stroke='#fbc02d' stroke-width='3'/><line x1='80.20101012677668' y1='89.79898987322333' x2='68.88730162779191' y2='101.11269837220809' stroke='#fbc02d' stroke-width='3'/><line x1='72.0' y1='70.0' x2='56.0' y2='70.0' stroke='#fbc02d' stroke-width='3'/><line x1='80.20101012677667' y1='50.20101012677667' x2='68.8873016277919' y2='38.88730162779191' stroke='#fbc02d' stroke-width='3'/><line x1='100.0' y1='42.0' x2='99.99999999999999' y2='26.0' stroke='#fbc02d' stroke-width='3'/><line x1='119.79898987322332' y1='50.201010126776666' x2='131.1126983722081' y2='38.8873016277919' stroke='#fbc02d' stroke-width='3'/><circle cx='100' cy='70' r='22' fill='#ffb300'/><text x='100' y='150' font-family='serif' font-size='14' font-weight='bold' text-anchor='middle' fill='#37474f'>はれ ☀</text></svg>"
+  },
+  {
+    "id": 1751,
+    "category": "listening",
+    "subcategory": "weather",
+    "scene_type": "outdoor",
+    "audio_text": "A：そとは あめですか。B：はい、あめが ふっています。かさが いりますよ。",
+    "audio_text_romaji": "A: Soto wa ame desu ka. B: Hai, ame ga futteimasu. Kasa ga irimasu yo.",
+    "audio_text_translation": "A: Is it raining outside? B: Yes, it's raining. You'll need an umbrella.",
+    "question": "What is the weather?",
+    "options": [
+      "Sunny",
+      "Rainy",
+      "Snowy",
+      "Windy"
+    ],
+    "answer": "Rainy",
+    "explanation": "あめが ふっています (ame ga futteimasu) = it's raining.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 165' width='200' height='165'><rect width='200' height='165' fill='#cfd8dc'/><ellipse cx='100' cy='70' rx='44' ry='24' fill='#90a4ae'/><line x1='70' y1='100' x2='66' y2='118' stroke='#2196f3' stroke-width='3'/><line x1='88' y1='100' x2='84' y2='118' stroke='#2196f3' stroke-width='3'/><line x1='106' y1='100' x2='102' y2='118' stroke='#2196f3' stroke-width='3'/><line x1='124' y1='100' x2='120' y2='118' stroke='#2196f3' stroke-width='3'/><line x1='142' y1='100' x2='138' y2='118' stroke='#2196f3' stroke-width='3'/><text x='100' y='150' font-family='serif' font-size='14' font-weight='bold' text-anchor='middle' fill='#37474f'>あめ ☔</text></svg>"
+  },
+  {
+    "id": 1752,
+    "category": "listening",
+    "subcategory": "weather",
+    "scene_type": "outdoor",
+    "audio_text": "A：あしたの てんきは。B：あしたは くもりです。",
+    "audio_text_romaji": "A: Ashita no tenki wa. B: Ashita wa kumori desu.",
+    "audio_text_translation": "A: What's tomorrow's weather? B: Tomorrow is cloudy.",
+    "question": "What is tomorrow's weather?",
+    "options": [
+      "Sunny",
+      "Rainy",
+      "Cloudy",
+      "Snowy"
+    ],
+    "answer": "Cloudy",
+    "explanation": "くもり (kumori) = cloudy; あした (ashita) = tomorrow.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 165' width='200' height='165'><rect width='200' height='165' fill='#eceff1'/><circle cx='100' cy='70' r='22' fill='#ffcc80'/><ellipse cx='110' cy='80' rx='42' ry='22' fill='#cfd8dc'/><ellipse cx='80' cy='86' rx='30' ry='18' fill='#eceff1'/><text x='100' y='150' font-family='serif' font-size='14' font-weight='bold' text-anchor='middle' fill='#37474f'>くもり ☁</text></svg>"
+  },
+  {
+    "id": 1753,
+    "category": "listening",
+    "subcategory": "weather",
+    "scene_type": "outdoor",
+    "audio_text": "A：きたは さむいですか。B：はい、ゆきが ふっています。",
+    "audio_text_romaji": "A: Kita wa samui desu ka. B: Hai, yuki ga futteimasu.",
+    "audio_text_translation": "A: Is it cold in the north? B: Yes, it's snowing.",
+    "question": "What is the weather in the north?",
+    "options": [
+      "Sunny",
+      "Rainy",
+      "Snowy",
+      "Cloudy"
+    ],
+    "answer": "Snowy",
+    "explanation": "ゆきが ふっています (yuki ga futteimasu) = it's snowing; さむい (samui) = cold.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 165' width='200' height='165'><rect width='200' height='165' fill='#e3f2fd'/><ellipse cx='100' cy='66' rx='44' ry='24' fill='#cfd8dc'/><text x='64' y='106' font-size='16' fill='#42a5f5'>❄</text><text x='84' y='120' font-size='16' fill='#42a5f5'>❄</text><text x='104' y='106' font-size='16' fill='#42a5f5'>❄</text><text x='124' y='120' font-size='16' fill='#42a5f5'>❄</text><text x='144' y='106' font-size='16' fill='#42a5f5'>❄</text><text x='100' y='150' font-family='serif' font-size='14' font-weight='bold' text-anchor='middle' fill='#37474f'>ゆき ❄</text></svg>"
+  },
+  {
+    "id": 1754,
+    "category": "listening",
+    "subcategory": "weather",
+    "scene_type": "outdoor",
+    "audio_text": "A：きのうは あめでしたが、きょうは はれです。",
+    "audio_text_romaji": "A: Kinou wa ame deshita ga, kyou wa hare desu.",
+    "audio_text_translation": "A: It was rainy yesterday, but today it's sunny.",
+    "question": "What is the weather TODAY?",
+    "options": [
+      "Rainy",
+      "Sunny",
+      "Snowy",
+      "Cloudy"
+    ],
+    "answer": "Sunny",
+    "explanation": "きょうは はれ (kyou wa hare) = today is sunny; きのうは あめでした (kinou wa ame deshita) = yesterday was rainy.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 165' width='200' height='165'><rect width='200' height='165' fill='#fffde7'/><line x1='128.0' y1='70.0' x2='144.0' y2='70.0' stroke='#fbc02d' stroke-width='3'/><line x1='119.79898987322333' y1='89.79898987322332' x2='131.1126983722081' y2='101.11269837220809' stroke='#fbc02d' stroke-width='3'/><line x1='100.0' y1='98.0' x2='100.0' y2='114.0' stroke='#fbc02d' stroke-width='3'/><line x1='80.20101012677668' y1='89.79898987322333' x2='68.88730162779191' y2='101.11269837220809' stroke='#fbc02d' stroke-width='3'/><line x1='72.0' y1='70.0' x2='56.0' y2='70.0' stroke='#fbc02d' stroke-width='3'/><line x1='80.20101012677667' y1='50.20101012677667' x2='68.8873016277919' y2='38.88730162779191' stroke='#fbc02d' stroke-width='3'/><line x1='100.0' y1='42.0' x2='99.99999999999999' y2='26.0' stroke='#fbc02d' stroke-width='3'/><line x1='119.79898987322332' y1='50.201010126776666' x2='131.1126983722081' y2='38.8873016277919' stroke='#fbc02d' stroke-width='3'/><circle cx='100' cy='70' r='22' fill='#ffb300'/><text x='100' y='150' font-family='serif' font-size='14' font-weight='bold' text-anchor='middle' fill='#37474f'>きょう はれ ☀</text></svg>"
+  },
+  {
+    "id": 1755,
+    "category": "listening",
+    "subcategory": "weather",
+    "scene_type": "outdoor",
+    "audio_text": "A：きょうは あついですね。B：そうですね。さんじゅうど あります。",
+    "audio_text_romaji": "A: Kyou wa atsui desu ne. B: Sou desu ne. Sanjuu-do arimasu.",
+    "audio_text_translation": "A: It's hot today. B: Yes. It's 30 degrees.",
+    "question": "What is the temperature today?",
+    "options": [
+      "13 degrees",
+      "30 degrees",
+      "3 degrees",
+      "33 degrees"
+    ],
+    "answer": "30 degrees",
+    "explanation": "さんじゅうど (sanjuu-do) = 30 degrees; あつい (atsui) = hot.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 165' width='200' height='165'><rect width='200' height='165' fill='#fffde7'/><line x1='128.0' y1='70.0' x2='144.0' y2='70.0' stroke='#fbc02d' stroke-width='3'/><line x1='119.79898987322333' y1='89.79898987322332' x2='131.1126983722081' y2='101.11269837220809' stroke='#fbc02d' stroke-width='3'/><line x1='100.0' y1='98.0' x2='100.0' y2='114.0' stroke='#fbc02d' stroke-width='3'/><line x1='80.20101012677668' y1='89.79898987322333' x2='68.88730162779191' y2='101.11269837220809' stroke='#fbc02d' stroke-width='3'/><line x1='72.0' y1='70.0' x2='56.0' y2='70.0' stroke='#fbc02d' stroke-width='3'/><line x1='80.20101012677667' y1='50.20101012677667' x2='68.8873016277919' y2='38.88730162779191' stroke='#fbc02d' stroke-width='3'/><line x1='100.0' y1='42.0' x2='99.99999999999999' y2='26.0' stroke='#fbc02d' stroke-width='3'/><line x1='119.79898987322332' y1='50.201010126776666' x2='131.1126983722081' y2='38.8873016277919' stroke='#fbc02d' stroke-width='3'/><circle cx='100' cy='70' r='22' fill='#ffb300'/><text x='100' y='150' font-family='serif' font-size='14' font-weight='bold' text-anchor='middle' fill='#37474f'>30°C ☀</text></svg>"
+  },
+  {
+    "id": 1756,
+    "category": "listening",
+    "subcategory": "directions",
+    "scene_type": "street",
+    "audio_text": "A：ぎんこうは どこですか。B：この みちを まっすぐ いって、ひだりです。",
+    "audio_text_romaji": "A: Ginkou wa doko desu ka. B: Kono michi o massugu itte, hidari desu.",
+    "audio_text_translation": "A: Where is the bank? B: Go straight on this road, then it's on the left.",
+    "question": "Which way to the bank after going straight?",
+    "options": [
+      "Left",
+      "Right",
+      "Back",
+      "Straight again"
+    ],
+    "answer": "Left",
+    "explanation": "まっすぐ (massugu) = straight; ひだり (hidari) = left.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 180' width='200' height='180'><rect width='200' height='180' fill='#f5f5f5'/><rect x='80' y='20' width='40' height='130' fill='#cfd8dc'/><line x1='100' y1='20' x2='100' y2='150' stroke='#fff' stroke-width='3' stroke-dasharray='8 8'/><polygon points='95,70 95,55 60,55 60,40 30,62 60,84 60,69 95,69' fill='#e53935'/><text x='100' y='168' font-family='serif' font-size='12' font-weight='bold' text-anchor='middle' fill='#b71c1c'>ひだり (left)</text></svg>"
+  },
+  {
+    "id": 1757,
+    "category": "listening",
+    "subcategory": "directions",
+    "scene_type": "street",
+    "audio_text": "A：えきは どちらですか。B：つぎの かどを みぎに まがって ください。",
+    "audio_text_romaji": "A: Eki wa dochira desu ka. B: Tsugi no kado o migi ni magatte kudasai.",
+    "audio_text_translation": "A: Which way is the station? B: Turn right at the next corner.",
+    "question": "Which way should A turn?",
+    "options": [
+      "Left",
+      "Right",
+      "Around",
+      "Straight"
+    ],
+    "answer": "Right",
+    "explanation": "みぎに まがって (migi ni magatte) = turn right; かど (kado) = corner.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 180' width='200' height='180'><rect width='200' height='180' fill='#f5f5f5'/><rect x='80' y='20' width='40' height='130' fill='#cfd8dc'/><line x1='100' y1='20' x2='100' y2='150' stroke='#fff' stroke-width='3' stroke-dasharray='8 8'/><polygon points='105,70 105,55 140,55 140,40 170,62 140,84 140,69 105,69' fill='#e53935'/><text x='100' y='168' font-family='serif' font-size='12' font-weight='bold' text-anchor='middle' fill='#b71c1c'>みぎ (right)</text></svg>"
+  },
+  {
+    "id": 1758,
+    "category": "listening",
+    "subcategory": "directions",
+    "scene_type": "building",
+    "audio_text": "A：トイレは どこですか。B：あの エレベーターの となりです。",
+    "audio_text_romaji": "A: Toire wa doko desu ka. B: Ano erebeetaa no tonari desu.",
+    "audio_text_translation": "A: Where is the toilet? B: Next to that elevator.",
+    "question": "Where is the toilet?",
+    "options": [
+      "Inside the elevator",
+      "Next to the elevator",
+      "Behind the stairs",
+      "On the roof"
+    ],
+    "answer": "Next to the elevator",
+    "explanation": "となり (tonari) = next to; エレベーター (erebeetaa) = elevator.",
+    "image_svg": null
+  },
+  {
+    "id": 1759,
+    "category": "listening",
+    "subcategory": "directions",
+    "scene_type": "street",
+    "audio_text": "A：ゆうびんきょくは とおいですか。B：いいえ、ちかいです。あるいて ごふんです。",
+    "audio_text_romaji": "A: Yuubinkyoku wa tooi desu ka. B: Iie, chikai desu. Aruite gofun desu.",
+    "audio_text_translation": "A: Is the post office far? B: No, it's close. Five minutes on foot.",
+    "question": "How far is the post office?",
+    "options": [
+      "Very far",
+      "5 minutes on foot",
+      "15 minutes by car",
+      "Next door"
+    ],
+    "answer": "5 minutes on foot",
+    "explanation": "ちかい (chikai) = close; あるいて ごふん (aruite gofun) = 5 minutes walking.",
+    "image_svg": null
+  },
+  {
+    "id": 1760,
+    "category": "listening",
+    "subcategory": "family_description",
+    "scene_type": "home",
+    "audio_text": "A：かぞくは なんにんですか。B：ちちと ははと あにと わたしの よにんです。",
+    "audio_text_romaji": "A: Kazoku wa nannin desu ka. B: Chichi to haha to ani to watashi no yonin desu.",
+    "audio_text_translation": "A: How many in your family? B: My father, mother, older brother, and me — four.",
+    "question": "How many people are in B's family?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    "answer": "4",
+    "explanation": "ちち・はは・あに・わたし (chichi/haha/ani/watashi) = 4 people = よにん (yonin).",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 184 150' width='184' height='150'><rect width='184' height='150' fill='#f1f8e9'/><circle cx='36' cy='60' r='8' fill='#ffcc80'/><rect x='28' y='69' width='16' height='22' rx='4' fill='#5c6bc0'/><circle cx='72' cy='60' r='8' fill='#ffcc80'/><rect x='64' y='69' width='16' height='22' rx='4' fill='#5c6bc0'/><circle cx='108' cy='60' r='8' fill='#ffcc80'/><rect x='100' y='69' width='16' height='22' rx='4' fill='#5c6bc0'/><circle cx='144' cy='60' r='8' fill='#ffcc80'/><rect x='136' y='69' width='16' height='22' rx='4' fill='#5c6bc0'/><text x='92.0' y='128' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#33691e'>チチ・ハハ・アニ・わたし = 4人</text></svg>"
+  },
+  {
+    "id": 1761,
+    "category": "listening",
+    "subcategory": "family_description",
+    "scene_type": "home",
+    "audio_text": "A：ごきょうだいは。B：あにが ひとり います。いもうとは いません。",
+    "audio_text_romaji": "A: Gokyoudai wa. B: Ani ga hitori imasu. Imouto wa imasen.",
+    "audio_text_translation": "A: Do you have siblings? B: I have one older brother. No younger sister.",
+    "question": "How many siblings does B have?",
+    "options": [
+      "None",
+      "One older brother",
+      "One younger sister",
+      "Two"
+    ],
+    "answer": "One older brother",
+    "explanation": "あにが ひとり (ani ga hitori) = one older brother; いもうとは いません (imouto wa imasen) = no younger sister.",
+    "image_svg": null
+  },
+  {
+    "id": 1762,
+    "category": "listening",
+    "subcategory": "family_description",
+    "scene_type": "home",
+    "audio_text": "A：おとうさんは おしごとは。B：ちちは いしゃです。ははは せんせいです。",
+    "audio_text_romaji": "A: Otousan wa oshigoto wa. B: Chichi wa isha desu. Haha wa sensei desu.",
+    "audio_text_translation": "A: What's your father's job? B: My father is a doctor. My mother is a teacher.",
+    "question": "What is B's father's job?",
+    "options": [
+      "Teacher",
+      "Doctor",
+      "Cook",
+      "Driver"
+    ],
+    "answer": "Doctor",
+    "explanation": "ちちは いしゃ (chichi wa isha) = father is a doctor; はは = teacher.",
+    "image_svg": null
+  },
+  {
+    "id": 1763,
+    "category": "listening",
+    "subcategory": "family_description",
+    "scene_type": "home",
+    "audio_text": "A：おねえさんは なんさいですか。B：あねは にじゅっさいです。",
+    "audio_text_romaji": "A: Oneesan wa nansai desu ka. B: Ane wa nijussai desu.",
+    "audio_text_translation": "A: How old is your older sister? B: My older sister is 20.",
+    "question": "How old is B's older sister?",
+    "options": [
+      "12",
+      "20",
+      "22",
+      "30"
+    ],
+    "answer": "20",
+    "explanation": "にじゅっさい (nijussai) = 20 years old; あね (ane) = older sister.",
+    "image_svg": null
+  },
+  {
+    "id": 1764,
+    "category": "listening",
+    "subcategory": "family_description",
+    "scene_type": "home",
+    "audio_text": "A：ペットは いますか。B：はい、いぬが いっぴきと ねこが にひき います。",
+    "audio_text_romaji": "A: Petto wa imasu ka. B: Hai, inu ga ippiki to neko ga nihiki imasu.",
+    "audio_text_translation": "A: Do you have pets? B: Yes, one dog and two cats.",
+    "question": "How many cats does B have?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "None"
+    ],
+    "answer": "2",
+    "explanation": "ねこが にひき (neko ga nihiki) = two cats; いぬが いっぴき (inu ga ippiki) = one dog.",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 112 150' width='112' height='150'><rect width='112' height='150' fill='#f1f8e9'/><circle cx='36' cy='70' r='11' fill='#8d6e63'/><polygon points='27,63 33,54 35,63' fill='#8d6e63'/><polygon points='45,63 39,54 37,63' fill='#8d6e63'/><circle cx='32' cy='69' r='1.5' fill='#000'/><circle cx='40' cy='69' r='1.5' fill='#000'/><circle cx='72' cy='70' r='11' fill='#8d6e63'/><polygon points='63,63 69,54 71,63' fill='#8d6e63'/><polygon points='81,63 75,54 73,63' fill='#8d6e63'/><circle cx='68' cy='69' r='1.5' fill='#000'/><circle cx='76' cy='69' r='1.5' fill='#000'/><text x='56.0' y='128' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#33691e'>ねこ = 2ひき</text></svg>"
+  },
+  {
+    "id": 1765,
+    "category": "listening",
+    "subcategory": "family_description",
+    "scene_type": "home",
+    "audio_text": "A：おじいさんと おばあさんは おげんきですか。B：はい、げんきです。",
+    "audio_text_romaji": "A: Ojiisan to obaasan wa ogenki desu ka. B: Hai, genki desu.",
+    "audio_text_translation": "A: Are your grandfather and grandmother well? B: Yes, they're well.",
+    "question": "Who is B talking about?",
+    "options": [
+      "Parents",
+      "Grandparents",
+      "Siblings",
+      "Children"
+    ],
+    "answer": "Grandparents",
+    "explanation": "おじいさん (ojiisan) = grandfather; おばあさん (obaasan) = grandmother.",
+    "image_svg": null
+  },
+  {
+    "id": 1766,
+    "category": "listening",
+    "subcategory": "family_description",
+    "scene_type": "home",
+    "audio_text": "A：きょうだいの なかで いちばん せが たかいのは だれですか。B：あにです。",
+    "audio_text_romaji": "A: Kyoudai no naka de ichiban se ga takai no wa dare desu ka. B: Ani desu.",
+    "audio_text_translation": "A: Among the siblings, who is the tallest? B: My older brother.",
+    "question": "Who is the tallest sibling?",
+    "options": [
+      "B",
+      "Older brother",
+      "Younger sister",
+      "Father"
+    ],
+    "answer": "Older brother",
+    "explanation": "いちばん せが たかい (ichiban se ga takai) = tallest; あに (ani) = older brother.",
+    "image_svg": null
+  },
+  {
+    "id": 1767,
+    "category": "listening",
+    "subcategory": "family_description",
+    "scene_type": "home",
+    "audio_text": "A：おかあさんは いま どこですか。B：だいどころに います。りょうりを しています。",
+    "audio_text_romaji": "A: Okaasan wa ima doko desu ka. B: Daidokoro ni imasu. Ryouri o shiteimasu.",
+    "audio_text_translation": "A: Where is your mother now? B: In the kitchen. She's cooking.",
+    "question": "Where is B's mother?",
+    "options": [
+      "In the garden",
+      "In the kitchen",
+      "At work",
+      "In the bedroom"
+    ],
+    "answer": "In the kitchen",
+    "explanation": "だいどころ (daidokoro) = kitchen; りょうりを しています (cooking).",
+    "image_svg": null
+  },
+  {
+    "id": 1768,
+    "category": "listening",
+    "subcategory": "family_description",
+    "scene_type": "home",
+    "audio_text": "A：いもうとさんは なんねんせいですか。B：しょうがっこう さんねんせいです。",
+    "audio_text_romaji": "A: Imouto-san wa nannensei desu ka. B: Shougakkou sannensei desu.",
+    "audio_text_translation": "A: What grade is your younger sister in? B: Third grade of elementary school.",
+    "question": "What grade is B's younger sister in?",
+    "options": [
+      "1st grade",
+      "3rd grade",
+      "6th grade",
+      "Junior high"
+    ],
+    "answer": "3rd grade",
+    "explanation": "さんねんせい (sannensei) = 3rd grade; しょうがっこう (shougakkou) = elementary school.",
+    "image_svg": null
+  },
+  {
+    "id": 1769,
+    "category": "listening",
+    "subcategory": "family_description",
+    "scene_type": "home",
+    "audio_text": "A：かぞくの しゃしんですか。B：はい。これが ちちで、これが あにです。",
+    "audio_text_romaji": "A: Kazoku no shashin desu ka. B: Hai. Kore ga chichi de, kore ga ani desu.",
+    "audio_text_translation": "A: Is this a family photo? B: Yes. This is my father, and this is my older brother.",
+    "question": "Who are the two people B points out?",
+    "options": [
+      "Father and mother",
+      "Father and older brother",
+      "Brother and sister",
+      "Grandparents"
+    ],
+    "answer": "Father and older brother",
+    "explanation": "ちち (chichi) = father; あに (ani) = older brother.",
+    "image_svg": null
+  },
+  {
+    "id": 1770,
+    "category": "listening",
+    "subcategory": "counting_objects",
+    "scene_type": "room",
+    "audio_text": "A：りんごは いくつ ありますか。B：つくえの うえに みっつ あります。",
+    "audio_text_romaji": "A: Ringo wa ikutsu arimasu ka. B: Tsukue no ue ni mittsu arimasu.",
+    "audio_text_translation": "A: How many apples are there? B: There are three on the desk.",
+    "question": "How many apples are there?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "answer": "Three",
+    "explanation": "みっつ (mittsu) = three (general counter 〜つ).",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 148 150' width='148' height='150'><rect width='148' height='150' fill='#f1f8e9'/><circle cx='36' cy='70' r='12' fill='#e53935'/><rect x='35' y='51' width='2' height='9' fill='#6d4c41'/><circle cx='72' cy='70' r='12' fill='#e53935'/><rect x='71' y='51' width='2' height='9' fill='#6d4c41'/><circle cx='108' cy='70' r='12' fill='#e53935'/><rect x='107' y='51' width='2' height='9' fill='#6d4c41'/><text x='74.0' y='128' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#33691e'>りんご = みっつ (3)</text></svg>"
+  },
+  {
+    "id": 1771,
+    "category": "listening",
+    "subcategory": "counting_objects",
+    "scene_type": "parking",
+    "audio_text": "A：くるまは なんだい ありますか。B：にだい あります。",
+    "audio_text_romaji": "A: Kuruma wa nandai arimasu ka. B: Nidai arimasu.",
+    "audio_text_translation": "A: How many cars are there? B: There are two.",
+    "question": "How many cars are there?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": "Two",
+    "explanation": "にだい (nidai) = two (counter 〜台 for vehicles/machines).",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 112 150' width='112' height='150'><rect width='112' height='150' fill='#f1f8e9'/><rect x='20' y='63' width='32' height='14' rx='4' fill='#1e88e5'/><circle cx='28' cy='78' r='4' fill='#333'/><circle cx='44' cy='78' r='4' fill='#333'/><rect x='56' y='63' width='32' height='14' rx='4' fill='#1e88e5'/><circle cx='64' cy='78' r='4' fill='#333'/><circle cx='80' cy='78' r='4' fill='#333'/><text x='56.0' y='128' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#33691e'>くるま = にだい (2)</text></svg>"
+  },
+  {
+    "id": 1772,
+    "category": "listening",
+    "subcategory": "counting_objects",
+    "scene_type": "desk",
+    "audio_text": "A：えんぴつは なんぼん ありますか。B：よんほん あります。",
+    "audio_text_romaji": "A: Enpitsu wa nanbon arimasu ka. B: Yonhon arimasu.",
+    "audio_text_translation": "A: How many pencils are there? B: There are four.",
+    "question": "How many pencils are there?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Six"
+    ],
+    "answer": "Four",
+    "explanation": "よんほん (yonhon) = four (counter 〜本 for long thin things).",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 184 150' width='184' height='150'><rect width='184' height='150' fill='#f1f8e9'/><rect x='33' y='54' width='6' height='26' fill='#fbc02d'/><polygon points='33,80 39,80 36,87' fill='#5d4037'/><rect x='69' y='54' width='6' height='26' fill='#fbc02d'/><polygon points='69,80 75,80 72,87' fill='#5d4037'/><rect x='105' y='54' width='6' height='26' fill='#fbc02d'/><polygon points='105,80 111,80 108,87' fill='#5d4037'/><rect x='141' y='54' width='6' height='26' fill='#fbc02d'/><polygon points='141,80 147,80 144,87' fill='#5d4037'/><text x='92.0' y='128' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#33691e'>えんぴつ = よんほん (4)</text></svg>"
+  },
+  {
+    "id": 1773,
+    "category": "listening",
+    "subcategory": "counting_objects",
+    "scene_type": "garden",
+    "audio_text": "A：ねこは なんびき いますか。B：さんびき います。",
+    "audio_text_romaji": "A: Neko wa nanbiki imasu ka. B: Sanbiki imasu.",
+    "audio_text_translation": "A: How many cats are there? B: There are three.",
+    "question": "How many cats are there?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Five"
+    ],
+    "answer": "Three",
+    "explanation": "さんびき (sanbiki) = three (counter 〜匹 for small animals).",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 148 150' width='148' height='150'><rect width='148' height='150' fill='#f1f8e9'/><circle cx='36' cy='70' r='11' fill='#8d6e63'/><polygon points='27,63 33,54 35,63' fill='#8d6e63'/><polygon points='45,63 39,54 37,63' fill='#8d6e63'/><circle cx='32' cy='69' r='1.5' fill='#000'/><circle cx='40' cy='69' r='1.5' fill='#000'/><circle cx='72' cy='70' r='11' fill='#8d6e63'/><polygon points='63,63 69,54 71,63' fill='#8d6e63'/><polygon points='81,63 75,54 73,63' fill='#8d6e63'/><circle cx='68' cy='69' r='1.5' fill='#000'/><circle cx='76' cy='69' r='1.5' fill='#000'/><circle cx='108' cy='70' r='11' fill='#8d6e63'/><polygon points='99,63 105,54 107,63' fill='#8d6e63'/><polygon points='117,63 111,54 109,63' fill='#8d6e63'/><circle cx='104' cy='69' r='1.5' fill='#000'/><circle cx='112' cy='69' r='1.5' fill='#000'/><text x='74.0' y='128' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#33691e'>ねこ = さんびき (3)</text></svg>"
+  },
+  {
+    "id": 1774,
+    "category": "listening",
+    "subcategory": "counting_objects",
+    "scene_type": "shelf",
+    "audio_text": "A：ほんは なんさつ ありますか。B：ごさつ あります。",
+    "audio_text_romaji": "A: Hon wa nansatsu arimasu ka. B: Gosatsu arimasu.",
+    "audio_text_translation": "A: How many books are there? B: There are five.",
+    "question": "How many books are there?",
+    "options": [
+      "Three",
+      "Four",
+      "Five",
+      "Six"
+    ],
+    "answer": "Five",
+    "explanation": "ごさつ (gosatsu) = five (counter 〜冊 for books).",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 150' width='220' height='150'><rect width='220' height='150' fill='#f1f8e9'/><rect x='25' y='55' width='22' height='30' rx='2' fill='#43a047'/><rect x='25' y='55' width='5' height='30' fill='#2e7d32'/><rect x='61' y='55' width='22' height='30' rx='2' fill='#43a047'/><rect x='61' y='55' width='5' height='30' fill='#2e7d32'/><rect x='97' y='55' width='22' height='30' rx='2' fill='#43a047'/><rect x='97' y='55' width='5' height='30' fill='#2e7d32'/><rect x='133' y='55' width='22' height='30' rx='2' fill='#43a047'/><rect x='133' y='55' width='5' height='30' fill='#2e7d32'/><rect x='169' y='55' width='22' height='30' rx='2' fill='#43a047'/><rect x='169' y='55' width='5' height='30' fill='#2e7d32'/><text x='110.0' y='128' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#33691e'>ほん = ごさつ (5)</text></svg>"
+  },
+  {
+    "id": 1775,
+    "category": "listening",
+    "subcategory": "counting_objects",
+    "scene_type": "room",
+    "audio_text": "A：へやに なんにん いますか。B：よにん います。",
+    "audio_text_romaji": "A: Heya ni nannin imasu ka. B: Yonin imasu.",
+    "audio_text_translation": "A: How many people are in the room? B: There are four.",
+    "question": "How many people are in the room?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "answer": "Four",
+    "explanation": "よにん (yonin) = four people (counter 〜人).",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 184 150' width='184' height='150'><rect width='184' height='150' fill='#f1f8e9'/><circle cx='36' cy='60' r='8' fill='#ffcc80'/><rect x='28' y='69' width='16' height='22' rx='4' fill='#5c6bc0'/><circle cx='72' cy='60' r='8' fill='#ffcc80'/><rect x='64' y='69' width='16' height='22' rx='4' fill='#5c6bc0'/><circle cx='108' cy='60' r='8' fill='#ffcc80'/><rect x='100' y='69' width='16' height='22' rx='4' fill='#5c6bc0'/><circle cx='144' cy='60' r='8' fill='#ffcc80'/><rect x='136' y='69' width='16' height='22' rx='4' fill='#5c6bc0'/><text x='92.0' y='128' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#33691e'>ひと = よにん (4)</text></svg>"
+  },
+  {
+    "id": 1776,
+    "category": "listening",
+    "subcategory": "counting_objects",
+    "scene_type": "desk",
+    "audio_text": "A：きっては なんまい ありますか。B：さんまい あります。",
+    "audio_text_romaji": "A: Kitte wa nanmai arimasu ka. B: Sanmai arimasu.",
+    "audio_text_translation": "A: How many stamps are there? B: There are three.",
+    "question": "How many stamps are there?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "answer": "Three",
+    "explanation": "さんまい (sanmai) = three (counter 〜枚 for flat things).",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 148 150' width='148' height='150'><rect width='148' height='150' fill='#f1f8e9'/><rect x='25' y='57' width='22' height='26' fill='#fff' stroke='#9e9e9e' stroke-width='1' stroke-dasharray='2 2'/><circle cx='36' cy='70' r='6' fill='#ef5350'/><rect x='61' y='57' width='22' height='26' fill='#fff' stroke='#9e9e9e' stroke-width='1' stroke-dasharray='2 2'/><circle cx='72' cy='70' r='6' fill='#ef5350'/><rect x='97' y='57' width='22' height='26' fill='#fff' stroke='#9e9e9e' stroke-width='1' stroke-dasharray='2 2'/><circle cx='108' cy='70' r='6' fill='#ef5350'/><text x='74.0' y='128' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#33691e'>きって = さんまい (3)</text></svg>"
+  },
+  {
+    "id": 1777,
+    "category": "listening",
+    "subcategory": "counting_objects",
+    "scene_type": "kitchen",
+    "audio_text": "A：たまごは いくつ ありますか。B：むっつ あります。",
+    "audio_text_romaji": "A: Tamago wa ikutsu arimasu ka. B: Muttsu arimasu.",
+    "audio_text_translation": "A: How many eggs are there? B: There are six.",
+    "question": "How many eggs are there?",
+    "options": [
+      "Four",
+      "Five",
+      "Six",
+      "Seven"
+    ],
+    "answer": "Six",
+    "explanation": "むっつ (muttsu) = six (general counter 〜つ).",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 150' width='256' height='150'><rect width='256' height='150' fill='#f1f8e9'/><ellipse cx='36' cy='70' rx='10' ry='13' fill='#fff8e1' stroke='#d7ccc8' stroke-width='1.5'/><ellipse cx='72' cy='70' rx='10' ry='13' fill='#fff8e1' stroke='#d7ccc8' stroke-width='1.5'/><ellipse cx='108' cy='70' rx='10' ry='13' fill='#fff8e1' stroke='#d7ccc8' stroke-width='1.5'/><ellipse cx='144' cy='70' rx='10' ry='13' fill='#fff8e1' stroke='#d7ccc8' stroke-width='1.5'/><ellipse cx='180' cy='70' rx='10' ry='13' fill='#fff8e1' stroke='#d7ccc8' stroke-width='1.5'/><ellipse cx='216' cy='70' rx='10' ry='13' fill='#fff8e1' stroke='#d7ccc8' stroke-width='1.5'/><text x='128.0' y='128' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#33691e'>たまご = むっつ (6)</text></svg>"
+  },
+  {
+    "id": 1778,
+    "category": "listening",
+    "subcategory": "counting_objects",
+    "scene_type": "table",
+    "audio_text": "A：みかんは いくつ ありますか。B：ななつ あります。",
+    "audio_text_romaji": "A: Mikan wa ikutsu arimasu ka. B: Nanatsu arimasu.",
+    "audio_text_translation": "A: How many oranges are there? B: There are seven.",
+    "question": "How many oranges are there?",
+    "options": [
+      "Five",
+      "Six",
+      "Seven",
+      "Eight"
+    ],
+    "answer": "Seven",
+    "explanation": "ななつ (nanatsu) = seven (general counter 〜つ).",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 292 150' width='292' height='150'><rect width='292' height='150' fill='#f1f8e9'/><circle cx='36' cy='70' r='12' fill='#fb8c00'/><circle cx='36' cy='59' r='2' fill='#2e7d32'/><circle cx='72' cy='70' r='12' fill='#fb8c00'/><circle cx='72' cy='59' r='2' fill='#2e7d32'/><circle cx='108' cy='70' r='12' fill='#fb8c00'/><circle cx='108' cy='59' r='2' fill='#2e7d32'/><circle cx='144' cy='70' r='12' fill='#fb8c00'/><circle cx='144' cy='59' r='2' fill='#2e7d32'/><circle cx='180' cy='70' r='12' fill='#fb8c00'/><circle cx='180' cy='59' r='2' fill='#2e7d32'/><circle cx='216' cy='70' r='12' fill='#fb8c00'/><circle cx='216' cy='59' r='2' fill='#2e7d32'/><circle cx='252' cy='70' r='12' fill='#fb8c00'/><circle cx='252' cy='59' r='2' fill='#2e7d32'/><text x='146.0' y='128' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#33691e'>みかん = ななつ (7)</text></svg>"
+  },
+  {
+    "id": 1779,
+    "category": "listening",
+    "subcategory": "counting_objects",
+    "scene_type": "room",
+    "audio_text": "A：いすは いくつ ありますか。B：よっつ あります。",
+    "audio_text_romaji": "A: Isu wa ikutsu arimasu ka. B: Yottsu arimasu.",
+    "audio_text_translation": "A: How many chairs are there? B: There are four.",
+    "question": "How many chairs are there?",
+    "options": [
+      "Three",
+      "Four",
+      "Five",
+      "Two"
+    ],
+    "answer": "Four",
+    "explanation": "よっつ (yottsu) = four (general counter 〜つ).",
+    "image_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 184 150' width='184' height='150'><rect width='184' height='150' fill='#f1f8e9'/><rect x='27' y='54' width='4' height='30' fill='#8d6e63'/><rect x='27' y='70 ' width='18' height='4' fill='#8d6e63'/><rect x='41' y='70' width='4' height='14' fill='#8d6e63'/><rect x='63' y='54' width='4' height='30' fill='#8d6e63'/><rect x='63' y='70 ' width='18' height='4' fill='#8d6e63'/><rect x='77' y='70' width='4' height='14' fill='#8d6e63'/><rect x='99' y='54' width='4' height='30' fill='#8d6e63'/><rect x='99' y='70 ' width='18' height='4' fill='#8d6e63'/><rect x='113' y='70' width='4' height='14' fill='#8d6e63'/><rect x='135' y='54' width='4' height='30' fill='#8d6e63'/><rect x='135' y='70 ' width='18' height='4' fill='#8d6e63'/><rect x='149' y='70' width='4' height='14' fill='#8d6e63'/><text x='92.0' y='128' font-family='serif' font-size='13' font-weight='bold' text-anchor='middle' fill='#33691e'>いす = よっつ (4)</text></svg>"
+  },
+  {
+    "id": 1780,
+    "category": "listening",
+    "subcategory": "hobbies",
+    "scene_type": "home",
+    "audio_text": "A：しゅみは なんですか。B：おんがくを きく ことです。",
+    "audio_text_romaji": "A: Shumi wa nan desu ka. B: Ongaku o kiku koto desu.",
+    "audio_text_translation": "A: What's your hobby? B: Listening to music.",
+    "question": "What is B's hobby?",
+    "options": [
+      "Reading",
+      "Listening to music",
+      "Sports",
+      "Cooking"
+    ],
+    "answer": "Listening to music",
+    "explanation": "おんがくを きく (ongaku o kiku) = listen to music; しゅみ (shumi) = hobby.",
+    "image_svg": null
+  },
+  {
+    "id": 1781,
+    "category": "listening",
+    "subcategory": "hobbies",
+    "scene_type": "weekend",
+    "audio_text": "A：しゅうまつ なにを しますか。B：ともだちと サッカーを します。",
+    "audio_text_romaji": "A: Shuumatsu nani o shimasu ka. B: Tomodachi to sakkaa o shimasu.",
+    "audio_text_translation": "A: What will you do this weekend? B: Play soccer with friends.",
+    "question": "What will B do this weekend?",
+    "options": [
+      "Watch TV",
+      "Play soccer",
+      "Study",
+      "Sleep"
+    ],
+    "answer": "Play soccer",
+    "explanation": "サッカーを します (sakkaa o shimasu) = play soccer; ともだちと (tomodachi to) = with friends.",
+    "image_svg": null
+  },
+  {
+    "id": 1782,
+    "category": "listening",
+    "subcategory": "school_classroom",
+    "scene_type": "school",
+    "audio_text": "A：にほんごの じゅぎょうは なんようびですか。B：かようびと もくようびです。",
+    "audio_text_romaji": "A: Nihongo no jugyou wa nanyoubi desu ka. B: Kayoubi to mokuyoubi desu.",
+    "audio_text_translation": "A: What days is Japanese class? B: Tuesday and Thursday.",
+    "question": "Which days is Japanese class?",
+    "options": [
+      "Monday and Wednesday",
+      "Tuesday and Thursday",
+      "Friday only",
+      "Every day"
+    ],
+    "answer": "Tuesday and Thursday",
+    "explanation": "かようび (kayoubi) = Tuesday; もくようび (mokuyoubi) = Thursday.",
+    "image_svg": null
+  },
+  {
+    "id": 1783,
+    "category": "listening",
+    "subcategory": "comparison",
+    "scene_type": "shop",
+    "audio_text": "A：あかいのと あおいの、どちらが やすいですか。B：あおいのが やすいです。",
+    "audio_text_romaji": "A: Akai no to aoi no, dochira ga yasui desu ka. B: Aoi no ga yasui desu.",
+    "audio_text_translation": "A: The red one or the blue one, which is cheaper? B: The blue one is cheaper.",
+    "question": "Which one is cheaper?",
+    "options": [
+      "Red one",
+      "Blue one",
+      "Same price",
+      "Neither"
+    ],
+    "answer": "Blue one",
+    "explanation": "あおいの (aoi no) = the blue one; やすい (yasui) = cheap.",
+    "image_svg": null
+  },
+  {
+    "id": 1784,
+    "category": "listening",
+    "subcategory": "requests_permission",
+    "scene_type": "classroom",
+    "audio_text": "A：すみません、まどを あけても いいですか。B：はい、どうぞ。",
+    "audio_text_romaji": "A: Sumimasen, mado o akete mo ii desu ka. B: Hai, douzo.",
+    "audio_text_translation": "A: Excuse me, may I open the window? B: Yes, go ahead.",
+    "question": "What does A want to do?",
+    "options": [
+      "Close the window",
+      "Open the window",
+      "Open the door",
+      "Turn on the light"
+    ],
+    "answer": "Open the window",
+    "explanation": "まどを あけても いいですか (mado o akete mo ii desu ka) = may I open the window?",
+    "image_svg": null
+  },
+  {
+    "id": 1785,
+    "category": "listening",
+    "subcategory": "school_classroom",
+    "scene_type": "school",
+    "audio_text": "A：テストは いつですか。B：らいしゅうの きんようびです。",
+    "audio_text_romaji": "A: Tesuto wa itsu desu ka. B: Raishuu no kinyoubi desu.",
+    "audio_text_translation": "A: When is the test? B: Next Friday.",
+    "question": "When is the test?",
+    "options": [
+      "This Friday",
+      "Next Friday",
+      "Next Monday",
+      "Today"
+    ],
+    "answer": "Next Friday",
+    "explanation": "らいしゅう (raishuu) = next week; きんようび (kinyoubi) = Friday.",
+    "image_svg": null
+  },
+  {
+    "id": 1786,
+    "category": "listening",
+    "subcategory": "hobbies",
+    "scene_type": "home",
+    "audio_text": "A：えいがと スポーツと、どちらが すきですか。B：スポーツの ほうが すきです。",
+    "audio_text_romaji": "A: Eiga to supootsu to, dochira ga suki desu ka. B: Supootsu no hou ga suki desu.",
+    "audio_text_translation": "A: Movies or sports, which do you like more? B: I prefer sports.",
+    "question": "What does B prefer?",
+    "options": [
+      "Movies",
+      "Sports",
+      "Both",
+      "Neither"
+    ],
+    "answer": "Sports",
+    "explanation": "スポーツの ほうが すき (supootsu no hou ga suki) = prefer sports.",
+    "image_svg": null
+  },
+  {
+    "id": 1787,
+    "category": "listening",
+    "subcategory": "body_health",
+    "scene_type": "clinic",
+    "audio_text": "A：どう しましたか。B：あたまが いたいです。",
+    "audio_text_romaji": "A: Dou shimashita ka. B: Atama ga itai desu.",
+    "audio_text_translation": "A: What's wrong? B: My head hurts.",
+    "question": "What is wrong with B?",
+    "options": [
+      "Stomachache",
+      "Headache",
+      "Toothache",
+      "Fever only"
+    ],
+    "answer": "Headache",
+    "explanation": "あたまが いたい (atama ga itai) = headache; どう しましたか (dou shimashita ka) = what's wrong?",
+    "image_svg": null
+  },
+  {
+    "id": 1788,
+    "category": "listening",
+    "subcategory": "colors_clothing",
+    "scene_type": "shop",
+    "audio_text": "A：どの シャツに しますか。B：その しろい シャツに します。",
+    "audio_text_romaji": "A: Dono shatsu ni shimasu ka. B: Sono shiroi shatsu ni shimasu.",
+    "audio_text_translation": "A: Which shirt will you take? B: I'll take that white shirt.",
+    "question": "Which shirt does B choose?",
+    "options": [
+      "Black shirt",
+      "White shirt",
+      "Blue shirt",
+      "Red shirt"
+    ],
+    "answer": "White shirt",
+    "explanation": "しろい (shiroi) = white; シャツに します (will take the shirt).",
+    "image_svg": null
+  },
+  {
+    "id": 1789,
+    "category": "listening",
+    "subcategory": "transportation",
+    "scene_type": "station",
+    "audio_text": "A：とうきょうまで でんしゃで どのくらい かかりますか。B：いちじかんぐらいです。",
+    "audio_text_romaji": "A: Toukyou made densha de dono kurai kakarimasu ka. B: Ichi-jikan gurai desu.",
+    "audio_text_translation": "A: How long does it take to Tokyo by train? B: About one hour.",
+    "question": "How long does it take to Tokyo?",
+    "options": [
+      "30 minutes",
+      "About 1 hour",
+      "2 hours",
+      "All day"
+    ],
+    "answer": "About 1 hour",
+    "explanation": "いちじかんぐらい (ichi-jikan gurai) = about one hour; どのくらい かかりますか (how long does it take?).",
+    "image_svg": null
+  }
   ]
 }
